@@ -107,3 +107,528 @@ File: bjj-half-guard.jpg
   License: CC BY-SA 2.0
   Attribution: parhessiastes
   URL: https://commons.wikimedia.org/wiki/File:BJJ-half_guard.jpg
+
+--- Soft Weber keepers installed 2026-09-11 ---
+Copied from fighting-photo-candidates/soft-weber/ into media/photos/.
+Untreated masters stored in media/photos/_pre-sepia/ (raw preferred).
+
+File: cyborg-abreu-choke-2009.jpg
+  Commons: File:ROBERTO CYBORG ABREU 2009 BJJ Championships.jpg
+  License: CC BY-SA 3.0
+  Attribution: © John Lamonica
+  URL: https://commons.wikimedia.org/wiki/File%3AROBERTO_CYBORG_ABREU_2009_BJJ_Championships.jpg
+
+
+File: estima-ceconi-back-take-2010.jpg
+  Commons: File:Braulio Estima vs Alexandre Ceconi.jpg
+  License: CC BY 3.0
+  Attribution: Elijah Fayerman
+  URL: https://commons.wikimedia.org/wiki/File%3ABraulio_Estima_vs_Alexandre_Ceconi.jpg
+
+
+File: hackenschmidt-ben-roller.jpg
+  Commons: File:George Hackenschmidt with Ben Roller.png
+  License: Public domain
+  Attribution: Anonymous  Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AGeorge_Hackenschmidt_with_Ben_Roller.png
+
+
+File: johnson-jeffries-1911.jpg
+  Commons: File:Jack Johnson James Jeffries 1911 a.jpg
+  License: Public domain
+  Attribution: Agence Rol
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Johnson_James_Jeffries_1911_a.jpg
+
+
+File: judo-throw.jpg
+  Commons: File:Judo throw.jpg
+  License: CC BY-SA 3.0
+  Attribution: Schnuffel2002
+  URL: https://commons.wikimedia.org/wiki/File%3AJudo_throw.jpg
+
+
+File: marciano-walcott-ko-1952.jpg
+  Commons: File:Rocky Marciano knocks out Jersey Joe Walcott, 1952.jpg
+  License: Public domain
+  Attribution: Herb Scharfman
+  URL: https://commons.wikimedia.org/wiki/File%3ARocky_Marciano_knocks_out_Jersey_Joe_Walcott%2C_1952.jpg
+
+
+File: strangler-lewis-headlock.jpg
+  Commons: File:"Strangler" Lewis defeats Cossack giant. Ed "Strangler" Lewis is seen applying the deadly headlock to Ivan Linow at the International Championship Wrestling Tournament LCCN2003663442.jpg
+  License: Public domain
+  Attribution: Miscellaneous Items in High Demand, PPOC, Library of Congress
+  URL: https://commons.wikimedia.org/wiki/File%3A%22Strangler%22_Lewis_defeats_Cossack_giant._Ed_%22Strangler%22_Lewis_is_seen_applying_the_deadly_headlock_to_Ivan_Linow_at_the_International_Championship_Wrestling_Tournament_LCCN2003663442.jpg
+
+
+File: uchi-mata.jpg
+  Commons: File:Uchi-mata.jpg
+  License: CC BY-SA 4.0
+  Attribution: Ari Kyllönen
+  URL: https://commons.wikimedia.org/wiki/File%3AUchi-mata.jpg
+
+
+File: vella-barral-triangle-2009.jpg
+  Commons: File:GABRIEL VELLA vs ROMINHO 51.jpg
+  License: CC BY-SA 3.0
+  Attribution: © John Lamonica
+  URL: https://commons.wikimedia.org/wiki/File%3AGABRIEL_VELLA_vs_ROMINHO_51.jpg
+
+
+File: wrestling-1904-olympics.jpg
+  Commons: File:Wrestling match during 1904 Summer Olympics.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AWrestling_match_during_1904_Summer_Olympics.jpg
+
+
+File: bellows-dempsey-firpo-1924.jpg
+  Commons: File:Bellows George Dempsey and Firpo 1924.jpg
+  License: Public domain
+  Attribution: George Bellows
+  URL: https://commons.wikimedia.org/wiki/File%3ABellows_George_Dempsey_and_Firpo_1924.jpg
+
+
+File: blacks-fighting-capoeira.jpg
+  Commons: File:Blacks fighting.jpg
+  License: Public domain
+  Attribution: Unknown
+  URL: https://commons.wikimedia.org/wiki/File%3ABlacks_fighting.jpg
+
+
+File: boxe-francaise.jpg
+  Commons: File:Boxe-francaise.jpg
+  License: CC BY-SA 3.0
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ABoxe-francaise.jpg
+
+
+File: burns-and-gotch.jpg
+  Commons: File:Burns and gotch.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ABurns_and_gotch.jpg
+
+
+File: burns-johnson-1908.jpg
+  Commons: File:1908 Tommy Burns vs Jack Johnson.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3A1908_Tommy_Burns_vs_Jack_Johnson.jpg
+
+
+File: capoeira-jumps.jpg
+  Commons: File:Capoeira Jumps.jpg
+  License: CC BY-SA 4.0
+  Attribution: Bruna Laja
+  URL: https://commons.wikimedia.org/wiki/File%3ACapoeira_Jumps.jpg
+
+
+File: charles-marciano-1954.jpg
+  Commons: File:Ezzard Charles vs Rocky Marciano 1954.jpg
+  License: Public domain
+  Attribution: Unknown
+  URL: https://commons.wikimedia.org/wiki/File%3AEzzard_Charles_vs_Rocky_Marciano_1954.jpg
+
+
+File: corbett-punching-bag.jpg
+  Commons: File:Corbett punching the bag to get in condition to handle Jeffries for the championship fight. First photos taken with gloves in five years LCCN2003663434.jpg
+  License: Public domain
+  Attribution: Miscellaneous Items in High Demand, PPOC, Library of Congress
+  URL: https://commons.wikimedia.org/wiki/File%3ACorbett_punching_the_bag_to_get_in_condition_to_handle_Jeffries_for_the_championship_fight._First_photos_taken_with_gloves_in_five_years_LCCN2003663434.jpg
+
+
+File: dempsey-boyles-thirty-acres-1921.jpg
+  Commons: File:Jack Dempsey at Boyle's Thirty Acres cph.3b35133.jpg
+  License: Public domain
+  Attribution: F. C. Quimby
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Dempsey_at_Boyle%27s_Thirty_Acres_cph.3b35133.jpg
+
+
+File: dempsey-gibbons-1923-seattle.jpg
+  Commons: File:Jack Dempsey and Tommy Gibbons in boxing match, Seattle, 1923 (MOHAI 230).jpg
+  License: Public domain
+  Attribution: Staff Photographer, Seattle Post-Intelligencer
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Dempsey_and_Tommy_Gibbons_in_boxing_match%2C_Seattle%2C_1923_%28MOHAI_230%29.jpg
+
+
+File: dempsey-gibbons-1923-shelby.jpg
+  Commons: File:Jack Dempsey and Tommy Gibbons in boxing match, Shelby, Montana, July 4, 1923 (MOHAI 1324).jpg
+  License: Public domain
+  Attribution: Webster & Stevens
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Dempsey_and_Tommy_Gibbons_in_boxing_match%2C_Shelby%2C_Montana%2C_July_4%2C_1923_%28MOHAI_1324%29.jpg
+
+
+File: dempsey-gibbons-prize-fight.jpg
+  Commons: File:Dempsey-Gibbons prize fight 9.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ADempsey-Gibbons_prize_fight_9.jpg
+
+
+File: dempsey-training-camp-1921.jpg
+  Commons: File:Jack Dempsey at his training camp, June 1921- standing in ring with arms spread wide LCCN2005681074.jpg
+  License: Public domain
+  Attribution: Miscellaneous Items in High Demand, PPOC, Library of Congress
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Dempsey_at_his_training_camp%2C_June_1921-_standing_in_ring_with_arms_spread_wide_LCCN2005681074.jpg
+
+
+File: dempsey-tunney-chicago-1927.jpg
+  Commons: File:Jack Dempsey verliest in een gevecht met Gene Tunney in Chicago in 1927 zijn wereldtitel, SFA005001401.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Dempsey_verliest_in_een_gevecht_met_Gene_Tunney_in_Chicago_in_1927_zijn_wereldtitel%2C_SFA005001401.jpg
+
+
+File: earle-capoeira-1822.jpg
+  Commons: File:CapoeiraEarle.JPG
+  License: Public domain
+  Attribution: Augustus Earle (1793-1838)
+  URL: https://commons.wikimedia.org/wiki/File%3ACapoeiraEarle.JPG
+
+
+File: firpo-knocks-dempsey-through-ropes.jpg
+  Commons: File:Firpo saca a Dempsey-Radiofoto del Gráfico.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AFirpo_saca_a_Dempsey-Radiofoto_del_Gr%C3%A1fico.jpg
+
+
+File: geesink-judo-nationals.jpg
+  Commons: File:Nationale bondskampioenschappen Judo in Krasnapolski te Amsterdam, midden Anton , Bestanddeelnr 915-9884.jpg
+  License: CC0
+  Attribution: Jack de Nijs  for  Anefo   / Anefo
+  URL: https://commons.wikimedia.org/wiki/File%3ANationale_bondskampioenschappen_Judo_in_Krasnapolski_te_Amsterdam%2C_midden_Anton_%2C_Bestanddeelnr_915-9884.jpg
+
+
+File: georg-hackenschmidt.jpg
+  Commons: File:Georg Hackenschmidt.jpg
+  License: Public domain
+  Attribution: photo: unknown; file:  James Steakley
+  URL: https://commons.wikimedia.org/wiki/File%3AGeorg_Hackenschmidt.jpg
+
+
+File: hackenschmidt-1906.jpg
+  Commons: File:George Hackenschmidt 1906.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AGeorge_Hackenschmidt_1906.jpg
+
+
+File: hackenschmidt-ca-1905.jpg
+  Commons: File:Georg Hackenschmidt ca. 1905.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AGeorg_Hackenschmidt_ca._1905.jpg
+
+
+File: jack-johnson-1911-jab.jpg
+  Commons: File:Jack Johnson 1911 Jab.jpg
+  License: Public domain
+  Attribution: Agence Rol
+  URL: https://commons.wikimedia.org/wiki/File%3AJack_Johnson_1911_Jab.jpg
+
+
+File: james-j-corbett-stance.jpg
+  Commons: File:James John Corbett, 1866-1933, full length, standing, bare chested, fists raised, facing right. Boxer LCCN2005679749.jpg
+  License: Public domain
+  Attribution: William McKenzie Morrison
+  URL: https://commons.wikimedia.org/wiki/File%3AJames_John_Corbett%2C_1866-1933%2C_full_length%2C_standing%2C_bare_chested%2C_fists_raised%2C_facing_right._Boxer_LCCN2005679749.jpg
+
+
+File: jigoro-kano.jpg
+  Commons: File:Jigoro Kano.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AJigoro_Kano.jpg
+
+
+File: jiu-jitsu-contra-capoeira.jpg
+  Commons: File:Jiu-jitsu contra capoeira.jpg
+  License: Public domain
+  Attribution: Alfredo Storni
+  URL: https://commons.wikimedia.org/wiki/File%3AJiu-jitsu_contra_capoeira.jpg
+
+
+File: jogo-da-capoeira-1927.jpg
+  Commons: File:O Jogo da capoeira, Diário Nacional, 1927.png
+  License: Public domain
+  Attribution: Unknown
+  URL: https://commons.wikimedia.org/wiki/File%3AO_Jogo_da_capoeira%2C_Di%C3%A1rio_Nacional%2C_1927.png
+
+
+File: john-l-sullivan-1898.jpg
+  Commons: File:John L. Sullivan 1898.jpg
+  License: Public domain
+  Attribution: Copyrighted by Richard K. Fox, New York.  photo by Chickering, Boston, Mass.
+  URL: https://commons.wikimedia.org/wiki/File%3AJohn_L._Sullivan_1898.jpg
+
+
+File: john-l-sullivan.jpg
+  Commons: File:John L Sullivan.jpg
+  License: Public domain
+  Attribution: José María Mora
+  URL: https://commons.wikimedia.org/wiki/File%3AJohn_L_Sullivan.jpg
+
+
+File: johnson-ketchel-1909.jpg
+  Commons: File:1909 Jack Johnson vs Stanley Ketchel.jpeg
+  License: Public domain
+  Attribution: Brown Brothers
+  URL: https://commons.wikimedia.org/wiki/File%3A1909_Jack_Johnson_vs_Stanley_Ketchel.jpeg
+
+
+File: judo-action-flickr.jpg
+  Commons: File:Judo (21778664590).jpg
+  License: CC BY 2.0
+  Attribution: Johnson Barros
+  URL: https://commons.wikimedia.org/wiki/File%3AJudo_%2821778664590%29.jpg
+
+
+File: louis-beshore-1951.jpg
+  Commons: File:Joe Louis and Freddie Beshore 1951.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AJoe_Louis_and_Freddie_Beshore_1951.jpg
+
+
+File: marciano-layne-1951.jpg
+  Commons: File:Rocky Marciano vs. Rex Layne 1951.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ARocky_Marciano_vs._Rex_Layne_1951.jpg
+
+
+File: mifune-kyuzo.jpg
+  Commons: File:Mifune Kyuzo.jpg
+  License: Public domain
+  Attribution: 朝日新聞社
+  URL: https://commons.wikimedia.org/wiki/File%3AMifune_Kyuzo.jpg
+
+
+File: motobu-choki.jpg
+  Commons: File:Motobu Choki.jpg
+  License: Public domain
+  Attribution: Motobu Choki
+  URL: https://commons.wikimedia.org/wiki/File%3AMotobu_Choki.jpg
+
+
+File: muay-thai-girl-teacher.jpg
+  Commons: File:Meisje bokst met leraar Mu Thai.jpg
+  License: CC BY-SA 3.0
+  Attribution: Peter van der Sluijs
+  URL: https://commons.wikimedia.org/wiki/File%3AMeisje_bokst_met_leraar_Mu_Thai.jpg
+
+
+File: muay-thai-high-kick.jpg
+  Commons: File:Muay Thai high kick.jpg
+  License: CC BY 2.0
+  Attribution: Eric Langley
+  URL: https://commons.wikimedia.org/wiki/File%3AMuay_Thai_high_kick.jpg
+
+
+File: muay-thai-knee-clinch.jpg
+  Commons: File:Muay thai knee clinch.jpg
+  License: CC BY 2.0
+  Attribution: superwebdeveloper
+  URL: https://commons.wikimedia.org/wiki/File%3AMuay_thai_knee_clinch.jpg
+
+
+File: muay-thai-marines-clinch.jpg
+  Commons: File:Learning Muay Thai with Royal Thai Marines 160213-M-CX588-016.jpg
+  License: Public domain
+  Attribution: Gunnery Sgt. Ismael Pena
+  URL: https://commons.wikimedia.org/wiki/File%3ALearning_Muay_Thai_with_Royal_Thai_Marines_160213-M-CX588-016.jpg
+
+
+File: muay-thai-royal-marines.jpg
+  Commons: File:Learning Muay Thai with Royal Thai Marines 160213-M-CX588-035.jpg
+  License: Public domain
+  Attribution: Gunnery Sgt. Ismael Pena
+  URL: https://commons.wikimedia.org/wiki/File%3ALearning_Muay_Thai_with_Royal_Thai_Marines_160213-M-CX588-035.jpg
+
+
+File: muay-thai-spectacular-kick.jpg
+  Commons: File:Muay Thai spectacular kick.jpg
+  License: CC BY-SA 4.0
+  Attribution: Kru Tony Moore
+  URL: https://commons.wikimedia.org/wiki/File%3AMuay_Thai_spectacular_kick.jpg
+
+
+File: pankratiasts-panathenaic-amphora.jpg
+  Commons: File:Pankratiasts competing on a Panathenaic amphora.png
+  License: CC0
+  Attribution: Kleophrades painter / Rijksmuseum
+  URL: https://commons.wikimedia.org/wiki/File%3APankratiasts_competing_on_a_Panathenaic_amphora.png
+
+
+File: pankration-amphora-british-museum.jpg
+  Commons: File:Pankration panathenaic amphora BM VaseB610.jpg
+  License: CC BY 2.5
+  Attribution: Photograph by Marie-Lan Nguyen (Jastrow), 2007; vase: unknown Athenian painter, 332–331 BC
+  URL: https://commons.wikimedia.org/wiki/File%3APankration_panathenaic_amphora_BM_VaseB610.jpg
+
+
+File: querido-de-deus-cabecada.jpg
+  Commons: File:Samuel Querido de Deus dando cabeçada no estivador Maré.jpg
+  License: Public domain
+  Attribution: Édison Carneiro
+  URL: https://commons.wikimedia.org/wiki/File%3ASamuel_Querido_de_Deus_dando_cabe%C3%A7ada_no_estivador_Mar%C3%A9.jpg
+
+
+File: rugendas-capoeira-1830.jpg
+  Commons: File:Jogar capoëra ou danse de la guerre.jpg
+  License: Public domain
+  Attribution: Johann Moritz Rugendas
+  URL: https://commons.wikimedia.org/wiki/File%3AJogar_capo%C3%ABra_ou_danse_de_la_guerre.jpg
+
+
+File: rugendas-roda.jpg
+  Commons: File:Rugendasroda.jpg
+  License: Public domain
+  Attribution: Johann Moritz Rugendas
+  URL: https://commons.wikimedia.org/wiki/File%3ARugendasroda.jpg
+
+
+File: savate-casteres-coup-de-pied.jpg
+  Commons: File:Castérès démontre un coup de pied de flanc - btv1b53207162x.jpg
+  License: Public domain
+  Attribution: Agence Rol. Agence photographique (commanditaire)
+  URL: https://commons.wikimedia.org/wiki/File%3ACast%C3%A9r%C3%A8s_d%C3%A9montre_un_coup_de_pied_de_flanc_-_btv1b53207162x.jpg
+
+
+File: savate-colorized.jpg
+  Commons: File:Savate (colorized).jpg
+  License: Public domain
+  Attribution: Théophile Gautier
+  URL: https://commons.wikimedia.org/wiki/File%3ASavate_%28colorized%29.jpg
+
+
+File: savate-renie-dubois-1905.jpg
+  Commons: File:Match Ré-Nié contre Dubois, à Courbevoie, sur la terrasse des ateliers Védrine, le 26 octobre 1905 - btv1b532071601.jpg
+  License: Public domain
+  Attribution: Agence Rol. Agence photographique (commanditaire)
+  URL: https://commons.wikimedia.org/wiki/File%3AMatch_R%C3%A9-Ni%C3%A9_contre_Dubois%2C_%C3%A0_Courbevoie%2C_sur_la_terrasse_des_ateliers_V%C3%A9drine%2C_le_26_octobre_1905_-_btv1b532071601.jpg
+
+
+File: savate-salle-legrand.jpg
+  Commons: File:Démonstration de coups de boxe (salle Legrand) - btv1b9019606x.jpg
+  License: Public domain
+  Attribution: Agence de presse Meurisse. Agence photographique (commanditaire)
+  URL: https://commons.wikimedia.org/wiki/File%3AD%C3%A9monstration_de_coups_de_boxe_%28salle_Legrand%29_-_btv1b9019606x.jpg
+
+
+File: savold-louis-1951.jpg
+  Commons: File:Lee Savold vs. Joe Louis 1951.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ALee_Savold_vs._Joe_Louis_1951.jpg
+
+
+File: siamese-boxer-khung-taphao-1.jpg
+  Commons: File:Siamese Boxers from Khung Taphao Uttaradit Province 1.jpg
+  License: Public domain
+  Attribution: ผู้สร้างสรรค์ผลงาน/ส่งข้อมูลเก็บในคลังข้อมูลเสรีวิกิมีเดียคอมมอนส์  - เทวประภาส มากคล้าย
+  URL: https://commons.wikimedia.org/wiki/File%3ASiamese_Boxers_from_Khung_Taphao_Uttaradit_Province_1.jpg
+
+
+File: siamese-boxers-khung-taphao.jpg
+  Commons: File:Five Brothers Siamese Boxers from Khung Taphao Uttaradit Province.jpg
+  License: Public domain
+  Attribution: ผู้สร้างสรรค์ผลงาน/ส่งข้อมูลเก็บในคลังข้อมูลเสรีวิกิมีเดียคอมมอนส์  - เทวประภาส มากคล้าย
+  URL: https://commons.wikimedia.org/wiki/File%3AFive_Brothers_Siamese_Boxers_from_Khung_Taphao_Uttaradit_Province.jpg
+
+
+File: stokes-bare-knuckle.jpg
+  Commons: File:Great Grandfather John Stokes Bare Knuckle Contest.jpg
+  License: CC BY-SA 4.0
+  Attribution: ACFA 2023
+  URL: https://commons.wikimedia.org/wiki/File%3AGreat_Grandfather_John_Stokes_Bare_Knuckle_Contest.jpg
+
+
+File: sugar-ray-robinson-1947.jpg
+  Commons: File:Sugar Ray Robinson 1947.jpg
+  License: Public domain
+  Attribution: ACME
+  URL: https://commons.wikimedia.org/wiki/File%3ASugar_Ray_Robinson_1947.jpg
+
+
+File: sullivan-kilrain-1889.jpg
+  Commons: File:The John L. Sullivan-Jake Kilrain boxing match at Richburg, Miss. LCCN2002706357.jpg
+  License: Public domain
+  Attribution: Miscellaneous Items in High Demand, PPOC, Library of Congress
+  URL: https://commons.wikimedia.org/wiki/File%3AThe_John_L._Sullivan-Jake_Kilrain_boxing_match_at_Richburg%2C_Miss._LCCN2002706357.jpg
+
+
+File: sumo-hitachiyama-1905.jpg
+  Commons: File:Sumo-wresters-Yokozuna-Hitachiyama-Taniemon-1905.jpg
+  License: Public domain
+  Attribution: Burr McIntosh
+  URL: https://commons.wikimedia.org/wiki/File%3ASumo-wresters-Yokozuna-Hitachiyama-Taniemon-1905.jpg
+
+
+File: sumo-wrestlers.jpg
+  Commons: File:Sumo wrestlers.jpg
+  License: CC BY-SA 4.0
+  Attribution: Nao1213
+  URL: https://commons.wikimedia.org/wiki/File%3ASumo_wrestlers.jpg
+
+
+File: tachiyama-yokozuna.jpg
+  Commons: File:Tachiyama.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3ATachiyama.jpg
+
+
+File: tunney-dempsey-chicago-crowd.jpg
+  Commons: File:Chicago, 23-9-27, match (de boxe) Tunney contre Dempsey (Pacific) - btv1b53189854z.jpg
+  License: Public domain
+  Attribution: Pacific and Atlantic (Agence photographique). Agence photographique pour le document reproduit (commanditaire)
+ 
+Agence Rol. Agence photographique (commanditaire)
+  URL: https://commons.wikimedia.org/wiki/File%3AChicago%2C_23-9-27%2C_match_%28de_boxe%29_Tunney_contre_Dempsey_%28Pacific%29_-_btv1b53189854z.jpg
+
+
+File: tunney-dempsey-ii-1927.jpg
+  Commons: File:Gene Tunney vs. Jack Dempsey II.jpg
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AGene_Tunney_vs._Jack_Dempsey_II.jpg
+
+
+File: tunney-dempsey-pacific-1927.jpg
+  Commons: File:Match Tunney contre Dempsey (22 septembre 1927, à Chicago) (Pacific) - btv1b531897339.jpg
+  License: Public domain
+  Attribution: Pacific and Atlantic (Agence photographique). Agence photographique pour le document reproduit (commanditaire)
+ 
+Agence Rol. Agence photographique (commanditaire)
+  URL: https://commons.wikimedia.org/wiki/File%3AMatch_Tunney_contre_Dempsey_%2822_septembre_1927%2C_%C3%A0_Chicago%29_%28Pacific%29_-_btv1b531897339.jpg
+
+
+File: uchi-mata-judo-throw.jpg
+  Commons: File:Uchi mata Judo throw.jpg
+  License: CC BY-SA 2.0
+  Attribution: Francesco Ianett
+  URL: https://commons.wikimedia.org/wiki/File%3AUchi_mata_Judo_throw.jpg
+
+
+File: umegatani-yokozuna-1903.jpg
+  Commons: File:Yokozuna-Umegatani-Tōtarō-II-c1903.png
+  License: Public domain
+  Attribution: Unknown author Unknown author
+  URL: https://commons.wikimedia.org/wiki/File%3AYokozuna-Umegatani-T%C5%8Dtar%C5%8D-II-c1903.png
+
+
+File: usmc-combatives-or-capoeira.jpg
+  Commons: File:USMC-13806.jpg
+  License: Public domain
+  Attribution: Unknown photographer
+  URL: https://commons.wikimedia.org/wiki/File%3AUSMC-13806.jpg
+
+
+File: wrestling-sikeston-1938.jpg
+  Commons: File:Wrestling - Sikeston, MO 1938 - 1.jpg
+  License: Public domain
+  Attribution: Russell Lee
+  URL: https://commons.wikimedia.org/wiki/File%3AWrestling_-_Sikeston%2C_MO_1938_-_1.jpg

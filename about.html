@@ -86,19 +86,86 @@
       <h2>Browse</h2>
       <p><a href="styles.html">Styles</a> · <a href="terms/index.html">Term index</a> · <a href="index.html">Homepage</a></p>
     </article>
+
+      <section class="join-strip" aria-labelledby="about-join">
+        <div class="join-strip__inner">
+          <h2 class="join-strip__title" id="about-join">Stay in the catalog</h2>
+          <p class="join-strip__dek">Email for updates and fight news. Phone is optional.</p>
+          <form class="capture-form capture-form--inline" data-capture action="#" method="post" novalidate>
+            <label class="visually-hidden" for="about-join-email">Email</label>
+            <input id="about-join-email" name="email" type="email" autocomplete="email" required placeholder="Email" inputmode="email">
+            <label class="visually-hidden" for="about-join-tel">Phone (optional)</label>
+            <input id="about-join-tel" name="tel" type="tel" autocomplete="tel" placeholder="Phone (optional)" inputmode="tel">
+            <button type="submit">Join</button>
+            <p class="capture-form__status" data-capture-status hidden></p>
+          </form>
+        </div>
+      </section>
+
   </main>
 
   <footer class="site-footer">
+    <div class="footer-bleed" aria-hidden="true"></div>
+    <div class="footer-wordmark" aria-hidden="true">
+      <span class="footer-wordmark__line">Martial</span>
+      <span class="footer-wordmark__line">Index</span>
+    </div>
     <div class="footer-inner">
-      <p>© 2026 Martial Index. Martial arts encyclopedia for every fighting art. Train under qualified instruction; tap early.</p>
-      <nav class="footer-nav" aria-label="Footer">
-        <a href="index.html">Index</a>
-        <a href="styles.html">Styles</a>
-        <a href="terms/index.html">Terms</a>
-        <a href="about.html">About</a>
+      <div class="footer-legal">
+        <p class="footer-brand">Martial Index</p>
+        <p>Martial arts encyclopedia for every fighting art.</p>
+        <p>© 2026 Martial Index.</p>
+        <p class="footer-disclaimer">This site is reference material, not live instruction. Train under qualified coaches; tap early.</p>
+        <p class="footer-credits">Archive photos: public domain / CC — <a href="media/photos/CREDITS.txt">credits</a>.</p>
+        <p class="footer-legal-links"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+      </div>
+      <nav class="footer-col" aria-label="Arts">
+        <h2 class="footer-col__title">Arts</h2>
+        <ul>
+          <li><a href="styles.html">All styles</a></li>
+          <li><a href="styles/bjj.html">BJJ</a></li>
+          <li><a href="styles/mma.html">MMA</a></li>
+          <li><a href="styles/muay-thai.html">Muay Thai</a></li>
+          <li><a href="styles/judo.html">Judo</a></li>
+          <li><a href="styles/wrestling.html">Wrestling</a></li>
+          <li><a href="styles/boxing.html">Boxing</a></li>
+        </ul>
       </nav>
+      <nav class="footer-col" aria-label="Learn">
+        <h2 class="footer-col__title">Learn</h2>
+        <ul>
+          <li><a href="terms/index.html">Term index</a></li>
+          <li><a href="terms/closed-guard.html">Closed Guard</a></li>
+          <li><a href="terms/rear-naked-choke.html">Rear Naked Choke</a></li>
+          <li><a href="terms/guard.html">Guard</a></li>
+          <li><a href="paths/white-belt.html">White belt path</a></li>
+          <li><a href="paths/blue-belt.html">Blue belt path</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="About">
+        <h2 class="footer-col__title">About</h2>
+        <ul>
+          <li><a href="about.html">About Martial Index</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms of use</a></li>
+          <li><a href="index.html">Homepage</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col footer-join">
+        <h2 class="footer-col__title">Join</h2>
+        <p class="footer-join__dek">Catalog updates and fight news. Email required; phone optional.</p>
+        <form class="capture-form" data-capture action="#" method="post" novalidate>
+          <label class="visually-hidden" for="footer-about-email">Email</label>
+          <input id="footer-about-email" name="email" type="email" autocomplete="email" required placeholder="Email" inputmode="email">
+          <label class="visually-hidden" for="footer-about-tel">Phone (optional)</label>
+          <input id="footer-about-tel" name="tel" type="tel" autocomplete="tel" placeholder="Phone (optional)" inputmode="tel">
+          <button type="submit">Subscribe</button>
+          <p class="capture-form__status" data-capture-status hidden></p>
+        </form>
+      </div>
     </div>
   </footer>
   <script src="js/read-progress.js" defer></script>
+  <script src="js/capture.js" defer></script>
 </body>
 </html>
