@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Martial Index">
+  <defs>
+    <radialGradient id="mist" cx="70%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#C8C8D0" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F7F7F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blood" cx="18%" cy="75%" r="40%">
+      <stop offset="0%" stop-color="#8E1616" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#F7F7F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#F7F7F7"/>
+  <rect width="1200" height="630" fill="url(#mist)"/>
+  <rect width="1200" height="630" fill="url(#blood)"/>
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#0A0A0A" stroke-width="1.5" opacity="0.22"/>
+  <text x="96" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-style="italic" fill="#3D3D3D">Catalog of combat</text>
+  <text x="96" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" fill="#0A0A0A">Martial Index</text>
+  <text x="96" y="380" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#3D3D3D">Learn every fighting art.</text>
+</svg>

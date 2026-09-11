@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">Closed guard diagram</title>
+  <desc id="d">Abstract geometric diagram of closed guard: bottom player on their back with legs wrapped around the top player’s waist.</desc>
+  <defs>
+    <linearGradient id="well" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="70%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#D8D8DC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blood" cx="28%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#8E1616" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#well)"/>
+  <rect width="1200" height="675" fill="url(#mist)"/>
+  <circle cx="320" cy="420" r="220" fill="url(#blood)"/>
+  <ellipse cx="600" cy="480" rx="220" ry="70" fill="none" stroke="#E8E8EA" stroke-width="3" opacity="0.85"/>
+  <circle cx="600" cy="300" r="58" fill="none" stroke="#E8E8EA" stroke-width="3" opacity="0.9"/>
+  <path d="M420 470 Q600 250 780 470" fill="none" stroke="#E8E8EA" stroke-width="4" opacity="0.75"/>
+  <path d="M460 470 Q600 290 740 470" fill="none" stroke="#8E1616" stroke-width="3" opacity="0.9"/>
+  <line x1="520" y1="470" x2="680" y2="470" stroke="#E8E8EA" stroke-width="3" opacity="0.5"/>
+</svg>

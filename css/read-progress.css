@@ -1,0 +1,39 @@
+/* HubSpot-style reading progress — article pages only */
+.read-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 80;
+  pointer-events: none;
+  background: transparent;
+}
+
+.read-progress__bar {
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  background: var(--accent, #1E4A8C);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .read-progress__bar {
+    transition: transform 80ms linear;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .read-progress__bar {
+    transition: none;
+  }
+}
+
+@media (prefers-contrast: more) {
+  .read-progress {
+    height: 4px;
+  }
+}

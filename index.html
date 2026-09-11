@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martial Index — Catalog of combat | BJJ, MMA, Muay Thai, Judo, Wrestling, Boxing</title>
+  <meta name="description" content="Martial Index is a martial arts encyclopedia for every fighting art—Brazilian jiu-jitsu, MMA, Muay Thai, Judo, wrestling, and boxing. Pick an art, then read the entries that matter.">
+  <link rel="canonical" href="https://martialindex.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Martial Index">
+  <meta property="og:title" content="Martial Index — Catalog of combat">
+  <meta property="og:description" content="Pick an art. Read the entries that matter. BJJ, MMA, Muay Thai, Judo, wrestling, and boxing.">
+  <meta property="og:url" content="https://martialindex.com/">
+  <meta property="og:image" content="https://martialindex.com/media/photos/lepri-gregor-gracie-2009.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Martial Index — Catalog of combat">
+  <meta name="twitter:description" content="Pick an art. Read the entries that matter.">
+  <meta name="twitter:image" content="https://martialindex.com/media/photos/lepri-gregor-gracie-2009.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://martialindex.com/#organization",
+        "name": "Martial Index",
+        "url": "https://martialindex.com/",
+        "description": "A martial arts encyclopedia covering Brazilian jiu-jitsu, MMA, Muay Thai, Judo, wrestling, boxing, and related fighting arts."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://martialindex.com/#website",
+        "name": "Martial Index",
+        "url": "https://martialindex.com/",
+        "description": "Martial arts encyclopedia. Pick an art, then read featured entries across BJJ, MMA, Muay Thai, Judo, wrestling, and boxing.",
+        "publisher": { "@id": "https://martialindex.com/#organization" },
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="is-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html">
+        <span class="wordmark-title">Martial Index</span>
+        <span class="wordmark-kicker">Catalog of combat</span>
+      </a>
+      <div class="nav-cluster">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html" aria-current="page">Index</a>
+          <a href="styles.html">Styles</a>
+          <a href="terms/index.html">Terms</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <section class="home-hero home-hero--compact">
+        <h1>Learn every fighting art.</h1>
+        <p class="mission">Precise definitions, mechanics, and sport context across Brazilian jiu-jitsu, MMA, Muay Thai, Judo, wrestling, and boxing—written like a reference, not a highlight reel.</p>
+      </section>
+
+      <section class="home-section home-section--arts" aria-labelledby="arts-label">
+        <h2 class="section-label" id="arts-label">Choose an art</h2>
+        <div class="art-picker" data-art-picker role="tablist" aria-label="Martial arts">
+          <button class="art-tile is-selected" type="button" role="tab" id="tab-bjj" data-art="bjj" aria-selected="true" aria-controls="panel-bjj">
+            <img src="media/photos/lepri-gregor-gracie-2009.jpg" alt="" width="1280" height="640" decoding="async" fetchpriority="high">
+            <span class="art-tile__copy"><span class="art-tile__name">Brazilian Jiu-Jitsu</span><span class="art-tile__dek">Grappling from the ground. Positions, submissions, gi and no-gi.</span></span>
+          </button>
+          <button class="art-tile" type="button" role="tab" id="tab-mma" data-art="mma" aria-selected="false" aria-controls="panel-mma" tabindex="-1">
+            <img src="media/photos/rickson-zulu-1980.jpg" alt="" width="804" height="529" decoding="async">
+            <span class="art-tile__copy"><span class="art-tile__name">MMA</span><span class="art-tile__dek">Striking and grappling under one ruleset.</span></span>
+          </button>
+          <button class="art-tile" type="button" role="tab" id="tab-muay-thai" data-art="muay-thai" aria-selected="false" aria-controls="panel-muay-thai" tabindex="-1">
+            <img src="media/photos/siamese-boxing-1920s.jpg" alt="" width="1600" height="1011" decoding="async">
+            <span class="art-tile__copy"><span class="art-tile__name">Muay Thai</span><span class="art-tile__dek">Eight limbs: punches, kicks, elbows, knees, clinch.</span></span>
+          </button>
+          <button class="art-tile" type="button" role="tab" id="tab-judo" data-art="judo" aria-selected="false" aria-controls="panel-judo" tabindex="-1">
+            <img src="media/photos/kano-mifune.jpg" alt="" width="867" height="1120" decoding="async">
+            <span class="art-tile__copy"><span class="art-tile__name">Judo</span><span class="art-tile__dek">Throws, pins, and newaza.</span></span>
+          </button>
+          <button class="art-tile" type="button" role="tab" id="tab-wrestling" data-art="wrestling" aria-selected="false" aria-controls="panel-wrestling" tabindex="-1">
+            <img src="media/photos/gotch-hackenschmidt-1908.jpg" alt="" width="300" height="624" decoding="async">
+            <span class="art-tile__copy"><span class="art-tile__name">Wrestling</span><span class="art-tile__dek">Takedowns and control. The scramble engine.</span></span>
+          </button>
+          <button class="art-tile" type="button" role="tab" id="tab-boxing" data-art="boxing" aria-selected="false" aria-controls="panel-boxing" tabindex="-1">
+            <img src="media/photos/louis-schmeling-1936.jpg" alt="" width="1600" height="1075" decoding="async">
+            <span class="art-tile__copy"><span class="art-tile__name">Boxing</span><span class="art-tile__dek">Fists, footwork, and ringcraft.</span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="home-section home-section--featured" id="featured" aria-labelledby="featured-label">
+        <h2 class="section-label" id="featured-label" data-featured-label>Read next · Brazilian jiu-jitsu</h2>
+
+        <div id="panel-bjj" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="bjj" data-carousel role="tabpanel" aria-labelledby="tab-bjj">
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/closed-guard.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/bjj-closed-guard-2010.jpg" alt="Brazilian jiu-jitsu closed guard in the gi" width="1156" height="768" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Closed Guard</h3>
+                <p class="cover-card__meta">The bottom player’s home base — gi and no-gi.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/rear-naked-choke.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rnc-grappling.jpg" alt="Rear naked choke from back control" width="1156" height="768" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Rear Naked Choke</h3>
+                <p class="cover-card__meta">The finish from the back. No collar required.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/bjj.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/lepri-gregor-gracie-2009.jpg" alt="Gi Brazilian jiu-jitsu match" width="1280" height="640" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Brazilian Jiu-Jitsu</h3>
+                <p class="cover-card__meta">The full style: positions, submissions, gi vs no-gi.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="panel-mma" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="mma" data-carousel role="tabpanel" aria-labelledby="tab-mma" hidden>
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/mma.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rickson-zulu-1980.jpg" alt="Vale tudo grappling, proto-MMA" width="804" height="529" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Mixed Martial Arts</h3>
+                <p class="cover-card__meta">Striking and grappling under one ruleset.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/rear-naked-choke.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rnc-grappling.jpg" alt="Rear naked choke" width="1156" height="768" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Rear Naked Choke</h3>
+                <p class="cover-card__meta">The blood choke that ends fights on the ground.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/closed-guard.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/bjj-closed-guard-2010.jpg" alt="Closed guard" width="1156" height="768" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Closed Guard</h3>
+                <p class="cover-card__meta">What the bottom player does after a takedown.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="panel-muay-thai" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="muay-thai" data-carousel role="tabpanel" aria-labelledby="tab-muay-thai" hidden>
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/muay-thai.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/siamese-boxing-1920s.jpg" alt="Muay Thai boran match, Bangkok, 1920s" width="1600" height="1011" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Muay Thai</h3>
+                <p class="cover-card__meta">Eight limbs: punches, kicks, elbows, knees, clinch.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/boxing.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/louis-schmeling-1936.jpg" alt="Joe Louis and Max Schmeling boxing" width="1600" height="1075" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Boxing</h3>
+                <p class="cover-card__meta">The hands inside the eight-limbs game.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/mma.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rickson-zulu-1980.jpg" alt="Vale tudo" width="804" height="529" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">MMA</h3>
+                <p class="cover-card__meta">When the clinch hits the fence, and the ground.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="panel-judo" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="judo" data-carousel role="tabpanel" aria-labelledby="tab-judo" hidden>
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/judo.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/kano-mifune.jpg" alt="Kanō Jigorō and Kyuzo Mifune" width="867" height="1120" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Judo</h3>
+                <p class="cover-card__meta">Throws, pins, and newaza — the grappling parent.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/guard.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/de-la-riva-guard.jpg" alt="De La Riva guard" width="450" height="338" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Guard</h3>
+                <p class="cover-card__meta">How BJJ grew the bottom game out of newaza.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/rear-naked-choke.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rnc-grappling.jpg" alt="Rear naked choke" width="1156" height="768" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Rear Naked Choke</h3>
+                <p class="cover-card__meta">Hadaka-jime’s cousin, finished from the back.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="panel-wrestling" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="wrestling" data-carousel role="tabpanel" aria-labelledby="tab-wrestling" hidden>
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/wrestling.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/gotch-hackenschmidt-1908.jpg" alt="Gotch vs Hackenschmidt, 1908" width="300" height="624" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Wrestling</h3>
+                <p class="cover-card__meta">Takedowns and control — the engine of the scramble.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/mma.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rickson-zulu-1980.jpg" alt="Vale tudo" width="804" height="529" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">MMA</h3>
+                <p class="cover-card__meta">Where wrestling meets strikes and submissions.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="terms/guard.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/de-la-riva-guard.jpg" alt="Guard" width="450" height="338" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Guard</h3>
+                <p class="cover-card__meta">What the bottom player builds after a takedown.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div id="panel-boxing" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="boxing" data-carousel role="tabpanel" aria-labelledby="tab-boxing" hidden>
+          <div class="carousel__track">
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/boxing.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/louis-schmeling-1936.jpg" alt="Joe Louis and Max Schmeling, 1936" width="1600" height="1075" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Boxing</h3>
+                <p class="cover-card__meta">Fists, footwork, and ringcraft under gloved rules.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/muay-thai.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/siamese-boxing-1920s.jpg" alt="Muay Thai" width="1600" height="1011" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">Muay Thai</h3>
+                <p class="cover-card__meta">Add kicks, elbows, knees, and the clinch.</p>
+              </div>
+            </a>
+            <a class="cover-card cover-card--lg carousel__slide" href="styles/mma.html">
+              <div class="cover-card__media cover-card__media--photo">
+                <img src="media/photos/rickson-zulu-1980.jpg" alt="Vale tudo" width="804" height="529" loading="lazy" decoding="async">
+              </div>
+              <div class="cover-card__body">
+                <h3 class="cover-card__title">MMA</h3>
+                <p class="cover-card__meta">Boxing hands inside a fuller fight.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <p class="home-foot-links"><a href="terms/index.html">All terms</a> · <a href="styles.html">All styles</a> · <a href="about.html">About</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 Martial Index. Martial arts encyclopedia for every fighting art. Train under qualified instruction; tap early. Archive photos: public domain / CC — <a href="media/photos/CREDITS.txt">credits</a>.</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Index</a>
+        <a href="styles.html">Styles</a>
+        <a href="terms/index.html">Terms</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/carousel.js" defer></script>
+  <script src="js/home-art.js" defer></script>
+</body>
+</html>

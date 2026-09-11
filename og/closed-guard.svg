@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Closed Guard">
+  <rect width="1200" height="630" fill="#F7F7F7"/>
+  <circle cx="1050" cy="120" r="180" fill="#8E1616" opacity="0.12"/>
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#0A0A0A" stroke-width="1.5" opacity="0.22"/>
+  <text x="96" y="160" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#8E1616" letter-spacing="4">BJJ · POSITION</text>
+  <text x="96" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" fill="#0A0A0A">Closed Guard</text>
+  <text x="96" y="380" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#3D3D3D">Guard › Closed Guard</text>
+</svg>

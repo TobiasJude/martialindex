@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">Rear naked choke diagram</title>
+  <desc id="d">Abstract geometric diagram of a rear naked choke from back control: choking arm under the chin, supporting hand behind the head, hooks in.</desc>
+  <defs>
+    <linearGradient id="well" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#141414"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="70%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#D8D8DC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blood" cx="28%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#8E1616" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#well)"/>
+  <rect width="1200" height="675" fill="url(#mist)"/>
+  <circle cx="320" cy="420" r="220" fill="url(#blood)"/>
+  <ellipse cx="620" cy="360" rx="90" ry="110" fill="none" stroke="#E8E8EA" stroke-width="3"/>
+  <path d="M520 300 Q480 360 520 430" fill="none" stroke="#8E1616" stroke-width="5"/>
+  <path d="M520 300 Q560 280 600 300" fill="none" stroke="#E8E8EA" stroke-width="3"/>
+  <circle cx="500" cy="360" r="16" fill="#E8E8EA"/>
+  <path d="M580 470 Q620 540 700 520" fill="none" stroke="#E8E8EA" stroke-width="3" opacity="0.85"/>
+  <path d="M640 470 Q700 530 760 500" fill="none" stroke="#E8E8EA" stroke-width="3" opacity="0.85"/>
+  <circle cx="720" cy="250" r="10" fill="#8E1616"/>
+</svg>

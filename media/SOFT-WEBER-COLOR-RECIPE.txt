@@ -1,0 +1,21 @@
+Soft Weber COLOR v2 final (winner: v2c-skin)
+============================================
+
+Exact ImageMagick command (preview bake; long edge ≤1600, quality 88):
+
+magick INPUT -colorspace sRGB -modulate 103,85,99 -brightness-contrast 7x7 -level 4%,93%,0.99 -fill '#e6d2bc' -colorize 4 \( +clone -resize 50% -attenuate 0.08 +noise Gaussian -colorspace Gray -resize 200% \) -compose softlight -composite -resize '1600x1600>' -quality 88 OUTPUT
+
+Parameters vs v1:
+  v1:  -modulate 105,75,100 -brightness-contrast 8x6 -level 4%,92%,0.98 -fill '#e8d5c0' -colorize 6  grain attenuate 0.1
+  v2c: -modulate 103,85,99  -brightness-contrast 7x7 -level 4%,93%,0.99 -fill '#e6d2bc' -colorize 4  grain attenuate 0.08
+
+Notes:
+  - saturate ~85 (was 75) for more human skin while still lightly desaturated
+  - hue 99 = gentle warmth nudge
+  - colorize 4 (was 6) + slightly cooler fill '#e6d2bc' keeps gi whites clean
+  - contrast 7 + level gamma 0.99 = soft fashion clarity without haze or punch
+  - slightly lighter softlight grain
+
+Do NOT overwrite live site files in /workspace/the-index-ency/media/photos/*.jpg
+Masters used: /workspace/the-index-ency/media/photos/_pre-sepia/*.jpg
+Outputs: /workspace/photo-style-mocks-soft-weber-v2/final/

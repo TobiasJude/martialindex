@@ -1,0 +1,109 @@
+Photo credits — Martial Index homepage / style covers
+Sources: Wikimedia Commons. Local optimized JPEGs only (no hotlinks).
+Editorial treatment: Soft Weber color — warm fashion-editorial grade, creamy lifted shadows, gentle contrast, soft grain.
+No Bruce Weber photographs are used (treatment is reminiscent only).
+
+File: helio-gracie-1932.jpg
+  Commons: File:Hélio_Gracie_(1932).tif
+  License: Public domain / Arquivo Nacional (Brazil)
+  Attribution: Arquivo Nacional (Fundo Correio da Manhã)
+  URL: https://commons.wikimedia.org/wiki/File:H%C3%A9lio_Gracie_%281932%29.tif
+
+File: carlos-gracie-1951.jpg
+  Commons: File:Carlos_Gracie_(1951).tif
+  License: Public domain / Arquivo Nacional (Brazil)
+  Attribution: Arquivo Nacional (Fundo Correio da Manhã)
+  URL: https://commons.wikimedia.org/wiki/File:Carlos_Gracie_%281951%29.tif
+
+File: muhammad-ali-1967.jpg
+  Commons: File:Muhammad_Ali_NYWTS.jpg
+  License: Public domain (US)
+  Attribution: Ira Rosenberg / Library of Congress, New York World-Telegram & Sun Collection
+  URL: https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg
+
+File: kano-mifune.jpg
+  Commons: File:Jigoro_Kano_and_Kyuzo_Mifune.jpg
+  License: Public domain (Japan)
+  Attribution: Unknown photographer; Wikimedia Commons
+  URL: https://commons.wikimedia.org/wiki/File:Jigoro_Kano_and_Kyuzo_Mifune.jpg
+
+File: muay-thai-1865.jpg
+  Commons: File:Muay_Thai_match_in_Siam_1865_John_Thomson.jpg
+  License: Public domain
+  Attribution: John Thomson, 1865
+  URL: https://commons.wikimedia.org/wiki/File:Muay_Thai_match_in_Siam_1865_John_Thomson.jpg
+
+File: gotch-hackenschmidt-1908.jpg
+  Commons: File:Frank_Gotch_vs_Georg_Hackenschmidt_1908.jpg
+  License: Public domain (US)
+  Attribution: Unknown photographer, 1908
+  URL: https://commons.wikimedia.org/wiki/File:Frank_Gotch_vs_Georg_Hackenschmidt_1908.jpg
+
+File: ali-norton-1973.jpg
+  Commons: File:Muhammad_Ali_vs_Ken_Norton,_1973-09-10.jpg
+  License: CC BY 4.0
+  Attribution: Art Rogers / Los Angeles Times
+  URL: https://commons.wikimedia.org/wiki/File:Muhammad_Ali_vs_Ken_Norton%2C_1973-09-10.jpg
+
+Note: helio-gracie-1932.jpg, carlos-gracie-1951.jpg, and muhammad-ali-1967.jpg
+remain on disk but are not used on index.html or styles.html (bust portraits).
+
+File: rickson-zulu-1980.jpg
+  Commons: File:Rickson_vs_Zulu_1.jpg
+  License: Public domain (Brazil documentary still)
+  Attribution: Unknown photographer, 1980
+  URL: https://commons.wikimedia.org/wiki/File:Rickson_vs_Zulu_1.jpg
+
+File: robinson-lamotta-1951.jpg
+  Commons: File:Sugar_Ray_Robinson_vs_Jake_LaMotta_1951_(1).jpg
+  License: Public domain (no notice)
+  Attribution: Los Angeles Daily News, 14 February 1951
+  URL: https://commons.wikimedia.org/wiki/File:Sugar_Ray_Robinson_vs_Jake_LaMotta_1951_(1).jpg
+
+File: louis-schmeling-1936.jpg
+  Commons: File:Joe_Louis_-_Max_Schmeling_-_1936.jpg
+  License: Public domain (NYWTS / Library of Congress — no known restrictions)
+  Attribution: New York World-Telegram & Sun staff photographer / Library of Congress
+  URL: https://commons.wikimedia.org/wiki/File:Joe_Louis_-_Max_Schmeling_-_1936.jpg
+
+File: hiki-otoshi.jpg
+  Commons: File:Hiki-otoshi.jpg
+  License: Public domain (Japan)
+  Attribution: Kanō Jigorō throwing Yamashita; from 『嘉納治五郎 -私の生涯と柔道-』
+  URL: https://commons.wikimedia.org/wiki/File:Hiki-otoshi.jpg
+
+File: siamese-boxing-1920s.jpg
+  Commons: File:Siamese_Boxing_in_Bangkok_(Muay_Thai_Boran)_1920s.png
+  License: Public domain
+  Attribution: Unknown photographer, Bangkok, 1920s
+  URL: https://commons.wikimedia.org/wiki/File:Siamese_Boxing_in_Bangkok_(Muay_Thai_Boran)_1920s.png
+
+File: bjj-closed-guard-2010.jpg
+  Commons: File:Brazilian_Jiu-jitsu-Closed_guard.jpg
+  License: CC BY 2.0
+  Attribution: MartialArtsNomad.com
+  URL: https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-jitsu-Closed_guard.jpg
+
+File: lepri-gregor-gracie-2009.jpg
+  Commons: File:LUCAS_LEPRI_vs_GREGOR_GRACIE.jpg
+  License: CC BY-SA 3.0
+  Attribution: John Lamonica
+  URL: https://commons.wikimedia.org/wiki/File:LUCAS_LEPRI_vs_GREGOR_GRACIE.jpg
+
+File: de-la-riva-guard.jpg
+  Commons: File:De_la_Riva_guard.jpg
+  License: CC BY-SA 2.5
+  Attribution: Aesopian / tampabjj.com
+  URL: https://commons.wikimedia.org/wiki/File:De_la_Riva_guard.jpg
+
+File: rnc-grappling.jpg
+  Commons: File:Submission Grappling - rear naked choke.jpg
+  License: CC BY 2.0
+  Attribution: MartialArtsNomad.com
+  URL: https://commons.wikimedia.org/wiki/File:Submission_Grappling_-_rear_naked_choke.jpg
+
+File: bjj-half-guard.jpg
+  Commons: File:BJJ-half_guard.jpg
+  License: CC BY-SA 2.0
+  Attribution: parhessiastes
+  URL: https://commons.wikimedia.org/wiki/File:BJJ-half_guard.jpg
