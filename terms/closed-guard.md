@@ -243,15 +243,26 @@ Train under qualified instruction. When a joint lock or choke is fully locked du
 
 ## Related notes
 
-        
-          
-- [GuardConcept · Parent · Live](guard.html)
-          
-- [Rear Naked ChokeSubmission · Live](rear-naked-choke.html)
-        
-      
+- [GuardConcept · Live](guard.html)
+- [Open GuardPosition · Live](open-guard.html)
+- [Half GuardPosition · Live](half-guard.html)
+- [Guard PassingConcept · Live](guard-passing.html)
+- [High GuardGuard · Live](high-guard.html)
+- [Williams GuardGuard · Live](williams-guard.html)
+- [Rubber GuardGuard · Live](rubber-guard.html)
+- [Mission Control (Rubber Guard)Guard · Live](mission-control.html)
+- [New York (Rubber Guard)Guard · Live](new-york.html)
+- [Invisible CollarGuard · Live](invisible-collar.html)
+- [Waiting RoomGuard · Live](waiting-room.html)
+- [ArmbarSubmission · Live](armbar.html)
+- [Triangle ChokeSubmission · Live](triangle-choke.html)
+- [KimuraSubmission · Live](kimura.html)
+- [OmoplataSubmission · Live](omoplata.html)
+- [Scissor SweepSweep · Live](scissor-sweep.html)
+- [Pendulum SweepSweep · Live](pendulum-sweep.html)
+- [Flower SweepSweep · Live](flower-sweep.html)
+- [Hip Bump SweepSweep · Live](hip-bump-sweep.html)
 
-      
 
 ## FAQ
 

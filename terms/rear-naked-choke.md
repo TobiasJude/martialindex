@@ -203,15 +203,13 @@ The RNC is a **blood choke**. Training partners should apply pressure progressiv
 
 ## Related notes
 
-        
-          
-- [GuardConcept · Live](guard.html)
-          
-- [Closed GuardPosition · Live](closed-guard.html)
-        
-      
+- [Back ControlPosition · Live](back-control.html)
+- [TurtlePosition · Live](turtle.html)
+- [CrucifixPosition · Live](crucifix.html)
+- [Crab RidePosition · Live](crab-ride.html)
+- [TruckPosition · Live](truck.html)
+- [Bow and Arrow ChokeSubmission · Live](bow-and-arrow-choke.html)
 
-      
 
 ## FAQ
 

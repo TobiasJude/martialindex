@@ -155,15 +155,40 @@ Train under qualified instruction. Stacks and neck pressure from hurried passers
 
 ## Related notes
 
-        
-          
+- [Standing Guard PullConcept · Live](standing-guard.html)
+- [Octopus GuardGuard · Live](octopus-guard.html)
 - [Closed GuardPosition · Live](closed-guard.html)
-          
-- [Rear Naked ChokeSubmission · Live](rear-naked-choke.html)
-        
-      
+- [Open GuardPosition · Live](open-guard.html)
+- [Half GuardPosition · Live](half-guard.html)
+- [Rubber GuardGuard · Live](rubber-guard.html)
+- [De La Riva GuardGuard · Live](de-la-riva.html)
+- [Spider GuardGuard · Live](spider-guard.html)
+- [Lasso GuardGuard · Live](lasso-guard.html)
+- [Butterfly GuardGuard · Live](butterfly-guard.html)
+- [X-GuardGuard · Live](x-guard.html)
+- [Single-Leg X (SLX)Guard · Live](single-leg-x.html)
+- [50/50 GuardGuard · Live](50-50.html)
+- [Worm GuardGuard · Live](worm-guard.html)
+- [Knee Shield Half GuardGuard · Live](knee-shield-half-guard.html)
+- [Deep Half GuardGuard · Live](deep-half-guard.html)
+- [Z-GuardGuard · Live](z-guard.html)
+- [LockdownGuard · Live](lockdown.html)
+- [Reverse De La RivaGuard · Live](reverse-de-la-riva.html)
+- [Collar-Sleeve GuardGuard · Live](collar-sleeve-guard.html)
+- [Lapel GuardGuard · Live](lapel-guard.html)
+- [K-GuardGuard · Live](k-guard.html)
+- [Shin-to-ShinGuard · Live](shin-to-shin.html)
+- [Seated GuardGuard · Live](seated-guard.html)
+- [Butterfly HalfGuard · Live](butterfly-half.html)
+- [High GuardGuard · Live](high-guard.html)
+- [Williams GuardGuard · Live](williams-guard.html)
+- [Mission Control (Rubber Guard)Guard · Live](mission-control.html)
+- [New York (Rubber Guard)Guard · Live](new-york.html)
+- [Invisible CollarGuard · Live](invisible-collar.html)
+- [Waiting RoomGuard · Live](waiting-room.html)
+- [Quarter GuardPosition · Live](quarter-guard.html)
+- [Guard RetentionConcept · Live](guard-retention.html)
 
-      
 
 ## FAQ
 

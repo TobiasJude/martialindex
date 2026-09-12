@@ -24,7 +24,7 @@ Historically and technically, BJJ grew from judo newaza influence. Many BJJ posi
 
 ## What You’ll Find Here
 
-This hub is the live judo introduction on Martial Index. Dedicated judo term pages are not published yet. Closely related live BJJ pages that share grappling DNA:
+This hub is the live judo introduction on Martial Index. Live judo term pages now include [nage-waza](../terms/nage-waza.html), [ne-waza](../terms/ne-waza.html), [kuzushi](../terms/kuzushi.html), [ukemi](../terms/ukemi.html), [ippon](../terms/ippon.html), [waza-ari](../terms/waza-ari.html), [judo rules](../terms/judo-rules.html), [randori](../terms/randori.html), [judogi](../terms/judogi.html), and [uchi-komi](../terms/uchi-komi.html), plus live throws (osoto, seoi, uchi-mata, harai, tai-otoshi, o-goshi, ouchi, kouchi, deashi, tomoe), pins (kesa, yoko-shiho, kami-shiho), and finishes (juji-gatame, ude-garami, hadaka-jime, okuri-eri-jime). Closely related live BJJ pages that share grappling DNA:
 
 - Guard and Closed Guard — newaza bottom games evolved heavily in BJJ
 - Rear Naked Choke — related to hadaka-jime structures
