@@ -84,6 +84,7 @@ body.is-home {
   --radius: 12px;
   --radius-sm: 10px;
   --radius-media: 12px;
+  --hatch: 36px;
   position: relative;
   isolation: isolate;
   background-color: #FFFFFF;
@@ -91,7 +92,20 @@ body.is-home {
 }
 
 body.is-home::before {
-  content: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to bottom, rgba(18, 18, 18, 0.05) 0%, rgba(18, 18, 18, 0.026) 40%, rgba(18, 18, 18, 0.012) 100%),
+    repeating-linear-gradient(0deg, rgba(18, 18, 18, 0.03) 0 1px, transparent 1px 36px),
+    repeating-linear-gradient(90deg, rgba(18, 18, 18, 0.03) 0 1px, transparent 1px 36px);
+  background-size: auto, var(--hatch) var(--hatch), var(--hatch) var(--hatch);
+  /* Column-left, page-top: wrap/header are 72rem centered, gutters are 1 hatch. */
+  background-position: max(0px, calc((100% - 72rem) / 2)) 0;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.30) 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.64) 50%, rgba(0, 0, 0, 0.30) 100%);
 }
 
 body.is-home::after {
@@ -100,21 +114,11 @@ body.is-home::after {
 
 body.is-home main {
   position: relative;
+  z-index: 1;
 }
 
 body.is-home main::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background-image:
-    linear-gradient(to bottom, rgba(18, 18, 18, 0.065) 0%, rgba(18, 18, 18, 0.035) 40%, rgba(18, 18, 18, 0.016) 100%),
-    repeating-linear-gradient(0deg, rgba(18, 18, 18, 0.04) 0 1px, transparent 1px 36px),
-    repeating-linear-gradient(90deg, rgba(18, 18, 18, 0.04) 0 1px, transparent 1px 36px);
-  background-size: auto, 36px 36px, 36px 36px;
-  -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.72) 45%, rgba(0, 0, 0, 0.36) 100%);
-  mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.72) 45%, rgba(0, 0, 0, 0.36) 100%);
+  content: none;
 }
 
 body.is-home main > * {
@@ -123,10 +127,30 @@ body.is-home main > * {
 }
 
 body.is-home .site-header {
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: saturate(1.2) blur(16px);
-  -webkit-backdrop-filter: saturate(1.2) blur(16px);
-  border-bottom: 1px solid rgba(18, 18, 18, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: saturate(1.15) blur(14px);
+  -webkit-backdrop-filter: saturate(1.15) blur(14px);
+  border-bottom: 1px solid rgba(18, 18, 18, 0.1);
+}
+
+body.is-home .header-inner {
+  height: calc(2 * var(--hatch));
+  min-height: calc(2 * var(--hatch));
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: var(--hatch);
+  padding-right: var(--hatch);
+}
+
+body.is-home .wrap {
+  padding-left: var(--hatch);
+  padding-right: var(--hatch);
+}
+
+body.is-home .home-hero,
+body.is-home .home-hero--compact {
+  padding-top: var(--hatch);
+  padding-bottom: var(--hatch);
 }
 
 body.is-home .wordmark,
@@ -1742,6 +1766,25 @@ li {
     padding: 3rem 0 2.25rem;
     text-align: left;
     gap: 1.5rem;
+  }
+
+  body.is-home .home-hero,
+  body.is-home .home-hero--compact {
+    padding: var(--hatch) 0 var(--hatch);
+    gap: 0;
+  }
+
+  body.is-home .wrap,
+  body.is-home .header-inner {
+    padding-left: var(--hatch);
+    padding-right: var(--hatch);
+  }
+
+  body.is-home .header-inner {
+    height: calc(2 * var(--hatch));
+    min-height: calc(2 * var(--hatch));
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .home-hero h1 {
