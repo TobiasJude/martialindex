@@ -167,7 +167,7 @@ body.is-home .site-footer {
   margin: clamp(1.5rem, 3vw, 2.75rem) auto 0;
   padding: 0 1.5rem;
   display: grid;
-  grid-template-columns: minmax(12rem, 1.4fr) repeat(2, minmax(0, 0.9fr)) minmax(13rem, 1.15fr);
+  grid-template-columns: minmax(13rem, 1.35fr) repeat(2, minmax(0, 0.85fr)) minmax(12rem, 1fr);
   gap: 2rem 1.75rem;
   align-items: start;
   font-size: 0.84rem;
@@ -338,11 +338,12 @@ html {
 
 .wordmark {
   display: flex;
-  flex-direction: column;
-  gap: 0.28rem;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.85rem;
   text-decoration: none;
   color: var(--ink);
-  line-height: 1.12;
+  line-height: 1;
 }
 
 .wordmark:hover {
@@ -358,14 +359,33 @@ html {
 }
 
 .wordmark-kicker {
+  position: relative;
   font-family: var(--serif);
-  font-size: 1.12rem;
+  font-size: 1.02rem;
   font-style: italic;
   font-weight: 400;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   text-transform: none;
   color: var(--ink);
-  opacity: 1;
+  opacity: 0.78;
+  padding-left: 0.85rem;
+}
+
+.wordmark-kicker::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.28em;
+  bottom: 0.12em;
+  width: 1px;
+  background: #1A1814;
+  opacity: 0.35;
+}
+
+@media (max-width: 420px) {
+  .wordmark-kicker {
+    display: none;
+  }
 }
 
 .nav-cluster {
@@ -1929,6 +1949,37 @@ li {
 .photo-plate img[src*="bjj-closed-guard"] { object-position: 48% 62%; }
 .photo-plate img[src*="rickson-zulu"] { object-position: 50% 42%; }
 
+.photo-plate img[src*="vella-barral"] { object-position: 52% 42%; }
+.photo-plate img[src*="estima-ceconi"] { object-position: 48% 46%; }
+.photo-plate img[src*="kimura-from-guard"] { object-position: 50% 32%; }
+.photo-plate img[src*="ude-garami"] { object-position: 50% 40%; }
+.photo-plate img[src*="side-choke-mcmap"] { object-position: 50% 38%; }
+.photo-plate img[src*="savate-salle"] { object-position: 50% 36%; }
+.photo-plate img[src*="sumo-hitachiyama"] { object-position: 50% 22%; }
+.photo-plate img[src*="aikido-demonstration"] { object-position: 48% 38%; }
+.photo-plate img[src*="hapkido-dojang"] { object-position: 50% 32%; }
+.photo-plate img[src*="wing-chun-forms"] { object-position: 50% 18%; }
+.photo-plate img[src*="kyokushin-match"] { object-position: 50% 28%; }
+.photo-plate img[src*="krav-maga-demo"] { object-position: 50% 40%; }
+.photo-plate img[src*="lethwei-thein"] { object-position: 50% 38%; }
+.photo-plate img[src*="sambo-european"] { object-position: 50% 42%; }
+
+.cover-card__media--photo img[src*="vella-barral"] { object-position: 52% 42%; }
+.cover-card__media--photo img[src*="estima-ceconi"] { object-position: 48% 46%; }
+.cover-card__media--photo img[src*="kimura-from-guard"] { object-position: 50% 32%; }
+.cover-card__media--photo img[src*="ude-garami"] { object-position: 50% 40%; }
+.cover-card__media--photo img[src*="side-choke-mcmap"] { object-position: 50% 38%; }
+.cover-card__media--photo img[src*="savate-salle"] { object-position: 50% 36%; }
+.cover-card__media--photo img[src*="sumo-hitachiyama"] { object-position: 50% 22%; }
+.cover-card__media--photo img[src*="aikido-demonstration"] { object-position: 48% 38%; }
+.cover-card__media--photo img[src*="hapkido-dojang"] { object-position: 50% 32%; }
+.cover-card__media--photo img[src*="wing-chun-forms"] { object-position: 50% 18%; }
+.cover-card__media--photo img[src*="kyokushin-match"] { object-position: 50% 28%; }
+.cover-card__media--photo img[src*="krav-maga-demo"] { object-position: 50% 40%; }
+.cover-card__media--photo img[src*="lethwei-thein"] { object-position: 50% 38%; }
+.cover-card__media--photo img[src*="sambo-european"] { object-position: 50% 42%; }
+
+
 .photo-plate::after {
   content: "";
   position: absolute;
@@ -3204,39 +3255,92 @@ a.art-tile--type:focus {
   }
 }
 
-/* Quiet join strip */
+/* Email strip — compact, above footer */
 .join-strip {
   margin: 2rem auto 0;
   max-width: 72rem;
-  padding: 2rem 0 2.75rem;
+  padding: 1.15rem 0 1.6rem;
   border-top: 1px solid var(--rule);
 }
 
 .join-strip__inner {
-  max-width: 36rem;
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem 1.5rem;
+}
+
+.join-strip__copy {
+  min-width: 0;
 }
 
 .join-strip__title {
-  margin: 0 0 0.4rem;
+  margin: 0;
   font-family: var(--serif);
-  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
-  font-weight: 700;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  font-weight: 650;
   letter-spacing: -0.02em;
+  line-height: 1.2;
   color: var(--ink);
+  max-width: none;
 }
 
 .join-strip__dek {
-  margin: 0 0 1rem;
-  font-family: var(--serif);
-  font-size: 0.98rem;
-  color: var(--mute);
-  line-height: 1.5;
+  display: none;
 }
 
-.article-wrap .join-strip,
-.wrap .join-strip {
-  margin-left: 0;
-  margin-right: 0;
+.join-strip form {
+  flex: 0 1 22rem;
+}
+
+.join-strip .capture-form--inline {
+  max-width: 22rem;
+}
+
+@keyframes join-nudge {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+.join-strip button,
+.footer-join button {
+  animation: join-nudge 2.6s var(--ease) infinite;
+}
+
+.join-strip button:hover,
+.footer-join button:hover {
+  animation: none;
+}
+
+.author-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.author-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .join-strip__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .join-strip form {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .join-strip button,
+  .footer-join button {
+    animation: none;
+  }
 }
 
 /* Capture forms */
