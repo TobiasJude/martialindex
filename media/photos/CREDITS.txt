@@ -1,7 +1,7 @@
 Photo credits — Martial Index homepage / style covers
 Sources: Wikimedia Commons. Local optimized JPEGs only (no hotlinks).
-Editorial treatment: Soft Weber color — warm fashion-editorial grade, creamy lifted shadows, gentle contrast, soft grain.
-No Bruce Weber photographs are used (treatment is reminiscent only).
+Editorial treatment: warm archival B&W/sepia — desaturated, #8b6b4a colorize, soft screen wash, softlight grain; max long edge 2400; q90.
+No Bruce Weber photographs are used.
 
 File: helio-gracie-1932.jpg
   Commons: File:Hélio_Gracie_(1932).tif
@@ -49,10 +49,11 @@ Note: helio-gracie-1932.jpg, carlos-gracie-1951.jpg, and muhammad-ali-1967.jpg
 remain on disk but are not used on index.html or styles.html (bust portraits).
 
 File: rickson-zulu-1980.jpg
-  Commons: File:Rickson_vs_Zulu_1.jpg
-  License: Public domain (Brazil documentary still)
-  Attribution: Unknown photographer, 1980
-  URL: https://commons.wikimedia.org/wiki/File:Rickson_vs_Zulu_1.jpg
+  Commons: File:Buckley MMA Fight Night (863867).jpg
+  License: Public domain (U.S. Air Force)
+  Attribution: U.S. Air Force photo by Airman 1st Class Riley Johnson
+  URL: https://commons.wikimedia.org/wiki/File:Buckley_MMA_Fight_Night_(863867).jpg
+  Note: Filename kept for HTML stability. Content is modern MMA cage fight (not Rickson/Zulu; Rickson Commons single frames ≤804 or collage panels <1600).
 
 File: robinson-lamotta-1951.jpg
   Commons: File:Sugar_Ray_Robinson_vs_Jake_LaMotta_1951_(1).jpg
@@ -79,28 +80,32 @@ File: siamese-boxing-1920s.jpg
   URL: https://commons.wikimedia.org/wiki/File:Siamese_Boxing_in_Bangkok_(Muay_Thai_Boran)_1920s.png
 
 File: bjj-closed-guard-2010.jpg
-  Commons: File:Brazilian_Jiu-jitsu-Closed_guard.jpg
-  License: CC BY 2.0
-  Attribution: MartialArtsNomad.com
-  URL: https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-jitsu-Closed_guard.jpg
+  Commons: File:Jiu-jitsu brasileño 20180120 122019.jpg
+  License: CC BY-SA 4.0
+  Attribution: Alejandro Martín Lodes
+  URL: https://commons.wikimedia.org/wiki/File:Jiu-jitsu_brasile%C3%B1o_20180120_122019.jpg
+  Note: True closed guard (gi); ankles crossed/locked around waist. Replaces undersized MartialArtsNomad closed-guard and incorrect butterfly-guard substitute.
 
 File: lepri-gregor-gracie-2009.jpg
-  Commons: File:LUCAS_LEPRI_vs_GREGOR_GRACIE.jpg
-  License: CC BY-SA 3.0
-  Attribution: John Lamonica
-  URL: https://commons.wikimedia.org/wiki/File:LUCAS_LEPRI_vs_GREGOR_GRACIE.jpg
+  Commons: File:Jiu-jitsu brasileño 20180120 131743.jpg
+  License: CC BY-SA 4.0
+  Attribution: Alejandro Martín Lodes
+  URL: https://commons.wikimedia.org/wiki/File:Jiu-jitsu_brasile%C3%B1o_20180120_131743.jpg
+  Note: Filename kept; Lamonica Lepri/Gregor plate max 1280 on Commons. Content is outdoor gi BJJ match (Puerto Madryn 2018).
 
 File: de-la-riva-guard.jpg
-  Commons: File:De_la_Riva_guard.jpg
-  License: CC BY-SA 2.5
-  Attribution: Aesopian / tampabjj.com
-  URL: https://commons.wikimedia.org/wiki/File:De_la_Riva_guard.jpg
+  Commons: File:Jiu-jitsu brasileño 20180120 123356.jpg
+  License: CC BY-SA 4.0
+  Attribution: Alejandro Martín Lodes
+  URL: https://commons.wikimedia.org/wiki/File:Jiu-jitsu_brasile%C3%B1o_20180120_123356.jpg
+  Note: True De La Riva (outside hook on lead leg + ankle grip). Aesopian File:De_la_Riva_guard.jpg remains only 450×338 on Commons.
 
 File: rnc-grappling.jpg
-  Commons: File:Submission Grappling - rear naked choke.jpg
+  Commons: File:US Army combatives-rear naked choke.jpg
   License: CC BY 2.0
-  Attribution: MartialArtsNomad.com
-  URL: https://commons.wikimedia.org/wiki/File:Submission_Grappling_-_rear_naked_choke.jpg
+  Attribution: Expert Infantry (Flickr) / U.S. Air Force photo by Senior Airman Jonathan Steffen
+  URL: https://commons.wikimedia.org/wiki/File:US_Army_combatives-rear_naked_choke.jpg
+  Note: Replaces undersized MartialArtsNomad RNC (1156×768).
 
 File: bjj-half-guard.jpg
   Commons: File:BJJ-half_guard.jpg
@@ -705,3 +710,35 @@ File: bjj-half-guard.jpg
   Attribution: parhessiastes
 
 Banned plates untouched: vella-barral, marciano-walcott, uchi-mata, cyborg-abreu.
+
+--- CONTENT FIX 2026-09-11 (sport-correct plates) ---
+Priority content correction after archival size pass installed wrong techniques
+(Sikeston folk wrestling as MMA; butterfly guard as closed guard). DLR plate
+(brasileño 123356) re-verified as true outside-hook De La Riva and retained.
+
+File: rickson-zulu-1980.jpg
+  NOW: File:Buckley MMA Fight Night (863867).jpg — Public domain — USAF Riley Johnson
+  4256×2832 orig → live 2400×1597 warm archival. Clear MMA cage striking exchange
+  (open-finger gloves, chain-link cage, Shameless MMA pads). Not folk/catch wrestling.
+  Rickson vs Zulu 1 = 804; Rickson vs zulu 2 collage panels <1600 after crop — unused.
+
+File: bjj-closed-guard-2010.jpg
+  NOW: File:Jiu-jitsu brasileño 20180120 122019.jpg — CC BY-SA 4.0 — Alejandro Martín Lodes
+  2259×1270 (no upscale). True closed guard: bottom player white gi, ankles crossed
+  and locked around top player's waist. Gi preferred. Replaces butterfly-guard substitute.
+
+File: de-la-riva-guard.jpg
+  NOW (confirmed): File:Jiu-jitsu brasileño 20180120 123356.jpg — CC BY-SA 4.0 — Alejandro Martín Lodes
+  3625×2039 → live 2400×1350. True DLR: outside hook on lead leg, ankle grip, opposite
+  foot on hip. Named Aesopian De_la_Riva_guard.jpg max 450 — no larger Commons twin.
+
+File: lepri-gregor-gracie-2009.jpg
+  ACTUAL ON DISK: File:Jiu-jitsu brasileño 20180120 131743.jpg — CC BY-SA 4.0 — Alejandro Martín Lodes
+  (Lamonica Lepri/Gregor remains 1280 max on Commons.)
+
+File: rnc-grappling.jpg
+  ACTUAL ON DISK: File:US Army combatives-rear naked choke.jpg — CC BY 2.0 — Expert Infantry
+  / Senior Airman Jonathan Steffen (4096×2742 → live 2400×1607).
+
+Untreated masters in media/photos/_pre-sepia/ for all of the above.
+Banned untouched: vella-barral, marciano-walcott, uchi-mata, cyborg-abreu.
