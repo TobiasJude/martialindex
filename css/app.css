@@ -45,6 +45,7 @@ html {
   font-size: 17px;
   scroll-behavior: smooth;
   scroll-padding-top: 5.25rem;
+  background-color: #121212;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -74,22 +75,22 @@ body.is-home {
   --accent-soft: rgba(37, 4, 56, 0.12);
   --takeaway-bg: #EFE6F2;
   --takeaway-border: #250438;
-  --page: #F3F0E8;
-  --mute: #5A5248;
-  --mute-soft: #7A7166;
-  --rule: rgba(18, 16, 12, 0.28);
-  --rule-strong: rgba(18, 16, 12, 0.5);
+  --page: #FFFFFF;
+  --ink: #121212;
+  --mute: #5A5A5A;
+  --mute-soft: #727272;
+  --rule: rgba(18, 18, 18, 0.16);
+  --rule-strong: rgba(18, 18, 18, 0.32);
   --radius: 12px;
   --radius-sm: 10px;
   --radius-media: 12px;
   position: relative;
   isolation: isolate;
-  background-color: #F3F0E8;
+  background-color: #FFFFFF;
   background-image:
-    url("../media/textures/grain.svg"),
-    repeating-linear-gradient(0deg, rgba(18, 16, 12, 0.055) 0 1px, transparent 1px 36px),
-    repeating-linear-gradient(90deg, rgba(18, 16, 12, 0.055) 0 1px, transparent 1px 36px);
-  background-size: 160px 160px, 36px 36px, 36px 36px;
+    repeating-linear-gradient(0deg, rgba(18, 18, 18, 0.045) 0 1px, transparent 1px 36px),
+    repeating-linear-gradient(90deg, rgba(18, 18, 18, 0.045) 0 1px, transparent 1px 36px);
+  background-size: 36px 36px, 36px 36px;
 }
 
 body.is-home::before {
@@ -101,21 +102,31 @@ body.is-home::after {
 }
 
 body.is-home .site-header {
-  background: rgba(243, 240, 232, 0.42);
-  border-bottom: 0;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(1.2) blur(16px);
+  -webkit-backdrop-filter: saturate(1.2) blur(16px);
+  border-bottom: 1px solid rgba(18, 18, 18, 0.12);
+}
+
+body.is-home .wordmark,
+body.is-home .wordmark:hover,
+body.is-home .wordmark-title {
+  color: #121212;
 }
 
 .site-footer {
   position: relative;
   margin-top: 5rem;
-  padding: 0 0 3.5rem;
+  margin-bottom: 0;
+  padding: 0 0 calc(3.5rem + env(safe-area-inset-bottom, 0px));
   overflow: hidden;
-  background-color: #0A0A0A;
+  background-color: #121212;
   background-image: url("../media/textures/grain.svg");
   background-size: 160px 160px;
   border-top: none;
-  color: rgba(243, 240, 232, 0.90);
+  color: rgba(243, 240, 232, 0.94);
   isolation: isolate;
+  box-shadow: 0 50vh 0 50vh #121212;
 }
 
 body.is-home .site-footer {
@@ -133,7 +144,7 @@ body.is-home .site-footer {
   z-index: 0;
   background-image: url("../media/textures/grain.svg");
   background-size: 90px 90px;
-  opacity: 0.35;
+  opacity: 0.18;
   mix-blend-mode: overlay;
 }
 
@@ -482,25 +493,28 @@ html {
   min-height: 44px;
   padding: 0 0.1rem;
   text-decoration: none;
-  color: rgba(10, 10, 10, 0.38);
-  font-weight: 500;
+  color: #0A0A0A;
+  font-weight: 550;
   background: transparent;
   border: 0;
-  transition: color 0.2s var(--ease);
+  box-shadow: none;
+  transition: color 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
 
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
-  color: rgba(10, 10, 10, 0.92);
+  color: #250438;
+  box-shadow: inset 0 -2px 0 #250438;
 }
 
 body.is-home .site-nav a {
-  color: rgba(10, 10, 10, 0.38);
+  color: #121212;
 }
 
 body.is-home .site-nav a:hover,
 body.is-home .site-nav a[aria-current="page"] {
-  color: rgba(10, 10, 10, 0.92);
+  color: #250438;
+  box-shadow: inset 0 -2px 0 #250438;
 }
 
 /* ——— Homepage ——— */
@@ -1675,14 +1689,19 @@ li {
   }
 
   .header-inner {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.75rem;
-    padding: 0.85rem 1rem;
+    padding: 0.55rem 1rem;
   }
 
   .nav-cluster {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.75rem;
+    margin-left: auto;
+  }
+
+  .site-nav {
+    gap: 1.15rem;
   }
 
   .site-nav {
@@ -2811,7 +2830,7 @@ body.is-home .cover-card__media--photo::after {
 /* ——— Home: pick an art, then featured reads ——— */
 
 .home-hero--compact {
-  padding: clamp(2.25rem, 5vw, 3.75rem) 0 0.35rem;
+  padding: clamp(2.25rem, 5vw, 3.75rem) 0 1.15rem;
   gap: 0;
 }
 
@@ -3352,8 +3371,12 @@ a.art-tile--type:focus {
 .join-strip {
   margin: 2rem auto 0;
   max-width: 72rem;
-  padding: 1.15rem 0 1.6rem;
+  padding: 1.15rem 1.5rem 1.6rem;
   border-top: 1px solid var(--rule);
+}
+
+body.is-about .join-strip {
+  max-width: calc(var(--measure) + 3rem);
 }
 
 .join-strip__inner {
