@@ -87,10 +87,7 @@ body.is-home {
   position: relative;
   isolation: isolate;
   background-color: #FFFFFF;
-  background-image:
-    repeating-linear-gradient(0deg, rgba(18, 18, 18, 0.045) 0 1px, transparent 1px 36px),
-    repeating-linear-gradient(90deg, rgba(18, 18, 18, 0.045) 0 1px, transparent 1px 36px);
-  background-size: 36px 36px, 36px 36px;
+  background-image: none;
 }
 
 body.is-home::before {
@@ -99,6 +96,30 @@ body.is-home::before {
 
 body.is-home::after {
   content: none;
+}
+
+body.is-home main {
+  position: relative;
+}
+
+body.is-home main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to bottom, rgba(18, 18, 18, 0.065) 0%, rgba(18, 18, 18, 0.035) 40%, rgba(18, 18, 18, 0.016) 100%),
+    repeating-linear-gradient(0deg, rgba(18, 18, 18, 0.04) 0 1px, transparent 1px 36px),
+    repeating-linear-gradient(90deg, rgba(18, 18, 18, 0.04) 0 1px, transparent 1px 36px);
+  background-size: auto, 36px 36px, 36px 36px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.72) 45%, rgba(0, 0, 0, 0.36) 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.72) 45%, rgba(0, 0, 0, 0.36) 100%);
+}
+
+body.is-home main > * {
+  position: relative;
+  z-index: 1;
 }
 
 body.is-home .site-header {
