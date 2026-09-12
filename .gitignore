@@ -1,3 +1,8 @@
-shots/
 *.bak
 .DS_Store
+_catalog/
+_gen/
+media/photos/_pre-sepia/
+shots/
+styles/*.md
+terms/*.md
