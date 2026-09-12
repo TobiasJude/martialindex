@@ -817,3 +817,92 @@ GAPS (documented in FIT-AUDIT-FIXES.md):
 - True Americana named plate ≥1200 not found (using judo ude-garami).
 - Commons File:Arm triangle choke.jpg (1200×795) appears to show a leg triangle — not used for arm-triangle.
 - Jeet Kune Do: no strong action PD/CC ≥1200 (gloves/portraits only); OG left as home.svg.
+
+==== TAEKWONDO BATCH 1 — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/taekwondo-plates/ (Commons PD/CC0/CC BY/CC BY-SA; no AI).
+
+File: olympic-taekwondo.jpg
+  Commons: File:Atletas de taekwondo treinam na casa do Time Brasil 1036198-090816taekwondo01802.jpg
+  License: CC BY 3.0 br
+  Attribution: Tomaz Silva/Agência Brasil
+  URL: https://commons.wikimedia.org/wiki/File:Atletas_de_taekwondo_treinam_na_casa_do_Time_Brasil_1036198-090816taekwondo01802.jpg
+  Note: Olympic/WT training pair in dobok.
+
+File: kyorugi.jpg
+  Commons: File:Keeya! Cherry Point youth learn taekwondo 120305-M-EY704-460.jpg
+  License: Public domain (U.S. Marine Corps)
+  Attribution: Lance Cpl. Cory D. Polom
+  URL: https://commons.wikimedia.org/wiki/File:Keeya!_Cherry_Point_youth_learn_taekwondo_120305-M-EY704-460.jpg
+  Note: High front kick in sparring context.
+
+File: taekwondo-stance.jpg
+  Commons: File:Daniel Brännstam Taekwondo Competition.jpg
+  License: CC BY-SA 4.0
+  Attribution: Carlolssson
+  URL: https://commons.wikimedia.org/wiki/File:Daniel_Br%C3%A4nnstam_Taekwondo_Competition.jpg
+  Note: Ready/fighting stance, full figure, competition dobok.
+
+File: poomsae.jpg
+  Commons: File:Para Taekwondo Poomsae.jpg
+  License: CC BY-SA 4.0
+  Attribution: TKD at World Para Taekwondo
+  URL: https://commons.wikimedia.org/wiki/File:Para_Taekwondo_Poomsae.jpg
+  Note: Labeled poomsae demonstration.
+
+File: yeop-chagi.jpg
+  Commons: File:Taekwondo Jumping Side Kick at Sunset, Houlgate Beach - 02.jpg
+  License: CC BY-SA 4.0
+  Attribution: Benjamin Bellamy
+  URL: https://commons.wikimedia.org/wiki/File:Taekwondo_Jumping_Side_Kick_at_Sunset,_Houlgate_Beach_-_02.jpg
+  Note: Jumping side kick, clear chamber/extension.
+
+File: ap-chagi.jpg
+  Commons: File:Head kick.jpg
+  License: CC BY 2.0
+  Attribution: Scott Feldstein
+  URL: https://commons.wikimedia.org/wiki/File:Head_kick.jpg
+  Note: Verified TKD (hogu + foam headgear sparring); high front/head kick. Not karate.
+
+File: dollyo-chagi.jpg
+  Commons: File:All-Army TKD compete at US nationals 150708-Z-ZS194-001.jpg
+  License: Public domain (U.S. Army National Guard)
+  Attribution: Sgt. 1st Class Thomas Wheeler
+  URL: https://commons.wikimedia.org/wiki/File:All-Army_TKD_compete_at_US_nationals_150708-Z-ZS194-001.jpg
+  Note: Turning kick in TKD competition.
+
+File: naeryeo-chagi.jpg
+  Commons: File:The Axe Kick (943260).jpeg
+  License: CC BY 3.0
+  Attribution: Kevin Geary
+  URL: https://commons.wikimedia.org/wiki/File:The_Axe_Kick_(943260).jpeg
+  Note: Axe/naeryeo kick.
+
+File: dobok.jpg
+  Commons: File:Dobok Gup.jpg
+  License: CC BY-SA 4.0
+  Attribution: Anass Sedrati
+  URL: https://commons.wikimedia.org/wiki/File:Dobok_Gup.jpg
+  Note: Clear dobok uniform detail.
+
+File: hogu.jpg
+  Commons: File:ITF Taekwondo Sparring Gear.jpg
+  License: CC BY-SA 3.0
+  Attribution: Gashu
+  URL: https://commons.wikimedia.org/wiki/File:ITF_Taekwondo_Sparring_Gear.jpg
+  Note: Chest protector / sparring gear (ITF-style).
+
+File: itf-taekwondo.jpg
+  Commons: File:Img notipGO5DLrPzS.jpg
+  License: CC0
+  Attribution: Tomas Peruzzo
+  URL: https://commons.wikimedia.org/wiki/File:Img_notipGO5DLrPzS.jpg
+  Note: ITF-style practice scene.
+
+File: wt-rules.jpg
+  Commons: File:Combates Taekwondo WTF.jpg
+  License: CC BY-SA 4.0
+  Attribution: Gonzalezbfr
+  URL: https://commons.wikimedia.org/wiki/File:Combates_Taekwondo_WTF.jpg
+  Note: WTF/WT combat context.
+
