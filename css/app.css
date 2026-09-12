@@ -4206,6 +4206,26 @@ body.is-home .home-section--featured .cover-card__media img[src*="rickson-zulu"]
   object-position: 50% 40%;
 }
 
+body.is-home .home-section--featured .cover-card__media img[src*="sambo-european"] {
+  object-position: 50% 42%;
+}
+
+body.is-home .home-section--featured .cover-card__media img[src*="kyokushin-match"] {
+  object-position: 50% 28%;
+}
+
+body.is-home .home-section--featured .cover-card__media img[src*="wrestling-1904"] {
+  object-position: 50% 40%;
+}
+
+body.is-home .home-section--featured .cover-card__media img[src*="burns-and-gotch"] {
+  object-position: 50% 32%;
+}
+
+body.is-home .home-section--featured .cover-card__media img[src*="kano-mifune"] {
+  object-position: center 55%;
+}
+
 @media (max-width: 799px) {
   body.is-home .home-section--featured .cover-grid--featured .carousel__track {
     grid-template-columns: 1fr;
