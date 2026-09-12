@@ -16,7 +16,7 @@
   width: 100%;
   transform: scaleX(0);
   transform-origin: 0 50%;
-  background: var(--accent, #1E4A8C);
+  background: var(--accent, #250438);
   will-change: transform;
 }
 

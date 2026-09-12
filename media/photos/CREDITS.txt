@@ -101,11 +101,12 @@ File: de-la-riva-guard.jpg
   Note: True De La Riva (outside hook on lead leg + ankle grip). Aesopian File:De_la_Riva_guard.jpg remains only 450×338 on Commons.
 
 File: rnc-grappling.jpg
-  Commons: File:US Army combatives-rear naked choke.jpg
-  License: CC BY 2.0
-  Attribution: Expert Infantry (Flickr) / U.S. Air Force photo by Senior Airman Jonathan Steffen
-  URL: https://commons.wikimedia.org/wiki/File:US_Army_combatives-rear_naked_choke.jpg
-  Note: Replaces undersized MartialArtsNomad RNC (1156×768).
+  Commons: File:MCMAP_-_rear_naked_choke_-_091121-M-0000A-139.jpg
+  License: Public domain (US government work)
+  Attribution: U.S. Marine Corps (MCMAP demonstration)
+  Notes: NOT LOCKED. Tobias rejected: free hand is on the opponent’s head; it must go behind the attacker’s own head / over their own shoulder. Waiting on stand-in vs new photo vs more hunting.
+  URL: https://commons.wikimedia.org/wiki/File:MCMAP_-_rear_naked_choke_-_091121-M-0000A-139.jpg
+
 
 File: bjj-half-guard.jpg
   Commons: File:BJJ-half_guard.jpg
@@ -680,12 +681,8 @@ File: johnson-jeffries-1911.jpg
   Attribution: Agence Rol
 
 File: rnc-grappling.jpg
-  SUBSTITUTION: MartialArtsNomad Submission Grappling - rear naked choke.jpg is only 1156×768.
-  Replaced with ≥1600 RNC plate:
-  Commons: File:US Army combatives-rear naked choke.jpg
-  License: CC BY 2.0
-  Attribution: Expert Infantry (Flickr) / U.S. Air Force combatives training
-  URL: https://commons.wikimedia.org/wiki/File:US_Army_combatives-rear_naked_choke.jpg
+  SUPERSEDED 2026-09-12 — Army combatives plate had wrong mechanics.
+  Current plate: see entry above (MCMAP figure-four, PD USMC).
 
 File: bjj-closed-guard-2010.jpg
   SUBSTITUTION: MartialArtsNomad Brazilian_Jiu-jitsu-Closed_guard.jpg is only 1156×768.
@@ -709,7 +706,7 @@ File: bjj-half-guard.jpg
   License: CC BY-SA 2.0
   Attribution: parhessiastes
 
-Banned plates untouched: vella-barral, marciano-walcott, uchi-mata, cyborg-abreu.
+Homepage-banned for drama (do not use on index): vella-barral, marciano-walcott, uchi-mata, cyborg-abreu. (vella-barral re-treated 2026-09-11 for terms/triangle-choke.html only.)
 
 --- CONTENT FIX 2026-09-11 (sport-correct plates) ---
 Priority content correction after archival size pass installed wrong techniques
@@ -737,8 +734,86 @@ File: lepri-gregor-gracie-2009.jpg
   (Lamonica Lepri/Gregor remains 1280 max on Commons.)
 
 File: rnc-grappling.jpg
-  ACTUAL ON DISK: File:US Army combatives-rear naked choke.jpg — CC BY 2.0 — Expert Infantry
-  / Senior Airman Jonathan Steffen (4096×2742 → live 2400×1607).
+  SUPERSEDED 2026-09-12 — see MCMAP figure-four entry (File:MCMAP_-_rear_naked_choke_-_091121-M-0000A-139.jpg).
 
 Untreated masters in media/photos/_pre-sepia/ for all of the above.
-Banned untouched: vella-barral, marciano-walcott, uchi-mata, cyborg-abreu.
+Homepage-banned for drama: vella-barral (term-page use OK), marciano-walcott, uchi-mata, cyborg-abreu.
+
+==== FIT-AUDIT 2026-09-11 (ET) — new/replaced web-sepia plates ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+
+File: vella-barral-triangle-2009.jpg
+  Commons: File:GABRIEL VELLA vs ROMINHO 51.jpg
+  License: CC BY-SA 3.0 — © John Lamonica
+  Note: Re-treated from raw (was soft-weber color on live). Homepage banned for drama; term page requires true triangle.
+
+File: estima-ceconi-back-take-2010.jpg
+  Commons: File:Braulio Estima vs Alexandre Ceconi.jpg
+  License: CC BY 3.0 — Elijah Fayerman
+  Note: Re-treated from raw (was soft-weber color). Live 900×598 (source max).
+
+File: kimura-from-guard.jpg
+  Commons: File:Brazilian Jiu-jitsu Kimura lock from guard.jpg
+  License: Public domain (U.S. Army) — PFC Linsey Williams
+  URL: https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-jitsu_Kimura_lock_from_guard.jpg
+
+File: savate-salle-legrand.jpg
+  Commons: File:Démonstration de coups de boxe (salle Legrand) - btv1b9019606x.jpg
+  License: Public domain — Agence Meurisse
+  Note: Re-treated web sepia from candidates raw.
+
+File: sumo-hitachiyama-1905.jpg
+  Commons: File:Sumo-wresters-Yokozuna-Hitachiyama-Taniemon-1905.jpg
+  License: Public domain — Burr McIntosh
+  Note: Re-treated web sepia from candidates raw.
+
+File: sumo-wrestlers.jpg
+  Commons: File:Sumo wrestlers.jpg
+  License: CC BY-SA 4.0 — Nao1213
+  Note: Re-treated; backup sumo plate (hero uses Hitachiyama).
+
+File: side-choke-mcmap.jpg
+  Commons: File:A Marine performs a side choke (4809339639).jpg
+  License: Public domain (U.S. Marine Corps)
+  Attribution: Marines (Flickr)
+  Note: Head-and-arm / kata-gatame family. Used for arm-triangle and as honest related placeholder for guillotine/darce/anaconda (no true named ≥1200 Commons plate found).
+
+File: ude-garami-judo.jpg
+  Commons: File:Udegarami.JPG
+  License: Public domain
+  Note: Judo ude-garami (katame-no-kata). Closest honest Americana/keylock family plate ≥1200.
+
+File: aikido-demonstration.jpg
+  Commons: File:2013-05-25 51st All Japan Aikido Demonstration.jpg
+  License: CC BY 2.0
+
+File: hapkido-dojang.jpg
+  Commons: File:Hapkido Banjarnegara.jpg
+  License: CC BY 4.0
+  Note: School group photo (action plate scarce ≥1200).
+
+File: wing-chun-forms.jpg
+  Commons: File:Moy Tung playing forms at the Ving Tsun Athletic Association in Hong Kong.jpg
+  License: CC BY-SA 4.0
+
+File: kyokushin-match.jpg
+  Commons: File:Kyokushin karate match.jpg
+  License: CC BY-SA 3.0 gr
+
+File: krav-maga-demo.jpg
+  Commons: File:Demo Krav Maga 1.jpg
+  License: CC BY-SA 3.0
+
+File: lethwei-thein-phyu.jpg
+  Commons: File:Lethwei fights in Thein phyu stadium.jpg
+  License: CC BY-SA 4.0
+
+File: sambo-european-games.jpg
+  Commons: File:Sambo at the 2015 European Games.jpg
+  License: CC BY 4.0
+
+GAPS (documented in FIT-AUDIT-FIXES.md):
+- True Guillotine / D'Arce / Anaconda Commons plates ≥1200 not found (named Guillotine choke.jpg is 375×247; MCMAP file titled guillotine appears to show armlock, not used).
+- True Americana named plate ≥1200 not found (using judo ude-garami).
+- Commons File:Arm triangle choke.jpg (1200×795) appears to show a leg triangle — not used for arm-triangle.
+- Jeet Kune Do: no strong action PD/CC ≥1200 (gloves/portraits only); OG left as home.svg.

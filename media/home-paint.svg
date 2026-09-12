@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" preserveAspectRatio="xMidYMid slice">
   <defs>
     <filter id="watercolor" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="90"/>
+      <feGaussianBlur stdDeviation="72"/>
     </filter>
-    <linearGradient id="whiteFade" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
-      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    <linearGradient id="paperFade" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F3F0E8" stop-opacity="0.05"/>
+      <stop offset="42%" stop-color="#F3F0E8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F3F0E8" stop-opacity="0.92"/>
     </linearGradient>
   </defs>
-  <rect width="1400" height="900" fill="#ffffff"/>
+  <rect width="1400" height="900" fill="#F3F0E8"/>
   <g filter="url(#watercolor)">
-    <ellipse cx="320" cy="860" rx="520" ry="280" fill="#8a1218" opacity="0.22"/>
-    <ellipse cx="1080" cy="900" rx="460" ry="260" fill="#1a1a1a" opacity="0.16"/>
-    <ellipse cx="700" cy="920" rx="640" ry="220" fill="#5c0d12" opacity="0.12"/>
-    <ellipse cx="180" cy="780" rx="280" ry="180" fill="#c41e2a" opacity="0.10"/>
-    <ellipse cx="1240" cy="800" rx="260" ry="160" fill="#0d0d0d" opacity="0.10"/>
+    <ellipse cx="260" cy="880" rx="580" ry="320" fill="#E8A032" opacity="0.55"/>
+    <ellipse cx="720" cy="940" rx="700" ry="260" fill="#F0C46A" opacity="0.5"/>
+    <ellipse cx="1180" cy="900" rx="520" ry="300" fill="#D4782A" opacity="0.38"/>
+    <ellipse cx="160" cy="780" rx="280" ry="180" fill="#F2B84A" opacity="0.35"/>
+    <ellipse cx="980" cy="820" rx="260" ry="160" fill="#C45A28" opacity="0.18"/>
   </g>
-  <rect width="1400" height="900" fill="url(#whiteFade)"/>
+  <rect width="1400" height="900" fill="url(#paperFade)"/>
 </svg>
