@@ -2810,11 +2810,6 @@ body.is-home .cover-card__media--photo::after {
   margin-bottom: 0.85rem;
 }
 
-.home-hero__and {
-  display: block;
-  margin-top: 0.12em;
-  font-weight: 650;
-}
 
 .home-hero--compact .mission {
   max-width: 40rem;
