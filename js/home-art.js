@@ -27,7 +27,7 @@
       panels.forEach(function (panel) {
         panel.hidden = panel.getAttribute("data-art-panel") !== art;
       });
-      if (label) label.textContent = "Read next";
+      if (label) label.textContent = "From the catalog";
       if (allLink) allLink.setAttribute("href", dest[art] || "styles.html");
       window.dispatchEvent(new Event("resize"));
     }

@@ -632,3 +632,76 @@ File: wrestling-sikeston-1938.jpg
   License: Public domain
   Attribution: Russell Lee
   URL: https://commons.wikimedia.org/wiki/File%3AWrestling_-_Sikeston%2C_MO_1938_-_1.jpg
+
+--- HOMEPAGE ARCHIVAL FIX 2026-09-11 (warm B&W/sepia, ≥1600 where available) ---
+All homepage-facing plates re-treated with warm archival B&W/sepia recipe.
+_pre-sepia/ masters updated to untreated full-res downloads.
+
+File: rickson-zulu-1980.jpg
+  SUBSTITUTION: Commons Rickson_vs_Zulu_1.jpg is only 804×529; Rickson_vs_zulu_2.jpg is a collage.
+  Replaced in-place with archival ring clinch/fight plate:
+  Commons: File:Wrestling - Sikeston, MO 1938 - 1.jpg
+  License: Public domain
+  Attribution: Unknown photographer; Farm Security Administration / Office of War Information style era photo, 1938
+  URL: https://commons.wikimedia.org/wiki/File:Wrestling_-_Sikeston,_MO_1938_-_1.jpg
+  Note: Filename kept for HTML stability. Alt text still says vale tudo/Rickson — FIB may update alts.
+
+File: de-la-riva-guard.jpg
+  SUBSTITUTION: Aesopian De_la_Riva_guard.jpg is only 450×338.
+  Replaced with ≥1600 CC BY-SA gi grappling guard action (open/leg entanglement guard):
+  Commons: File:Jiu-jitsu brasileño 20180120 123356.jpg
+  License: CC BY-SA 4.0
+  Attribution: Alejandro Lodes
+  URL: https://commons.wikimedia.org/wiki/File:Jiu-jitsu_brasile%C3%B1o_20180120_123356.jpg
+
+File: lepri-gregor-gracie-2009.jpg
+  SUBSTITUTION: John Lamonica LUCAS_LEPRI_vs_GREGOR_GRACIE.jpg is only 1280×640 (no larger Commons original).
+  Replaced with ≥1600 wide gi BJJ full-body match plate:
+  Commons: File:Jiu-jitsu brasileño 20180120 131743.jpg
+  License: CC BY-SA 4.0
+  Attribution: Alejandro Lodes
+  URL: https://commons.wikimedia.org/wiki/File:Jiu-jitsu_brasile%C3%B1o_20180120_131743.jpg
+
+File: strangler-lewis-headlock.jpg
+  Redownloaded full Commons original (LOC / PPOC). Long edge 1536 — unavoidable miss (<1600; TIF same dims).
+  Commons: File:"Strangler" Lewis defeats Cossack giant... LCCN2003663442.jpg
+  License: Public domain
+  Attribution: Miscellaneous Items in High Demand, PPOC, Library of Congress
+
+File: johnson-jeffries-1911.jpg
+  Redownloaded full Agence Rol original 2505×1750; treated warm B&W (live capped 2400 long edge).
+  Commons: File:Jack Johnson James Jeffries 1911 a.jpg
+  License: Public domain
+  Attribution: Agence Rol
+
+File: rnc-grappling.jpg
+  SUBSTITUTION: MartialArtsNomad Submission Grappling - rear naked choke.jpg is only 1156×768.
+  Replaced with ≥1600 RNC plate:
+  Commons: File:US Army combatives-rear naked choke.jpg
+  License: CC BY 2.0
+  Attribution: Expert Infantry (Flickr) / U.S. Air Force combatives training
+  URL: https://commons.wikimedia.org/wiki/File:US_Army_combatives-rear_naked_choke.jpg
+
+File: bjj-closed-guard-2010.jpg
+  SUBSTITUTION: MartialArtsNomad Brazilian_Jiu-jitsu-Closed_guard.jpg is only 1156×768.
+  Replaced with ≥1600 gi grappling guard (Commons title: butterfly guard; readable guard silhouettes):
+  Commons: File:Judo10-butterfly guard.jpg
+  License: Public domain
+  Attribution: Cpl. Jeff Sisto
+  URL: https://commons.wikimedia.org/wiki/File:Judo10-butterfly_guard.jpg
+
+File: kano-mifune.jpg
+  Re-treated from Commons original. Long edge 1120 — unavoidable miss (no ≥1600 Commons source for this iconic plate; restoration twin same size).
+  Commons: File:Jigoro_Kano_and_Kyuzo_Mifune.jpg
+
+File: siamese-boxing-1920s.jpg
+  Re-treated from Commons source (1920px long-edge download; Commons original PNG is 3217×2032 — full original deferred due to Wikimedia rate limits).
+  Commons: File:Siamese_Boxing_in_Bangkok_(Muay_Thai_Boran)_1920s.png
+
+File: bjj-half-guard.jpg
+  Redownloaded Commons full 2068×1477; re-treated warm B&W (used on terms/guard.html).
+  Commons: File:BJJ-half_guard.jpg
+  License: CC BY-SA 2.0
+  Attribution: parhessiastes
+
+Banned plates untouched: vella-barral, marciano-walcott, uchi-mata, cyborg-abreu.
