@@ -1422,6 +1422,16 @@ li {
   margin-top: 0.35rem;
 }
 
+/* Catalog stubs sometimes ship an empty <ul> — don't leave a blank card. */
+.related:has(ul:empty) {
+  display: none;
+}
+
+.article-layout:has(.related ul:empty) .toc li:has(> a[href="#related"]),
+.article-layout:has(.related ul:empty) .toc-mobile li:has(> a[href="#related"]) {
+  display: none;
+}
+
 .faq-intro {
   max-width: var(--measure);
   color: var(--mute);
