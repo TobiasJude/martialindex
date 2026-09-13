@@ -1087,3 +1087,624 @@ File: okinawa-daeho-mount-gnp.jpg
   Attribution: Lance Cpl. Maksim Masloboev / U.S. Marine Corps
   URL: https://commons.wikimedia.org/wiki/File:MCCS_Okinawa_hosts_MMA_Fight_Night_-_2024_(8804341).jpg
   Note: Mount / ground-and-pound from top.
+
+==== BOXING BATCH 1 + WAVE 2 — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/boxing-plates/ + prior WAVE 2 install reports (Commons PD/CC BY/CC BY-SA; no AI).
+
+File: rear-hook.jpg
+  Commons: File:Army Capt. Boyd Melson throws a right hook against H. Rawshan of Uzbekistan during the Military World Games Boxing competition.JPG
+  License: Public domain (U.S. Air Force)
+  Attribution: Tech. Sgt. Cecilio Ricardo Jr. / U.S. Air Force
+  URL: https://commons.wikimedia.org/wiki/File:Army_Capt._Boyd_Melson_throws_a_right_hook_against_H._Rawshan_of_Uzbekistan_during_the_Military_World_Games_Boxing_competition.JPG
+  Note: Rear/right hook, Military World Games Hyderabad 2007.
+
+File: boxing-range-chase.jpg
+  Commons: File:Boxing (5517754538).jpg
+  License: CC BY 2.0
+  Attribution: Sandy Chase
+  URL: https://commons.wikimedia.org/wiki/File:Boxing_(5517754538).jpg
+  Note: Charity sparring exchange; range/distance plate.
+
+File: boxing-range-mwg.jpg
+  Commons: File:Boxing, Military World Games, Hyderabad, India.jpg
+  License: Public domain (U.S. Navy)
+  Attribution: Mass Communication Specialist 2nd Class Jennifer A. Villalovos
+  URL: https://commons.wikimedia.org/wiki/File:Boxing,_Military_World_Games,_Hyderabad,_India.jpg
+  Note: Military World Games ring action; range/counterpunch plate.
+
+File: boxing-range-spd.jpg
+  Commons: File:2023 Saint Patrick's Day Boxing Invitational (7693786).jpg
+  License: Public domain (U.S. Army)
+  Attribution: Spc. Donovon Lynch / U.S. Army
+  URL: https://commons.wikimedia.org/wiki/File:2023_Saint_Patrick's_Day_Boxing_Invitational_(7693786).jpg
+  Note: Vilseck invitational bout; boxing-range plate.
+
+File: orthodox-stance-spd.jpg
+  Commons: File:2023 Saint Patrick's Day Boxing Invitational (7693787).jpg
+  License: Public domain (U.S. Army)
+  Attribution: Spc. Donovon Lynch / U.S. Army
+  URL: https://commons.wikimedia.org/wiki/File:2023_Saint_Patrick's_Day_Boxing_Invitational_(7693787).jpg
+  Note: Orthodox ready stance / high-guard context.
+
+File: lead-hook-delmas.jpg
+  Commons: File:Crochet5.jpg
+  License: CC BY-SA 2.5
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Crochet5.jpg
+  Note: Lead/hook demonstration (Delmas technique).
+
+File: hook-mitt-delmas.jpg
+  Commons: File:Lecon crochet.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Lecon_crochet.jpg
+  Note: Hook mitt / lesson crochet instructional.
+
+File: cross-delmas.jpg
+  Commons: File:Direct long1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Direct_long1.jpg
+  Note: Long-range straight/cross (direct long).
+
+File: slip-delmas.jpg
+  Commons: File:Slip2.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Slip2.jpg
+  Note: Slip defense demonstration.
+
+File: overhand-delmas.jpg
+  Commons: File:Drop7.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Drop7.jpg
+  Note: Overhand / overcut (coup descendant).
+
+File: shoulder-roll-delmas.jpg
+  Commons: File:Bloc épaule1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Bloc_%C3%A9paule1.jpg
+  Note: Shoulder block / roll (bloc épaule).
+
+File: pull-counter-delmas.jpg
+  Commons: File:Retrait2.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Retrait2.jpg
+  Note: Pull / retrait counter setup.
+
+File: pivot-delmas.jpg
+  Commons: File:Deborder1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Deborder1.jpg
+  Note: Pivot / débordement exit.
+
+File: orthodox-fitzsimmons.jpg
+  Commons: File:Physical culture and self-defense (1901) (14765891362).jpg
+  License: Public domain (1901)
+  Attribution: Robert Fitzsimmons / Internet Archive Book Images (Library of Congress)
+  URL: https://commons.wikimedia.org/wiki/File:Physical_culture_and_self-defense_(1901)_(14765891362).jpg
+  Note: Fitzsimmons “RIGHT POSITION IN BOXING” plate; orthodox stance.
+
+File: feint.jpg
+  Commons: File:Appat1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Appat1.jpg
+  Note: Feint / appât instructional (matched installed master to Appat1.jpg).
+
+File: parry.jpg
+  Commons: File:Devie2.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Devie2.jpg
+  Note: Parry / déviation (Devie2).
+
+File: guard-hand-position.jpg
+  Commons: File:Garde mixte1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Garde_mixte1.jpg
+  Note: Mixed guard / hand-position plate.
+
+File: guard-advanced.jpg
+  Commons: File:Garde avancée1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas
+  URL: https://commons.wikimedia.org/wiki/File:Garde_avanc%C3%A9e1.jpg
+  Note: Advanced / forward guard.
+
+File: block-and-counter.jpg
+  Commons: File:Parry (Boxing; a guide to the manly art of self defense pag77).jpg
+  License: Public domain (c. 1900)
+  Attribution: Boxing; a guide to the manly art of self defense (American Sports Publishing)
+  URL: https://commons.wikimedia.org/wiki/File:Parry_(Boxing%3B_a_guide_to_the_manly_art_of_self_defense_pag77).jpg
+  Note: Historic parry/block-and-counter instructional plate.
+
+==== JUDO FIRST BATCH — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/judo-plates/ (Commons PD/CC0/CC BY/CC BY-SA; no AI). Prefer existing raws; no re-download.
+Note: Kinjo (hadaka-jime / shinya-kinjo-hadaka-jime.jpg) SKIPPED — not installed.
+
+File: seattle-budokan-seoi-nage.jpg
+  Commons: File:Seattle - Budokan Dojo judo demo 01.jpg
+  License: CC BY-SA 3.0
+  Attribution: Joe Mabel
+  URL: https://commons.wikimedia.org/wiki/File:Seattle_-_Budokan_Dojo_judo_demo_01.jpg
+  Note: Seoi-nage entry / shoulder throw loading, Budokan demo.
+
+File: drop-ippon-seoi-nage-practice.jpg
+  Commons: File:Ippon Seoi Nage .jpg
+  License: CC BY-SA 4.0
+  Attribution: Reescl5
+  URL: https://commons.wikimedia.org/wiki/File:Ippon_Seoi_Nage_.jpg
+  Note: Drop/knee ippon-seoi-nage practice.
+
+File: kim-jaebum-london-2012.jpg
+  Commons: File:KOCIS Korea Judo Kim Jaebum London 36 (7696361164).jpg
+  License: CC BY-SA 2.0
+  Attribution: Korea.net / Korean Culture and Information Service (Korean Olympic Committee)
+  URL: https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Judo_Kim_Jaebum_London_36_(7696361164).jpg
+  Note: Uchi-mata content; filename renamed (banned uchi-mata* stems avoided). London 2012.
+
+File: lapaz-kesa-gatame-scarf-hold.jpg
+  Commons: File:Judocas practicando técnicas de control latero costal (Kuzure Kesa Gatame) durante un entrenamiento de judo ,La Paz -Bolivia.jpg
+  License: CC BY-SA 4.0
+  Attribution: Norkiña
+  URL: https://commons.wikimedia.org/wiki/File:Judocas_practicando_t%C3%A9cnicas_de_control_latero_costal_(Kuzure_Kesa_Gatame)_durante_un_entrenamiento_de_judo_,La_Paz_-Bolivia.jpg
+  Note: Scarf-hold / kesa-gatame pin, La Paz dojo.
+
+File: eijc-kata-juji-gatame.jpg
+  Commons: File:EIJC 2025 Kata - 54381747277.jpg
+  License: Public domain
+  Attribution: Edmonton International Judo Championship
+  URL: https://commons.wikimedia.org/wiki/File:EIJC_2025_Kata_-_54381747277.jpg
+  Note: Kata juji-gatame (cross armlock).
+
+File: mae-ukemi-forward-breakfall.jpg
+  Commons: File:Mae ukemi.jpg
+  License: CC BY-SA 3.0
+  Attribution: Hoosic06
+  URL: https://commons.wikimedia.org/wiki/File:Mae_ukemi.jpg
+  Note: Mae ukemi forward breakfall / roll.
+
+File: judogi-azul-blue-uniform.jpg
+  Commons: File:Judogi Azul.jpg
+  License: CC BY-SA 3.0
+  Attribution: Luishernando
+  URL: https://commons.wikimedia.org/wiki/File:Judogi_Azul.jpg
+  Note: Blue competition judogi uniform plate.
+
+File: baku-2018-yoko-shiho-gatame.jpg
+  Commons: File:2018 World Judo Championships 51.jpg
+  License: CC BY 3.0 br
+  Attribution: Rodolfo Vilela / Rede do Esporte (rededoesporte.gov.br)
+  URL: https://commons.wikimedia.org/wiki/File:2018_World_Judo_Championships_51.jpg
+  Note: Yoko-shiho-gatame, Worlds Baku 2018.
+
+File: lapaz-osaekomi-waza-pin.jpg
+  Commons: File:Judocas practicando técnicas de control (Osaekomi Waza) durante un entrenamiento de judo ,La Paz -Bolivia.jpg
+  License: CC BY-SA 4.0
+  Attribution: Norkiña
+  URL: https://commons.wikimedia.org/wiki/File:Judocas_practicando_t%C3%A9cnicas_de_control_(Osaekomi_Waza)_durante_un_entrenamiento_de_judo_,La_Paz_-Bolivia.jpg
+  Note: Osaekomi-waza pinning category plate.
+
+File: tomoe-nage-sacrifice-throw.jpg
+  Commons: File:Tomoe-nage Judo throw.jpg
+  License: CC BY-SA 2.0
+  Attribution: Francesco Ianett
+  URL: https://commons.wikimedia.org/wiki/File:Tomoe-nage_Judo_throw.jpg
+  Note: Tomoe-nage sacrifice circle throw.
+
+File: nage-no-kata-harai-goshi.jpg
+  Commons: File:Haraigoshi.jpg
+  License: Public domain
+  Attribution: Gotcha2
+  URL: https://commons.wikimedia.org/wiki/File:Haraigoshi.jpg
+  Note: Nage-no-kata harai-goshi sweeping hip throw.
+
+==== TAEKWONDO GAP PASS 3 — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/taekwondo-plates/ (Commons PD/CC0/CC BY/CC BY-SA; no AI). Gap pass 3 installs.
+
+File: dwi-chagi.jpg
+  Commons: File:Dwi Chagi.jpg
+  License: CC BY-SA 4.0
+  Attribution: Adinda zeranica
+  URL: https://commons.wikimedia.org/wiki/File:Dwi_Chagi.jpg
+  Note: Labeled dwi-chagi (back kick) teaching photo.
+
+File: twio-dollyo-chagi.jpg
+  Commons: File:Twimyo dolmyo chagi.jpg
+  License: CC BY-SA 4.0
+  Attribution: Jeanfeller
+  URL: https://commons.wikimedia.org/wiki/File:Twimyo_dolmyo_chagi.jpg
+  Note: Jumping turning kick (twimyo dolmyo / twio-dollyo).
+
+File: twio-yeop-chagi.jpg
+  Commons: File:Shin color orig.jpg
+  License: Public domain
+  Attribution: Joachim Kleinhans
+  URL: https://commons.wikimedia.org/wiki/File:Shin_color_orig.jpg
+  Note: Jumping side kick plate installed as twio-yeop-chagi (Shin color orig).
+
+File: elbow-strike-tkd.jpg
+  Commons: File:1st Signal Brigade soldiers take a Taekwondo yellow belt promotion test (9475674).jpg
+  License: Public domain (U.S. Army)
+  Attribution: U.S. Army 1-SB by Pfc. Haegyeom Shin
+  URL: https://commons.wikimedia.org/wiki/File:1st_Signal_Brigade_soldiers_take_a_Taekwondo_yellow_belt_promotion_test_(9475674).jpg
+  Note: Elbow-strike context in TKD promotion test.
+
+File: punch-jirugi.jpg
+  Commons: File:USMC-02634.jpg
+  License: Public domain (U.S. Marine Corps)
+  Attribution: Lance Cpl. Frederick J. Coleman
+  URL: https://commons.wikimedia.org/wiki/File:USMC-02634.jpg
+  Note: Punch / jirugi striking plate.
+
+File: body-kick-tkd.jpg
+  Commons: File:2014 French Open Taekwondo - Maksat Allalyev vs Dylan Chelamootoo 02.jpg
+  License: CC BY-SA 4.0
+  Attribution: Pierre-Yves Beaudouin
+  URL: https://commons.wikimedia.org/wiki/File:2014_French_Open_Taekwondo_-_Maksat_Allalyev_vs_Dylan_Chelamootoo_02.jpg
+  Note: WT kyorugi trunk/body-kick exchange.
+
+==== TAEKWONDO GENERATED GAP FILLS — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source: Index Images / Taekwondo Images Index — GENERATED (not Wikimedia). Same grain recipe applied for consistency even if source already sepia.
+
+File: twio-ap-chagi.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Jumping front kick (twio-ap-chagi); warm archival B&W/sepia. Not Wikimedia.
+
+File: ap-seogi.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Walking/ready stance (ap-seogi); warm archival B&W/sepia. Not Wikimedia.
+
+File: ap-kubi.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Deep front stance (ap-kubi); warm archival B&W/sepia. Not Wikimedia.
+
+File: juchum-seogi.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Horse/sitting stance (juchum-seogi); warm archival B&W/sepia. Not Wikimedia.
+
+File: arae-makki.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Low block (arae-makki); warm archival B&W/sepia. Not Wikimedia.
+
+File: olgul-makki.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: High rising block (olgul-makki); warm archival B&W/sepia. Not Wikimedia.
+
+File: electronic-scoring.jpg
+  Source: GENERATED (Index Images / Taekwondo Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Taekwondo Images Index
+  Note: Electronic scoring / PSS context (hogu + foot socks); warm archival B&W/sepia. Not Wikimedia.
+====
+
+
+==== WRESTLING SPRAWL — homepage featured (2026-09-12 ET) ====
+wrestling-sprawl.jpg
+  Commons: File:DF-SD-01-07096.jpg
+  https://commons.wikimedia.org/wiki/File:DF-SD-01-07096.jpg
+  License: Public domain (USAF)
+  Attribution: Staff Sergeant Jeremy T. Lock, USAF
+  World Military Wrestling Championship 2000 — freestyle sprawl (CHN stuffing USA single-leg)
+  Live: warm archival B&W/sepia ≈1200×840 q78. Master in _pre-sepia/.
+  Homepage Sprawl featured (replaced burns-and-gotch / temporary buckley-mercado).
+
+
+==== TAEKWONDO DWI-KUBI GENERATED — 2026-09-12 (ET) ====
+dwi-kubi.jpg
+  GENERATED — warm archival B&W/sepia — Index Images / Taekwondo Images Index
+  Rear-weighted back stance (front heel light). Not Wikimedia.
+  Live ≈1200 long edge q78; master in _pre-sepia/.
+
+==== KARATE BATCH 2 KATA ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/karate-plates/ (Commons primaries + Index-generated fillers). Prefer raws; no re-download.
+Do not overwrite cover heroes: kata.jpg, kyokushin-match.jpg (untouched).
+
+--- COMMONS (installed) ---
+
+File: heian-nidan.jpg
+  Source: COMMONS
+  Commons: File:Heian Nidan - 1.png
+  License: Public domain
+  Attribution: Gichin Funakoshi
+  URL: https://commons.wikimedia.org/wiki/File:Heian_Nidan_-_1.png
+  Note: Funakoshi Heian Nidan first movement; archival full-figure. Funakoshi series variety OK as alts only (not installed).
+
+File: tekki-shodan.jpg
+  Source: COMMONS
+  Commons: File:Motobu Choki2.jpg
+  License: Public domain
+  Attribution: Motobu Choki / PD-Japan-oldphoto
+  URL: https://commons.wikimedia.org/wiki/File:Motobu_Choki2.jpg
+  Note: Naifanchi/Naihanchi by Motobu — Tekki Shodan ancestor (kiba line). Not dual-mapped to nidan/sandan.
+
+File: empi-kata.jpg
+  Source: COMMONS
+  Commons: File:Kata Enpi.jpg
+  License: CC BY-SA 4.0
+  Attribution: Self-published (Commons)
+  URL: https://commons.wikimedia.org/wiki/File:Kata_Enpi.jpg
+  Note: Empi/Enpi tuck-jump at Funakoshi Cup — swallow-flight signature.
+
+File: kanku-dai.jpg
+  Source: COMMONS
+  Commons: File:Funakoshi Gichin2.jpg
+  License: Public domain
+  Attribution: Gichin Funakoshi / PD-Japan-oldphoto
+  URL: https://commons.wikimedia.org/wiki/File:Funakoshi_Gichin2.jpg
+  Note: Kanku by Funakoshi — hands-overhead sky-viewing opening. Dedicated plate (kyokushin-match.jpg atmosphere left as prior reuse, not overwritten).
+
+File: jion.jpg
+  Source: COMMONS
+  Commons: File:Metin-Sofuoglu-Jion.jpg
+  License: CC BY-SA 4.0
+  Attribution: Metin Sofuoğlu (Commons)
+  URL: https://commons.wikimedia.org/wiki/File:Metin-Sofuoglu-Jion.jpg
+  Note: Titled Jion performance; deep kiba + yoko-zuki moment within Jion. Do NOT dual-map as Tekki.
+
+File: nijushiho.jpg
+  Source: COMMONS
+  Commons: File:Asai Sensei Nijushiho.jpg
+  License: CC BY-SA 3.0
+  Attribution: Keisersansbamby
+  URL: https://commons.wikimedia.org/wiki/File:Asai_Sensei_Nijushiho.jpg
+  Note: Asai Sensei named Nijushiho; kokutsu + shuto signature.
+
+--- GENERATED (installed) ---
+
+File: heian-sandan.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Mid block / hikite Heian Sandan filler. Not Wikimedia.
+
+File: heian-godan.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Jump + juji-uke Heian Godan filler. Not Wikimedia.
+
+File: tekki-nidan.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Deep kiba Tekki Nidan distinct from Motobu shodan. Not Wikimedia.
+
+File: tekki-sandan.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Strong labeled Tekki Sandan kiba plate. Not Wikimedia.
+
+File: jiin.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Temple-group / Jion-family mid block. Not Wikimedia.
+
+File: jitte.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Named Jitte; staff/ten-hand feel. Not Wikimedia.
+
+File: gankaku.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Excellent crane stance (tsuru-ashi-dachi); labeled Gankaku/Chinto. Not Wikimedia.
+
+File: sochin.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Excellent sochin-dachi + punch. Not Wikimedia.
+
+File: gojushiho-dai.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Advanced kokutsu+shuto Gojushiho Dai filler. Not Wikimedia.
+
+--- GENERATED HOLDS (not installed) ---
+heian-yondan — WEAK sky-hands / Kanku-clone on quick look; HOLD pending regen.
+bassai-dai — SOFT yama-zuki (fists-together prep); HOLD.
+hangetsu — SOFT stance (reads kiba more than hangetsu-dachi hourglass); HOLD.
+
+Cover heroes left untouched:
+- kata.jpg (Catherine Bernard cover)
+- kyokushin-match.jpg (atmosphere / prior heian-shodan reuse)
+
+
+==== TAEKWONDO NARAE-CHAGI GENERATED — 2026-09-12 (ET) ====
+narae-chagi.jpg
+  GENERATED — warm archival B&W/sepia — Index Images / Taekwondo Images Index
+  Clean no-text diptych: L/R alternating mid-air front kicks.
+  Live Soft-sepia ≈1200 long edge q78; master in _pre-sepia/.
+
+
+==== KICKBOXING BATCH 1 ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/kickboxing-plates/ — Wikimedia Commons PD/CC keepers + 3 GENERATED gap fills.
+Installed 2026-09-12 (ET). No HTML / trybrst. Cover kickboxing.jpg was absent (new install).
+american-kickboxing.jpg also serves full-contact-kickboxing (one file OK).
+
+--- Wikimedia ---
+
+File: kickboxing.jpg
+  Commons: File:Ready punch (Unsplash).jpg
+  License: CC0 1.0 Universal Public Domain Dedication (Unsplash pre-2017-06-05)
+  Attribution: Hermes Rivera (Unsplash) / CC0 — credit welcome but not required
+  URL: https://commons.wikimedia.org/wiki/File:Ready_punch_(Unsplash).jpg
+  Note: Style cover / hero — warm cinematic sparring through ropes; high guard readable.
+
+File: kickboxing-stance.jpg
+  Commons: File:Kickboxer In Defensive Stance (254691195).jpeg
+  License: Creative Commons Attribution 3.0 Unported
+  Attribution: Mike Fighter / CC BY 3.0 (via 500px Archive Team import)
+  URL: https://commons.wikimedia.org/wiki/File:Kickboxer_In_Defensive_Stance_(254691195).jpeg
+  Note: Defensive stance / guard with TopTen gear.
+
+File: orthodox-kickboxing-stance.jpg
+  Commons: File:Fightnight2023.jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Mjkll12 / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:Fightnight2023.jpg
+  Note: Full-figure orthodox (left foot forward) + high guard.
+
+File: kickboxing-guard.jpg
+  Commons: File:Elsa Capell 07.jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Alain Delmas / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:Elsa_Capell_07.jpg
+  Note: High guard upper-body plate (Elsa Capell, WKA/ISKA).
+
+File: kickboxing-range.jpg
+  Commons: File:5. Islamic Solidarity Games 2021 Konya Men Kickboxing 20220816 2.jpg
+  License: Creative Commons Attribution 2.0 Generic
+  Attribution: Astro medya Org. Ltd. ŞTİ. / CC BY 2.0
+  URL: https://commons.wikimedia.org/wiki/File:5._Islamic_Solidarity_Games_2021_Konya_Men_Kickboxing_20220816_2.jpg
+  Note: High roundhouse at kicking range; clear distance geometry.
+
+File: dutch-kickboxing.jpg
+  Commons: File:Match tra Regilio van den Ent e Davide Armanini.jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Pierdante Romei / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:Match_tra_Regilio_van_den_Ent_e_Davide_Armanini.jpg
+  Note: Enfusion Roma 2019 — Dutch/Euro pro kickboxing action.
+
+File: american-kickboxing.jpg
+  Commons: File:Full contact kickboxing.jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Bovvladua (photo Helen Bulochko) / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:Full_contact_kickboxing.jpg
+  Note: WAKO full-contact (trousers + foot protectors). Also usable for full-contact-kickboxing (one file).
+
+File: k-1-rules.jpg
+  Commons: File:K1 style kickboxing.jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Bovvladua (photo Helen Bulochko) / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:K1_style_kickboxing.jpg
+  Note: K-1 Style bout — knee in clinch with shorts + shin guards.
+
+File: kickboxing-jab.jpg
+  Commons: File:WKA World Championship 2012 Munich 444.JPG
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Claus Michelfelder / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:WKA_World_Championship_2012_Munich_444.JPG
+  Note: Orthodox jab vs high guard, WKA Worlds 2012 Munich.
+
+--- GENERATED ---
+
+File: southpaw-kickboxing-stance.jpg
+  Source: GENERATED (Martial Index / Kickboxing Images Index)
+  License: Index Images generated plate
+  Attribution: Martial Index / Kickboxing Images Index
+  Note: Right-lead southpaw instructional stance. Not Wikimedia.
+
+File: kickboxing-footwork.jpg
+  Source: GENERATED (Martial Index / Kickboxing Images Index)
+  License: Index Images generated plate
+  Attribution: Martial Index / Kickboxing Images Index
+  Note: Mid-shuffle ring footwork plate. Not Wikimedia.
+
+File: japanese-kickboxing.jpg
+  Source: GENERATED (Martial Index / Kickboxing Images Index)
+  License: Index Images generated plate
+  Attribution: Martial Index / Kickboxing Images Index
+  Note: Japanese kickboxing mid-kick / shin-guard action. Not Wikimedia.
+====
+
+==== KARATE THIN-GAP ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/karate-plates/ raw/gap + raw/generated. Prefer raws; no re-download.
+Installed 2026-09-12 ~22:01 ET. No HTML / trybrst.
+Do not overwrite cover heroes: kata.jpg, kyokushin-match.jpg, kyokushin-karate-match.jpg, batch1 technique heroes (zenkutsu-dachi.jpg left as Batch1 dual-map).
+
+--- COMMONS (installed) ---
+
+File: embusen.jpg
+  Source: COMMONS
+  Commons: File:Embusen de Heian Shodan.png
+  License: CC BY-SA 4.0
+  Attribution: Gr0uch0mars
+  URL: https://commons.wikimedia.org/wiki/File:Embusen_de_Heian_Shodan.png
+  Note: Shotokan Heian Shodan floor-path diagram (I-line + diagonals + kiten). Diagram is correct media type for embusen. Transparent PNG flattened onto white before JPEG master.
+
+File: oi-zuki.jpg
+  Source: COMMONS
+  Commons: File:Oi Zuki.jpg
+  License: CC BY-SA 4.0
+  Attribution: Shihan Nagata
+  URL: https://commons.wikimedia.org/wiki/File:Oi_Zuki.jpg
+  Note: Labeled OI ZUKI three-panel instructional photo in white gi (chamber to full stepping-punch). Portuguese banner "soco frontal".
+
+File: gedan-barai.jpg
+  Source: COMMONS
+  Commons: File:Sokuto meets gedan barai.jpg
+  License: CC BY-SA 2.0
+  Attribution: Kai Schreiber
+  URL: https://commons.wikimedia.org/wiki/File:Sokuto_meets_gedan_barai.jpg
+  Note: Left karateka in zenkutsu with clear gedan-barai (downward sweep) as sokuto kick meets low block. Dual-map: same Commons file as Batch1 zenkutsu-dachi.jpg and thin-gap age-uke.jpg — separate slugs; zenkutsu-dachi.jpg NOT overwritten.
+
+File: age-uke.jpg
+  Source: COMMONS
+  Commons: File:Sokuto meets gedan barai.jpg
+  License: CC BY-SA 2.0
+  Attribution: Kai Schreiber
+  URL: https://commons.wikimedia.org/wiki/File:Sokuto_meets_gedan_barai.jpg
+  Note: Left karateka jodan age-uke (forearm above head) while holding gedan-barai. Upgrade over tiny Ageuke.jpg diagram. Same dual-use Commons file as gedan-barai / zenkutsu-dachi.
+
+File: mikazuki-geri.jpg
+  Source: COMMONS
+  Commons: File:Outside Crescent kick.jpg
+  License: CC BY-SA 3.0
+  Attribution: Alain Delmas (France)
+  URL: https://commons.wikimedia.org/wiki/File:Outside_Crescent_kick.jpg
+  Note: Outside crescent-kick instructional diagram with arc path — mikazuki/crescent geometry. NOT-GI (boxers/shorts artwork); technique-true arc. Variety vs Batch1 ura-mawashi-geri raw (not previously a live mikazuki slug).
+
+--- GENERATED (installed) ---
+
+File: ushiro-geri.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: Full-figure white-gi ushiro-geri (rear kick, look-over-shoulder). Preferred over Commons File:Kampfkunst 2011 030.JPG (kickboxing ring / not-gi). Not Wikimedia.
+
+File: soto-uke.jpg
+  Source: GENERATED
+  License: Index Images generated plate
+  Attribution: Index Images / Karate Images Index
+  Note: White-gi soto-uke (outside forearm block) filler. Commons Sotouke.jpg is tiny (161px) and titled Harai Uke — not honest soto-ude-uke photo. Not Wikimedia.
+
+--- HOLDS (not installed) ---
+ura-zuki — Commons File:Jud-ura-zuki.gif is a named diagram only; not photo-quality under raised bar. HOLD.
+uchi-uke — Commons File:Uchiuke.jpg is a tiny 350×204 four-step diagram; not photo-quality. HOLD. Optional alt uchi-uke-generated-alt.png not trusted as uchi.
+
+Cover / batch1 heroes left untouched:
+- kata.jpg (Catherine Bernard cover)
+- kyokushin-match.jpg / kyokushin-karate-match.jpg
+- zenkutsu-dachi.jpg (Batch1 Sokuto dual-map; new slugs gedan-barai.jpg + age-uke.jpg installed beside it)
