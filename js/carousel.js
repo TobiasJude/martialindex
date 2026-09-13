@@ -16,7 +16,7 @@
       nav.className = "carousel__nav";
       nav.innerHTML =
         '<button type="button" class="carousel__btn carousel__prev" aria-label="Previous slide">‹</button>' +
-        '<div class="carousel__dots" role="tablist" aria-label="Slides"></div>' +
+        '<div class="carousel__dots" role="group" aria-label="Slides"></div>' +
         '<button type="button" class="carousel__btn carousel__next" aria-label="Next slide">›</button>';
       root.appendChild(nav);
     }
