@@ -26,9 +26,9 @@
  <meta name="twitter:title" content="Martial Index — Catalog of combat">
  <meta name="twitter:description" content="A place to learn all things combat. Pick an art, then read the entries that matter.">
  <meta name="twitter:image" content="https://martialindex.com/og/home.jpg">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,650;1,6..72,400&display=swap" rel="stylesheet">
+ <link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+ <link rel="preload" as="image" href="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg" imagesrcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" imagesizes="(max-width: 720px) 100vw, 720px">
    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -122,7 +122,7 @@
         <p class="cover-card__meta">Positions and submissions — gi and no-gi.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" decoding="async">
+        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" srcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" fetchpriority="high" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/judo/">
@@ -132,7 +132,7 @@
         <p class="cover-card__meta">Throws, pins, and newaza.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/kano-mifune.jpg" alt="Kanō Jigorō and Kyuzo Mifune in a judo grip" width="867" height="1120" decoding="async">
+        <img src="/media/photos/kano-mifune.jpg" srcset="/media/photos/resp/kano-mifune-720.jpg 720w, /media/photos/kano-mifune.jpg 867w" sizes="(max-width: 720px) 100vw, 720px" alt="Kanō Jigorō and Kyuzo Mifune in a judo grip" width="867" height="1120" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/sambo/">
@@ -142,7 +142,7 @@
         <p class="cover-card__meta">Soviet jacket wrestling — throws and locks.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/sambo-european-games.jpg" alt="Sambo at the 2015 European Games" width="1200" height="1038" decoding="async">
+        <img src="/media/photos/sambo-european-games.jpg" srcset="/media/photos/resp/sambo-european-games-720.jpg 720w, /media/photos/sambo-european-games.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Sambo at the 2015 European Games" width="1200" height="1038" loading="lazy" decoding="async">
        </div>
       </a>
      </div>
@@ -157,7 +157,7 @@
         <p class="cover-card__meta">Takedowns, pins, the scramble.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/strangler-lewis-headlock.jpg" alt="Ed Strangler Lewis applying a headlock" width="1200" height="994" loading="lazy" decoding="async">
+        <img src="/media/photos/strangler-lewis-headlock.jpg" srcset="/media/photos/resp/strangler-lewis-headlock-720.jpg 720w, /media/photos/strangler-lewis-headlock.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Ed Strangler Lewis applying a headlock" width="1200" height="994" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/terms/takedown/">
@@ -167,7 +167,7 @@
         <p class="cover-card__meta">How the scramble starts — put them on the mat.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/wrestling-1904-olympics.jpg" alt="Olympic freestyle wrestling, 1904" width="1280" height="763" loading="lazy" decoding="async">
+        <img src="/media/photos/wrestling-1904-olympics.jpg" srcset="/media/photos/resp/wrestling-1904-olympics-720.jpg 720w, /media/photos/wrestling-1904-olympics.jpg 1280w" sizes="(max-width: 720px) 100vw, 720px" alt="Olympic freestyle wrestling, 1904" width="1280" height="763" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/terms/sprawl/">
@@ -177,7 +177,7 @@
         <p class="cover-card__meta">The first answer when a shot hits your hips.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/wrestling-sprawl.jpg" alt="Freestyle sprawl: hips down stuffing a single-leg shot" width="1200" height="840" loading="lazy" decoding="async">
+        <img src="/media/photos/wrestling-sprawl.jpg" srcset="/media/photos/resp/wrestling-sprawl-720.jpg 720w, /media/photos/wrestling-sprawl.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Freestyle sprawl: hips down stuffing a single-leg shot" width="1200" height="840" loading="lazy" decoding="async">
        </div>
       </a>
      </div>
@@ -192,7 +192,7 @@
         <p class="cover-card__meta">Fists, footwork, and ringcraft.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/johnson-jeffries-1911.jpg" alt="Jack Johnson vs James Jeffries, Fight of the Century, 1910/1911 outdoor ring" width="1200" height="839" loading="lazy" decoding="async">
+        <img src="/media/photos/johnson-jeffries-1911.jpg" srcset="/media/photos/resp/johnson-jeffries-1911-720.jpg 720w, /media/photos/johnson-jeffries-1911.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Jack Johnson vs James Jeffries, Fight of the Century, 1910/1911 outdoor ring" width="1200" height="839" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/muay-thai/">
@@ -202,7 +202,7 @@
         <p class="cover-card__meta">Punches, kicks, elbows, knees, clinch.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/siamese-boxing-1920s.jpg" alt="Muay Thai boran match, Bangkok, 1920s" width="1200" height="758" loading="lazy" decoding="async">
+        <img src="/media/photos/siamese-boxing-1920s.jpg" srcset="/media/photos/resp/siamese-boxing-1920s-720.jpg 720w, /media/photos/siamese-boxing-1920s.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Muay Thai boran match, Bangkok, 1920s" width="1200" height="758" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/karate/">
@@ -212,7 +212,7 @@
         <p class="cover-card__meta">Kata, kihon, and the knockout game.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/kata.jpg" alt="Karate kata: knife-hand finish, full figure on the mat" width="747" height="1200" loading="lazy" decoding="async">
+        <img src="/media/photos/kata.jpg" srcset="/media/photos/resp/kata-720.jpg 720w, /media/photos/kata.jpg 747w" sizes="(max-width: 720px) 100vw, 720px" alt="Karate kata: knife-hand finish, full figure on the mat" width="747" height="1200" loading="lazy" decoding="async">
        </div>
       </a>
      </div>
@@ -227,7 +227,7 @@
         <p class="cover-card__meta">The ruleset where the other arts meet.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/rickson-zulu-1980.jpg" alt="MMA in the cage: two fighters standing at Fight Night" width="1200" height="799" loading="lazy" decoding="async">
+        <img src="/media/photos/rickson-zulu-1980.jpg" srcset="/media/photos/resp/rickson-zulu-1980-720.jpg 720w, /media/photos/rickson-zulu-1980.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="MMA in the cage: two fighters standing at Fight Night" width="1200" height="799" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/wrestling/">
@@ -237,7 +237,7 @@
         <p class="cover-card__meta">The takedown half of a mixed fight.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/strangler-lewis-headlock.jpg" alt="Ed Strangler Lewis applying a headlock" width="1200" height="994" loading="lazy" decoding="async">
+        <img src="/media/photos/strangler-lewis-headlock.jpg" srcset="/media/photos/resp/strangler-lewis-headlock-720.jpg 720w, /media/photos/strangler-lewis-headlock.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Ed Strangler Lewis applying a headlock" width="1200" height="994" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/boxing/">
@@ -247,7 +247,7 @@
         <p class="cover-card__meta">The hands once the fight stays standing.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/johnson-jeffries-1911.jpg" alt="Jack Johnson vs James Jeffries, Fight of the Century, 1910/1911 outdoor ring" width="1200" height="839" loading="lazy" decoding="async">
+        <img src="/media/photos/johnson-jeffries-1911.jpg" srcset="/media/photos/resp/johnson-jeffries-1911-720.jpg 720w, /media/photos/johnson-jeffries-1911.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" alt="Jack Johnson vs James Jeffries, Fight of the Century, 1910/1911 outdoor ring" width="1200" height="839" loading="lazy" decoding="async">
        </div>
       </a>
      </div>
