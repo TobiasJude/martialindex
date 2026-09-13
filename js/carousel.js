@@ -22,6 +22,7 @@
     }
 
     var dotsWrap = nav.querySelector(".carousel__dots");
+    if (dotsWrap && dotsWrap.getAttribute("role") === "tablist") dotsWrap.setAttribute("role", "group");
     var prevBtn = nav.querySelector(".carousel__prev");
     var nextBtn = nav.querySelector(".carousel__next");
     var dots = [];
