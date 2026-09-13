@@ -906,3 +906,184 @@ File: wt-rules.jpg
   URL: https://commons.wikimedia.org/wiki/File:Combates_Taekwondo_WTF.jpg
   Note: WTF/WT combat context.
 
+
+==== KARATE BATCH 1 — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/karate-plates/ (Commons PD/CC0/CC BY/CC BY-SA; no AI). Prefer existing raws; no re-download.
+
+File: mae-geri.jpg
+  Commons: File:Horst Espeloer 2014-01-17 Mae-geri.jpg
+  License: CC0
+  Attribution: Reclus
+  URL: https://commons.wikimedia.org/wiki/File:Horst_Espeloer_2014-01-17_Mae-geri.jpg
+  Note: Clear mae-geri front kick in white karategi; pair training.
+
+File: mawashi-geri.jpg
+  Commons: File:Diogo Silva mawashi geri.jpg
+  License: CC BY-SA 4.0
+  Attribution: Ogata Gusha
+  URL: https://commons.wikimedia.org/wiki/File:Diogo_Silva_mawashi_geri.jpg
+  Note: Kyokushin kumite high mawashi-geri; hip rotation readable.
+
+File: yoko-geri.jpg
+  Commons: File:Yoko geri by Damien Dovy.jpg
+  License: CC BY-SA 4.0
+  Attribution: MDovy
+  URL: https://commons.wikimedia.org/wiki/File:Yoko_geri_by_Damien_Dovy.jpg
+  Note: Labeled yoko-geri side kick; lateral chamber-to-extension.
+
+File: kizami-zuki.jpg
+  Commons: File:Horst Espeloer 2014-01-17 Kizami zuki.jpg
+  License: CC0
+  Attribution: Reclus
+  URL: https://commons.wikimedia.org/wiki/File:Horst_Espeloer_2014-01-17_Kizami_zuki.jpg
+  Note: Named kizami-zuki lead-hand jab demonstration.
+
+File: kokutsu-dachi.jpg
+  Commons: File:Rafael Serrano - KokutsuDachi.jpg
+  License: CC BY-SA 4.0
+  Attribution: TxetxiTxerrano
+  URL: https://commons.wikimedia.org/wiki/File:Rafael_Serrano_-_KokutsuDachi.jpg
+  Note: Labeled kokutsu-dachi with shuto-uke hand shape.
+
+File: neko-ashi-dachi.jpg
+  Commons: File:Shojiro Jibiki and Eduardo Perez Anaya.jpg
+  License: CC0
+  Attribution: International Federation of KENSHOKAI Goju-ryu Karate-Do
+  URL: https://commons.wikimedia.org/wiki/File:Shojiro_Jibiki_and_Eduardo_Perez_Anaya.jpg
+  Note: Posed neko-ashi-dachi (cat stance); Goju-ryu context.
+
+File: shuto-uke.jpg
+  Commons: File:Shuto-uke en posición de defensa.jpg
+  License: CC BY-SA 4.0
+  Attribution: Ale RaFlo
+  URL: https://commons.wikimedia.org/wiki/File:Shuto-uke_en_posici%C3%B3n_de_defensa.jpg
+  Note: Knife-hand block silhouette; open-hand guard.
+
+File: kata.jpg
+  Commons: File:Catherine Bernard championnat karaté Europe 1996.jpg
+  License: CC0
+  Attribution: Bernard Catherine 1969
+  URL: https://commons.wikimedia.org/wiki/File:Catherine_Bernard_championnat_karat%C3%A9_Europe_1996.jpg
+  Note: European championships kata demonstration, 1996.
+
+File: kihon.jpg
+  Commons: File:Kihon kumite, precisión y conexión en la práctica.jpg
+  License: CC BY-SA 4.0
+  Attribution: Ale RaFlo
+  URL: https://commons.wikimedia.org/wiki/File:Kihon_kumite,_precisi%C3%B3n_y_conexi%C3%B3n_en_la_pr%C3%A1ctica.jpg
+  Note: Paired kihon-kumite drilling in gi.
+
+File: kamae.jpg
+  Commons: File:Karate, práctica de Kumite-no-Kamae (guardia de combate).jpg
+  License: CC BY-SA 4.0
+  Attribution: Norkiña
+  URL: https://commons.wikimedia.org/wiki/File:Karate,_pr%C3%A1ctica_de_Kumite-no-Kamae_(guardia_de_combate).jpg
+  Note: Explicit Kumite-no-Kamae fighting guard.
+
+File: hikite.jpg
+  Commons: File:Zenkutsu-dachi y tsuki - precisión en el ataque.jpg
+  License: CC BY-SA 4.0
+  Attribution: Ale RaFlo
+  URL: https://commons.wikimedia.org/wiki/File:Zenkutsu-dachi_y_tsuki_-_precisi%C3%B3n_en_el_ataque.jpg
+  Note: Primary hikite (pulling hand at hip); kiba-dachi base also readable. Installed as hikite.jpg.
+
+File: zenkutsu-dachi.jpg
+  Commons: File:Sokuto meets gedan barai.jpg
+  License: CC BY-SA 2.0
+  Attribution: Kai Schreiber
+  URL: https://commons.wikimedia.org/wiki/File:Sokuto_meets_gedan_barai.jpg
+  Note: Deep zenkutsu-dachi under rising block vs sokuto/yoko-geri.
+
+File: gyaku-zuki.jpg
+  Commons: File:Ben Salah Makram.jpg
+  License: CC BY-SA 4.0
+  Attribution: Maria Schmidt84
+  URL: https://commons.wikimedia.org/wiki/File:Ben_Salah_Makram.jpg
+  Note: WKF-style reverse punch line; QA punch line looks correct for gyaku-zuki.
+
+File: kime.jpg
+  Commons: File:Emmanuelle-Fumonde-en-démonstration.jpg
+  License: CC BY-SA 3.0
+  Attribution: Thierry Caro
+  URL: https://commons.wikimedia.org/wiki/File:Emmanuelle-Fumonde-en-d%C3%A9monstration.jpg
+  Note: Demonstration finish / kime intent in kata context.
+
+Archive-ring heroes left untouched (not replaced):
+- kyokushin-karate-match.jpg (kumite)
+- motobu-choki.jpg (karate-stance)
+- kyokushin-match.jpg (heian-shodan)
+
+==== MMA BATCH 1 — 2026-09-12 (ET) ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/mma-plates/ (Commons PD/CC0/CC BY/CC BY-SA; no AI). Prefer existing raws; no re-download.
+
+File: brian-stann-wec30-gnp.jpg
+  Commons: File:Brian Stann punches Jeremiah Billington during WEC 30.jpg
+  License: Public domain
+  Attribution: Staff Sgt. Leo A. Salinas / U.S. Marine Corps
+  URL: https://commons.wikimedia.org/wiki/File:Brian_Stann_punches_Jeremiah_Billington_during_WEC_30.jpg
+  Note: Ground and pound in cage; MMA style cover + ground-and-pound plate.
+
+File: combat-center-padilla-gnp.jpg
+  Commons: File:Mixed-martial arts fights heat up Combat Center 140620-M-ZM882-066.jpg
+  License: Public domain
+  Attribution: Lance Cpl. Paul S. Martinez / U.S. Marine Corps
+  URL: https://commons.wikimedia.org/wiki/File:Mixed-martial_arts_fights_heat_up_Combat_Center_140620-M-ZM882-066.jpg
+  Note: GnP / wrist-pin context at Combat Center.
+
+File: bsd-alvarez-cage-control.jpg
+  Commons: File:BSD-Alvarez cage control.jpg
+  License: CC0 1.0
+  Attribution: Gowdu59
+  URL: https://commons.wikimedia.org/wiki/File:BSD-Alvarez_cage_control.jpg
+  Note: Fence clinch / cage-control.
+
+File: bsd-en-cage-control.jpg
+  Commons: File:BSD en cage control.jpg
+  License: CC0 1.0
+  Attribution: Gowdu59
+  URL: https://commons.wikimedia.org/wiki/File:BSD_en_cage_control.jpg
+  Note: Cage-wrestling / fence control secondary.
+
+File: buckley-omalley-collar-tie.jpg
+  Commons: File:Buckley MMA Fight Night 130209-F-BD327-578.jpg
+  License: Public domain
+  Attribution: Airman 1st Class Riley Johnson / U.S. Air Force
+  URL: https://commons.wikimedia.org/wiki/File:Buckley_MMA_Fight_Night_130209-F-BD327-578.jpg
+  Note: Collar-tie / dirty-boxing clinch.
+
+File: buckley-mercado-sprawl.jpg
+  Commons: File:Buckley MMA fight night 130209-F-BD327-757.jpg
+  License: Public domain
+  Attribution: Airman 1st Class Riley Johnson / U.S. Air Force
+  URL: https://commons.wikimedia.org/wiki/File:Buckley_MMA_fight_night_130209-F-BD327-757.jpg
+  Note: Sprawl defense against shot.
+
+File: mosul-norwood-mat-return.jpg
+  Commons: File:MMA Fight Night held in Mosul DVIDS201934.jpg
+  License: Public domain
+  Attribution: U.S. Army / DVIDS (Fight Night for Heroes, Mosul)
+  URL: https://commons.wikimedia.org/wiki/File:MMA_Fight_Night_held_in_Mosul_DVIDS201934.jpg
+  Note: Mat-return / level-change.
+
+File: buckley-talley-leg-pick.jpg
+  Commons: File:Buckley MMA fight night (866243).jpg
+  License: Public domain
+  Attribution: Airman 1st Class Riley Johnson / U.S. Air Force
+  URL: https://commons.wikimedia.org/wiki/File:Buckley_MMA_fight_night_(866243).jpg
+  Note: Single-leg / level-change pick.
+
+File: ng-combatives-wrist-pin.jpg
+  Commons: File:Flickr - The U.S. Army - National Guard Combatives Tournament.jpg
+  License: Public domain
+  Attribution: Vince Little / U.S. Army
+  URL: https://commons.wikimedia.org/wiki/File:Flickr_-_The_U.S._Army_-_National_Guard_Combatives_Tournament.jpg
+  Note: Wrist-pin on ground.
+
+File: okinawa-daeho-mount-gnp.jpg
+  Commons: File:MCCS Okinawa hosts MMA Fight Night - 2024 (8804341).jpg
+  License: Public domain
+  Attribution: Lance Cpl. Maksim Masloboev / U.S. Marine Corps
+  URL: https://commons.wikimedia.org/wiki/File:MCCS_Okinawa_hosts_MMA_Fight_Night_-_2024_(8804341).jpg
+  Note: Mount / ground-and-pound from top.
