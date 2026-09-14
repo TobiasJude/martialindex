@@ -56,30 +56,35 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Martial Index — paper / purple (WCAG AA)
-   Page #F7F7F7 · Ink #0A0A0A · Mute #3D3D3D · Accent #250438 */
+/* Martial Index — achromatic paper; hue only as win/miss state
+   sRGB fallbacks → OKLCH when supported. Accent = ink (no brand purple). */
 
 :root {
-  /* WCAG AA: mute ≥4.5:1 on page; accent ≥4.5:1 on white for links */
-  --page: #F7F7F7;
-  --page-elevated: #FFFFFF;
-  --ink: #0A0A0A;
-  --mute: #3D3D3D;
-  --mute-soft: #555555;
-  --rule: rgba(10, 10, 10, 0.14);
-  --rule-strong: rgba(10, 10, 10, 0.28);
-  --accent: #250438;
-  --accent-soft: rgba(37, 4, 56, 0.12);
-  --on-accent: #FFFFFF;
-  --takeaway-bg: #EFE6F2;
-  --takeaway-border: #250438;
+  /* sRGB fallbacks */
+  --page: #F6F3EE;
+  --page-elevated: #FFFcf8;
+  --ink: #1A1612;
+  --mute: #5C574F;
+  --mute-soft: #6E6960;
+  --rule: rgba(26, 22, 18, 0.14);
+  --rule-strong: rgba(26, 22, 18, 0.28);
+  --accent: #1A1612;
+  --accent-soft: rgba(26, 22, 18, 0.10);
+  --on-accent: #F6F3EE;
+  --takeaway-bg: #EDE8E0;
+  --takeaway-border: #1A1612;
+  /* Opponent-process isoluminant pair (sRGB approx) */
+  --win: #1F6B63;
+  --win-deep: #0F3F3A;
+  --miss: #A3483A;
+  --miss-deep: #5C221C;
   --media-bg: #0A0A0A;
-  --panel-ink: #0A0A0A;
-  --on-panel: #F7F7F7;
-  --on-panel-mute: rgba(247, 247, 247, 0.88);
-  --glow: radial-gradient(ellipse 70% 48% at 50% -10%, rgba(180, 180, 185, 0.22), transparent 58%),
-          radial-gradient(ellipse 42% 38% at 86% 16%, rgba(10, 10, 10, 0.08), transparent 52%),
-          radial-gradient(ellipse 34% 32% at 18% 28%, rgba(37, 4, 56, 0.12), transparent 55%);
+  --panel-ink: #1A1612;
+  --on-panel: #F6F3EE;
+  --on-panel-mute: rgba(246, 243, 238, 0.88);
+  --glow: radial-gradient(ellipse 70% 48% at 50% -10%, rgba(180, 175, 165, 0.22), transparent 58%),
+          radial-gradient(ellipse 42% 38% at 86% 16%, rgba(26, 22, 18, 0.08), transparent 52%),
+          radial-gradient(ellipse 34% 32% at 18% 28%, rgba(26, 22, 18, 0.10), transparent 55%);
   --measure: 68ch;
   --serif: "Newsreader", "Source Serif 4", Georgia, serif;
   --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
@@ -87,10 +92,37 @@
   --radius: 2px;
   --radius-sm: 2px;
   --radius-media: 2px;
-  --shadow-card: 0 1px 2px rgba(10, 10, 10, 0.04), 0 8px 24px rgba(10, 10, 10, 0.05);
-  --shadow-lift: 0 4px 8px rgba(10, 10, 10, 0.04), 0 16px 40px rgba(10, 10, 10, 0.08);
-  --shadow-media: 0 2px 4px rgba(10, 10, 10, 0.04), 0 18px 48px rgba(10, 10, 10, 0.1);
+  --shadow-card: 0 1px 2px rgba(26, 22, 18, 0.04), 0 8px 24px rgba(26, 22, 18, 0.05);
+  --shadow-lift: 0 4px 8px rgba(26, 22, 18, 0.04), 0 16px 40px rgba(26, 22, 18, 0.08);
+  --shadow-media: 0 2px 4px rgba(26, 22, 18, 0.04), 0 18px 48px rgba(26, 22, 18, 0.1);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* OKLCH vision-science tokens (override sRGB when supported) */
+  --page: oklch(0.975 0.008 95);
+  --page-elevated: oklch(0.995 0.004 95);
+  --ink: oklch(0.16 0.02 70);
+  --mute: oklch(0.42 0.02 70);
+  --mute-soft: oklch(0.50 0.015 70);
+  --accent: oklch(0.16 0.02 70);
+  --accent-soft: oklch(0.16 0.02 70 / 0.10);
+  --on-accent: oklch(0.975 0.008 95);
+  --takeaway-bg: oklch(0.94 0.01 95);
+  --takeaway-border: oklch(0.16 0.02 70);
+  --win: oklch(0.42 0.12 175);
+  --win-deep: oklch(0.28 0.10 175);
+  --miss: oklch(0.42 0.12 25);
+  --miss-deep: oklch(0.28 0.10 25);
+  --panel-ink: oklch(0.16 0.02 70);
+  --on-panel: oklch(0.975 0.008 95);
+}
+
+@supports (color: color(display-p3 0 0 0)) {
+  :root {
+    --win: color(display-p3 0.08 0.38 0.34);
+    --win-deep: color(display-p3 0.04 0.22 0.20);
+    --miss: color(display-p3 0.52 0.18 0.16);
+    --miss-deep: color(display-p3 0.28 0.08 0.08);
+  }
 }
 
 *,
@@ -129,23 +161,14 @@ body {
 }
 
 body.is-home {
-  --accent: #250438;
-  --accent-soft: rgba(37, 4, 56, 0.12);
-  --takeaway-bg: #EFE6F2;
-  --takeaway-border: #250438;
-  --page: #FFFFFF;
-  --ink: #121212;
-  --mute: #5A5A5A;
-  --mute-soft: #727272;
-  --rule: rgba(18, 18, 18, 0.16);
-  --rule-strong: rgba(18, 18, 18, 0.32);
+  /* Accent = ink from :root — no plum. Hatch stays ink/black. */
   --radius: 12px;
   --radius-sm: 10px;
   --radius-media: 12px;
   --hatch: 36px;
   position: relative;
   isolation: isolate;
-  background-color: #FFFFFF;
+  background-color: var(--page);
   background-image: none;
 }
 
@@ -611,8 +634,8 @@ html {
 
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
-  color: #250438;
-  box-shadow: inset 0 -2px 0 #250438;
+  color: var(--ink);
+  box-shadow: inset 0 -2px 0 var(--ink);
 }
 
 body.is-home .site-nav a {
@@ -621,8 +644,8 @@ body.is-home .site-nav a {
 
 body.is-home .site-nav a:hover,
 body.is-home .site-nav a[aria-current="page"] {
-  color: #250438;
-  box-shadow: inset 0 -2px 0 #250438;
+  color: var(--ink);
+  box-shadow: inset 0 -2px 0 var(--ink);
 }
 
 /* ——— Homepage ——— */
@@ -1609,7 +1632,7 @@ li {
 
 .bottom-line-panel a {
   color: var(--accent);
-  text-decoration-color: rgba(37, 4, 56, 0.35);
+  text-decoration-color: oklch(0.16 0.02 70 / 0.35);
 }
 
 .bottom-line-panel a:hover {
@@ -1969,13 +1992,8 @@ li {
     --mute-soft: #2A2A2A;
     --rule: rgba(0, 0, 0, 0.28);
     --rule-strong: rgba(0, 0, 0, 0.4);
-    --accent: #140220;
-    --takeaway-border: #140220;
-  }
-
-  body.is-home {
-    --accent: #140220;
-    --takeaway-border: #140220;
+    --accent: #000000;
+    --takeaway-border: #000000;
   }
 
   a {
@@ -1995,7 +2013,7 @@ li {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
-  text-decoration-color: rgba(37, 4, 56, 0.4);
+  text-decoration-color: oklch(0.16 0.02 70 / 0.40);
 }
 
 .article-layout a:hover,
@@ -2626,7 +2644,7 @@ body.is-home .cover-card__media--photo::after {
   letter-spacing: -0.01em;
   color: var(--mute);
   background: var(--accent-soft);
-  border: 1px solid rgba(37, 4, 56, 0.22);
+  border: 1px solid oklch(0.16 0.02 70 / 0.22);
   border-radius: 0;
 }
 
@@ -2717,7 +2735,7 @@ body.is-home .cover-card__media--photo::after {
   list-style: none;
   padding: 0 0 0.35rem 1.25rem;
   margin: 0;
-  border-left: 2px solid rgba(37, 4, 56, 0.35);
+  border-left: 2px solid oklch(0.16 0.02 70 / 0.35);
   margin-left: 0.35rem;
 }
 
@@ -4158,7 +4176,7 @@ form.join-strip[data-capture].is-success .capture-form__status {
     justify-self: stretch;
     align-self: stretch;
     padding: 0 0 0 0.95rem;
-    border-left: 2px solid rgba(37, 4, 56, 0.35);
+    border-left: 2px solid oklch(0.16 0.02 70 / 0.35);
   }
 
   .mindmap__cluster[data-slot="ne"] .mindmap__nodes,
@@ -4286,7 +4304,7 @@ form.join-strip[data-capture].is-success .capture-form__status {
 
 .art-index__row:hover,
 .art-index__row:focus {
-  background: rgba(37, 4, 56, 0.04);
+  background: oklch(0.16 0.02 70 / 0.04);
 }
 
 .art-index__row:focus-visible {
@@ -4296,7 +4314,7 @@ form.join-strip[data-capture].is-success .capture-form__status {
 
 .art-index__row.is-selected {
   border-left-color: var(--accent);
-  background: rgba(37, 4, 56, 0.05);
+  background: oklch(0.16 0.02 70 / 0.05);
 }
 
 .art-index__name {
@@ -4622,8 +4640,9 @@ body.is-home .home-section--featured .cover-card__media img[src*="kano-mifune"] 
 }
 
 
-/* —— Closed Guard Session (mat drill sheet) —— */
-article.term-closed-guard .toc__group {
+/* —— Term session / learning app (closed-guard flagship; opt-in via [data-learning-app]) —— */
+article.term-closed-guard .toc__group,
+article[data-learning-app] .toc__group {
   margin: 1.15rem 0 0.35rem;
   padding: 0;
   font-family: var(--display);
@@ -4634,157 +4653,325 @@ article.term-closed-guard .toc__group {
   color: var(--mute);
 }
 
-article.term-closed-guard .toc__group:first-of-type {
+article.term-closed-guard .toc__group:first-of-type,
+article[data-learning-app] .toc__group:first-of-type {
   margin-top: 0.35rem;
 }
 
-article.term-closed-guard .session {
+article.term-closed-guard .session,
+article[data-learning-app] .session {
   margin: 1.75rem 0 2.5rem;
-  padding: 1.35rem 1.15rem 1.5rem;
+  padding: 0 1.15rem 1.75rem;
   background: var(--page-elevated);
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-card);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  box-shadow: none;
+  position: relative;
 }
 
-article.term-closed-guard .session__head {
+article.term-closed-guard .session.is-paged,
+article[data-learning-app] .session.is-paged {
+  display: flex;
+  flex-direction: column;
+}
+
+article.term-closed-guard .session__head,
+article[data-learning-app] .session__head {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 5;
+  margin: 0 -1.15rem 1.35rem;
+  padding: 0.65rem 1.15rem 0.55rem;
+  background: var(--page-elevated);
+  border-bottom: 1px solid var(--rule);
+}
+
+article.term-closed-guard .session__head-row,
+article[data-learning-app] .session__head-row {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--rule);
+  margin-bottom: 0.55rem;
 }
 
-article.term-closed-guard .session__label {
+article.term-closed-guard .session__label,
+article[data-learning-app] .session__label {
   margin: 0;
   font-family: var(--display);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--ink);
+  opacity: 0.55;
 }
 
-article.term-closed-guard .session__progress {
+article.term-closed-guard .session__progress,
+article[data-learning-app] .session__progress {
   margin: 0;
   font-family: var(--display);
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 500;
   color: var(--mute);
   letter-spacing: 0.02em;
+  text-align: right;
+  max-width: 70%;
 }
 
-article.term-closed-guard .check {
+article.term-closed-guard .session__remaining,
+article[data-learning-app] .session__remaining {
+  white-space: nowrap;
+}
+
+article.term-closed-guard .session__remaining[hidden],
+article[data-learning-app] .session__remaining[hidden] {
+  display: none;
+}
+
+article.term-closed-guard .session__dots,
+article[data-learning-app] .session__dots {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0 0 0.4rem;
+  padding: 0;
+}
+
+article.term-closed-guard .session__dots li,
+article[data-learning-app] .session__dots li {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--rule-strong);
+  flex: 0 0 auto;
+}
+
+article.term-closed-guard .session__dots li.is-done,
+article[data-learning-app] .session__dots li.is-done {
+  background: var(--ink);
+  opacity: 0.55;
+}
+
+article.term-closed-guard .session__dots li.is-current,
+article[data-learning-app] .session__dots li.is-current {
+  background: var(--ink);
+  opacity: 1;
+  transform: none;
+  box-shadow: none;
+}
+
+article.term-closed-guard .session__bar,
+article[data-learning-app] .session__bar {
+  height: 1.5px;
+  background: var(--rule);
+  border-radius: 0;
+  overflow: hidden;
+}
+
+article.term-closed-guard .session__bar-fill,
+article[data-learning-app] .session__bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+  border-radius: 0;
+  transition: width 0.15s ease;
+}
+
+/* One-card: inactive steps use [hidden]+inert via JS */
+
+article.term-closed-guard .session.is-paged [data-session-step].is-active,
+article[data-learning-app] .session.is-paged [data-session-step].is-active {
+  animation: cg-session-step-in 0.15s ease;
+}
+
+@keyframes cg-session-step-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  article.term-closed-guard .session.is-paged [data-session-step].is-active,
+  article[data-learning-app] .session.is-paged [data-session-step].is-active {
+    animation: none;
+  }
+  article.term-closed-guard .session__bar-fill,
+  article[data-learning-app] .session__bar-fill {
+    transition: none;
+  }
+  article.term-closed-guard .session.is-win-field,
+  article[data-learning-app] .session.is-win-field,
+  article.term-closed-guard .session.is-miss-field,
+  article[data-learning-app] .session.is-miss-field {
+    transition: none;
+  }
+  article.term-closed-guard .check__choice,
+  article[data-learning-app] .check__choice {
+    transition: none;
+  }
+}
+
+article.term-closed-guard .check,
+article[data-learning-app] .check {
   margin: 0 0 1.75rem;
   padding: 0 0 1.5rem;
   border-bottom: 1px solid var(--rule);
 }
 
+article.term-closed-guard .session.is-paged .check,
+article[data-learning-app] .session.is-paged .check,
+article.term-closed-guard .session.is-paged .session-teach,
+article[data-learning-app] .session.is-paged .session-teach,
+article.term-closed-guard .session.is-paged .session-whole,
+article[data-learning-app] .session.is-paged .session-whole,
+article.term-closed-guard .session.is-paged .session-transition,
+article[data-learning-app] .session.is-paged .session-transition {
+  margin: 0;
+  padding: 0 0 0.5rem;
+  border-bottom: 0;
+  border-top: 0;
+}
+
 article.term-closed-guard .check:last-child,
-article.term-closed-guard .session-parts .check:last-child {
+article[data-learning-app] .check:last-child,
+article.term-closed-guard .session-parts .check:last-child,
+article[data-learning-app] .session-parts .check:last-child {
   border-bottom: 1px solid var(--rule);
 }
 
-article.term-closed-guard .check__beat {
-  margin: 0 0 0.65rem;
+article.term-closed-guard .session.is-paged .check:last-child,
+article[data-learning-app] .session.is-paged .check:last-child,
+article.term-closed-guard .session.is-paged .session-parts .check:last-child,
+article[data-learning-app] .session.is-paged .session-parts .check:last-child {
+  border-bottom: 0;
+}
+
+article.term-closed-guard .check__beat,
+article[data-learning-app] .check__beat {
+  margin: 0 0 0.85rem;
   font-family: var(--display);
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--mute);
-}
-
-article.term-closed-guard .check__situation {
-  margin: 0 0 1.1rem;
-  font-family: var(--serif);
-  font-size: clamp(1.35rem, 2.6vw, 1.75rem);
-  font-weight: 650;
-  line-height: 1.28;
-  letter-spacing: -0.015em;
   color: var(--ink);
-  max-width: 28ch;
+  opacity: 0.5;
 }
 
-article.term-closed-guard .check__choices {
+article.term-closed-guard .check__situation,
+article[data-learning-app] .check__situation {
+  margin: 0 0 1.35rem;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  font-weight: 650;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  max-width: 18ch;
+}
+
+article.term-closed-guard .check__choices,
+article[data-learning-app] .check__choices {
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
+  gap: 0;
   margin: 0 0 0.85rem;
+  border-top: 1px solid var(--rule);
 }
 
-article.term-closed-guard .check__choice {
+article.term-closed-guard .check__choice,
+article[data-learning-app] .check__choice {
   display: block;
   width: 100%;
-  min-height: 48px;
+  min-height: 56px;
   margin: 0;
-  padding: 0.85rem 1rem;
+  padding: 1.05rem 0.15rem 1.05rem 0;
   text-align: left;
   font-family: var(--sans);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 500;
-  line-height: 1.35;
+  line-height: 1.4;
   color: var(--ink);
-  background: var(--page);
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--radius);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
   cursor: pointer;
-  transition: border-color 0.15s var(--ease), background 0.15s var(--ease);
+  transition: border-color 0.15s var(--ease),
+  opacity 0.15s var(--ease);
 }
 
-article.term-closed-guard .check__choice:hover,
-article.term-closed-guard .check__choice:focus-visible {
-  border-color: var(--accent);
-  background: #fff;
+/* Rest hover — ink hairline, paper list feel */
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice:hover,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice:hover,
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible {
+  border-bottom-color: var(--ink);
+  background: transparent;
   outline: none;
 }
 
-article.term-closed-guard .check__choice:focus-visible {
-  box-shadow: 0 0 0 3px var(--accent-soft);
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible {
+  box-shadow: none;
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
 }
 
-article.term-closed-guard .check__choice.is-picked {
-  border-color: var(--ink);
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice.is-picked,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice.is-picked {
+  border-bottom-color: var(--ink);
 }
 
-article.term-closed-guard .check__choice.is-correct {
-  border-color: var(--accent);
-  background: var(--takeaway-bg);
+article.term-closed-guard .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
+article[data-learning-app] .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
+  opacity: 0.38;
 }
 
-article.term-closed-guard .check__choice.is-wrong {
-  opacity: 0.72;
-  border-style: dashed;
-}
-
-article.term-closed-guard .check__choice:disabled {
+article.term-closed-guard .check__choice:disabled,
+article[data-learning-app] .check__choice:disabled {
   cursor: default;
 }
 
-article.term-closed-guard .check__feedback {
+article.term-closed-guard .check__feedback,
+article[data-learning-app] .check__feedback {
   margin: 0 0 0.75rem;
-  padding: 0.65rem 0.85rem;
-  font-family: var(--sans);
-  font-size: 0.95rem;
-  line-height: 1.45;
+  padding: 0.35rem 0 0.85rem;
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
   color: var(--ink);
-  background: var(--takeaway-bg);
-  border-left: 3px solid var(--accent);
+  background: transparent;
+  border-left: 0;
+  border-radius: 0;
 }
 
-article.term-closed-guard .check__feedback[hidden] {
+article.term-closed-guard .check__recap,
+article[data-learning-app] .check__recap {
+  margin: 0 0 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  color: var(--mute);
+}
+
+article.term-closed-guard .check__feedback[hidden],
+article[data-learning-app] .check__feedback[hidden] {
   display: none;
 }
 
-article.term-closed-guard .check__stance {
+article.term-closed-guard .check__stance,
+article[data-learning-app] .check__stance {
   margin: 0 0 0.85rem;
   padding: 0;
   border: 0;
 }
 
-article.term-closed-guard .check__stance summary {
+article.term-closed-guard .check__stance summary,
+article[data-learning-app] .check__stance summary {
   cursor: pointer;
   font-family: var(--display);
   font-size: 0.78rem;
@@ -4795,15 +4982,18 @@ article.term-closed-guard .check__stance summary {
   list-style: none;
 }
 
-article.term-closed-guard .check__stance summary::-webkit-details-marker {
+article.term-closed-guard .check__stance summary::-webkit-details-marker,
+article[data-learning-app] .check__stance summary::-webkit-details-marker {
   display: none;
 }
 
-article.term-closed-guard .check__stance[open] summary {
+article.term-closed-guard .check__stance[open] summary,
+article[data-learning-app] .check__stance[open] summary {
   margin-bottom: 0.45rem;
 }
 
-article.term-closed-guard .check__stance p {
+article.term-closed-guard .check__stance p,
+article[data-learning-app] .check__stance p {
   margin: 0;
   font-family: var(--serif);
   font-size: 1.05rem;
@@ -4812,36 +5002,499 @@ article.term-closed-guard .check__stance p {
   max-width: 40rem;
 }
 
-article.term-closed-guard .check.is-resolved .check__stance {
-  /* JS opens it; keep readable without depending on JS */
-}
-
-article.term-closed-guard .check__locator {
+article.term-closed-guard .check__locator,
+article[data-learning-app] .check__locator {
   margin: 0.65rem 0 0;
   font-family: var(--sans);
   font-size: 0.82rem;
   color: var(--mute);
 }
 
-article.term-closed-guard .check__locator a {
+article.term-closed-guard .check__locator a,
+article[data-learning-app] .check__locator a {
   color: var(--accent);
   text-underline-offset: 0.12em;
 }
 
-article.term-closed-guard .check--glue {
+article.term-closed-guard .session__continue,
+article[data-learning-app] .session__continue {
+  display: block;
+  width: 100%;
+  min-height: 52px;
+  margin: 1.35rem 0 0;
+  padding: 0.9rem 1.15rem;
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--page);
+  background: var(--ink);
+  background-image: none;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  transform: none;
+}
+
+article.term-closed-guard .session__continue[hidden],
+article[data-learning-app] .session__continue[hidden] {
+  display: none;
+}
+
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .session__continue:hover,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .session__continue:hover,
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .session__continue:focus-visible,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .session__continue:focus-visible {
+  outline: none;
+  filter: none;
+  opacity: 0.92;
+}
+
+article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .session__continue:focus-visible,
+article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .session__continue:focus-visible {
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+article.term-closed-guard .session__continue.is-pulse,
+article[data-learning-app] .session__continue.is-pulse {
+  animation: cg-continue-pulse 180ms ease;
+}
+
+@keyframes cg-continue-pulse {
+  0% { transform: scale(1); }
+  45% { transform: scale(1.035); }
+  100% { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  article.term-closed-guard .session__continue.is-pulse,
+  article[data-learning-app] .session__continue.is-pulse {
+    animation: none;
+  }
+}
+
+/* ——— Win field: isoluminant teal grade (hue = state) ——— */
+article.term-closed-guard .session.is-win-field,
+article[data-learning-app] .session.is-win-field {
+  background-color: var(--win-deep);
+  background-image:
+    conic-gradient(from 210deg at 72% 18%,
+  oklch(0.55 0.14 175 / 0.08),
+  oklch(0.58 0.12 195 / 0.08),
+  transparent 42%),
+  linear-gradient(180deg,
+  oklch(0.38 0.11 175),
+  oklch(0.24 0.09 175));
+  border-color: rgba(247,
+  247,
+  247,
+  0.08);
+  box-shadow: none;
+}
+
+article.term-closed-guard .session.is-win-field .session__head,
+article[data-learning-app] .session.is-win-field .session__head {
+  background: oklch(0.38 0.11 175);
+  border-bottom-color: rgba(247,
+  247,
+  247,
+  0.14);
+}
+
+article.term-closed-guard .session.is-win-field .session__label,
+article[data-learning-app] .session.is-win-field .session__label,
+article.term-closed-guard .session.is-win-field .session__progress,
+article[data-learning-app] .session.is-win-field .session__progress,
+article.term-closed-guard .session.is-win-field .session__remaining,
+article[data-learning-app] .session.is-win-field .session__remaining,
+article.term-closed-guard .session.is-win-field .check__beat,
+article[data-learning-app] .session.is-win-field .check__beat,
+article.term-closed-guard .session.is-win-field .check__situation,
+article[data-learning-app] .session.is-win-field .check__situation,
+article.term-closed-guard .session.is-win-field .check__recap,
+article[data-learning-app] .session.is-win-field .check__recap,
+article.term-closed-guard .session.is-win-field .check__locator,
+article[data-learning-app] .session.is-win-field .check__locator,
+article.term-closed-guard .session.is-win-field .check__stance summary,
+article[data-learning-app] .session.is-win-field .check__stance summary,
+article.term-closed-guard .session.is-win-field .check__stance p,
+article[data-learning-app] .session.is-win-field .check__stance p {
+  color: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-win-field .check__locator a,
+article[data-learning-app] .session.is-win-field .check__locator a {
+  color: #F4F1EA;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+article.term-closed-guard .session.is-win-field .session__dots li,
+article[data-learning-app] .session.is-win-field .session__dots li {
+  background: rgba(247,
+  247,
+  247,
+  0.28);
+  box-shadow: none;
+  transform: none;
+}
+
+article.term-closed-guard .session.is-win-field .session__dots li.is-current,
+article[data-learning-app] .session.is-win-field .session__dots li.is-current {
+  background: #F4F1EA;
+  transform: scale(1.2);
+  box-shadow: none;
+}
+
+article.term-closed-guard .session.is-win-field .session__dots li.is-done,
+article[data-learning-app] .session.is-win-field .session__dots li.is-done {
+  background: rgba(247,
+  247,
+  247,
+  0.7);
+}
+
+article.term-closed-guard .session.is-win-field .session__bar,
+article[data-learning-app] .session.is-win-field .session__bar {
+  background: rgba(255,
+  255,
+  255,
+  0.18);
+}
+
+article.term-closed-guard .session.is-win-field .session__bar-fill,
+article[data-learning-app] .session.is-win-field .session__bar-fill {
+  background: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-win-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
+article[data-learning-app] .session.is-win-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
+  opacity: 0.28;
+  color: #F4F1EA;
+  background: transparent;
+  border-bottom-color: rgba(244, 241, 234, 0.28);
+}
+
+article.term-closed-guard .session.is-win-field .check__choice.is-correct,
+article[data-learning-app] .session.is-win-field .check__choice.is-correct {
+  background: #F4F1EA;
+  color: var(--ink);
+  border: 0;
+  border-bottom: 1px solid transparent;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+  box-shadow: none;
+  opacity: 1;
+}
+
+article.term-closed-guard .session.is-win-field .check__feedback,
+article[data-learning-app] .session.is-win-field .check__feedback,
+article.term-closed-guard .session.is-win-field .check__feedback.is-win,
+article[data-learning-app] .session.is-win-field .check__feedback.is-win {
+  background: transparent;
+  background-image: none;
+  border-left: 0;
+  box-shadow: none;
+  padding: 0.35rem 0 0.85rem;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-win-field .session__continue,
+article[data-learning-app] .session.is-win-field .session__continue,
+article.term-closed-guard .session.is-win-field .session__continue.is-win,
+article[data-learning-app] .session.is-win-field .session__continue.is-win {
+  background: #F4F1EA;
+  background-image: none;
+  color: var(--ink);
+  filter: none;
+}
+
+article.term-closed-guard .session.is-win-field .session__continue:hover,
+article[data-learning-app] .session.is-win-field .session__continue:hover,
+article.term-closed-guard .session.is-win-field .session__continue:focus-visible,
+article[data-learning-app] .session.is-win-field .session__continue:focus-visible {
+  outline: none;
+  filter: none;
+  box-shadow: 0 0 0 3px rgba(244,
+  241,
+  234,
+  0.28);
+}
+
+/* ——— Miss field: isoluminant rose grade (hue = state) ——— */
+article.term-closed-guard .session.is-miss-field,
+article[data-learning-app] .session.is-miss-field {
+  background-color: var(--miss-deep);
+  background-image: linear-gradient(180deg,
+  oklch(0.38 0.11 25),
+  oklch(0.24 0.09 25));
+  border-color: rgba(247,
+  247,
+  247,
+  0.08);
+  box-shadow: none;
+}
+
+article.term-closed-guard .session.is-miss-field .session__head,
+article[data-learning-app] .session.is-miss-field .session__head {
+  background: oklch(0.38 0.11 25);
+  border-bottom-color: rgba(247,
+  247,
+  247,
+  0.14);
+}
+
+article.term-closed-guard .session.is-miss-field .session__label,
+article[data-learning-app] .session.is-miss-field .session__label,
+article.term-closed-guard .session.is-miss-field .session__progress,
+article[data-learning-app] .session.is-miss-field .session__progress,
+article.term-closed-guard .session.is-miss-field .session__remaining,
+article[data-learning-app] .session.is-miss-field .session__remaining,
+article.term-closed-guard .session.is-miss-field .check__beat,
+article[data-learning-app] .session.is-miss-field .check__beat,
+article.term-closed-guard .session.is-miss-field .check__situation,
+article[data-learning-app] .session.is-miss-field .check__situation,
+article.term-closed-guard .session.is-miss-field .check__recap,
+article[data-learning-app] .session.is-miss-field .check__recap,
+article.term-closed-guard .session.is-miss-field .check__locator,
+article[data-learning-app] .session.is-miss-field .check__locator,
+article.term-closed-guard .session.is-miss-field .check__stance summary,
+article[data-learning-app] .session.is-miss-field .check__stance summary,
+article.term-closed-guard .session.is-miss-field .check__stance p,
+article[data-learning-app] .session.is-miss-field .check__stance p {
+  color: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-miss-field .check__locator a,
+article[data-learning-app] .session.is-miss-field .check__locator a {
+  color: #F4F1EA;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+article.term-closed-guard .session.is-miss-field .session__dots li,
+article[data-learning-app] .session.is-miss-field .session__dots li {
+  background: rgba(247,
+  247,
+  247,
+  0.28);
+  box-shadow: none;
+  transform: none;
+}
+
+article.term-closed-guard .session.is-miss-field .session__dots li.is-current,
+article[data-learning-app] .session.is-miss-field .session__dots li.is-current {
+  background: #F4F1EA;
+  transform: scale(1.2);
+  box-shadow: none;
+}
+
+article.term-closed-guard .session.is-miss-field .session__dots li.is-done,
+article[data-learning-app] .session.is-miss-field .session__dots li.is-done {
+  background: rgba(247,
+  247,
+  247,
+  0.7);
+}
+
+article.term-closed-guard .session.is-miss-field .session__bar,
+article[data-learning-app] .session.is-miss-field .session__bar {
+  background: rgba(255,
+  255,
+  255,
+  0.18);
+}
+
+article.term-closed-guard .session.is-miss-field .session__bar-fill,
+article[data-learning-app] .session.is-miss-field .session__bar-fill {
+  background: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
+article[data-learning-app] .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
+  opacity: 0.28;
+  color: #F4F1EA;
+  background: transparent;
+  border-bottom-color: rgba(244, 241, 234, 0.28);
+}
+
+article.term-closed-guard .session.is-miss-field .check__choice.is-wrong,
+article[data-learning-app] .session.is-miss-field .check__choice.is-wrong {
+  background: transparent;
+  background-image: none;
+  color: #F4F1EA;
+  opacity: 0.5;
+  border: 0;
+  border-bottom: 1px solid rgba(244, 241, 234, 0.3);
+  box-shadow: none;
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(244, 241, 234, 0.45);
+}
+
+article.term-closed-guard .session.is-miss-field .check__choice.is-correct,
+article[data-learning-app] .session.is-miss-field .check__choice.is-correct {
+  background: #F4F1EA;
+  color: var(--ink);
+  border: 0;
+  border-bottom: 1px solid transparent;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+  box-shadow: none;
+  opacity: 1;
+}
+
+article.term-closed-guard .session.is-miss-field .check__feedback,
+article[data-learning-app] .session.is-miss-field .check__feedback,
+article.term-closed-guard .session.is-miss-field .check__feedback.is-miss,
+article[data-learning-app] .session.is-miss-field .check__feedback.is-miss {
+  background: transparent;
+  background-image: none;
+  border-left: 0;
+  box-shadow: none;
+  padding: 0.35rem 0 0.85rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.4;
+  color: #F4F1EA;
+}
+
+article.term-closed-guard .session.is-miss-field .session__continue,
+article[data-learning-app] .session.is-miss-field .session__continue,
+article.term-closed-guard .session.is-miss-field .session__continue.is-miss,
+article[data-learning-app] .session.is-miss-field .session__continue.is-miss {
+  background: #F4F1EA;
+  background-image: none;
+  color: var(--ink);
+  filter: none;
+}
+
+article.term-closed-guard .session.is-miss-field .session__continue:hover,
+article[data-learning-app] .session.is-miss-field .session__continue:hover,
+article.term-closed-guard .session.is-miss-field .session__continue:focus-visible,
+article[data-learning-app] .session.is-miss-field .session__continue:focus-visible {
+  outline: none;
+  filter: none;
+  box-shadow: 0 0 0 3px rgba(244,
+  241,
+  234,
+  0.28);
+}
+
+article.term-closed-guard .session-teach,
+article[data-learning-app] .session-teach {
+  margin: 0 0 1.75rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+article.term-closed-guard .session.is-paged .session-teach,
+article[data-learning-app] .session.is-paged .session-teach {
+  border-bottom: 0;
+}
+
+article.term-closed-guard .session-plate,
+article[data-learning-app] .session-plate {
+  margin: 0 -1.15rem 1.35rem;
+  padding: 0;
+  border: 0;
+}
+
+article.term-closed-guard .session-plate img,
+article[data-learning-app] .session-plate img {
+  display: block;
+  width: 100%;
+  height: min(42vh, 420px);
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 0;
+  background: #d9d4c8;
+}
+
+article.term-closed-guard .session-teach__beat,
+article[data-learning-app] .session-teach__beat {
+  margin: 0 0 0.85rem;
+  font-family: var(--display);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  opacity: 0.5;
+}
+
+article.term-closed-guard .session-teach__title,
+article[data-learning-app] .session-teach__title {
+  margin: 0 0 1.25rem;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  font-weight: 650;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  max-width: 16ch;
+}
+
+article.term-closed-guard .session-teach__coach,
+article[data-learning-app] .session-teach__coach {
+  display: grid;
+  gap: 0.95rem;
+  margin: 0 0 1.25rem;
+}
+
+article.term-closed-guard .session-teach__coach p,
+article[data-learning-app] .session-teach__coach p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.12rem, 3.6vw, 1.28rem);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--ink);
+  max-width: 28ch;
+}
+
+article.term-closed-guard .session-teach__line,
+article[data-learning-app] .session-teach__line {
+  font-size: clamp(1.28rem, 4.2vw, 1.55rem) !important;
+  font-weight: 650 !important;
+  line-height: 1.28 !important;
+  letter-spacing: -0.02em;
+  max-width: 22ch !important;
+}
+
+article.term-closed-guard .check--glue,
+article[data-learning-app] .check--glue {
   margin-top: 0.25rem;
   padding-top: 0.25rem;
   border-top: 1px dashed var(--rule-strong);
 }
 
-article.term-closed-guard .session-whole {
+article.term-closed-guard .session.is-paged .check--glue,
+article[data-learning-app] .session.is-paged .check--glue {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+article.term-closed-guard .session-whole,
+article[data-learning-app] .session-whole {
   margin: 0 0 1.75rem;
   padding: 0.25rem 0 1.5rem;
   border-bottom: 1px solid var(--rule);
 }
 
 article.term-closed-guard .session-whole__label,
-article.term-closed-guard .session-transition__label {
+article[data-learning-app] .session-whole__label,
+article.term-closed-guard .session-transition__label,
+article[data-learning-app] .session-transition__label {
   margin: 0 0 0.4rem;
   font-family: var(--display);
   font-size: 0.72rem;
@@ -4852,23 +5505,29 @@ article.term-closed-guard .session-transition__label {
 }
 
 article.term-closed-guard .session-whole__title,
-article.term-closed-guard .session-transition__title {
+article[data-learning-app] .session-whole__title,
+article.term-closed-guard .session-transition__title,
+article[data-learning-app] .session-transition__title {
   margin: 0 0 1rem;
   font-family: var(--serif);
-  font-size: clamp(1.35rem, 2.4vw, 1.65rem);
+  font-size: clamp(1.6rem,
+  5.2vw,
+  2rem);
   font-weight: 650;
-  line-height: 1.25;
+  line-height: 1.22;
   color: var(--ink);
 }
 
-article.term-closed-guard .ifthen {
+article.term-closed-guard .ifthen,
+article[data-learning-app] .ifthen {
   list-style: none;
   margin: 0;
   padding: 0;
   border-left: 2px solid var(--ink);
 }
 
-article.term-closed-guard .ifthen li {
+article.term-closed-guard .ifthen li,
+article[data-learning-app] .ifthen li {
   display: grid;
   gap: 0.2rem;
   margin: 0;
@@ -4876,11 +5535,13 @@ article.term-closed-guard .ifthen li {
   border-bottom: 1px solid var(--rule);
 }
 
-article.term-closed-guard .ifthen li:last-child {
+article.term-closed-guard .ifthen li:last-child,
+article[data-learning-app] .ifthen li:last-child {
   border-bottom: 0;
 }
 
-article.term-closed-guard .ifthen__if {
+article.term-closed-guard .ifthen__if,
+article[data-learning-app] .ifthen__if {
   font-family: var(--display);
   font-size: 0.78rem;
   font-weight: 600;
@@ -4889,47 +5550,140 @@ article.term-closed-guard .ifthen__if {
   color: var(--accent);
 }
 
-article.term-closed-guard .ifthen__then {
+article.term-closed-guard .ifthen__then,
+article[data-learning-app] .ifthen__then {
   font-family: var(--serif);
   font-size: 1.08rem;
   line-height: 1.45;
   color: var(--ink);
 }
 
-article.term-closed-guard .session-transition {
+article.term-closed-guard .session-transition,
+article[data-learning-app] .session-transition {
   margin: 0 0 0.5rem;
   padding: 0 0 0.25rem;
 }
 
-article.term-closed-guard .transition-list {
+article.term-closed-guard .transition-list,
+article[data-learning-app] .transition-list {
   list-style: none;
   margin: 0 0 0.85rem;
   padding: 0;
 }
 
-article.term-closed-guard .transition-list li {
+article.term-closed-guard .transition-list li,
+article[data-learning-app] .transition-list li {
   display: grid;
   gap: 0.2rem;
   margin: 0 0 0.95rem;
   padding: 0;
 }
 
-article.term-closed-guard .transition-list strong {
+article.term-closed-guard .transition-list strong,
+article[data-learning-app] .transition-list strong {
   font-family: var(--display);
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
 }
 
-article.term-closed-guard .transition-list span {
+article.term-closed-guard .transition-list span,
+article[data-learning-app] .transition-list span {
   font-family: var(--serif);
   font-size: 1.02rem;
   line-height: 1.45;
   color: var(--mute);
 }
 
+/* Session complete + peak-end close — back to paper,
+  ink chrome */
+article.term-closed-guard .session.is-complete,
+article[data-learning-app] .session.is-complete {
+  background: var(--page-elevated);
+  border-color: var(--rule);
+  box-shadow: none;
+}
+
+article.term-closed-guard .session.is-complete .session__head,
+article[data-learning-app] .session.is-complete .session__head {
+  background: var(--page-elevated);
+  border-bottom: 1px solid var(--rule);
+}
+
+article.term-closed-guard .session.is-complete .session__bar-fill,
+article[data-learning-app] .session.is-complete .session__bar-fill {
+  width: 100%;
+  background: var(--ink);
+}
+
+article.term-closed-guard .session.is-complete .session__progress,
+article[data-learning-app] .session.is-complete .session__progress {
+  color: var(--mute);
+  font-weight: 500;
+}
+
+article.term-closed-guard .session.is-complete .session__dots li.is-done,
+article[data-learning-app] .session.is-complete .session__dots li.is-done {
+  background: var(--ink);
+}
+
+article.term-closed-guard .session__close,
+article[data-learning-app] .session__close {
+  margin: 0.35rem 0 0.75rem;
+  padding: 1.75rem 0.25rem 1.5rem;
+}
+
+article.term-closed-guard .session__close[hidden],
+article[data-learning-app] .session__close[hidden] {
+  display: none;
+}
+
+article.term-closed-guard .session.is-paged [data-session-close]:not([hidden]),
+article[data-learning-app] .session.is-paged [data-session-close]:not([hidden]) {
+  display: block;
+}
+
+article.term-closed-guard .session__close-kicker,
+article[data-learning-app] .session__close-kicker {
+  margin: 0 0 0.55rem;
+  font-family: var(--display);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  opacity: 0.55;
+}
+
+article.term-closed-guard .session__close-title,
+article[data-learning-app] .session__close-title {
+  margin: 0 0 0.65rem;
+  font-family: var(--serif);
+  font-size: clamp(1.85rem,
+  6vw,
+  2.35rem);
+  font-weight: 650;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  max-width: 14ch;
+}
+
+article.term-closed-guard .session__close-dek,
+article[data-learning-app] .session__close-dek {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.05rem,
+  3.4vw,
+  1.2rem);
+  line-height: 1.45;
+  color: var(--mute);
+  max-width: 32ch;
+}
+
 /* Ask — keep class hooks for term-live.js; quiet chrome */
-article.term-closed-guard .ask-house {
+article.term-closed-guard .ask-house,
+article[data-learning-app] .ask-house {
   margin: 2rem 0 2.25rem;
   padding: 1.25rem 1.15rem 1.35rem;
   border: 1px solid var(--rule);
@@ -4937,24 +5691,29 @@ article.term-closed-guard .ask-house {
   background: transparent;
 }
 
-article.term-closed-guard .ask-house h2 {
+article.term-closed-guard .ask-house h2,
+article[data-learning-app] .ask-house h2 {
   margin: 0 0 0.35rem;
   font-size: 1.25rem;
 }
 
-article.term-closed-guard .ask-house__dek {
+article.term-closed-guard .ask-house__dek,
+article[data-learning-app] .ask-house__dek {
   margin: 0 0 0.95rem;
   color: var(--mute);
   font-size: 0.95rem;
 }
 
-article.term-closed-guard .ask-house__form {
+article.term-closed-guard .ask-house__form,
+article[data-learning-app] .ask-house__form {
   display: grid;
   gap: 0.55rem;
 }
 
 article.term-closed-guard .ask-house__form textarea,
-article.term-closed-guard .ask-house__form input[type="email"] {
+article[data-learning-app] .ask-house__form textarea,
+article.term-closed-guard .ask-house__form input[type="email"],
+article[data-learning-app] .ask-house__form input[type="email"] {
   width: 100%;
   padding: 0.7rem 0.8rem;
   font: inherit;
@@ -4964,12 +5723,14 @@ article.term-closed-guard .ask-house__form input[type="email"] {
   border-radius: var(--radius);
 }
 
-article.term-closed-guard .ask-house__form textarea {
+article.term-closed-guard .ask-house__form textarea,
+article[data-learning-app] .ask-house__form textarea {
   min-height: 5.5rem;
   resize: vertical;
 }
 
-article.term-closed-guard .ask-house__form button {
+article.term-closed-guard .ask-house__form button,
+article[data-learning-app] .ask-house__form button {
   justify-self: start;
   min-height: 44px;
   padding: 0.55rem 1.1rem;
@@ -4983,22 +5744,26 @@ article.term-closed-guard .ask-house__form button {
   cursor: pointer;
 }
 
-article.term-closed-guard .ask-house__status {
+article.term-closed-guard .ask-house__status,
+article[data-learning-app] .ask-house__status {
   margin: 0;
   min-height: 1.2em;
   font-size: 0.88rem;
   color: var(--mute);
 }
 
-article.term-closed-guard .ask-house__form.is-success .ask-house__status {
+article.term-closed-guard .ask-house__form.is-success .ask-house__status,
+article[data-learning-app] .ask-house__form.is-success .ask-house__status {
   color: var(--accent);
 }
 
-article.term-closed-guard .ask-house__form.is-error .ask-house__status {
+article.term-closed-guard .ask-house__form.is-error .ask-house__status,
+article[data-learning-app] .ask-house__form.is-error .ask-house__status {
   color: #7a1c1c;
 }
 
-article.term-closed-guard .ask-house__landed {
+article.term-closed-guard .ask-house__landed,
+article[data-learning-app] .ask-house__landed {
   margin: 1rem 0 0;
   padding: 0.75rem 0 0;
   border-top: 1px solid var(--rule);
@@ -5006,59 +5771,129 @@ article.term-closed-guard .ask-house__landed {
   padding-left: 1.2rem;
 }
 
-article.term-closed-guard .ask-house__landed[hidden] {
+article.term-closed-guard .ask-house__landed[hidden],
+article[data-learning-app] .ask-house__landed[hidden] {
   display: none;
 }
 
-article.term-closed-guard .ask-house__landed li {
+article.term-closed-guard .ask-house__landed li,
+article[data-learning-app] .ask-house__landed li {
   margin: 0.35rem 0;
   font-family: var(--serif);
   font-size: 1rem;
 }
 
-/* Entry — quieter / denser than Session */
-article.term-closed-guard .term-entry {
-  margin-top: 2.75rem;
-  padding-top: 1.75rem;
-  border-top: 2px solid var(--ink);
+article.term-closed-guard .next-learn,
+article[data-learning-app] .next-learn {
+  margin: 2rem 0 2.5rem;
 }
 
-article.term-closed-guard .entry__label {
-  margin: 0 0 1.25rem;
-  font-family: var(--display);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--mute);
-}
-
-article.term-closed-guard .term-entry {
-  font-size: 0.97em;
-}
-
-article.term-closed-guard .term-entry h2 {
-  font-size: clamp(1.35rem, 2.2vw, 1.55rem);
-}
-
-article.term-closed-guard .term-entry h3 {
-  font-size: 1.05rem;
-}
-
-article.term-closed-guard .next-learn__lede {
+article.term-closed-guard .next-learn__lede,
+article[data-learning-app] .next-learn__lede {
   margin: 0 0 1rem;
   color: var(--mute);
   font-size: 0.98rem;
 }
 
+/* Phone-first chapter insert (inside the post — not an app takeover) */
 @media (max-width: 640px) {
-  article.term-closed-guard .session {
-    padding: 1.1rem 0.85rem 1.25rem;
+  article.term-closed-guard .session,
+  article[data-learning-app] .session {
+    padding: 0 0.85rem 1.5rem;
     margin-left: -0.15rem;
     margin-right: -0.15rem;
+    min-height: 0;
   }
 
-  article.term-closed-guard .check__situation {
-    max-width: none;
+  article.term-closed-guard .session__head,
+  article[data-learning-app] .session__head {
+    margin-left: -0.85rem;
+    margin-right: -0.85rem;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  article.term-closed-guard .session-plate,
+  article[data-learning-app] .session-plate {
+    margin-left: -0.85rem;
+    margin-right: -0.85rem;
+  }
+
+  article.term-closed-guard .check__situation,
+  article[data-learning-app] .check__situation,
+  article.term-closed-guard .session-teach__title,
+  article[data-learning-app] .session-teach__title {
+    max-width: 16ch;
+    font-size: clamp(2rem, 7.2vw, 2.55rem);
+  }
+
+  article.term-closed-guard .session-teach__coach p,
+  article[data-learning-app] .session-teach__coach p {
+    max-width: 28ch;
+  }
+
+  article.term-closed-guard .check__choice,
+  article[data-learning-app] .check__choice {
+    min-height: 56px;
+    padding: 1.05rem 0.1rem 1.05rem 0;
+    font-size: 1.05rem;
+  }
+
+  article.term-closed-guard .session__continue,
+  article[data-learning-app] .session__continue {
+    width: 100%;
+    min-height: 52px;
   }
 }
+
+@media (min-width: 641px) {
+  article.term-closed-guard .session__continue,
+  article[data-learning-app] .session__continue {
+    width: 100%;
+    min-height: 52px;
+  }
+
+  article.term-closed-guard .check__situation,
+  article[data-learning-app] .check__situation {
+    font-size: clamp(2rem, 3.2vw, 2.75rem);
+    max-width: 18ch;
+  }
+
+  article.term-closed-guard .session-teach__title,
+  article[data-learning-app] .session-teach__title {
+    font-size: clamp(2.15rem, 3.4vw, 2.75rem);
+    max-width: 16ch;
+  }
+}
+
+article.term-closed-guard .session.is-win-field .check__choices,
+article[data-learning-app] .session.is-win-field .check__choices,
+article.term-closed-guard .session.is-miss-field .check__choices,
+article[data-learning-app] .session.is-miss-field .check__choices {
+  border-top-color: rgba(244, 241, 234, 0.22);
+}
+
+article.term-closed-guard .session.is-win-field .check__choice,
+article[data-learning-app] .session.is-win-field .check__choice,
+article.term-closed-guard .session.is-miss-field .check__choice,
+article[data-learning-app] .session.is-miss-field .check__choice {
+  color: #F4F1EA;
+  border-bottom-color: rgba(244, 241, 234, 0.22);
+}
+
+article.term-closed-guard .session.is-win-field .session-teach__beat,
+article[data-learning-app] .session.is-win-field .session-teach__beat,
+article.term-closed-guard .session.is-miss-field .session-teach__beat,
+article[data-learning-app] .session.is-miss-field .session-teach__beat,
+article.term-closed-guard .session.is-win-field .session-teach__title,
+article[data-learning-app] .session.is-win-field .session-teach__title,
+article.term-closed-guard .session.is-miss-field .session-teach__title,
+article[data-learning-app] .session.is-miss-field .session-teach__title,
+article.term-closed-guard .session.is-win-field .session-teach__coach p,
+article[data-learning-app] .session.is-win-field .session-teach__coach p,
+article.term-closed-guard .session.is-miss-field .session-teach__coach p,
+article[data-learning-app] .session.is-miss-field .session-teach__coach p {
+  color: #F4F1EA;
+  opacity: 1;
+}
+
