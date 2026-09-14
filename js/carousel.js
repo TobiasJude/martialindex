@@ -32,7 +32,11 @@
       var dot = document.createElement("button");
       dot.type = "button";
       dot.className = "carousel__dot";
-      dot.setAttribute("aria-label", "Go to slide " + (i + 1));
+      var panel = root.getAttribute("data-art-panel") || "";
+      var label = panel
+        ? panel.replace(/-/g, " ") + ", slide " + (i + 1)
+        : "Go to slide " + (i + 1);
+      dot.setAttribute("aria-label", label);
       if (i === 0) dot.setAttribute("aria-current", "true");
       dot.addEventListener("click", function () {
         goTo(i);

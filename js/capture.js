@@ -46,6 +46,8 @@
       body: JSON.stringify({
         email: email,
         page: location.pathname || "/",
+        source: location.href,
+        _captcha: "false",
         _subject: "Martial Index newsletter signup"
       })
     })

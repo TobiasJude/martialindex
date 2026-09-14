@@ -1,6 +1,7 @@
 Photo credits — Martial Index homepage / style covers
 Sources: Wikimedia Commons. Local optimized JPEGs only (no hotlinks).
 Editorial treatment: warm archival B&W/sepia — desaturated, #8b6b4a colorize, soft screen wash, softlight grain; max long edge 2400; q90.
+Homepage live preview (2026-09-13): O Rio mix — warm film color / grainy B&W / gold wash on featured hero plates only.
 No Bruce Weber photographs are used.
 
 File: helio-gracie-1932.jpg
@@ -1638,6 +1639,111 @@ File: japanese-kickboxing.jpg
   Note: Japanese kickboxing mid-kick / shin-guard action. Not Wikimedia.
 ====
 
+==== KICKBOXING REMAINING 16 ====
+Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/kickboxing-plates/ — Commons keepers + 2 GENERATED gap fills.
+Installed 2026-09-12 ~22:50 ET. No HTML / trybrst / Archive-ring.
+QA: HOLD Low_kick (MT FLAG) — not installed. Prefer Amateur hook photo over Crochet1 diagram.
+japanese-kickboxing UPGRADED from GENERATED → Amateur_Kick_boxing_72386820.jpg (true JP amateur KB).
+high-kick + roundhouse share WKA_World_Championship_2011_038.JPG (FC WKA over MT).
+Hamid cross treated from 960 thumb (Commons 429 blocked full 5472×3648 re-fetch; Benoit body-kick got 1920).
+Empty (do not install): kickboxing-uppercut, kickboxing-switch-kick, kickboxing-cut-kick.
+
+--- Wikimedia / Commons ---
+
+File: kickboxing-cross.jpg
+  Commons: File:Hamid Amni (IRI) VS Mekan Amanow (TKM) at Asian Indoor and Martial Arts Games 2017..jpg
+  License: Creative Commons Attribution-Share Alike 4.0 International
+  Attribution: Pegah hadad / CC BY-SA 4.0
+  URL: https://commons.wikimedia.org/wiki/File:Hamid_Amni_(IRI)_VS_Mekan_Amanow_(TKM)_at_Asian_Indoor_and_Martial_Arts_Games_2017..jpg
+  Note: AIMAG 2017 FC KB straight cross impact. Source dims at install: 960×640 (orig 5472×3648 — full re-fetch blocked by Commons 429).
+
+File: kickboxing-hook.jpg
+  Commons: File:Amateur Kick boxing (72386820).jpg
+  License: Creative Commons Attribution-Share Alike 2.0 Generic
+  Attribution: over hilowsee (Flickr) / CC BY-SA 2.0
+  URL: https://commons.wikimedia.org/wiki/File:Amateur_Kick_boxing_(72386820).jpg
+  Note: Tōhoku amateur JP kickboxing 2005 — clear right hook; Hosokawa Kick Boxing shirt. Preferred over Crochet1 diagram.
+
+File: kickboxing-body-kick.jpg
+  Commons: File:Benoît Saint Denis middle kick training with head coach Daniel Woirin (brighter).jpg
+  License: CC0 1.0 Universal Public Domain Dedication
+  Attribution: El Comandante / CC0
+  URL: https://commons.wikimedia.org/wiki/File:Beno%C3%AEt_Saint_Denis_middle_kick_training_with_head_coach_Daniel_Woirin_(brighter).jpg
+  Note: Labeled middle kick to pads (Brave CF prep). Source at install: 1920×2093 (orig 3018×3290).
+
+File: kickboxing-high-kick.jpg
+  Commons: File:WKA World Championship 2011 038.JPG
+  License: CC0 1.0 Universal Public Domain Dedication
+  Attribution: Claus Michelfelder / CC0
+  URL: https://commons.wikimedia.org/wiki/File:WKA_World_Championship_2011_038.JPG
+  Note: WKA Worlds Karlsruhe 2011 high roundhouse (trousers + foot pads). Shared primary with kickboxing-roundhouse.jpg. Prefer FC WKA over MT alts.
+
+File: kickboxing-roundhouse.jpg
+  Same source as kickboxing-high-kick.jpg (WKA 2011 038). Shared plate OK.
+
+File: kickboxing-front-kick.jpg
+  Commons: File:Direct fouettée.jpg
+  License: Creative Commons Attribution-Share Alike 2.5 Generic
+  Attribution: Alain Delmas / CC BY-SA 2.5
+  URL: https://commons.wikimedia.org/wiki/File:Direct_fouett%C3%A9e.jpg
+  Note: Delmas front-kick stop diagram. Also aliased as front-kick-kickboxing.jpg (catalog slug).
+
+File: front-kick-kickboxing.jpg
+  Same source/bytes as kickboxing-front-kick.jpg (catalog slug alias).
+
+File: kickboxing-check.jpg
+  Commons: File:Absorb low2.jpg
+  License: Creative Commons Attribution-Share Alike 3.0 + GFDL
+  Attribution: Alain Delmas / CC BY-SA 3.0
+  URL: https://commons.wikimedia.org/wiki/File:Absorb_low2.jpg
+  Note: Delmas shin-check / absorb low-kick instructional diagram.
+
+File: kickboxing-combination.jpg
+  Commons: File:Kick Boxing Brest 09 02 2014 017.JPG
+  License: Creative Commons Attribution-Share Alike 3.0 Unported
+  Attribution: Claude PERON / CC BY-SA 3.0
+  URL: https://commons.wikimedia.org/wiki/File:Kick_Boxing_Brest_09_02_2014_017.JPG
+  Note: PROVISIONAL — Brest 2014 cross vs check/counter exchange. Shared with kickboxing-counter.jpg.
+
+File: kickboxing-counter.jpg
+  Same source as kickboxing-combination.jpg (Brest 017 counter exchange).
+
+File: kickboxing-feint.jpg
+  Commons: File:Feinte1color.jpg
+  License: Creative Commons Attribution-Share Alike 3.0 + GFDL
+  Attribution: Alain Delmas / CC BY-SA 3.0
+  URL: https://commons.wikimedia.org/wiki/File:Feinte1color.jpg
+  Note: Delmas Feinte de jab instructional color diagram.
+
+File: japanese-kickboxing.jpg
+  Commons: File:Amateur Kick boxing (72386820).jpg
+  License: Creative Commons Attribution-Share Alike 2.0 Generic
+  Attribution: over hilowsee (Flickr) / CC BY-SA 2.0
+  URL: https://commons.wikimedia.org/wiki/File:Amateur_Kick_boxing_(72386820).jpg
+  Note: UPGRADE — replaced prior GENERATED japanese-kickboxing.jpg. Same Amateur plate as kickboxing-hook.jpg (true JP amateur KB). Prior generated master retained in install bak only.
+
+--- GENERATED ---
+
+File: dutch-low-kick.jpg
+  Source: GENERATED (Martial Index / Kickboxing Images Index)
+  License: Index Images generated plate
+  Attribution: Martial Index / Kickboxing Images Index
+  Note: Dutch-style low-kick chop; fills empty dutch-low-kick. Not Wikimedia. Raw: dutch-low-kick-generated.png.
+
+File: one-two-low-kick.jpg
+  Source: GENERATED (Martial Index / Kickboxing Images Index)
+  License: Index Images generated plate
+  Attribution: Martial Index / Kickboxing Images Index
+  Note: 1-2→low-kick combo instructional. Not Wikimedia. Raw: one-two-low-kick-generated.png.
+
+--- SKIPPED ---
+- kickboxing-low-kick.jpg — HOLD Low_kick.jpg (FLAG Muay Thai gloves/branding); per QA + parent steering do not install.
+- kickboxing-uppercut.jpg — empty (no exact-term Commons; boxing stand-in rejected).
+- kickboxing-switch-kick.jpg — empty.
+- kickboxing-cut-kick.jpg — empty.
+====
+
 ==== KARATE THIN-GAP ====
 Treatment: warm archival B&W/sepia; max long edge 1200; q78. Masters in _pre-sepia/.
 Source pool: /workspace/karate-plates/ raw/gap + raw/generated. Prefer raws; no re-download.
@@ -1710,6 +1816,12 @@ Cover / batch1 heroes left untouched:
 - zenkutsu-dachi.jpg (Batch1 Sokuto dual-map; new slugs gedan-barai.jpg + age-uke.jpg installed beside it)
 
 
+==== KARATE BATCH 2 HOLD REGENS — 2026-09-12 (ET) ====
+bassai-dai.jpg — GENERATED — zenkutsu + yama-zuki feel — Index Images / Karate Images Index
+heian-yondan.jpg — GENERATED — dual rising open hands (stance soft vs classic kokutsu) — Index Images / Karate Images Index
+hangetsu — HOLD (kiba drift + on-image Japanese text); not installed.
+
+
 ==== KARATE UCHI-UKE GENERATED —  mid-gap fill (2026-09-12 ET) ====
 uchi-uke.jpg
   GENERATED — warm archival B&W/sepia — Index Images / Karate Images Index
@@ -1722,3 +1834,434 @@ hangetsu.jpg
   GENERATED — warm archival B&W/sepia — Index Images / Karate Images Index
   No caption text; knees pinched inward (hourglass hangetsu-dachi).
   ura-zuki still HOLD (latest gen still palm-down / not clear inverted punch).
+
+==== WRESTLING BATCH 1 ====
+Installed 2026-09-12 (ET). Treatment: warm archival B&W/sepia (modulate 105,0,100 + #8b6b4a colorize 12 + level + brightness-contrast + screen wash + softlight grain); max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/wrestling-plates/ — Wikimedia Commons PD/CC keepers + 2 GENERATED gap fills.
+No HTML / trybrst. Homepage wrestling-sprawl.jpg left as-is (skip reinstall).
+Archive-ring heroes strangler-lewis-headlock.jpg and wrestling-1904-olympics.jpg NOT overwritten (variety catch-wrestling-strangler-lewis-01.jpg installed under new filename only).
+
+QA overrides (Wrestling Images Index):
+- REJECT wrestling-single-leg-kale-01.jpg for single-leg (visual sprawl) — not installed as single-leg.
+- wrestling-single-leg-joseph-01.jpg / wrestling-double-leg-joseph-01.jpg → live wrestling-double-leg.jpg (Commons filename says Single-Leg; content is both-legs lift). COMMONS, not generated.
+- GENERATED: wrestling-single-leg-generated-01.jpg → wrestling-single-leg.jpg; wrestling-ankle-pick-generated-01.jpg → wrestling-ankle-pick.jpg.
+
+--- COMMONS ---
+
+File: freestyle-wrestling-banach-ohta-01.jpg
+  Commons: File:Ed Banach wrestles Akira Ohta during the 1984 Summer Olympic.jpg
+  License: Public domain
+  Attribution: Staff Master Sergeant Don Sutherland, USAF
+  URL: https://commons.wikimedia.org/wiki/File:Ed_Banach_wrestles_Akira_Ohta_during_the_1984_Summer_Olympic.jpg
+  Note: 1984 Olympic freestyle Banach/Ohta. Also short alias freestyle-wrestling.jpg.
+
+File: freestyle-wrestling.jpg
+  Same source as freestyle-wrestling-banach-ohta-01.jpg (style cover alias).
+
+File: freestyle-wrestling-holker-01.jpg
+  Commons: File:FreestyleWrestling4.jpg
+  License: Public domain
+  Attribution: Jamie Cameron
+  URL: https://commons.wikimedia.org/wiki/File:FreestyleWrestling4.jpg
+
+File: freestyle-wrestling-iris-smith-01.jpg
+  Commons: File:U.S. Army World Class Athlete Program wrestler Sgt. Iris Smith (right) defeats Chinas Lijun Yang.jpg
+  License: CC BY 2.0
+  Attribution: U.S. Army / Dirk De Vos (CISM)
+  URL: https://commons.wikimedia.org/wiki/File:U.S._Army_World_Class_Athlete_Program_wrestler_Sgt._Iris_Smith_(right)_defeats_Chinas_Lijun_Yang.jpg
+
+File: greco-roman-wrestling-johnston-lift-01.jpg
+  Commons: File:DF-SD-06-10733.jpg
+  License: Public domain
+  Attribution: Airman 1st Class Daniel Decook, USAF
+  URL: https://commons.wikimedia.org/wiki/File:DF-SD-06-10733.jpg
+  Note: Greco-Roman high-amplitude torso lift. Also short alias greco-roman-wrestling.jpg.
+
+File: greco-roman-wrestling.jpg
+  Same source as greco-roman-wrestling-johnston-lift-01.jpg (style cover alias).
+
+File: greco-roman-wrestling-klein-asikainen-01.jpg
+  Commons: File:Martin Klein and Alfred Asikainen crop.jpg
+  License: Public domain
+  Attribution: photographer of IOC
+  URL: https://commons.wikimedia.org/wiki/File:Martin_Klein_and_Alfred_Asikainen_crop.jpg
+
+File: greco-roman-wrestling-vlasov-julfalakyan-01.jpg
+  Commons: File:Vlasov vs. Julfalakyan London 2012 Greco-Roman Wrestling final.jpg
+  License: CC BY 2.0
+  Attribution: Robin Bray-Hurren
+  URL: https://commons.wikimedia.org/wiki/File:Vlasov_vs._Julfalakyan_London_2012_Greco-Roman_Wrestling_final.jpg
+
+File: folkstyle-wrestling-usafa-ride-01.jpg
+  Commons: File:USAFA Wrestling Vs South Dakota State - Image 9 of 34.jpg
+  License: Public domain
+  Attribution: U.S. Air Force photo/Joshua Armstrong
+  URL: https://commons.wikimedia.org/wiki/File:USAFA_Wrestling_Vs_South_Dakota_State_-_Image_9_of_34.jpg
+  Note: Also short alias folkstyle-wrestling.jpg.
+
+File: folkstyle-wrestling.jpg
+  Same source as folkstyle-wrestling-usafa-ride-01.jpg (style cover alias).
+
+File: folkstyle-wrestling-ncaa-handfight-01.jpg
+  Commons: File:197 pound NCAA collegiate wrestling match between Thomas Dineen (SDSU) vs. Brian Burburija (USAFA) 2025-01-18 (54292055164).jpg
+  License: Public domain
+  Attribution: U.S. Air Force photograph by Justin Pacheco
+  URL: https://commons.wikimedia.org/wiki/File:197_pound_NCAA_collegiate_wrestling_match_between_Thomas_Dineen_(SDSU)_vs._Brian_Burburija_(USAFA)_2025-01-18_(54292055164).jpg
+
+File: folkstyle-wrestling-going-pin-01.jpg
+  Commons: File:Going in for the pin!.jpg
+  License: CC BY-SA 2.0
+  Attribution: L. Kettner
+  URL: https://commons.wikimedia.org/wiki/File:Going_in_for_the_pin!.jpg
+
+File: catch-wrestling-burns-gotch-01.jpg
+  Commons: File:Burns and gotch.jpg
+  License: Public domain
+  Attribution: Unknown author
+  URL: https://commons.wikimedia.org/wiki/File:Burns_and_gotch.jpg
+  Note: Also short alias catch-wrestling.jpg.
+
+File: catch-wrestling.jpg
+  Same source as catch-wrestling-burns-gotch-01.jpg (style cover alias).
+
+File: catch-wrestling-start-position-01.jpg
+  Commons: File:Catch hold wrestling start position.jpg
+  License: Public domain
+  Attribution: The Badminton Library
+  URL: https://commons.wikimedia.org/wiki/File:Catch_hold_wrestling_start_position.jpg
+
+File: catch-wrestling-strangler-lewis-01.jpg
+  Commons: File:Ed 'Strangler' Lewis in the ring cph.3b19139.jpg
+  License: Public domain
+  Attribution: Underwood & Underwood
+  URL: https://commons.wikimedia.org/wiki/File:Ed_%27Strangler%27_Lewis_in_the_ring_cph.3b19139.jpg
+  Note: NEW variety filename only — did not overwrite Archive-ring strangler-lewis-headlock.jpg.
+
+File: wrestling-hub-lou-banach-01.jpg
+  Commons: File:Lou Banach vs. Joseph Atiyeh.jpg
+  License: Public domain
+  Attribution: SMSGT Don Sutherland
+  URL: https://commons.wikimedia.org/wiki/File:Lou_Banach_vs._Joseph_Atiyeh.jpg
+  Note: Also short alias wrestling.jpg.
+
+File: wrestling.jpg
+  Same source as wrestling-hub-lou-banach-01.jpg (hub cover alias).
+
+File: wrestling-hub-aspiotis-1906-01.jpg
+  Commons: File:Aspiotis Olympics 1906 Wrestling.jpg
+  License: Public domain
+  Attribution: The postcard was published by Aspiotis in 1906.
+  URL: https://commons.wikimedia.org/wiki/File:Aspiotis_Olympics_1906_Wrestling.jpg
+
+File: wrestling-stance-demo-lutte-01.jpg
+  Commons: File:Demo lutte 1.jpg
+  License: CC BY-SA 3.0
+  Attribution: Prosopee
+  URL: https://commons.wikimedia.org/wiki/File:Demo_lutte_1.jpg
+
+File: wrestling-stance-ramos-01.jpg
+  Commons: File:Antonio Ramos (USAFA) during 285 pound NCAA collegiate wrestling match against Luke Rasmussen (SDSU) 2025-01-18 (54292055034).jpg
+  License: Public domain
+  Attribution: U.S. Air Force photograph by Justin Pacheco
+  URL: https://commons.wikimedia.org/wiki/File:Antonio_Ramos_(USAFA)_during_285_pound_NCAA_collegiate_wrestling_match_against_Luke_Rasmussen_(SDSU)_2025-01-18_(54292055034).jpg
+  Note: Also short alias wrestling-stance.jpg.
+
+File: wrestling-stance.jpg
+  Same source as wrestling-stance-ramos-01.jpg (technique cover alias).
+
+File: wrestling-front-headlock-wilson-01.jpg
+  Commons: File:Front headlock with underhook in wrestling.jpg
+  License: CC BY-SA 4.0
+  Attribution: Chris Hunkeler
+  URL: https://commons.wikimedia.org/wiki/File:Front_headlock_with_underhook_in_wrestling.jpg
+  Note: Also short alias wrestling-front-headlock.jpg.
+
+File: wrestling-front-headlock.jpg
+  Same source as wrestling-front-headlock-wilson-01.jpg (technique cover alias).
+
+File: wrestling-underhook-hargrave-01.jpg
+  Commons: File:OCPA-2005-03-29-125512.jpg
+  License: Public domain
+  Attribution: Tim Hipps
+  URL: https://commons.wikimedia.org/wiki/File:OCPA-2005-03-29-125512.jpg
+  Note: Also short alias wrestling-underhook.jpg.
+
+File: wrestling-underhook.jpg
+  Same source as wrestling-underhook-hargrave-01.jpg (technique cover alias).
+
+File: wrestling-double-leg.jpg
+  Commons: File:Single-Leg Takedown (8111417907).jpg
+  License: CC BY-SA 2.0
+  Attribution: Chris Hunkeler
+  URL: https://commons.wikimedia.org/wiki/File:Single-Leg_Takedown_(8111417907).jpg
+  Note: REASSIGNED — Commons filename/caption says Single-Leg; visual QA: both-legs lift finish → wrestling-double-leg. Source raw: wrestling-single-leg-joseph-01.jpg / wrestling-double-leg-joseph-01.jpg. COMMONS (not generated).
+
+File: wrestling-double-leg-joseph-01.jpg
+  Same source/bytes as wrestling-double-leg.jpg (variety basename).
+
+--- GENERATED ---
+
+File: wrestling-single-leg.jpg
+  Source: GENERATED (Martial Index / Wrestling Images Index) — raw wrestling-single-leg-generated-01.jpg
+  Note: Warm archival single-leg (one thigh captured). Not Wikimedia. kale Commons candidate REJECTED (sprawl, not single-leg).
+
+File: wrestling-ankle-pick.jpg
+  Source: GENERATED (Martial Index / Wrestling Images Index) — raw wrestling-ankle-pick-generated-01.jpg
+  Note: Warm archival ankle pick. Not Wikimedia.
+
+--- SKIPPED ---
+- wrestling-sprawl.jpg — already present (homepage); skip reinstall
+- wrestling-single-leg-kale-01.jpg — REJECT for single-leg (visual sprawl)
+- strangler-lewis-headlock.jpg / wrestling-1904-olympics.jpg — Archive-ring heroes not overwritten
+
+==== WRESTLING BATCH 2 COMMONS ====
+Installed 2026-09-12 ~22:43 ET (America/New_York). Treatment: warm archival B&W/sepia (modulate 105,0,100 + #8b6b4a colorize 12 + level + brightness-contrast + screen wash + softlight grain); max long edge 1200; q78. Masters in _pre-sepia/.
+Source pool: /workspace/wrestling-plates/raw/ — Wikimedia Commons PD/CC keepers only (generated=false). GENERATE gaps deferred.
+No HTML / trybrst. Archive-ring heroes strangler-lewis-headlock.jpg and wrestling-1904-olympics.jpg NOT overwritten.
+HOLDS (not installed): wrestling-arm-drag-commons-01.jpg (clinch setup only); headlock-throw-commons-01.jpg (Cecil Howard bronze sculpture).
+
+--- COMMONS ---
+
+File: gut-wrench.jpg
+  Commons: File:DF-SD-01-06947.jpg
+  License: Public domain
+  Attribution: Staff Sergeant Larry A. Simmons, USAF
+  URL: https://commons.wikimedia.org/wiki/File:DF-SD-01-06947.jpg
+  Note: Primary gut-wrench; Martin waist-lock turn on Papagan (World Military Championships Greco). Raw: gut-wrench-commons-01.jpg. generated=false.
+
+File: gut-wrench-02.jpg
+  Commons: File:Demo lutte 3.jpg
+  License: CC BY-SA 3.0
+  Attribution: Prosopee
+  URL: https://commons.wikimedia.org/wiki/File:Demo_lutte_3.jpg
+  Note: Variety gut-wrench setup (amateur demo blue/red par-terre). Raw: gut-wrench-commons-02.jpg. generated=false.
+
+File: lateral-drop.jpg
+  Commons: File:ByersDevlin2004-01-09.jpg
+  License: Public domain
+  Attribution: Tim Hipps / U.S. Army
+  URL: https://commons.wikimedia.org/wiki/File:ByersDevlin2004-01-09.jpg
+  Note: Primary lateral drop — Byers dumps Devlin mid-air body-lock arch. Raw: lateral-drop-commons-01.jpg. generated=false.
+
+File: lateral-drop-02.jpg
+  Commons: File:Defense.gov photo essay 080625-A-8804H-006.jpg
+  License: Public domain
+  Attribution: U.S. Army
+  URL: https://commons.wikimedia.org/wiki/File:Defense.gov_photo_essay_080625-A-8804H-006.jpg
+  Note: Variety — Sieracki high-amplitude waist-lock throw. Raw: lateral-drop-commons-02.jpg. generated=false.
+
+File: crossface.jpg
+  Commons: File:DF-SD-01-06946.jpg
+  License: Public domain
+  Attribution: Staff Sergeant Larry A. Simmons, USAF
+  URL: https://commons.wikimedia.org/wiki/File:DF-SD-01-06946.jpg
+  Note: Primary — Martin DF-SD forearm crossface with referee fall check. Raw: crossface-commons-01.jpg. generated=false.
+
+File: crossface-02.jpg
+  Commons: File:DF-SD-03-06267.jpg
+  License: Public domain
+  Attribution: Staff Sergeant Jeremy T. Lock, USAF
+  URL: https://commons.wikimedia.org/wiki/File:DF-SD-03-06267.jpg
+  Note: Variety — tight Martin crossface detail on Papagan. Raw: crossface-commons-02.jpg. generated=false.
+
+File: cradle.jpg
+  Commons: File:USAFA Wrestling Vs South Dakota State - Image 9 of 34.jpg
+  License: Public domain
+  Attribution: U.S. Air Force photo/Joshua Armstrong
+  URL: https://commons.wikimedia.org/wiki/File:USAFA_Wrestling_Vs_South_Dakota_State_-_Image_9_of_34.jpg
+  Note: Primary USAFA near-side cradle. Raw: cradle-commons-01.jpg. generated=false. (Also on site as folkstyle-wrestling-usafa-ride-01.jpg.)
+
+File: cradle-02.jpg
+  Commons: File:FreestyleWrestling4.jpg
+  License: Public domain
+  Attribution: Jamie Cameron
+  URL: https://commons.wikimedia.org/wiki/File:FreestyleWrestling4.jpg
+  Note: Variety — Holker cradle on Brooks. Raw: cradle-commons-02.jpg. generated=false. (Also freestyle-wrestling-holker-01.jpg.)
+
+File: half-nelson.jpg
+  Commons: File:Half nelson lancashire wrestling.png
+  License: Public domain
+  Attribution: The Badminton Library
+  URL: https://commons.wikimedia.org/wiki/File:Half_nelson_lancashire_wrestling.png
+  Note: Primary archival Lancashire HALF NELSON plate. Raw: half-nelson-commons-01.png. generated=false.
+
+File: half-nelson-02.jpg
+  Commons: File:Going in for the pin!.jpg
+  License: CC BY-SA 2.0
+  Attribution: L. Kettner
+  URL: https://commons.wikimedia.org/wiki/File:Going_in_for_the_pin!.jpg
+  Note: Variety — live folkstyle half-nelson pin. Raw: half-nelson-commons-02.jpg. generated=false. (Also folkstyle-wrestling-going-pin-01.jpg.)
+
+File: par-terre.jpg
+  Commons: File:GrecoRomanWrestling2.jpg
+  License: Public domain
+  Attribution: U.S. Air Force
+  URL: https://commons.wikimedia.org/wiki/File:GrecoRomanWrestling2.jpg
+  Note: Primary — Beddard locked waist on prone opponent. Raw: par-terre-commons-01.jpg. generated=false.
+
+File: par-terre-02.jpg
+  Commons: File:Hrs 20003281b.jpg
+  License: Public domain
+  Attribution: Lt. j.g. Sky Road Webb
+  URL: https://commons.wikimedia.org/wiki/File:Hrs_20003281b.jpg
+  Note: Variety — Waugh Navy par-terre gut-wrench ride. Raw: par-terre-commons-02.jpg. generated=false.
+
+File: pinning-combination.jpg
+  Commons: File:DF-SD-01-06921.jpg
+  License: Public domain
+  Attribution: Staff Sergeant Jeremy T. Lock, USAF
+  URL: https://commons.wikimedia.org/wiki/File:DF-SD-01-06921.jpg
+  Note: Martin pinning Papagan head/arm control. Raw: pinning-combination-commons-01.jpg. generated=false.
+
+File: exposure.jpg
+  Commons: File:Cockerpin.jpg
+  License: CC BY-SA 4.0
+  Attribution: Wikkiedita
+  URL: https://commons.wikimedia.org/wiki/File:Cockerpin.jpg
+  Note: Exposure / near-fall — opponent driven flat to back. Raw: exposure-commons-01.jpg. generated=false.
+
+--- HOLDS (not installed) ---
+- wrestling-arm-drag-commons-01.jpg — clinch/tricep-grip setup only; GENERATE mid-drag later
+- headlock-throw-commons-01.jpg — Cecil Howard bronze sculpture; Archive-ring strangler-lewis-headlock.jpg left as headlock hero
+
+==== WRESTLING BATCH 2 GENERATED (partial) ====
+Installed 2026-09-12 ~22:53 ET. Treatment: warm archival B&W/sepia (modulate 105,0,100 + #8b6b4a colorize 12 + level + brightness-contrast + screen wash + softlight grain); max long edge 1200; q78. Masters in _pre-sepia/.
+Source: Index Images / Wrestling Images Index — GENERATED (not Wikimedia). Soft-sepia applied for consistency.
+No HTML / trybrst. Archive-ring heroes strangler-lewis-headlock.jpg and wrestling-1904-olympics.jpg NOT overwritten.
+Term slug for headlock-throw plate = headlock → live headlock.jpg (report term slug; not headlock-throw.jpg).
+
+--- GENERATED ---
+
+File: wrestling-arm-drag.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Mid arm-drag / 2-on-1 drag across — upgrades clinch-only HOLD. Raw: wrestling-arm-drag-generated-01.jpg. generated=true.
+
+File: headlock.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Live headlock throw mid-air — upgrades bronze sculpture HOLD; term slug headlock. Raw: headlock-throw-generated-01.jpg. generated=true. Does not replace Archive-ring strangler-lewis-headlock.jpg.
+
+File: blast-double.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Both-legs blast/lift finish. Raw: blast-double-generated-01.jpg. generated=true.
+
+File: knee-pick.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Hand at knee + upper-body control. Raw: knee-pick-generated-01.jpg. generated=true.
+
+File: inside-trip.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Inside leg reap from clinch. Raw: inside-trip-generated-01.jpg. generated=true.
+
+File: chicken-wing.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Far arm bent up back ride (not gut-wrench). Raw: chicken-wing-generated-01.jpg. generated=true.
+
+File: ankle-ride.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Ankle lift + leg control from top. Raw: ankle-ride-generated-01.jpg. generated=true.
+
+File: full-nelson.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Amateur full nelson demo (not kayfabe). Raw: full-nelson-generated-01.jpg. generated=true. Addendum QA-pass.
+
+File: grapevine.jpg
+  Source: GENERATED (Index Images / Wrestling Images Index)
+  License: Index Images generated plate
+  Attribution: Index Images / Wrestling Images Index
+  Note: Grapevine leg entanglement ride. Raw: grapevine-generated-01.jpg. generated=true. Addendum QA-pass.
+
+
+==== WRESTLING THROW-BY GENERATED — 2026-09-12 (ET) ====
+throw-by.jpg
+  GENERATED — warm archival B&W/sepia — Index Images / Wrestling Images Index
+  Go-behind after arm clear. Live Soft-sepia ≈1200 q78; master in _pre-sepia/.
+  Note: full-nelson.jpg + grapevine.jpg already installed earlier same evening.
+
+
+==== WRESTLING OUTSIDE-TRIP GENERATED — 2026-09-12 (ET) ====
+outside-trip.jpg
+  GENERATED — warm archival B&W/sepia — Index Images / Wrestling Images Index
+  Live Soft-sepia ≈1200 q78; master in _pre-sepia/.
+
+
+==== WRESTLING TURK — Commons (2026-09-12 ET) ====
+turk.jpg
+  Commons: File:Leg_Lace_(6712807153).jpg
+  https://commons.wikimedia.org/wiki/File:Leg_Lace_(6712807153).jpg
+  License: CC BY-SA 2.0 — Chris Hunkeler
+  Collegiate leg-lace turk turn. Live Soft-sepia ≈1200 q78; master in _pre-sepia/.
+
+==== KICKBOXING ORIGINAL REFETCH RE-TREAT ====
+When: 2026-09-12 ~23:55 ET
+Treatment: warm archival Soft-sepia (modulate 105,0,100 + #8b6b4a colorize 12 + level + brightness-contrast + screen wash + softlight grain); -resize '1200x1200>' q78.
+Masters: full untreated Commons originals → _pre-sepia/<slug>.jpg (overwrote prior thumbs/partials).
+Source: /workspace/kickboxing-plates/raw/ — newly re-fetched upload.wikimedia.org originals (see ORIGINAL_REFETCH_LOG.md).
+No HTML / trybrst. Skip HOLD Low_kick. Skip diagrams (already fine). Skip GENERATED dutch-low / one-two-low.
+
+Re-treated live + masters from full originals:
+
+File: kickboxing-cross.jpg
+  Raw: Hamid_Amni_VS_Mekan_Amanow_AIMAG2017.jpg — 5472×3648 (was live/master 960×640 thumb)
+  Live after: 1200×800 Soft-sepia. Master after: 5472×3648 untreated.
+  Note: Priority upgrade — prior install used 960 thumb (Commons 429); full original now available.
+
+File: kickboxing.jpg
+  Raw: Ready_punch_Unsplash.jpg — 5472×3648 (was master 1920×1280)
+  Live after: 1200×800. Master after: 5472×3648.
+
+File: kickboxing-jab.jpg
+  Raw: WKA_World_Championship_2012_Munich_444.JPG — 5184×3456 (was master 1920×1280)
+  Live after: 1200×800. Master after: 5184×3456.
+
+File: kickboxing-range.jpg
+  Raw: ISG2021_Konya_Men_Kickboxing_20220816_2.jpg — 6959×5156 (was master 1920×1423)
+  Live after: 1200×889. Master after: 6959×5156.
+
+File: kickboxing-body-kick.jpg
+  Raw: Benoit_Saint_Denis_middle_kick.jpg — 3018×3290 (was master 1920×2093)
+  Live after: 1101×1200. Master after: 3018×3290.
+
+File: kickboxing-high-kick.jpg + kickboxing-roundhouse.jpg (shared)
+  Raw: WKA_World_Championship_2011_038.JPG — 3264×2448 (was master 1920×1440)
+  Live after: 1200×900 each. Master after: 3264×2448 each.
+
+File: dutch-kickboxing.jpg
+  Raw: Match_tra_Regilio_van_den_Ent_e_Davide_Armanini.jpg — 3000×2000 (was master 1920×1280)
+  Live after: 1200×800. Master after: 3000×2000.
+
+File: american-kickboxing.jpg
+  Raw: Full_contact_kickboxing.jpg — 2569×1715 (was master 1920×1282)
+  Live after: 1200×801. Master after: 2569×1715.
+
+File: k-1-rules.jpg
+  Raw: K1_style_kickboxing.jpg — 2978×1988 (was master 1920×1282)
+  Live after: 1200×801. Master after: 2978×1988.
+
+File: kickboxing-guard.jpg
+  Raw: Elsa_Capell_07.jpg — 1848×1712 (was master 1280×1186)
+  Live after: 1200×1112. Master after: 1848×1712.
+
+File: orthodox-kickboxing-stance.jpg
+  Raw: Fightnight2023.jpg — 1359×2692 (was master 1280×2536)
+  Live after: 606×1200. Master after: 1359×2692.
+
+File: kickboxing-stance.jpg
+  Raw: Kickboxer_In_Defensive_Stance_254691195.jpeg — 2048×1356 (was master 1920×1271)
+  Live after: 1200×795. Master after: 2048×1356.
+====
