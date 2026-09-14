@@ -4,11 +4,16 @@
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function initCarousel(root) {
+    if (!root || root.getAttribute("data-carousel-ready") === "1") return;
+    if (root.hasAttribute("hidden")) return;
+
     var track = root.querySelector(".carousel__track");
     if (!track) return;
 
     var slides = Array.prototype.slice.call(track.querySelectorAll(".carousel__slide"));
     if (slides.length < 2) return;
+
+    root.setAttribute("data-carousel-ready", "1");
 
     var nav = root.querySelector(".carousel__nav");
     if (!nav) {
@@ -47,17 +52,20 @@
 
     var index = 0;
     var ticking = false;
+    var widthCache = 0;
 
     function slideWidth() {
-      return track.clientWidth || 1;
+      if (!widthCache) widthCache = track.clientWidth || 1;
+      return widthCache;
     }
 
     function goTo(i) {
       index = Math.max(0, Math.min(slides.length - 1, i));
+      var w = slideWidth();
       if (reduceMotion) {
-        track.scrollLeft = index * slideWidth();
+        track.scrollLeft = index * w;
       } else {
-        track.scrollTo({ left: index * slideWidth(), behavior: "smooth" });
+        track.scrollTo({ left: index * w, behavior: "smooth" });
       }
       updateChrome();
     }
@@ -108,6 +116,7 @@
     window.addEventListener(
       "resize",
       function () {
+        widthCache = 0;
         track.scrollLeft = index * slideWidth();
         updateChrome();
       },
@@ -120,6 +129,8 @@
   function initAll() {
     document.querySelectorAll("[data-carousel]").forEach(initCarousel);
   }
+
+  window.__miInitCarousel = initCarousel;
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initAll);

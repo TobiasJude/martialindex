@@ -25,11 +25,14 @@
   function select(art) {
     if (hasPanel(art)) {
       panels.forEach(function (panel) {
-        panel.hidden = panel.getAttribute("data-art-panel") !== art;
+        var on = panel.getAttribute("data-art-panel") === art;
+        panel.hidden = !on;
+        if (on && typeof window.__miInitCarousel === "function") {
+          window.__miInitCarousel(panel);
+        }
       });
       if (label) label.textContent = "From the catalog";
       if (allLink) allLink.setAttribute("href", dest[art] || "styles.html");
-      window.dispatchEvent(new Event("resize"));
     }
 
     tiles.forEach(function (tile) {
