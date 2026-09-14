@@ -329,8 +329,7 @@ text-align: center;}.styles-quiet .section-label{margin-bottom: 0.85rem;}@media 
 gap: 0.75rem;
 padding: 0.55rem 1rem;}.nav-cluster{flex-wrap: nowrap;
 gap: 0.75rem;
-margin-left: auto;}.site-nav{gap: 1.15rem;}.site-nav{flex-wrap: wrap;
-gap: 0.85rem;}.featured,
+margin-left: auto;}.wordmark-title{white-space:nowrap;font-size:1.42rem;}.site-nav{flex-wrap: nowrap;gap: 0.15rem;font-size:0.64rem;letter-spacing:0.08em;}.site-nav a{white-space:nowrap;padding:0 0.32rem;}.featured,
 .cats,
 .split,
 .style-grid{grid-template-columns: 1fr;}.home-hero{padding: 3rem 0 2.25rem;

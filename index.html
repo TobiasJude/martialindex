@@ -39,11 +39,11 @@ body.is-home .site-header{background:rgba(255,255,255,.5);border-bottom:1px soli
 .header-inner{max-width:72rem;margin:0 auto;padding:1.05rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
 body.is-home .header-inner{height:calc(2*var(--hatch));min-height:calc(2*var(--hatch));padding:0 var(--hatch)}
 .wordmark{display:flex;align-items:baseline;text-decoration:none;color:var(--ink);line-height:1}
-.wordmark-title{font-family:var(--serif);font-weight:650;font-size:clamp(1.7rem,2.4vw,2.05rem);letter-spacing:-.04em;line-height:.95}
+.wordmark-title{font-family:var(--serif);font-weight:650;font-size:clamp(1.45rem,2.4vw,2.05rem);letter-spacing:-.04em;line-height:.95;white-space:nowrap}
 .wordmark-kicker{display:none}
 body.is-home .wordmark,body.is-home .wordmark-title{color:#121212}
 .nav-cluster{display:flex;align-items:center;gap:1.25rem}
-.site-nav{display:flex;align-items:center;gap:1.65rem;font-family:var(--display);font-size:.78rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+.site-nav{display:flex;align-items:center;flex-wrap:nowrap;gap:1.65rem;font-family:var(--display);font-size:.78rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase}
 .site-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;padding:0 .35rem;text-decoration:none;color:#0A0A0A;font-weight:550}
 body.is-home .site-nav a{color:#121212}
 .wrap{max-width:72rem;margin:0 auto;padding:0 1.5rem}
@@ -86,6 +86,7 @@ body.is-home .home-section--featured .cover-card__media{order:0;width:100%;aspec
 body.is-home .home-section--featured .cover-card__media img{display:block;width:100%;height:100%;object-fit:cover}
 body.is-home .home-section--featured .cover-card__media img[src*="lepri-gregor"]{object-position:80% 92%}
 @media (max-width:720px){
+.wordmark-title{font-size:1.42rem;white-space:nowrap}.site-nav{flex-wrap:nowrap;gap:.2rem;font-size:.64rem;letter-spacing:.08em}.site-nav a{white-space:nowrap;padding:0 .28rem}
 .home-hero h1{max-width:none;font-size:clamp(2.2rem,9vw,3.2rem)}
 .art-index__row{padding:.9rem .4rem .9rem .7rem}
 .art-index__name{font-size:clamp(1.35rem,6.5vw,1.7rem)}
@@ -95,8 +96,8 @@ body.is-home .home-section--featured .cover-card__media img[src*="lepri-gregor"]
 @media (max-width:799px){
 body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid-template-columns:1fr;gap:1.25rem}
 }</style>
- <link rel="stylesheet" href="/css/home.css?v=chrome1" media="print" onload="this.media='all'">
- <noscript><link rel="stylesheet" href="/css/home.css?v=chrome1"></noscript>
+ <link rel="stylesheet" href="/css/home.css?v=chrome2" media="print" onload="this.media='all'">
+ <noscript><link rel="stylesheet" href="/css/home.css?v=chrome2"></noscript>
  <script type="application/ld+json">
  {
   "@context": "https://schema.org",
@@ -191,24 +192,14 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
 
     <div id="panel-grappling" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="grappling" data-carousel>
      <div class="carousel__track">
-      <a class="cover-card cover-card--lg cover-card--lead carousel__slide" href="/terms/closed-guard/" aria-label="Closed Guard">
-       <div class="cover-card__body">
-        <span class="cover-card__kicker">Class</span>
-        <h3 class="cover-card__title">Closed Guard</h3>
-        <p class="cover-card__meta">A class on the post — lock, posture, angle.</p>
-       </div>
-       <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/bjj-closed-guard-2010.jpg" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Brazilian jiu-jitsu closed/butterfly guard in the gi" width="1200" height="675" fetchpriority="high" decoding="async">
-       </div>
-      </a>
-      <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/bjj/" aria-label="Brazilian Jiu-Jitsu">
+      <a class="cover-card cover-card--lg cover-card--lead carousel__slide" href="/styles/bjj/" aria-label="Brazilian Jiu-Jitsu">
        <div class="cover-card__body">
         <span class="cover-card__kicker">Style</span>
         <h3 class="cover-card__title">Brazilian Jiu-Jitsu</h3>
         <p class="cover-card__meta">Positions and submissions — gi and no-gi.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" srcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" loading="lazy" decoding="async">
+        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" srcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" fetchpriority="high" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/judo/" aria-label="Judo">
@@ -219,6 +210,16 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
        </div>
        <div class="cover-card__media cover-card__media--photo">
         <img src="/media/photos/kano-mifune.jpg" srcset="/media/photos/resp/kano-mifune-720.jpg 720w, /media/photos/kano-mifune.jpg 867w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Kanō Jigorō and Kyuzo Mifune in a judo grip" width="867" height="1120" loading="lazy" decoding="async">
+       </div>
+      </a>
+      <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/sambo/" aria-label="Sambo">
+       <div class="cover-card__body">
+        <span class="cover-card__kicker">Style</span>
+        <h3 class="cover-card__title">Sambo</h3>
+        <p class="cover-card__meta">Soviet jacket wrestling — throws and locks.</p>
+       </div>
+       <div class="cover-card__media cover-card__media--photo">
+        <img src="/media/photos/sambo-european-games.jpg" srcset="/media/photos/resp/sambo-european-games-720.jpg 720w, /media/photos/sambo-european-games.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Sambo at the 2015 European Games" width="1200" height="1038" loading="lazy" decoding="async">
        </div>
       </a>
      </div>

@@ -78,6 +78,9 @@
   --win-deep: #0F3F3A;
   --miss: #A3483A;
   --miss-deep: #5C221C;
+  /* Session rest: pale teal field so the class is not the encyclopedia */
+  --session-rest: #EEF4F2;
+  --session-rest-rule: rgba(31, 107, 99, 0.28);
   --media-bg: #0A0A0A;
   --panel-ink: #1A1612;
   --on-panel: #F6F3EE;
@@ -112,6 +115,8 @@
   --win-deep: oklch(0.28 0.10 175);
   --miss: oklch(0.42 0.12 25);
   --miss-deep: oklch(0.28 0.10 25);
+  --session-rest: oklch(0.97 0.018 175);
+  --session-rest-rule: oklch(0.42 0.12 175 / 0.28);
   --panel-ink: oklch(0.16 0.02 70);
   --on-panel: oklch(0.975 0.008 95);
 }
@@ -605,9 +610,10 @@ html {
 .wordmark-title {
   font-family: var(--serif);
   font-weight: 650;
-  font-size: clamp(1.7rem, 2.4vw, 2.05rem);
+  font-size: clamp(1.45rem, 2.4vw, 2.05rem);
   letter-spacing: -0.04em;
   line-height: 0.95;
+  white-space: nowrap;
 }
 
 .wordmark-kicker {
@@ -1856,13 +1862,27 @@ li {
     margin-left: auto;
   }
 
-  .site-nav {
-    gap: 1.15rem;
+  .wordmark {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .wordmark-title {
+    font-size: 1.42rem;
+    white-space: nowrap;
   }
 
   .site-nav {
-    flex-wrap: wrap;
-    gap: 0.85rem;
+    flex-wrap: nowrap;
+    gap: 0.15rem;
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
+  }
+
+  .site-nav a {
+    white-space: nowrap;
+    padding: 0 0.32rem;
+    min-width: 44px;
   }
 
 
@@ -4677,8 +4697,8 @@ article.term-closed-guard .session,
 article[data-learning-app] .session {
   margin: 1.75rem 0 2.5rem;
   padding: 0 1.15rem 1.75rem;
-  background: var(--page-elevated);
-  border: 1px solid var(--rule);
+  background: var(--session-rest);
+  border: 1px solid var(--session-rest-rule);
   border-radius: 2px;
   box-shadow: none;
   position: relative;
@@ -4697,8 +4717,8 @@ article[data-learning-app] .session__head {
   z-index: 5;
   margin: 0 -1.15rem 1.35rem;
   padding: 0.65rem 1.15rem 0.55rem;
-  background: var(--page-elevated);
-  border-bottom: 1px solid var(--rule);
+  background: var(--session-rest);
+  border-bottom: 1px solid var(--session-rest-rule);
 }
 
 article.term-closed-guard .session__head-row,
@@ -4789,7 +4809,7 @@ article.term-closed-guard .session__bar-fill,
 article[data-learning-app] .session__bar-fill {
   display: block;
   height: 100%;
-  background: var(--ink);
+  background: var(--win);
   border-radius: 0;
   transition: width 0.15s ease;
 }
@@ -4890,30 +4910,30 @@ article.term-closed-guard .check__choices,
 article[data-learning-app] .check__choices {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 0.55rem;
   margin: 0 0 0.85rem;
-  border-top: 1px solid var(--rule);
+  border-top: 0;
 }
 
 article.term-closed-guard .check__choice,
 article[data-learning-app] .check__choice {
   display: block;
   width: 100%;
-  min-height: 56px;
+  min-height: 52px;
   margin: 0;
-  padding: 1.05rem 0.15rem 1.05rem 0;
+  padding: 0.95rem 1rem;
   text-align: left;
   font-family: var(--sans);
-  font-size: 1.05rem;
-  font-weight: 500;
-  line-height: 1.4;
+  font-size: 1.02rem;
+  font-weight: 550;
+  line-height: 1.35;
   color: var(--ink);
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid var(--rule);
-  border-radius: 0;
+  background: var(--page-elevated);
+  border: 1px solid var(--ink);
+  border-radius: 2px;
   cursor: pointer;
-  transition: border-color 0.15s var(--ease),
+  transition: background 0.15s var(--ease),
+  border-color 0.15s var(--ease),
   opacity 0.15s var(--ease);
 }
 
@@ -4922,8 +4942,7 @@ article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check
 article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice:hover,
 article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible,
 article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice:focus-visible {
-  border-bottom-color: var(--ink);
-  background: transparent;
+  background: var(--accent-soft);
   outline: none;
 }
 
@@ -4936,7 +4955,8 @@ article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .chec
 
 article.term-closed-guard .session:not(.is-win-field):not(.is-miss-field) .check__choice.is-picked,
 article[data-learning-app] .session:not(.is-win-field):not(.is-miss-field) .check__choice.is-picked {
-  border-bottom-color: var(--ink);
+  background: var(--accent-soft);
+  box-shadow: inset 3px 0 0 var(--win);
 }
 
 article.term-closed-guard .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
@@ -4980,9 +5000,11 @@ article[data-learning-app] .check__feedback[hidden] {
 
 article.term-closed-guard .check__stance,
 article[data-learning-app] .check__stance {
-  margin: 0 0 0.85rem;
-  padding: 0;
+  margin: 0.85rem 0 0.85rem;
+  padding: 0.75rem 0.9rem;
   border: 0;
+  border-left: 3px solid var(--win);
+  background: var(--page-elevated);
 }
 
 article.term-closed-guard .check__stance summary,
@@ -5849,9 +5871,9 @@ article[data-learning-app] .next-learn__lede {
 
   article.term-closed-guard .check__choice,
   article[data-learning-app] .check__choice {
-    min-height: 56px;
-    padding: 1.05rem 0.1rem 1.05rem 0;
-    font-size: 1.05rem;
+    min-height: 52px;
+    padding: 0.9rem 0.95rem;
+    font-size: 1.02rem;
   }
 
   article.term-closed-guard .session__continue,
@@ -5893,7 +5915,8 @@ article[data-learning-app] .session.is-win-field .check__choice,
 article.term-closed-guard .session.is-miss-field .check__choice,
 article[data-learning-app] .session.is-miss-field .check__choice {
   color: #F4F1EA;
-  border-bottom-color: rgba(244, 241, 234, 0.22);
+  background: transparent;
+  border-color: rgba(244, 241, 234, 0.35);
 }
 
 article.term-closed-guard .session.is-win-field .session-teach__beat,
