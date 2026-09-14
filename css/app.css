@@ -81,6 +81,8 @@
   /* Session rest: pale teal field so the class is not the encyclopedia */
   --session-rest: #EEF4F2;
   --session-rest-rule: rgba(31, 107, 99, 0.28);
+  --session-win-fill: #E7F2F0;
+  --session-miss-fill: #F6EBE8;
   --media-bg: #0A0A0A;
   --panel-ink: #1A1612;
   --on-panel: #F6F3EE;
@@ -117,6 +119,8 @@
   --miss-deep: oklch(0.28 0.10 25);
   --session-rest: oklch(0.97 0.018 175);
   --session-rest-rule: oklch(0.42 0.12 175 / 0.28);
+  --session-win-fill: oklch(0.96 0.025 175);
+  --session-miss-fill: oklch(0.96 0.03 25);
   --panel-ink: oklch(0.16 0.02 70);
   --on-panel: oklch(0.975 0.008 95);
 }
@@ -4697,8 +4701,8 @@ article.term-closed-guard .session,
 article[data-learning-app] .session {
   margin: 1.75rem 0 2.5rem;
   padding: 0 1.15rem 1.75rem;
-  background: var(--session-rest);
-  border: 1px solid var(--session-rest-rule);
+  background: var(--page-elevated);
+  border: 1px solid var(--rule);
   border-radius: 2px;
   box-shadow: none;
   position: relative;
@@ -4717,8 +4721,8 @@ article[data-learning-app] .session__head {
   z-index: 5;
   margin: 0 -1.15rem 1.35rem;
   padding: 0.65rem 1.15rem 0.55rem;
-  background: var(--session-rest);
-  border-bottom: 1px solid var(--session-rest-rule);
+  background: var(--page-elevated);
+  border-bottom: 1px solid var(--rule);
 }
 
 article.term-closed-guard .session__head-row,
@@ -4809,7 +4813,7 @@ article.term-closed-guard .session__bar-fill,
 article[data-learning-app] .session__bar-fill {
   display: block;
   height: 100%;
-  background: var(--win);
+  background: var(--ink);
   border-radius: 0;
   transition: width 0.15s ease;
 }
@@ -5002,9 +5006,9 @@ article.term-closed-guard .check__stance,
 article[data-learning-app] .check__stance {
   margin: 0.85rem 0 0.85rem;
   padding: 0.75rem 0.9rem;
-  border: 0;
-  border-left: 3px solid var(--win);
-  background: var(--page-elevated);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--ink);
+  background: var(--page);
 }
 
 article.term-closed-guard .check__stance summary,
@@ -5015,7 +5019,7 @@ article[data-learning-app] .check__stance summary {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--ink);
   list-style: none;
 }
 
@@ -5111,118 +5115,54 @@ article[data-learning-app] .session__continue.is-pulse {
   }
 }
 
-/* ——— Win field: isoluminant teal grade (hue = state) ——— */
+/* Win/miss: hue on the picked answer only. Session stays paper. */
 article.term-closed-guard .session.is-win-field,
-article[data-learning-app] .session.is-win-field {
-  background-color: var(--win-deep);
-  background-image:
-    conic-gradient(from 210deg at 72% 18%,
-  oklch(0.55 0.14 175 / 0.08),
-  oklch(0.58 0.12 195 / 0.08),
-  transparent 42%),
-  linear-gradient(180deg,
-  oklch(0.38 0.11 175),
-  oklch(0.24 0.09 175));
-  border-color: rgba(247,
-  247,
-  247,
-  0.08);
+article[data-learning-app] .session.is-win-field,
+article.term-closed-guard .session.is-miss-field,
+article[data-learning-app] .session.is-miss-field {
+  background: var(--page-elevated);
+  background-image: none;
+  border-color: var(--rule);
   box-shadow: none;
 }
 
 article.term-closed-guard .session.is-win-field .session__head,
-article[data-learning-app] .session.is-win-field .session__head {
-  background: oklch(0.38 0.11 175);
-  border-bottom-color: rgba(247,
-  247,
-  247,
-  0.14);
-}
-
-article.term-closed-guard .session.is-win-field .session__label,
-article[data-learning-app] .session.is-win-field .session__label,
-article.term-closed-guard .session.is-win-field .session__progress,
-article[data-learning-app] .session.is-win-field .session__progress,
-article.term-closed-guard .session.is-win-field .session__remaining,
-article[data-learning-app] .session.is-win-field .session__remaining,
-article.term-closed-guard .session.is-win-field .check__beat,
-article[data-learning-app] .session.is-win-field .check__beat,
-article.term-closed-guard .session.is-win-field .check__situation,
-article[data-learning-app] .session.is-win-field .check__situation,
-article.term-closed-guard .session.is-win-field .check__recap,
-article[data-learning-app] .session.is-win-field .check__recap,
-article.term-closed-guard .session.is-win-field .check__locator,
-article[data-learning-app] .session.is-win-field .check__locator,
-article.term-closed-guard .session.is-win-field .check__stance summary,
-article[data-learning-app] .session.is-win-field .check__stance summary,
-article.term-closed-guard .session.is-win-field .check__stance p,
-article[data-learning-app] .session.is-win-field .check__stance p {
-  color: #F4F1EA;
-}
-
-article.term-closed-guard .session.is-win-field .check__locator a,
-article[data-learning-app] .session.is-win-field .check__locator a {
-  color: #F4F1EA;
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
-}
-
-article.term-closed-guard .session.is-win-field .session__dots li,
-article[data-learning-app] .session.is-win-field .session__dots li {
-  background: rgba(247,
-  247,
-  247,
-  0.28);
-  box-shadow: none;
-  transform: none;
-}
-
-article.term-closed-guard .session.is-win-field .session__dots li.is-current,
-article[data-learning-app] .session.is-win-field .session__dots li.is-current {
-  background: #F4F1EA;
-  transform: scale(1.2);
-  box-shadow: none;
-}
-
-article.term-closed-guard .session.is-win-field .session__dots li.is-done,
-article[data-learning-app] .session.is-win-field .session__dots li.is-done {
-  background: rgba(247,
-  247,
-  247,
-  0.7);
-}
-
-article.term-closed-guard .session.is-win-field .session__bar,
-article[data-learning-app] .session.is-win-field .session__bar {
-  background: rgba(255,
-  255,
-  255,
-  0.18);
-}
-
-article.term-closed-guard .session.is-win-field .session__bar-fill,
-article[data-learning-app] .session.is-win-field .session__bar-fill {
-  background: #F4F1EA;
+article[data-learning-app] .session.is-win-field .session__head,
+article.term-closed-guard .session.is-miss-field .session__head,
+article[data-learning-app] .session.is-miss-field .session__head {
+  background: var(--page-elevated);
+  border-bottom-color: var(--rule);
 }
 
 article.term-closed-guard .session.is-win-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
-article[data-learning-app] .session.is-win-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
-  opacity: 0.28;
-  color: #F4F1EA;
-  background: transparent;
-  border-bottom-color: rgba(244, 241, 234, 0.28);
+article[data-learning-app] .session.is-win-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
+article.term-closed-guard .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
+article[data-learning-app] .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
+  opacity: 0.45;
+  color: var(--mute);
+  background: var(--page-elevated);
+  border-color: var(--rule);
 }
 
 article.term-closed-guard .session.is-win-field .check__choice.is-correct,
-article[data-learning-app] .session.is-win-field .check__choice.is-correct {
-  background: #F4F1EA;
+article[data-learning-app] .session.is-win-field .check__choice.is-correct,
+article.term-closed-guard .session.is-miss-field .check__choice.is-correct,
+article[data-learning-app] .session.is-miss-field .check__choice.is-correct {
+  background: var(--session-win-fill, #E7F2F0);
   color: var(--ink);
-  border: 0;
-  border-bottom: 1px solid transparent;
-  padding-left: 0.85rem;
-  padding-right: 0.85rem;
-  box-shadow: none;
+  border-color: var(--win);
+  box-shadow: inset 3px 0 0 var(--win);
   opacity: 1;
+}
+
+article.term-closed-guard .session.is-miss-field .check__choice.is-wrong,
+article[data-learning-app] .session.is-miss-field .check__choice.is-wrong {
+  background: var(--session-miss-fill, #F6EBE8);
+  color: var(--ink);
+  border-color: var(--miss);
+  box-shadow: inset 3px 0 0 var(--miss);
+  opacity: 1;
+  text-decoration: none;
 }
 
 article.term-closed-guard .session.is-win-field .check__feedback,
@@ -5230,161 +5170,14 @@ article[data-learning-app] .session.is-win-field .check__feedback,
 article.term-closed-guard .session.is-win-field .check__feedback.is-win,
 article[data-learning-app] .session.is-win-field .check__feedback.is-win {
   background: transparent;
-  background-image: none;
-  border-left: 0;
-  box-shadow: none;
+  border: 0;
   padding: 0.35rem 0 0.85rem;
   font-family: var(--serif);
   font-size: 1.5rem;
   font-weight: 650;
   letter-spacing: -0.01em;
   line-height: 1.3;
-  color: #F4F1EA;
-}
-
-article.term-closed-guard .session.is-win-field .session__continue,
-article[data-learning-app] .session.is-win-field .session__continue,
-article.term-closed-guard .session.is-win-field .session__continue.is-win,
-article[data-learning-app] .session.is-win-field .session__continue.is-win {
-  background: #F4F1EA;
-  background-image: none;
-  color: var(--ink);
-  filter: none;
-}
-
-article.term-closed-guard .session.is-win-field .session__continue:hover,
-article[data-learning-app] .session.is-win-field .session__continue:hover,
-article.term-closed-guard .session.is-win-field .session__continue:focus-visible,
-article[data-learning-app] .session.is-win-field .session__continue:focus-visible {
-  outline: none;
-  filter: none;
-  box-shadow: 0 0 0 3px rgba(244,
-  241,
-  234,
-  0.28);
-}
-
-/* ——— Miss field: isoluminant rose grade (hue = state) ——— */
-article.term-closed-guard .session.is-miss-field,
-article[data-learning-app] .session.is-miss-field {
-  background-color: var(--miss-deep);
-  background-image: linear-gradient(180deg,
-  oklch(0.38 0.11 25),
-  oklch(0.24 0.09 25));
-  border-color: rgba(247,
-  247,
-  247,
-  0.08);
-  box-shadow: none;
-}
-
-article.term-closed-guard .session.is-miss-field .session__head,
-article[data-learning-app] .session.is-miss-field .session__head {
-  background: oklch(0.38 0.11 25);
-  border-bottom-color: rgba(247,
-  247,
-  247,
-  0.14);
-}
-
-article.term-closed-guard .session.is-miss-field .session__label,
-article[data-learning-app] .session.is-miss-field .session__label,
-article.term-closed-guard .session.is-miss-field .session__progress,
-article[data-learning-app] .session.is-miss-field .session__progress,
-article.term-closed-guard .session.is-miss-field .session__remaining,
-article[data-learning-app] .session.is-miss-field .session__remaining,
-article.term-closed-guard .session.is-miss-field .check__beat,
-article[data-learning-app] .session.is-miss-field .check__beat,
-article.term-closed-guard .session.is-miss-field .check__situation,
-article[data-learning-app] .session.is-miss-field .check__situation,
-article.term-closed-guard .session.is-miss-field .check__recap,
-article[data-learning-app] .session.is-miss-field .check__recap,
-article.term-closed-guard .session.is-miss-field .check__locator,
-article[data-learning-app] .session.is-miss-field .check__locator,
-article.term-closed-guard .session.is-miss-field .check__stance summary,
-article[data-learning-app] .session.is-miss-field .check__stance summary,
-article.term-closed-guard .session.is-miss-field .check__stance p,
-article[data-learning-app] .session.is-miss-field .check__stance p {
-  color: #F4F1EA;
-}
-
-article.term-closed-guard .session.is-miss-field .check__locator a,
-article[data-learning-app] .session.is-miss-field .check__locator a {
-  color: #F4F1EA;
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
-}
-
-article.term-closed-guard .session.is-miss-field .session__dots li,
-article[data-learning-app] .session.is-miss-field .session__dots li {
-  background: rgba(247,
-  247,
-  247,
-  0.28);
-  box-shadow: none;
-  transform: none;
-}
-
-article.term-closed-guard .session.is-miss-field .session__dots li.is-current,
-article[data-learning-app] .session.is-miss-field .session__dots li.is-current {
-  background: #F4F1EA;
-  transform: scale(1.2);
-  box-shadow: none;
-}
-
-article.term-closed-guard .session.is-miss-field .session__dots li.is-done,
-article[data-learning-app] .session.is-miss-field .session__dots li.is-done {
-  background: rgba(247,
-  247,
-  247,
-  0.7);
-}
-
-article.term-closed-guard .session.is-miss-field .session__bar,
-article[data-learning-app] .session.is-miss-field .session__bar {
-  background: rgba(255,
-  255,
-  255,
-  0.18);
-}
-
-article.term-closed-guard .session.is-miss-field .session__bar-fill,
-article[data-learning-app] .session.is-miss-field .session__bar-fill {
-  background: #F4F1EA;
-}
-
-article.term-closed-guard .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong),
-article[data-learning-app] .session.is-miss-field .check.is-resolved .check__choice:not(.is-correct):not(.is-wrong) {
-  opacity: 0.28;
-  color: #F4F1EA;
-  background: transparent;
-  border-bottom-color: rgba(244, 241, 234, 0.28);
-}
-
-article.term-closed-guard .session.is-miss-field .check__choice.is-wrong,
-article[data-learning-app] .session.is-miss-field .check__choice.is-wrong {
-  background: transparent;
-  background-image: none;
-  color: #F4F1EA;
-  opacity: 0.5;
-  border: 0;
-  border-bottom: 1px solid rgba(244, 241, 234, 0.3);
-  box-shadow: none;
-  text-decoration: line-through;
-  text-decoration-thickness: 1px;
-  text-decoration-color: rgba(244, 241, 234, 0.45);
-}
-
-article.term-closed-guard .session.is-miss-field .check__choice.is-correct,
-article[data-learning-app] .session.is-miss-field .check__choice.is-correct {
-  background: #F4F1EA;
-  color: var(--ink);
-  border: 0;
-  border-bottom: 1px solid transparent;
-  padding-left: 0.85rem;
-  padding-right: 0.85rem;
-  box-shadow: none;
-  opacity: 1;
+  color: var(--win-deep);
 }
 
 article.term-closed-guard .session.is-miss-field .check__feedback,
@@ -5392,38 +5185,34 @@ article[data-learning-app] .session.is-miss-field .check__feedback,
 article.term-closed-guard .session.is-miss-field .check__feedback.is-miss,
 article[data-learning-app] .session.is-miss-field .check__feedback.is-miss {
   background: transparent;
-  background-image: none;
-  border-left: 0;
-  box-shadow: none;
+  border: 0;
   padding: 0.35rem 0 0.85rem;
   font-family: var(--sans);
   font-size: 0.95rem;
   font-weight: 500;
-  letter-spacing: 0;
   line-height: 1.4;
-  color: #F4F1EA;
+  color: var(--miss-deep);
 }
 
+article.term-closed-guard .session.is-win-field .session__continue,
+article[data-learning-app] .session.is-win-field .session__continue,
 article.term-closed-guard .session.is-miss-field .session__continue,
-article[data-learning-app] .session.is-miss-field .session__continue,
-article.term-closed-guard .session.is-miss-field .session__continue.is-miss,
-article[data-learning-app] .session.is-miss-field .session__continue.is-miss {
-  background: #F4F1EA;
-  background-image: none;
-  color: var(--ink);
+article[data-learning-app] .session.is-miss-field .session__continue {
+  background: var(--ink);
+  color: var(--page);
   filter: none;
 }
 
+article.term-closed-guard .session.is-win-field .session__continue:hover,
+article[data-learning-app] .session.is-win-field .session__continue:hover,
 article.term-closed-guard .session.is-miss-field .session__continue:hover,
 article[data-learning-app] .session.is-miss-field .session__continue:hover,
+article.term-closed-guard .session.is-win-field .session__continue:focus-visible,
+article[data-learning-app] .session.is-win-field .session__continue:focus-visible,
 article.term-closed-guard .session.is-miss-field .session__continue:focus-visible,
 article[data-learning-app] .session.is-miss-field .session__continue:focus-visible {
   outline: none;
-  filter: none;
-  box-shadow: 0 0 0 3px rgba(244,
-  241,
-  234,
-  0.28);
+  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
 article.term-closed-guard .session-teach,
@@ -5903,35 +5692,4 @@ article[data-learning-app] .next-learn__lede {
   }
 }
 
-article.term-closed-guard .session.is-win-field .check__choices,
-article[data-learning-app] .session.is-win-field .check__choices,
-article.term-closed-guard .session.is-miss-field .check__choices,
-article[data-learning-app] .session.is-miss-field .check__choices {
-  border-top-color: rgba(244, 241, 234, 0.22);
-}
-
-article.term-closed-guard .session.is-win-field .check__choice,
-article[data-learning-app] .session.is-win-field .check__choice,
-article.term-closed-guard .session.is-miss-field .check__choice,
-article[data-learning-app] .session.is-miss-field .check__choice {
-  color: #F4F1EA;
-  background: transparent;
-  border-color: rgba(244, 241, 234, 0.35);
-}
-
-article.term-closed-guard .session.is-win-field .session-teach__beat,
-article[data-learning-app] .session.is-win-field .session-teach__beat,
-article.term-closed-guard .session.is-miss-field .session-teach__beat,
-article[data-learning-app] .session.is-miss-field .session-teach__beat,
-article.term-closed-guard .session.is-win-field .session-teach__title,
-article[data-learning-app] .session.is-win-field .session-teach__title,
-article.term-closed-guard .session.is-miss-field .session-teach__title,
-article[data-learning-app] .session.is-miss-field .session-teach__title,
-article.term-closed-guard .session.is-win-field .session-teach__coach p,
-article[data-learning-app] .session.is-win-field .session-teach__coach p,
-article.term-closed-guard .session.is-miss-field .session-teach__coach p,
-article[data-learning-app] .session.is-miss-field .session-teach__coach p {
-  color: #F4F1EA;
-  opacity: 1;
-}
 
