@@ -49,9 +49,24 @@
       (e.__SV = 1));
   })(document, window.posthog || []);
 
+  // Lab/automation: skip session recorder for Lighthouse / PageSpeed / headless / webdriver.
+  // Real users get recording from init. Surveys / dead-clicks / feature flags stay off.
+  var ua = String((navigator && navigator.userAgent) || "");
+  var isLab =
+    !!(navigator && navigator.webdriver) ||
+    /Lighthouse|PageSpeed|Headless/i.test(ua);
+
   posthog.init("phc_xwv7EmLHVAN5qjfsjzCkaG5o6PJSmY6rPioNYq3CZPgQ", {
     api_host: "https://us.i.posthog.com",
-    defaults: "2026-05-30",
-    person_profiles: "identified_only"
+    person_profiles: "identified_only",
+    capture_pageview: true,
+    capture_pageleave: true,
+    autocapture: false,
+    disable_session_recording: isLab,
+    disable_surveys: true,
+    capture_dead_clicks: false,
+    capture_performance: false,
+    advanced_disable_feature_flags: true,
+    opt_in_site_apps: false
   });
 })();

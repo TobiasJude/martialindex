@@ -82,11 +82,55 @@
   document.querySelectorAll("form[data-capture]").forEach(bind);
 })();
 
-(function loadPosthogOnce() {
-  if (window.__miPosthogLoader) return;
-  window.__miPosthogLoader = true;
-  var s = document.createElement("script");
-  s.src = "/js/posthog.js";
-  s.defer = true;
-  (document.head || document.documentElement).appendChild(s);
+(function loadAnalyticsIdle() {
+  if (window.__miAnalyticsLoader) return;
+  window.__miAnalyticsLoader = true;
+
+  var GA_ID = "G-SVY4HBL4SY";
+  var POSTHOG_SRC = "/js/posthog.js?v=phog4";
+  var IDLE_TIMEOUT_MS = 4000;
+
+  function loadPosthog() {
+    if (window.__miPosthogLoader) return;
+    window.__miPosthogLoader = true;
+    var s = document.createElement("script");
+    s.src = POSTHOG_SRC;
+    s.defer = true;
+    (document.head || document.documentElement).appendChild(s);
+  }
+
+  function loadGtag() {
+    if (window.__miGtagLoader || window.gtag) return;
+    window.__miGtagLoader = true;
+    window.dataLayer = window.dataLayer || [];
+    if (typeof window.gtag !== "function") {
+      window.gtag = function () { window.dataLayer.push(arguments); };
+    }
+    var s = document.createElement("script");
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+    s.async = true;
+    s.onload = function () {
+      window.gtag("js", new Date());
+      window.gtag("config", GA_ID, { send_page_view: true });
+    };
+    (document.head || document.documentElement).appendChild(s);
+  }
+
+  function start() {
+    var ran = false;
+    function run() {
+      if (ran) return;
+      ran = true;
+      loadGtag();
+      loadPosthog();
+    }
+    if ("requestIdleCallback" in window) {
+      window.requestIdleCallback(run, { timeout: IDLE_TIMEOUT_MS });
+    } else {
+      setTimeout(run, IDLE_TIMEOUT_MS);
+    }
+  }
+
+  if (document.readyState === "complete") start();
+  else window.addEventListener("load", start, { once: true });
 })();
