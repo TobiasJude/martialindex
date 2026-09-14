@@ -81,3 +81,12 @@
 
   document.querySelectorAll("form[data-capture]").forEach(bind);
 })();
+
+(function loadPosthogOnce() {
+  if (window.__miPosthogLoader) return;
+  window.__miPosthogLoader = true;
+  var s = document.createElement("script");
+  s.src = "/js/posthog.js";
+  s.defer = true;
+  (document.head || document.documentElement).appendChild(s);
+})();
