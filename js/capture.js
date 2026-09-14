@@ -87,7 +87,7 @@
   window.__miAnalyticsLoader = true;
 
   var GA_ID = "G-SVY4HBL4SY";
-  var POSTHOG_SRC = "/js/posthog.js?v=phog4";
+  var POSTHOG_SRC = "/js/posthog.js?v=phog5";
   var IDLE_TIMEOUT_MS = 4000;
 
   function loadPosthog() {
