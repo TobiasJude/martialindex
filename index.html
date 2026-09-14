@@ -23,13 +23,14 @@
    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>:root{--page:#F7F7F7;--page-elevated:#fff;--ink:#0A0A0A;--mute:#3D3D3D;--mute-soft:#555;--rule:rgba(10,10,10,.14);--rule-strong:rgba(10,10,10,.28);--accent:#250438;--accent-soft:rgba(37,4,56,.12);--on-accent:#fff;--serif:"Newsreader","Source Serif 4",Georgia,serif;--sans:"Inter","Helvetica Neue",Arial,sans-serif;--display:"Inter",system-ui,sans-serif;--radius:2px;--ease:cubic-bezier(.22,1,.36,1);--shadow-media:0 2px 4px rgba(10,10,10,.04),0 18px 48px rgba(10,10,10,.1);--hatch:36px}
+<style>:root{--page:#F6F3EE;--page-elevated:#FFFcf8;--ink:#1A1612;--mute:#5C574F;--mute-soft:#6E6960;--rule:rgba(26,22,18,.14);--rule-strong:rgba(26,22,18,.28);--accent:#1A1612;--accent-soft:rgba(26,22,18,.10);--on-accent:#F6F3EE;--page:oklch(0.975 0.008 95);--page-elevated:oklch(0.995 0.004 95);--ink:oklch(0.16 0.02 70);--mute:oklch(0.42 0.02 70);--mute-soft:oklch(0.50 0.015 70);--accent:oklch(0.16 0.02 70);--accent-soft:oklch(0.16 0.02 70 / 0.10);--on-accent:oklch(0.975 0.008 95);--serif:"Newsreader","Source Serif 4",Georgia,serif;--sans:"Inter","Helvetica Neue",Arial,sans-serif;--display:"Inter",system-ui,sans-serif;--radius:2px;--ease:cubic-bezier(.22,1,.36,1);--shadow-media:0 2px 4px rgba(10,10,10,.04),0 18px 48px rgba(10,10,10,.1);--hatch:36px}
 *,*::before,*::after{box-sizing:border-box}
 html{font-size:17px;background-color:#121212}
 body{margin:0;background:var(--page);color:var(--ink);font-family:var(--sans);font-weight:400;line-height:1.65;-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;border:0}
 a{color:inherit}
-body.is-home{--page:#fff;--ink:#121212;--mute:#5A5A5A;--mute-soft:#727272;--rule:rgba(18,18,18,.16);--radius:12px;position:relative;isolation:isolate;background-color:#fff}
+/* Home: accent = ink; hatch ink/black */
+body.is-home{--radius:2px;position:relative;isolation:isolate;background-color:var(--page)}
 body.is-home::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;contain:strict;background-image:linear-gradient(to bottom,rgba(18,18,18,.05) 0%,rgba(18,18,18,.026) 40%,rgba(18,18,18,.012) 100%),repeating-linear-gradient(0deg,rgba(18,18,18,.03) 0 1px,transparent 1px 36px),repeating-linear-gradient(90deg,rgba(18,18,18,.03) 0 1px,transparent 1px 36px);background-size:auto,var(--hatch) var(--hatch),var(--hatch) var(--hatch);background-position:max(0px,calc((100% - 72rem)/2)) 0;-webkit-mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.64) 50%,rgba(0,0,0,.30) 100%);mask-image:linear-gradient(to bottom,#000 0%,rgba(0,0,0,.64) 50%,rgba(0,0,0,.30) 100%)}
 body.is-home main,body.is-home main>*{position:relative;z-index:1}
 .skip-link{position:absolute;left:1rem;top:.85rem;z-index:80;transform:translateY(-180%)}
@@ -48,7 +49,7 @@ body.is-home .site-nav a{color:#121212}
 .wrap{max-width:72rem;margin:0 auto;padding:0 1.5rem}
 body.is-home .wrap{padding-left:var(--hatch);padding-right:var(--hatch)}
 .home-hero{padding:clamp(2.75rem,6vw,4.5rem) 0 2.5rem;text-align:left}
-body.is-home .home-hero,body.is-home .home-hero--compact{padding:var(--hatch) 0}
+body.is-home .home-hero,body.is-home .home-hero--compact{padding:calc(2*var(--hatch)) 0 calc(1.5*var(--hatch))}
 .home-hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.7rem,6.4vw,4.85rem);letter-spacing:-.03em;line-height:1.08;margin:0 0 .55rem;max-width:18ch}
 .home-hero .mission{font-family:var(--sans);font-size:clamp(1rem,1.5vw,1.12rem);line-height:1.5;color:var(--mute);max-width:36rem;margin:0}
 .home-hero--compact .mission{max-width:40rem}
@@ -58,7 +59,7 @@ body.is-home .home-section--arts .section-label,body.is-home .home-section--feat
 body.is-home .home-section--arts{padding:.25rem 0 2.25rem}
 .art-index{display:flex;flex-direction:column;gap:0;max-width:none;margin:.2rem 0 0;border-top:2px solid #1A1814}
 .art-index__row{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:1rem;row-gap:.15rem;align-items:baseline;padding:.95rem .25rem .95rem .55rem;border:0;border-bottom:1px solid #B8B3A8;border-left:2px solid transparent;background:transparent;text-decoration:none;color:var(--ink)}
-.art-index__row.is-selected{border-left-color:var(--accent);background:rgba(37,4,56,.05)}
+.art-index__row.is-selected{border-left-color:var(--accent);background:rgba(26,22,18,.05)}
 .art-index__name{grid-column:1;grid-row:1;font-family:var(--serif);font-size:clamp(1.5rem,3vw,2.05rem);font-weight:650;letter-spacing:-.03em;line-height:1.15}
 .art-index__dek{grid-column:1;grid-row:2;font-family:var(--sans);font-size:.9rem;line-height:1.4;color:var(--mute);max-width:38ch}
 .art-index__mark{grid-column:2;grid-row:1/-1;align-self:center;font-family:var(--display);font-size:1rem;color:var(--mute-soft)}
@@ -76,7 +77,7 @@ body.is-home .home-section--featured .featured-head .section-label{margin:0}
 .cover-card__title{font-family:var(--display);font-size:clamp(1.15rem,2vw,1.35rem);font-weight:600;letter-spacing:-.03em;line-height:1.2;margin:0}
 .cover-card__meta{margin:0;font-size:.88rem;color:var(--mute);line-height:1.35}
 body.is-home .home-section--featured .cover-grid--featured .carousel__track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;max-width:72rem}
-body.is-home .home-section--featured .cover-card{display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid #1A1814;border-radius:12px;padding:0 0 1rem;height:100%;overflow:hidden}
+body.is-home .home-section--featured .cover-card{display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid #1A1814;border-radius:2px;padding:0 0 1rem;height:100%;overflow:hidden}
 body.is-home .home-section--featured .cover-card__body{order:1;padding:.85rem .95rem 0;background:none;gap:.22rem;flex:1}
 body.is-home .home-section--featured .cover-card__kicker{display:block;font-family:var(--display);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 body.is-home .home-section--featured .cover-card__title{font-family:var(--serif);font-size:1.22rem;font-weight:650;letter-spacing:-.02em;line-height:1.22;min-height:2.45em}
@@ -94,8 +95,8 @@ body.is-home .home-section--featured .cover-card__media img[src*="lepri-gregor"]
 @media (max-width:799px){
 body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid-template-columns:1fr;gap:1.25rem}
 }</style>
- <link rel="stylesheet" href="/css/home.css?v=dot50" media="print" onload="this.media='all'">
- <noscript><link rel="stylesheet" href="/css/home.css?v=dot50"></noscript>
+ <link rel="stylesheet" href="/css/home.css?v=chrome1" media="print" onload="this.media='all'">
+ <noscript><link rel="stylesheet" href="/css/home.css?v=chrome1"></noscript>
  <script type="application/ld+json">
  {
   "@context": "https://schema.org",
@@ -143,6 +144,7 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
     <nav class="site-nav" aria-label="Primary">
      <a href="/styles/" aria-label="Styles">Styles</a>
      <a href="/terms/" aria-label="Terms">Terms</a>
+     <a href="/guides/" aria-label="Top posts">Top posts</a>
     </nav>
    </div>
   </div>
@@ -152,7 +154,7 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
   <div class="wrap">
    <section class="home-hero home-hero--compact">
     <h1>Learn every fighting art.</h1>
-    <p class="mission">Techniques, lineages, and the people who train them, in one place.</p>
+    <p class="mission">Parts, then the whole. Every art.</p>
    </section>
 
    <section class="home-section home-section--arts" aria-labelledby="arts-label">
@@ -183,20 +185,30 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
 
    <section class="home-section home-section--featured" id="featured" aria-labelledby="featured-label">
     <div class="featured-head">
-     <h2 class="section-label" id="featured-label" data-featured-label>From the catalog</h2>
+     <h2 class="section-label" id="featured-label" data-featured-label>On the mats</h2>
      <a class="featured-all" href="/styles/#main" data-featured-all>View all</a>
     </div>
 
     <div id="panel-grappling" class="featured-panel cover-grid cover-grid--featured carousel" data-art-panel="grappling" data-carousel>
      <div class="carousel__track">
-      <a class="cover-card cover-card--lg cover-card--lead carousel__slide" href="/styles/bjj/" aria-label="Brazilian Jiu-Jitsu">
+      <a class="cover-card cover-card--lg cover-card--lead carousel__slide" href="/terms/closed-guard/" aria-label="Closed Guard">
+       <div class="cover-card__body">
+        <span class="cover-card__kicker">Class</span>
+        <h3 class="cover-card__title">Closed Guard</h3>
+        <p class="cover-card__meta">A class on the post — lock, posture, angle.</p>
+       </div>
+       <div class="cover-card__media cover-card__media--photo">
+        <img src="/media/photos/bjj-closed-guard-2010.jpg" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Brazilian jiu-jitsu closed/butterfly guard in the gi" width="1200" height="675" fetchpriority="high" decoding="async">
+       </div>
+      </a>
+      <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/bjj/" aria-label="Brazilian Jiu-Jitsu">
        <div class="cover-card__body">
         <span class="cover-card__kicker">Style</span>
         <h3 class="cover-card__title">Brazilian Jiu-Jitsu</h3>
         <p class="cover-card__meta">Positions and submissions — gi and no-gi.</p>
        </div>
        <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" srcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" fetchpriority="high" decoding="async">
+        <img src="/media/photos/lepri-gregor-gracie-2009.jpg" srcset="/media/photos/resp/lepri-gregor-gracie-2009-720.jpg 720w, /media/photos/lepri-gregor-gracie-2009.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Gi Brazilian jiu-jitsu match on outdoor mats" width="1200" height="675" loading="lazy" decoding="async">
        </div>
       </a>
       <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/judo/" aria-label="Judo">
@@ -207,16 +219,6 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
        </div>
        <div class="cover-card__media cover-card__media--photo">
         <img src="/media/photos/kano-mifune.jpg" srcset="/media/photos/resp/kano-mifune-720.jpg 720w, /media/photos/kano-mifune.jpg 867w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Kanō Jigorō and Kyuzo Mifune in a judo grip" width="867" height="1120" loading="lazy" decoding="async">
-       </div>
-      </a>
-      <a class="cover-card cover-card--lg cover-card--support carousel__slide" href="/styles/sambo/" aria-label="Sambo">
-       <div class="cover-card__body">
-        <span class="cover-card__kicker">Style</span>
-        <h3 class="cover-card__title">Sambo</h3>
-        <p class="cover-card__meta">Soviet jacket wrestling — throws and locks.</p>
-       </div>
-       <div class="cover-card__media cover-card__media--photo">
-        <img src="/media/photos/sambo-european-games.jpg" srcset="/media/photos/resp/sambo-european-games-720.jpg 720w, /media/photos/sambo-european-games.jpg 1200w" sizes="(max-width: 799px) calc(100vw - 72px), 360px" alt="Sambo at the 2015 European Games" width="1200" height="1038" loading="lazy" decoding="async">
        </div>
       </a>
      </div>
@@ -348,9 +350,11 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
 
  <footer class="site-footer">
   <div class="footer-bleed" aria-hidden="true"></div>
-  <div class="footer-wordmark" aria-hidden="true">
-   <span class="footer-wordmark__line">Catalog</span>
-   <span class="footer-wordmark__line">of combat</span>
+  <div class="footer-wordmark">
+   <a href="/" aria-label="Home">
+    <span class="footer-wordmark__line" aria-hidden="true">Catalog</span>
+    <span class="footer-wordmark__line" aria-hidden="true">of combat</span>
+   </a>
   </div>
   <div class="footer-inner">
    <div class="footer-legal">
@@ -370,9 +374,10 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
      <li><a href="/styles/#styles-mixed">Mixed</a></li>
     </ul>
    </nav>
-   <nav class="footer-col" aria-label="Guides">
-    <h2 class="footer-col__title">Guides</h2>
+   <nav class="footer-col" aria-label="Top posts">
+    <h2 class="footer-col__title">Top posts</h2>
     <ul>
+     <li><a href="/terms/closed-guard/">Closed Guard</a></li>
      <li><a href="/guides/#start-bjj">How to start BJJ</a></li>
      <li><a href="/guides/#start-muay-thai">How to start Muay Thai</a></li>
      <li><a href="/guides/#start-wrestling">How to start wrestling</a></li>
@@ -397,7 +402,7 @@ body.is-home .home-section--featured .cover-grid--featured .carousel__track{grid
   </ul>
 </footer>
  <script src="/js/carousel.js?v=dot50" defer></script>
- <script src="/js/home-art.js?v=dot50" defer></script>
+ <script src="/js/home-art.js?v=art1" defer></script>
  <script src="/js/capture.js?v=phog6" defer></script>
  <!-- GA idle-loaded by capture.js -->
 </body>

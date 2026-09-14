@@ -23,7 +23,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/app.css?v=class-beauty2">
  <link rel="stylesheet" href="/css/read-progress.css">
  <script type="application/ld+json">
 {
@@ -124,6 +124,7 @@
     <nav class="site-nav" aria-label="Primary">
      <a href="/styles/">Styles</a>
      <a href="/terms/">Terms</a>
+     <a href="/guides/">Top posts</a>
     </nav>
    </div>
   </div>
@@ -131,32 +132,41 @@
 
  <main id="main">
   <div class="article-shell">
-   <article class="article-layout has-toc">
+   <article class="article-layout has-toc term-live term-guard" data-learning-app>
 
     <aside class="toc-rail" aria-label="Table of contents">
     <nav class="toc" aria-labelledby="toc-heading" data-toc>
      <h2 id="toc-heading">Contents</h2>
-    <ol>
-
-     <li><a href="#what-is">What Is Guard?</a></li>
-     <li><a href="#how-it-works">How Guard Works</a></li>
-     <li><a href="#gi-vs-nogi">Gi vs No-Gi</a></li>
-     <li><a href="#types">Types of Guard</a></li>
-     <li><a href="#example">What Does Guard Look Like in Practice?</a></li>
-     <li><a href="#closed-vs-open">Closed Guard vs Open Guard</a></li>
-     <li>
-      <a href="#special">Special Considerations</a>
-      <ol class="toc__sub">
-       <li><a href="#sport-context">Sport context</a></li>
-       <li><a href="#safety">Safety</a></li>
-      </ol>
-     </li>
-     <li><a href="#related">Related notes</a></li>
-     <li><a href="#faq">FAQ</a></li>
-     <li><a href="#bottom-line">The Bottom Line</a></li>
-     <li><a href="#next-learn">Related articles</a></li>
-
-    </ol>
+     <p class="toc__group">Session</p>
+     <ol>
+      <li><a href="#teach-connection">Connection</a></li>
+      <li><a href="#teach-doors">Doors</a></li>
+      <li><a href="#teach-leave">Leave when</a></li>
+      <li><a href="#session-glue">Glue</a></li>
+      <li><a href="#session-whole">If / then</a></li>
+      <li><a href="#session-transition">In the transition</a></li>
+     </ol>
+     <p class="toc__group">The entry</p>
+     <ol>
+      <li><a href="#takeaways-heading">Key Takeaways</a></li>
+      <li><a href="#what-is">What Is Guard?</a></li>
+      <li><a href="#how-it-works">How Guard Works</a></li>
+      <li><a href="#gi-vs-nogi">Gi vs No-Gi</a></li>
+      <li><a href="#types">Types of Guard</a></li>
+      <li><a href="#example">What Does Guard Look Like in Practice?</a></li>
+      <li><a href="#closed-vs-open">Closed Guard vs Open Guard</a></li>
+      <li>
+       <a href="#special">Special Considerations</a>
+       <ol class="toc__sub">
+        <li><a href="#sport-context">Sport context</a></li>
+        <li><a href="#safety">Safety</a></li>
+       </ol>
+      </li>
+      <li><a href="#related">Related notes</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#bottom-line">The Bottom Line</a></li>
+      <li><a href="#next-learn">Related articles</a></li>
+     </ol>
     </nav>
    </aside>
     <div class="article-main">
@@ -185,6 +195,172 @@
     <a href="/terms/guard.md">Plain markdown</a>
    </div>
 
+
+   <section class="session" id="session" aria-labelledby="session-label">
+    <header class="session__head">
+     <div class="session__head-row">
+      <p class="session__label" id="session-label">Session</p>
+      <p class="session__progress" aria-live="polite"><span data-session-progress>Connection · learn</span><span data-session-remaining class="session__remaining"></span></p>
+     </div>
+     <ol class="session__dots" data-session-dots aria-hidden="true">
+      <li class="is-current"></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+     </ol>
+     <div class="session__bar" data-session-bar aria-hidden="true"><span class="session__bar-fill" style="width:0%"></span></div>
+    </header>
+
+    <div class="session-parts" id="session-parts">
+
+    <section class="session-teach" id="teach-connection" data-session-step aria-labelledby="teach-connection-title">
+     <figure class="session-plate">
+      <img src="/media/photos/de-la-riva-guard.jpg" alt="De La Riva guard: outside hook and ankle control" width="1200" height="675" loading="eager" decoding="async">
+     </figure>
+     <p class="session-teach__beat">Connection · learn</p>
+     <h2 id="teach-connection-title" class="session-teach__title">Connection</h2>
+     <div class="session-teach__coach">
+      <p class="session-teach__line">Guard is legs managing the top player — not lying down.</p>
+      <p>If the legs are out of the fight for the hips, you don’t have guard.</p>
+     </div>
+     <p class="check__locator">In the entry: <a href="#what-is">what is guard</a></p>
+     <button type="button" class="session__continue" data-session-continue hidden>Drill this</button>
+    </section>
+
+    <section class="check" id="part-connection" data-session-step data-check data-win="Legs out = no guard." aria-labelledby="part-connection-title">
+     <p class="check__beat">Connection · drill</p>
+     <h2 id="part-connection-title" class="check__situation">Chest-to-chest on you. Feet flat on the mat, no frames, no hooks. Do you still have guard?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Being on bottom">Yes — I’m on bottom.</button>
+      <button type="button" class="check__choice" data-correct="true">No — the legs aren’t contesting the hips.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Waiting for mount">Yes — until they mount.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>Bottom is not the category. Guard means the legs are still in the fight for the top player’s hips. Flat feet with no frames is already a pin waiting to happen.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#what-is">what is guard</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="Next beat" data-continue-miss="Hold that. Next." hidden>Continue</button>
+    </section>
+
+    <section class="session-teach" id="teach-doors" data-session-step aria-labelledby="teach-doors-title">
+     <p class="session-teach__beat">Doors · learn</p>
+     <h2 id="teach-doors-title" class="session-teach__title">Doors</h2>
+     <div class="session-teach__coach">
+      <p class="session-teach__line">Closed, open, half — pick the door for their posture and distance.</p>
+      <p>Closed hugs the waist. Open plays range. Half traps one leg when the pass is already through.</p>
+     </div>
+     <p class="check__locator">In the entry: <a href="#closed-vs-open">closed vs open</a> · <a href="#types">types</a></p>
+     <button type="button" class="session__continue" data-session-continue hidden>Drill this</button>
+    </section>
+
+    <section class="check" id="part-doors" data-session-step data-check data-win="Wrong door." aria-labelledby="part-doors-title">
+     <p class="check__beat">Doors · drill</p>
+     <h2 id="part-doors-title" class="check__situation">Passer is tall and standing, loading a knee-cut. Your ankles are still crossed. What’s the miss?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Squeezing the closed shell">Stay closed and squeeze.</button>
+      <button type="button" class="check__choice" data-correct="true">Wrong door — open or recompose; a standing passer owns a static closed shell.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Diving under">Invert with no frames.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>Closed is the door when you can still hug the waist and hunt. Standing + knee-cut means open frames, half, or retention — not a longer closed shell.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#closed-vs-open">closed vs open</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="Next beat" data-continue-miss="Hold that. Next." hidden>Continue</button>
+    </section>
+
+    <section class="session-teach" id="teach-leave" data-session-step aria-labelledby="teach-leave-title">
+     <p class="session-teach__beat">Leave when · learn</p>
+     <h2 id="teach-leave-title" class="session-teach__title">Leave when</h2>
+     <div class="session-teach__coach">
+      <p class="session-teach__line">Guard is a place you hunt from — not a shell you die in.</p>
+      <p>Leave on purpose when the connection is gone. Don’t wait for the pin.</p>
+     </div>
+     <p class="check__locator">In the entry: <a href="#how-it-works">how guard works</a></p>
+     <button type="button" class="session__continue" data-session-continue hidden>Drill this</button>
+    </section>
+
+    <section class="check" id="part-leave" data-session-step data-check data-win="Legs cleared." aria-labelledby="part-leave-title">
+     <p class="check__beat">Leave when · drill</p>
+     <h2 id="part-leave-title" class="check__situation">Both legs cleared. Chest settling toward side control. What’s true?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Still calling it open guard">You still have open guard.</button>
+      <button type="button" class="check__choice" data-correct="true">Guard is passed — fight the pin or recover.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Holding the empty shell">Hold the shell longer.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>Once both legs are cleared into a pin path, the category changed. Recovery or turtle is the move — not renaming the pass as guard.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#how-it-works">how guard works</a> · <a href="#example">example</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="Next beat" data-continue-miss="Hold that. Next." hidden>Continue</button>
+    </section>
+
+    </div>
+
+    <section class="check check--glue" id="session-glue" data-session-step data-check data-win="Chained." aria-labelledby="glue-title">
+     <p class="check__beat">Glue · Connection + door</p>
+     <p class="check__recap">Connect first. Then pick the door.</p>
+     <h2 id="glue-title" class="check__situation">Passer posts tall. You’re flat, feet floating, no hooks. What is the chain?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Squeezing and waiting">Squeeze and wait.</button>
+      <button type="button" class="check__choice" data-correct="true">Get a connection — frames or hooks — then pick closed, open, or half for the distance.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Closing with no connection">Pull closed from no connection.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>Connection before configuration. Floating feet plus a closed wish is not a chain. Frames or hooks first, then the door that matches posture and distance.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#what-is">what is guard</a> · <a href="#types">types</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="Next beat" data-continue-miss="Hold that. Next." hidden>Continue</button>
+    </section>
+
+    <section class="check" id="session-whole" data-session-step data-check data-win="Match the door." aria-labelledby="whole-title">
+     <p class="check__beat">Whole · if / then</p>
+     <h2 id="whole-title" class="check__situation">Passer kneeling, spine long; your ankles can still lock. What’s the if/then?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Always closing">Always close, no matter what.</button>
+      <button type="button" class="check__choice" data-correct="true">If you can lock low — close and hunt. If they stand or knee-cut — open or half. Don’t die in a shell.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Always opening">Always open first.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>Match the door to posture and distance. Closed when the hug is real. Open or half when the passer owns the rise. The shell without a hunt is the miss.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#closed-vs-open">closed vs open</a> · <a href="#gi-vs-nogi">gi vs no-gi</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="Last stretch" data-continue-miss="Hold that. Next." hidden>Last stretch</button>
+    </section>
+
+    <section class="check" id="session-transition" data-session-step data-check data-win="Late to hold." aria-labelledby="transition-title">
+     <p class="check__beat">In the transition</p>
+     <h2 id="transition-title" class="check__situation">They’re standing into a knee-cut. Closed ankles are peeling. Where are you?</h2>
+     <div class="check__choices" role="group" aria-label="Pick a stance">
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Holding the closed shell">Hold the closed shell.</button>
+      <button type="button" class="check__choice" data-correct="true">Late to hold — frame the hip, open, or race half / retention before the back take.</button>
+      <button type="button" class="check__choice" data-correct="false" data-mistake="Waiting for the pin">Wait until side control lands.</button>
+     </div>
+     <p class="check__feedback" data-check-feedback hidden aria-live="polite"></p>
+     <details class="check__stance">
+      <summary>Stance</summary>
+      <p>The peel is the move. Standing knee-cut with locked ankles is already late — open with frames, fight half, or recover. Waiting for the pin (or giving the back) is not a plan.</p>
+     </details>
+     <p class="check__locator">In the entry: <a href="#how-it-works">how guard works</a></p>
+     <button type="button" class="session__continue" data-session-continue data-continue-win="That’s the class." data-continue-miss="That’s the class." hidden>That’s the class.</button>
+    </section>
+
+    <div class="session__close" id="session-close" data-session-close hidden>
+     <p class="session__close-kicker">Session</p>
+     <h2 class="session__close-title">That's the class.</h2>
+     <p class="session__close-dek">The record is after the class.</p>
+    </div>
+   </section>
+
+   <section class="term-entry" id="entry" aria-labelledby="entry-label">
+    <p class="entry__label" id="entry-label">The entry</p>
+
 <aside class="takeaways" aria-labelledby="takeaways-heading">
     <h2 id="takeaways-heading">Key Takeaways</h2>
     <ul>
@@ -198,27 +374,36 @@
 
       <nav class="toc toc-mobile" aria-labelledby="toc-heading-m">
     <h2 id="toc-heading-m">Contents</h2>
-    <ol>
-
-     <li><a href="#what-is">What Is Guard?</a></li>
-     <li><a href="#how-it-works">How Guard Works</a></li>
-     <li><a href="#gi-vs-nogi">Gi vs No-Gi</a></li>
-     <li><a href="#types">Types of Guard</a></li>
-     <li><a href="#example">What Does Guard Look Like in Practice?</a></li>
-     <li><a href="#closed-vs-open">Closed Guard vs Open Guard</a></li>
-     <li>
-      <a href="#special">Special Considerations</a>
-      <ol class="toc__sub">
-       <li><a href="#sport-context">Sport context</a></li>
-       <li><a href="#safety">Safety</a></li>
-      </ol>
-     </li>
-     <li><a href="#related">Related notes</a></li>
-     <li><a href="#faq">FAQ</a></li>
-     <li><a href="#bottom-line">The Bottom Line</a></li>
-     <li><a href="#next-learn">Related articles</a></li>
-
-    </ol>
+     <p class="toc__group">Session</p>
+     <ol>
+      <li><a href="#teach-connection">Connection</a></li>
+      <li><a href="#teach-doors">Doors</a></li>
+      <li><a href="#teach-leave">Leave when</a></li>
+      <li><a href="#session-glue">Glue</a></li>
+      <li><a href="#session-whole">If / then</a></li>
+      <li><a href="#session-transition">In the transition</a></li>
+     </ol>
+     <p class="toc__group">The entry</p>
+     <ol>
+      <li><a href="#takeaways-heading">Key Takeaways</a></li>
+      <li><a href="#what-is">What Is Guard?</a></li>
+      <li><a href="#how-it-works">How Guard Works</a></li>
+      <li><a href="#gi-vs-nogi">Gi vs No-Gi</a></li>
+      <li><a href="#types">Types of Guard</a></li>
+      <li><a href="#example">What Does Guard Look Like in Practice?</a></li>
+      <li><a href="#closed-vs-open">Closed Guard vs Open Guard</a></li>
+      <li>
+       <a href="#special">Special Considerations</a>
+       <ol class="toc__sub">
+        <li><a href="#sport-context">Sport context</a></li>
+        <li><a href="#safety">Safety</a></li>
+       </ol>
+      </li>
+      <li><a href="#related">Related notes</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#bottom-line">The Bottom Line</a></li>
+      <li><a href="#next-learn">Related articles</a></li>
+     </ol>
    </nav>
 
    <h2 id="what-is">What Is Guard?</h2>
@@ -428,7 +613,9 @@
      </ul>
    </section>
 
-    </div>
+       </section><!-- /#entry -->
+
+</div>
 
    </article>
   
@@ -450,9 +637,11 @@
 
  <footer class="site-footer">
   <div class="footer-bleed" aria-hidden="true"></div>
-  <div class="footer-wordmark" aria-hidden="true">
-   <span class="footer-wordmark__line">Catalog</span>
-   <span class="footer-wordmark__line">of combat</span>
+  <div class="footer-wordmark">
+   <a href="/" aria-label="Home">
+    <span class="footer-wordmark__line" aria-hidden="true">Catalog</span>
+    <span class="footer-wordmark__line" aria-hidden="true">of combat</span>
+   </a>
   </div>
   <div class="footer-inner">
    <div class="footer-legal">
@@ -472,9 +661,10 @@
      <li><a href="/styles/#styles-mixed">Mixed</a></li>
     </ul>
    </nav>
-   <nav class="footer-col" aria-label="Guides">
-    <h2 class="footer-col__title">Guides</h2>
+   <nav class="footer-col" aria-label="Top posts">
+    <h2 class="footer-col__title">Top posts</h2>
     <ul>
+     <li><a href="/terms/closed-guard/">Closed Guard</a></li>
      <li><a href="/guides/#start-bjj">How to start BJJ</a></li>
      <li><a href="/guides/#start-muay-thai">How to start Muay Thai</a></li>
      <li><a href="/guides/#start-wrestling">How to start wrestling</a></li>
@@ -501,5 +691,6 @@
  <script src="/js/read-progress.js" defer></script>
  <script src="/js/toc.js" defer></script>
  <script src="/js/capture.js?v=phog6" defer></script>
+ <script src="/js/term-session.js?v=guard-session1" defer></script>
 </body>
 </html>

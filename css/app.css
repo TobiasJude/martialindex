@@ -306,6 +306,19 @@ body.is-home .site-footer {
   animation: none;
 }
 
+.footer-wordmark a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  pointer-events: auto;
+}
+
+.footer-wordmark a:hover,
+.footer-wordmark a:focus-visible {
+  color: inherit;
+  text-decoration: none;
+}
+
 .footer-inner {
   position: relative;
   z-index: 1;
@@ -621,7 +634,9 @@ html {
 .site-nav a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 44px;
+  min-width: 44px;
   padding: 0 0.1rem;
   text-decoration: none;
   color: #0A0A0A;
