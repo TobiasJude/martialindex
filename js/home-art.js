@@ -9,12 +9,6 @@
   var label = document.querySelector("[data-featured-label]");
   var allLink = document.querySelector("[data-featured-all]");
 
-  var dest = {
-    grappling: "styles.html#styles-grappling",
-    wrestling: "styles/wrestling.html",
-    striking: "styles.html#styles-striking",
-    mixed: "styles.html#styles-mixed"
-  };
 
   function hasPanel(art) {
     return panels.some(function (panel) {
@@ -32,7 +26,12 @@
         }
       });
       if (label) label.textContent = "From the catalog";
-      if (allLink) allLink.setAttribute("href", dest[art] || "styles.html");
+      // Keep "View all" pointed at the full styles catalog (distinct from category rows).
+      if (allLink) {
+        // Distinct from nav /styles/ (no hash) so accessible names can differ.
+        allLink.setAttribute("href", "/styles/#main");
+        allLink.removeAttribute("aria-label");
+      }
     }
 
     tiles.forEach(function (tile) {
