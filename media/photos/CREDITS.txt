@@ -2265,3 +2265,54 @@ File: kickboxing-stance.jpg
   Raw: Kickboxer_In_Defensive_Stance_254691195.jpeg — 2048×1356 (was master 1920×1271)
   Live after: 1200×795. Master after: 2048×1356.
 ====
+
+==== FIELD ATLAS NODES — 2026-09-15 (ET) ====
+Installed after QA Index ia16 PASS. Warm archival B&W/sepia. Site Builder wires map-graph.json.
+HOLD (not installed): lee (Bruce Lee — rights), jeet-kune-do (no usable CC demo).
+
+File: mitsuyo-maeda.jpg
+  Commons: File:Mitsuyo Maeda c1910.jpg
+  License: Public domain
+  Note: Map node maeda.
+
+File: mas-oyama.jpg
+  Commons: File:Masutatsu Oyama karate.jpg
+  License: Public domain
+  Note: Map node oyama.
+
+File: morihei-ueshiba.jpg
+  Commons: File:Morihei Ueshiba 1939.jpg
+  License: Public domain
+  Note: Map node ueshiba.
+
+File: kung-fu.jpg
+  Commons: File:Shaolin Kung Fu In Iran- Photo By 2007-Mostafa meraji 05.jpg
+  License: CC0
+  Author: Mostafameraji
+  Note: Map node kung-fu.
+
+File: silat.jpg
+  Commons: File:Brest 2012 - Pencak-Silat (3).JPG
+  License: CC BY-SA 3.0
+  Author: Frédéric MICHEL
+  Note: Map node silat.
+
+File: eskrima.jpg
+  Commons: File:Escrima stick fighting.jpg
+  License: CC BY-SA 3.0
+  Note: Map node eskrima.
+
+File: fencing.jpg
+  Commons: London 2012 Olympics fencing (Tom Page) — fencer crop
+  License: CC BY-SA 2.0
+  Note: Map node fencing.
+
+File: hema.jpg
+  Commons: File:Historical fencing sabre bout.jpg
+  License: CC BY-SA 4.0
+  Note: Map node hema.
+
+File: kendo.jpg
+  Commons: File:Kendo Men Strike.jpg
+  License: CC BY 4.0
+  Note: Map node kendo.

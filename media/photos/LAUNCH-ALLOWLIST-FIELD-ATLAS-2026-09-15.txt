@@ -1,0 +1,16 @@
+Martial Index Field atlas LIVE repair allowlist — 2026-09-15
+Tobias/Admin: restore 404 map plates. HOLD lee + jeet-kune-do.
+Also ship CREDITS.txt update for Field atlas section.
+
+INCLUDE:
+  media/photos/kung-fu.jpg
+  media/photos/silat.jpg
+  media/photos/eskrima.jpg
+  media/photos/hema.jpg
+  media/photos/kendo.jpg
+  media/photos/fencing.jpg
+  media/photos/mitsuyo-maeda.jpg
+  media/photos/mas-oyama.jpg
+  media/photos/morihei-ueshiba.jpg
+  media/photos/CREDITS.txt
+  media/photos/FIELD-ATLAS-NODE-MAP.txt

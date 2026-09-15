@@ -1,0 +1,14 @@
+Field atlas node map — installed 2026-09-15 after ia16 PASS
+HOLD: lee, jeet-kune-do (no path)
+id	web_path	status	filename
+maeda	/media/photos/mitsuyo-maeda.jpg	READY	mitsuyo-maeda.jpg
+oyama	/media/photos/mas-oyama.jpg	READY	mas-oyama.jpg
+ueshiba	/media/photos/morihei-ueshiba.jpg	READY	morihei-ueshiba.jpg
+kung-fu	/media/photos/kung-fu.jpg	READY	kung-fu.jpg
+silat	/media/photos/silat.jpg	READY	silat.jpg
+eskrima	/media/photos/eskrima.jpg	READY	eskrima.jpg
+fencing	/media/photos/fencing.jpg	READY	fencing.jpg
+hema	/media/photos/hema.jpg	READY	hema.jpg
+kendo	/media/photos/kendo.jpg	READY	kendo.jpg
+lee		HOLD	
+jeet-kune-do		HOLD	
