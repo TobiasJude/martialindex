@@ -1,5 +1,5 @@
 {
-  "version": "ia18",
+  "version": "ia20p",
   "viewBox": [
     0,
     0,
@@ -127,7 +127,8 @@
       "origin": "Japan",
       "accent": "#6F8F6A",
       "image": "/media/photos/jiu-jitsu-contra-capoeira.jpg",
-      "year": 1532
+      "year": 1532,
+      "thumb": "/media/photos/map-thumbs/jiu-jitsu-contra-capoeira.jpg"
     },
     {
       "id": "judo",
@@ -151,9 +152,11 @@
       "lineageCard": {
         "title": "Part of the Kodokan lineage",
         "image": "/media/photos/kano-mifune.jpg",
-        "href": null
+        "href": null,
+        "thumb": "/media/photos/map-thumbs/kano-mifune.jpg"
       },
-      "year": 1882
+      "year": 1882,
+      "thumb": "/media/photos/map-thumbs/kano-mifune.jpg"
     },
     {
       "id": "wrestling",
@@ -173,7 +176,8 @@
       "origin": "Global",
       "accent": "#6F8F6A",
       "image": "/media/photos/wrestling.jpg",
-      "year": 708
+      "year": 708,
+      "thumb": "/media/photos/map-thumbs/wrestling.jpg"
     },
     {
       "id": "sambo",
@@ -193,7 +197,8 @@
       "origin": "Russia",
       "accent": "#6F8F6A",
       "image": "/media/photos/sambo-european-games.jpg",
-      "year": 1938
+      "year": 1938,
+      "thumb": "/media/photos/map-thumbs/sambo-european-games.jpg"
     },
     {
       "id": "catch-wrestling",
@@ -213,7 +218,8 @@
       "origin": "Britain / US",
       "accent": "#B85C4A",
       "image": "/media/photos/strangler-lewis-headlock.jpg",
-      "year": 1870
+      "year": 1870,
+      "thumb": "/media/photos/map-thumbs/strangler-lewis-headlock.jpg"
     },
     {
       "id": "bjj",
@@ -237,9 +243,11 @@
       "lineageCard": {
         "title": "Part of the Gracie lineage",
         "image": "/media/photos/helio-gracie-1932.jpg",
-        "href": null
+        "href": null,
+        "thumb": "/media/photos/map-thumbs/helio-gracie-1932.jpg"
       },
-      "year": 1925
+      "year": 1925,
+      "thumb": "/media/photos/map-thumbs/lepri-gregor-gracie-2009.jpg"
     },
     {
       "id": "aikido",
@@ -259,7 +267,8 @@
       "origin": "Japan",
       "accent": "#6F8F6A",
       "image": "/media/photos/aikido-demonstration.jpg",
-      "year": 1942
+      "year": 1942,
+      "thumb": "/media/photos/map-thumbs/aikido-demonstration.jpg"
     },
     {
       "id": "sumo",
@@ -279,7 +288,8 @@
       "origin": "Japan",
       "accent": "#6F8F6A",
       "image": "/media/photos/sumo-hitachiyama-1905.jpg",
-      "year": 700
+      "year": 700,
+      "thumb": "/media/photos/map-thumbs/sumo-hitachiyama-1905.jpg"
     },
     {
       "id": "vale-tudo",
@@ -299,7 +309,8 @@
       "origin": "Brazil",
       "accent": "#B85C4A",
       "image": "/media/photos/rickson-zulu-1980.jpg",
-      "year": 1930
+      "year": 1930,
+      "thumb": "/media/photos/map-thumbs/rickson-zulu-1980.jpg"
     },
     {
       "id": "mma",
@@ -320,7 +331,8 @@
       "origin": "Global",
       "accent": "#5B6B8C",
       "image": "/media/photos/brian-stann-wec30-gnp.jpg",
-      "year": 1993
+      "year": 1993,
+      "thumb": "/media/photos/map-thumbs/brian-stann-wec30-gnp.jpg"
     },
     {
       "id": "krav-maga",
@@ -339,7 +351,8 @@
       "origin": "Israel",
       "accent": "#5B6B8C",
       "image": "/media/photos/krav-maga-demo.jpg",
-      "year": 1948
+      "year": 1948,
+      "thumb": "/media/photos/map-thumbs/krav-maga-demo.jpg"
     },
     {
       "id": "hapkido",
@@ -359,7 +372,8 @@
       "origin": "Korea",
       "accent": "#5B6B8C",
       "image": "/media/photos/hapkido-dojang.jpg",
-      "year": 1950
+      "year": 1950,
+      "thumb": "/media/photos/map-thumbs/hapkido-dojang.jpg"
     },
     {
       "id": "boxing",
@@ -379,7 +393,8 @@
       "origin": "Global",
       "accent": "#C48A4A",
       "image": "/media/photos/johnson-jeffries-1911.jpg",
-      "year": 1867
+      "year": 1867,
+      "thumb": "/media/photos/map-thumbs/johnson-jeffries-1911.jpg"
     },
     {
       "id": "muay-thai",
@@ -399,7 +414,8 @@
       "origin": "Thailand",
       "accent": "#C48A4A",
       "image": "/media/photos/siamese-boxing-1920s.jpg",
-      "year": 1921
+      "year": 1921,
+      "thumb": "/media/photos/map-thumbs/siamese-boxing-1920s.jpg"
     },
     {
       "id": "kickboxing",
@@ -419,7 +435,8 @@
       "origin": "Global",
       "accent": "#C48A4A",
       "image": "/media/photos/kickboxing.jpg",
-      "year": 1960
+      "year": 1960,
+      "thumb": "/media/photos/map-thumbs/kickboxing.jpg"
     },
     {
       "id": "karate",
@@ -439,7 +456,8 @@
       "origin": "Japan",
       "accent": "#C48A4A",
       "image": "/media/photos/kata.jpg",
-      "year": 1922
+      "year": 1922,
+      "thumb": "/media/photos/map-thumbs/kata.jpg"
     },
     {
       "id": "taekwondo",
@@ -459,7 +477,8 @@
       "origin": "Korea",
       "accent": "#C48A4A",
       "image": "/media/photos/olympic-taekwondo.jpg",
-      "year": 1955
+      "year": 1955,
+      "thumb": "/media/photos/map-thumbs/olympic-taekwondo.jpg"
     },
     {
       "id": "kyokushin",
@@ -479,7 +498,8 @@
       "origin": "Japan",
       "accent": "#B85C4A",
       "image": "/media/photos/kyokushin-match.jpg",
-      "year": 1964
+      "year": 1964,
+      "thumb": "/media/photos/map-thumbs/kyokushin-match.jpg"
     },
     {
       "id": "lethwei",
@@ -499,7 +519,8 @@
       "origin": "Myanmar",
       "accent": "#C48A4A",
       "image": "/media/photos/lethwei-thein-phyu.jpg",
-      "year": 1950
+      "year": 1950,
+      "thumb": "/media/photos/map-thumbs/lethwei-thein-phyu.jpg"
     },
     {
       "id": "savate",
@@ -519,7 +540,8 @@
       "origin": "France",
       "accent": "#C48A4A",
       "image": "/media/photos/savate-salle-legrand.jpg",
-      "year": 1825
+      "year": 1825,
+      "thumb": "/media/photos/map-thumbs/savate-salle-legrand.jpg"
     },
     {
       "id": "kung-fu",
@@ -538,7 +560,8 @@
       "origin": "China",
       "accent": "#8B6B8C",
       "year": 1600,
-      "image": "/media/photos/kung-fu.jpg"
+      "image": "/media/photos/kung-fu.jpg",
+      "thumb": "/media/photos/map-thumbs/kung-fu.jpg"
     },
     {
       "id": "wing-chun",
@@ -557,7 +580,8 @@
       "origin": "China",
       "accent": "#B85C4A",
       "image": "/media/photos/wing-chun-forms.jpg",
-      "year": 1940
+      "year": 1940,
+      "thumb": "/media/photos/map-thumbs/wing-chun-forms.jpg"
     },
     {
       "id": "jeet-kune-do",
@@ -594,7 +618,8 @@
       "origin": "Brazil",
       "accent": "#8B6B8C",
       "image": "/media/photos/jogo-da-capoeira-1927.jpg",
-      "year": 1600
+      "year": 1600,
+      "thumb": "/media/photos/map-thumbs/jogo-da-capoeira-1927.jpg"
     },
     {
       "id": "silat",
@@ -613,7 +638,8 @@
       "origin": "SE Asia",
       "accent": "#8B6B8C",
       "year": 1700,
-      "image": "/media/photos/silat.jpg"
+      "image": "/media/photos/silat.jpg",
+      "thumb": "/media/photos/map-thumbs/silat.jpg"
     },
     {
       "id": "eskrima",
@@ -632,7 +658,8 @@
       "origin": "Philippines",
       "accent": "#8B6B8C",
       "year": 1750,
-      "image": "/media/photos/eskrima.jpg"
+      "image": "/media/photos/eskrima.jpg",
+      "thumb": "/media/photos/map-thumbs/eskrima.jpg"
     },
     {
       "id": "fencing",
@@ -651,7 +678,8 @@
       "origin": "Europe",
       "accent": "#8B6B8C",
       "year": 1780,
-      "image": "/media/photos/fencing.jpg"
+      "image": "/media/photos/fencing.jpg",
+      "thumb": "/media/photos/map-thumbs/fencing.jpg"
     },
     {
       "id": "hema",
@@ -670,7 +698,8 @@
       "origin": "Europe",
       "accent": "#8B6B8C",
       "year": 1890,
-      "image": "/media/photos/hema.jpg"
+      "image": "/media/photos/hema.jpg",
+      "thumb": "/media/photos/map-thumbs/hema.jpg"
     },
     {
       "id": "kendo",
@@ -689,7 +718,8 @@
       "origin": "Japan",
       "accent": "#8B6B8C",
       "year": 1912,
-      "image": "/media/photos/kendo.jpg"
+      "image": "/media/photos/kendo.jpg",
+      "thumb": "/media/photos/map-thumbs/kendo.jpg"
     },
     {
       "id": "kano",
@@ -709,7 +739,8 @@
       "origin": "Japan",
       "accent": "#5A5A5A",
       "image": "/media/photos/jigoro-kano.jpg",
-      "year": 1860
+      "year": 1860,
+      "thumb": "/media/photos/map-thumbs/jigoro-kano.jpg"
     },
     {
       "id": "maeda",
@@ -729,7 +760,8 @@
       "origin": "Japan / Brazil",
       "accent": "#5A5A5A",
       "year": 1878,
-      "image": "/media/photos/mitsuyo-maeda.jpg"
+      "image": "/media/photos/mitsuyo-maeda.jpg",
+      "thumb": "/media/photos/map-thumbs/mitsuyo-maeda.jpg"
     },
     {
       "id": "gracie",
@@ -749,7 +781,8 @@
       "origin": "Brazil",
       "accent": "#5A5A5A",
       "image": "/media/photos/helio-gracie-1932.jpg",
-      "year": 1913
+      "year": 1913,
+      "thumb": "/media/photos/map-thumbs/helio-gracie-1932.jpg"
     },
     {
       "id": "lee",
@@ -788,7 +821,8 @@
       "origin": "Japan",
       "accent": "#5A5A5A",
       "year": 1923,
-      "image": "/media/photos/mas-oyama.jpg"
+      "image": "/media/photos/mas-oyama.jpg",
+      "thumb": "/media/photos/map-thumbs/mas-oyama.jpg"
     },
     {
       "id": "ueshiba",
@@ -808,7 +842,8 @@
       "origin": "Japan",
       "accent": "#5A5A5A",
       "year": 1883,
-      "image": "/media/photos/morihei-ueshiba.jpg"
+      "image": "/media/photos/morihei-ueshiba.jpg",
+      "thumb": "/media/photos/map-thumbs/morihei-ueshiba.jpg"
     },
     {
       "id": "kodokan",
@@ -828,7 +863,8 @@
       "origin": "Japan",
       "accent": "#7A6A5A",
       "image": "/media/photos/kano-mifune.jpg",
-      "year": 1882
+      "year": 1882,
+      "thumb": "/media/photos/map-thumbs/kano-mifune.jpg"
     },
     {
       "id": "gracie-lineage",
@@ -848,7 +884,8 @@
       "origin": "Brazil",
       "accent": "#7A6A5A",
       "image": "/media/photos/helio-gracie-1932.jpg",
-      "year": 1925
+      "year": 1925,
+      "thumb": "/media/photos/map-thumbs/helio-gracie-1932.jpg"
     },
     {
       "id": "osoto-gari",
@@ -883,7 +920,8 @@
       "href": "/terms/uchi-mata/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/uchi-mata-judo-throw.jpg"
+      "image": "/media/photos/uchi-mata-judo-throw.jpg",
+      "thumb": "/media/photos/map-thumbs/uchi-mata-judo-throw.jpg"
     },
     {
       "id": "seoi-nage",
@@ -901,7 +939,8 @@
       "href": "/terms/seoi-nage/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/drop-ippon-seoi-nage-practice.jpg"
+      "image": "/media/photos/drop-ippon-seoi-nage-practice.jpg",
+      "thumb": "/media/photos/map-thumbs/drop-ippon-seoi-nage-practice.jpg"
     },
     {
       "id": "closed-guard",
@@ -919,7 +958,8 @@
       "href": "/terms/closed-guard/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/bjj-closed-guard-2010.jpg"
+      "image": "/media/photos/bjj-closed-guard-2010.jpg",
+      "thumb": "/media/photos/map-thumbs/bjj-closed-guard-2010.jpg"
     },
     {
       "id": "armbar",
@@ -937,7 +977,8 @@
       "href": "/terms/armbar/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/eijc-kata-juji-gatame.jpg"
+      "image": "/media/photos/eijc-kata-juji-gatame.jpg",
+      "thumb": "/media/photos/map-thumbs/eijc-kata-juji-gatame.jpg"
     },
     {
       "id": "kimura",
@@ -955,7 +996,8 @@
       "href": "/terms/kimura/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/kimura-from-guard.jpg"
+      "image": "/media/photos/kimura-from-guard.jpg",
+      "thumb": "/media/photos/map-thumbs/kimura-from-guard.jpg"
     },
     {
       "id": "triangle-choke",
@@ -973,7 +1015,8 @@
       "href": "/terms/triangle-choke/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/vella-barral-triangle-2009.jpg"
+      "image": "/media/photos/vella-barral-triangle-2009.jpg",
+      "thumb": "/media/photos/map-thumbs/vella-barral-triangle-2009.jpg"
     },
     {
       "id": "rear-naked-choke",
@@ -1008,7 +1051,8 @@
       "href": "/terms/double-leg-takedown/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/wrestling-double-leg.jpg"
+      "image": "/media/photos/wrestling-double-leg.jpg",
+      "thumb": "/media/photos/map-thumbs/wrestling-double-leg.jpg"
     },
     {
       "id": "jab",
@@ -1026,7 +1070,8 @@
       "href": "/terms/jab/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/jack-johnson-1911-jab.jpg"
+      "image": "/media/photos/jack-johnson-1911-jab.jpg",
+      "thumb": "/media/photos/map-thumbs/jack-johnson-1911-jab.jpg"
     },
     {
       "id": "roundhouse-kick",
@@ -1044,7 +1089,8 @@
       "href": "/terms/roundhouse-kick/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/kickboxing-roundhouse.jpg"
+      "image": "/media/photos/kickboxing-roundhouse.jpg",
+      "thumb": "/media/photos/map-thumbs/kickboxing-roundhouse.jpg"
     },
     {
       "id": "clinch",
@@ -1062,7 +1108,8 @@
       "href": "/terms/clinch/",
       "kindLabel": "Technique",
       "accent": "#7A6A9A",
-      "image": "/media/photos/muay-thai-knee-clinch.jpg"
+      "image": "/media/photos/muay-thai-knee-clinch.jpg",
+      "thumb": "/media/photos/map-thumbs/muay-thai-knee-clinch.jpg"
     }
   ],
   "edges": [
@@ -1803,7 +1850,8 @@
       ],
       "from": "Judo",
       "to": "MMA",
-      "alias": "jj-judo-bjj"
+      "alias": "jj-judo-bjj",
+      "thumb": "/media/photos/map-thumbs/bsd-alvarez-cage-control.jpg"
     },
     {
       "id": "striking-ring",
@@ -1819,7 +1867,8 @@
         "kickboxing"
       ],
       "from": "Boxing",
-      "to": "Kickboxing"
+      "to": "Kickboxing",
+      "thumb": "/media/photos/map-thumbs/boxing-range-chase.jpg"
     },
     {
       "id": "grappling-ground",
@@ -1836,7 +1885,8 @@
       ],
       "from": "Wrestling",
       "to": "BJJ",
-      "alias": "wrestle-cage"
+      "alias": "wrestle-cage",
+      "thumb": "/media/photos/map-thumbs/freestyle-wrestling.jpg"
     },
     {
       "id": "lineage-flow",
@@ -1852,7 +1902,8 @@
       ],
       "from": "Wing Chun",
       "to": "Jeet Kune Do",
-      "alias": "wing-jkd"
+      "alias": "wing-jkd",
+      "thumb": "/media/photos/map-thumbs/wing-chun-forms.jpg"
     }
   ],
   "comparePairs": [

@@ -962,8 +962,8 @@ body.is-sessions main{padding:2rem 0 4rem}
 /* —— Responsive —— */
 @media (max-width:900px){
   .paths-featured{grid-template-columns:1fr}
-  .paths-featured__copy{border-right:0;border-bottom:1px solid #0A0A0A}
-  .paths-featured__media{min-height:11rem}
+  .paths-featured__copy{border-right:0;border-bottom:0;border-top:1px solid #0A0A0A;order:1}
+  .paths-featured__media{min-height:11rem;order:0}
   .paths-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem}
   .paths-bridges__list{grid-template-columns:repeat(2,minmax(0,1fr))}
   .paths-bridges__list li:nth-child(4n){border-right:1px solid #0A0A0A}

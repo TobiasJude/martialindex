@@ -1,8 +1,8 @@
-/* Martial Index — ia19 homepage Field map (Timeline removed; dense connections + de-janked pan/tap) */
+/* Martial Index — ia20p homepage Field map (Timeline removed; map node thumbs + deferred SVG photos) */
 (function () {
   "use strict";
 
-  var DATA_URL = "/data/map-graph.json?v=ia19";
+  var DATA_URL = "/data/map-graph.json?v=ia20p";
   var VB = { w: 1140, h: 700 };
   var BASE_TYPES = { art: true, style: true };
   var CHIP_ORDER = ["all", "lineage", "influence", "shared_practice", "sport_overlap", "into_mma"];
@@ -22,6 +22,18 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+
+  /** Small map disc / strip plate; falls back to full image if thumb missing. */
+  function thumbSrc(n) {
+    if (!n) return "";
+    return n.thumb || n.image || "";
+  }
+  /** Full plate for detail drawer / editorial hero only. */
+  function fullSrc(n) {
+    if (!n) return "";
+    return n.image || n.thumb || "";
   }
 
   function typeLabel(t) {
@@ -570,10 +582,9 @@
       ring.setAttribute("stroke-width", selected ? 2.4 : 1.2);
       g.appendChild(ring);
 
-      if (n.image) {
+      var src = thumbSrc(n);
+      if (src) {
         var img = document.createElementNS("http://www.w3.org/2000/svg", "image");
-        img.setAttributeNS("http://www.w3.org/1999/xlink", "href", n.image);
-        img.setAttribute("href", n.image);
         img.setAttribute("x", n.x - r);
         img.setAttribute("y", n.y - r);
         img.setAttribute("width", r * 2);
@@ -581,7 +592,22 @@
         img.setAttribute("preserveAspectRatio", "xMidYMid slice");
         img.setAttribute("clip-path", "url(#" + clipId + ")");
         img.setAttribute("class", "mp-node__photo");
+        img.setAttribute("data-photo-src", src);
         g.appendChild(img);
+        function attachHref() {
+          if (!img.getAttribute("href")) {
+            img.setAttributeNS("http://www.w3.org/1999/xlink", "href", src);
+            img.setAttribute("href", src);
+          }
+        }
+        /* Selected / focal node: paint immediately. Others: after first paint. */
+        if (selected) {
+          attachHref();
+        } else if (typeof requestIdleCallback === "function") {
+          requestIdleCallback(attachHref, { timeout: 1200 });
+        } else {
+          setTimeout(attachHref, 0);
+        }
       } else {
         var av = document.createElementNS("http://www.w3.org/2000/svg", "circle");
         av.setAttribute("cx", n.x);
@@ -607,7 +633,7 @@
       var isPerson = n.type === "person";
       var isTech = n.type === "technique";
       var isLin = n.type === "lineage";
-      var photoArt = isArtLike && !!n.image;
+      var photoArt = isArtLike && !!(n.thumb || n.image);
       var mobile = isMobileView();
 
       /* Invisible hit pad — mobile needs ~44px CSS targets */
@@ -981,9 +1007,10 @@
         })
         .join("");
 
+      var detailImg = fullSrc(n);
       var thumb =
-        n.image
-          ? '<img class="map-detail__thumb" src="' + esc(n.image) + '" alt="" loading="lazy">'
+        detailImg
+          ? '<img class="map-detail__thumb" src="' + esc(detailImg) + '" alt="" loading="lazy">'
           : '<span class="map-detail__thumb map-detail__thumb--init" aria-hidden="true">' +
             esc(initials(n.label)) +
             "</span>";
@@ -1001,8 +1028,8 @@
       if (n.lineageCard) {
         lineageCard =
           '<div class="map-detail__lineage">' +
-          (n.lineageCard.image
-            ? '<img src="' + esc(n.lineageCard.image) + '" alt="" loading="lazy">'
+          (fullSrc(n.lineageCard)
+            ? '<img src="' + esc(fullSrc(n.lineageCard)) + '" alt="" loading="lazy">'
             : "") +
           "<div><p>" +
           esc(n.lineageCard.title) +
@@ -1177,8 +1204,8 @@
             esc(p.id) +
             '">' +
             '<span class="map-path-card__media">' +
-            (p.image
-              ? '<img src="' + esc(p.image) + '" alt="" loading="lazy">'
+            (thumbSrc(p)
+              ? '<img src="' + esc(thumbSrc(p)) + '" alt="" loading="lazy">'
               : "") +
             "</span>" +
             '<span class="map-path-card__body">' +
@@ -1362,8 +1389,8 @@
             '" data-step="' +
             i +
             '">' +
-            (n.image
-              ? '<img src="' + esc(n.image) + '" alt="">'
+            (thumbSrc(n)
+              ? '<img src="' + esc(thumbSrc(n)) + '" alt="" loading="lazy">'
               : '<span class="map-path-mode__init">' + esc(initials(n.label)) + "</span>") +
             "<span>" +
             esc(n.label) +
@@ -1391,7 +1418,7 @@
         "</div>" +
         '<div class="map-path-mode__editorial">' +
         '<div class="map-path-mode__photo">' +
-        (p.image ? '<img src="' + esc(p.image) + '" alt="">' : "") +
+        (fullSrc(p) ? '<img src="' + esc(fullSrc(p)) + '" alt="" loading="lazy">' : "") +
         "</div>" +
         '<div class="map-path-mode__copy">' +
         "<h3>" +
@@ -1488,7 +1515,7 @@
           '<div class="map-compare__col map-compare__col--' +
           side +
           '">' +
-          (n.image ? '<img class="map-compare__thumb" src="' + esc(n.image) + '" alt="">' : "") +
+          (thumbSrc(n) ? '<img class="map-compare__thumb" src="' + esc(thumbSrc(n)) + '" alt="" loading="lazy">' : "") +
           "<h3>" +
           esc(n.label) +
           "</h3>" +
