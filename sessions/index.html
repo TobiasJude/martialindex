@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Paths — Martial Index</title>
+ <meta name="description" content="Short guided walks through related martial arts. Each stop teaches one art in a sentence or two, then you can open its page — no quizzes.">
+ <link rel="canonical" href="https://martialindex.com/sessions/">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="Martial Index">
+ <meta property="og:title" content="Paths — Martial Index">
+ <meta property="og:description" content="Short guided walks through related martial arts. Each stop teaches one art in a sentence or two, then you can open its page — no quizzes.">
+ <meta property="og:url" content="https://martialindex.com/sessions/">
+ <meta property="og:image" content="https://martialindex.com/og/home.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="twitter:title" content="Paths — Martial Index">
+ <meta name="twitter:description" content="Short guided walks through related martial arts. Each stop teaches one art in a sentence or two, then you can open its page — no quizzes.">
+ <meta name="twitter:image" content="https://martialindex.com/og/home.jpg">
+ <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+ <link rel="icon" href="/favicon.ico" sizes="any">
+ <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ <link rel="stylesheet" href="/css/app-shell.css?v=ia19">
+</head>
+<body class="is-sessions">
+ <a class="skip-link" href="#main">Skip to content</a>
+ <header class="site-header">
+  <div class="header-inner">
+   <a class="wordmark" href="/">
+    <span class="wordmark-title">Martial Index</span>
+    <span class="wordmark-short">MI</span>
+    <span class="wordmark-kicker">Catalog of combat</span>
+   </a>
+   <div class="nav-cluster">
+    <nav class="site-nav" aria-label="Primary">
+     <a href="/styles/">Explore</a>
+     <a href="/sessions/" aria-current="page">Paths</a>
+    </nav>
+    <a class="nav-search-btn" href="/" aria-label="Search Martial Index" title="Search">
+     <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="6.5"/><path d="M16.2 16.2 21 21"/></svg>
+    </a>
+   </div>
+  </div>
+ </header>
+ <nav class="bottom-nav" aria-label="Mobile">
+  <a href="/#map">Map</a>
+  <a href="/styles/">Explore</a>
+  <a href="/sessions/" aria-current="page">Paths</a>
+  <a href="/">Search</a>
+  <a href="/about/">About</a>
+ </nav>
+
+ <main id="main">
+  <div class="wrap paths-wrap">
+
+   <!-- HUB -->
+   <div class="paths-hub" data-paths-hub>
+    <header class="paths-hub__intro">
+     <p class="paths-hub__kicker">Catalog</p>
+     <h1 class="paths-hub__title">Paths</h1>
+     <p class="paths-hub__lede">Short guided walks through related martial arts. Each stop teaches one art in a sentence or two, then you can open its page — no quizzes.</p>
+    </header>
+
+    <section class="paths-featured" data-paths-featured aria-labelledby="paths-featured-title">
+     <!-- filled by js -->
+    </section>
+
+    <div class="paths-toolbar" role="toolbar" aria-label="Filter paths">
+     <div class="paths-filters" data-paths-filters>
+      <button type="button" class="paths-filter is-active" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="paths-filter" data-filter="grappling" aria-pressed="false">Grappling</button>
+      <button type="button" class="paths-filter" data-filter="striking" aria-pressed="false">Striking</button>
+      <button type="button" class="paths-filter" data-filter="weapons" aria-pressed="false">Weapons</button>
+      <button type="button" class="paths-filter" data-filter="mixed" aria-pressed="false">Mixed</button>
+     </div>
+     <p class="paths-toolbar__count" data-paths-count></p>
+    </div>
+
+    <div class="paths-grid" data-paths-grid>
+     <!-- filled by js -->
+    </div>
+
+    <section class="paths-bridges" aria-labelledby="paths-bridges-title">
+     <div class="paths-bridges__head">
+      <h2 class="paths-bridges__title" id="paths-bridges-title">Popular bridges</h2>
+      <p class="paths-bridges__dek">Common from→to hops people actually follow.</p>
+     </div>
+     <ul class="paths-bridges__list" data-paths-bridges>
+      <!-- filled by js -->
+     </ul>
+    </section>
+
+    <section class="paths-finder" aria-labelledby="paths-finder-title">
+     <div class="paths-finder__copy">
+      <h2 class="paths-finder__title" id="paths-finder-title">Start your own</h2>
+      <p class="paths-finder__dek">Pick a from and a to. We’ll match a curated path, or build a short walk between arts we have pages for.</p>
+     </div>
+     <form class="paths-finder__form" data-paths-finder>
+      <label class="paths-finder__field">
+       <span class="paths-finder__label">From</span>
+       <select name="from" data-finder-from required>
+        <option value="">Select art</option>
+       </select>
+      </label>
+      <span class="paths-finder__arrow" aria-hidden="true">→</span>
+      <label class="paths-finder__field">
+       <span class="paths-finder__label">To</span>
+       <select name="to" data-finder-to required>
+        <option value="">Select art</option>
+       </select>
+      </label>
+      <button type="submit" class="btn-primary paths-finder__go">Find path</button>
+     </form>
+     <p class="paths-finder__result" data-finder-result hidden></p>
+    </section>
+   </div>
+
+   <!-- WALKER -->
+   <div class="paths-frame" data-paths-app hidden>
+    <header class="paths-frame__head">
+     <p class="paths-frame__id" data-path-id>Path</p>
+     <h2 class="paths-frame__title" data-path-title></h2>
+     <ol class="paths-frame__dots" data-path-dots aria-label="Progress"></ol>
+     <p class="paths-frame__beat" data-path-beat></p>
+    </header>
+
+    <div class="paths-stop" data-path-stop>
+     <h2 class="paths-stop__art" data-path-art></h2>
+     <p class="paths-stop__note" data-path-note></p>
+     <div class="paths-stop__actions">
+      <a class="btn-primary" data-path-open href="#">Open</a>
+      <button type="button" class="btn-ghost" data-path-next>Next →</button>
+     </div>
+    </div>
+
+    <div class="paths-close" data-path-close hidden>
+     <p class="paths-close__dek" data-path-close-dek>That’s the end of this path. Choose another, or open the map.</p>
+     <div class="paths-close__actions">
+      <button type="button" class="btn-primary" data-path-again>All paths</button>
+      <a class="btn-ghost" href="/#map">View map</a>
+     </div>
+    </div>
+   </div>
+
+   <p class="sessions-page__more" data-paths-more>
+    <a href="/#map">See how they connect on the map</a>
+    <span aria-hidden="true"> · </span>
+    <a href="/styles/">Browse all styles</a>
+   </p>
+  </div>
+ </main>
+
+ <footer class="site-footer">
+  <div class="footer-bleed" aria-hidden="true"></div>
+  <div class="footer-wordmark">
+   <a href="/" aria-label="Home">
+    <span class="footer-wordmark__line" aria-hidden="true">Catalog</span>
+    <span class="footer-wordmark__line" aria-hidden="true">of combat</span>
+   </a>
+  </div>
+  <div class="footer-inner footer-inner--index">
+   <div class="footer-legal">
+    <p class="footer-brand">Martial Index</p>
+    <p>Guided paths through related martial arts — short stops, then the full style pages.</p>
+    <p>© 2026 Martial Index.</p>
+    <p class="footer-disclaimer">Reference material, not live instruction. Train under qualified coaches; tap early.</p>
+    <p class="footer-credits">Archive photos: public domain / CC — <a href="/media/photos/CREDITS.txt">credits</a>.</p>
+    <p class="footer-legal-links"><a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="/legal/">Legal</a></p>
+   </div>
+   <nav class="footer-col" aria-label="Explore">
+    <h2 class="footer-col__title">Explore</h2>
+    <ul>
+     <li><a href="/styles/">All styles</a></li>
+     <li><a href="/styles/#styles-grappling">Grappling</a></li>
+     <li><a href="/styles/#styles-striking">Striking</a></li>
+     <li><a href="/styles/#styles-mixed">Mixed</a></li>
+     <li><a href="/styles/wrestling/">Wrestling</a></li>
+    </ul>
+   </nav>
+   <nav class="footer-col" aria-label="Index">
+    <h2 class="footer-col__title">Index</h2>
+    <ul>
+     <li><a href="/styles/">Explore</a></li>
+     <li><a href="/sessions/">Paths</a></li>
+     <li><a href="/guides/">Guides</a></li>
+    </ul>
+   </nav>
+  </div>
+  <ul class="footer-social" aria-label="Social">
+   <li><a href="https://www.instagram.com/themartialindex" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 1.8H7A2.2 2.2 0 0 0 4.8 7v10A2.2 2.2 0 0 0 7 19.2h10a2.2 2.2 0 0 0 2.2-2.2V7A2.2 2.2 0 0 0 17 4.8zM12 8.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2zm0 1.6A2.2 2.2 0 1 0 14.2 12 2.2 2.2 0 0 0 12 9.8zm4.55-2.85a.9.9 0 1 1-.9.9.9.9 0 0 1 .9-.9z"/></svg></a></li>
+   <li><a href="https://www.tiktok.com/@themartialindex" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.4 3h2.15c.18 1.62 1.1 3.08 2.55 4.02 1 .64 2.16.98 3.3 1.02v2.2a7.7 7.7 0 0 1-3.35-1v6.26A6.5 6.5 0 1 1 11.4 9.1v2.28a4.25 4.25 0 1 0 2.99 4.06V3z"/></svg></a></li>
+   <li><a href="https://x.com/themartialindex" rel="noopener noreferrer" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 10.3 22.1 2h-1.8l-6.4 7.2L8.8 2H2.2l7.8 11.1L2 22h1.8l6.8-7.7L15 22h6.6l-6.9-11.7zm-2.4 2.7-1-1.3-6.2-8.1h2.6l5 6.5 1 1.3 6.5 8.4h-2.6l-5.3-6.8z"/></svg></a></li>
+  </ul>
+ </footer>
+ <script src="/js/sessions-app.js?v=ia19" defer></script>
+</body>
+</html>

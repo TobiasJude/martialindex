@@ -1016,7 +1016,7 @@ body.is-home .home-foot-links a:hover {
 
 .style-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.5rem 0 2.5rem;
 }
@@ -5693,3 +5693,119 @@ article[data-learning-app] .next-learn__lede {
 }
 
 
+/* ============================================================
+   ia13 chrome — Explore · Paths nav, search, mobile bottom-nav
+   Ported for content pages on app.css (do not break article layout)
+   ============================================================ */
+:root {
+  --bottom-nav-h: 58px;
+}
+
+.wordmark-short {
+  display: none;
+  font-family: var(--serif, Georgia, serif);
+  font-weight: 650;
+  font-size: clamp(1.45rem, 2.4vw, 2.05rem);
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  white-space: nowrap;
+}
+
+.nav-search-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--rule, #d9d9d9);
+  border-radius: 0;
+  background: #fff;
+  color: var(--ink, #0a0a0a);
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.05rem;
+  line-height: 1;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.nav-search-btn:hover,
+.nav-search-btn:focus {
+  background: #0a0a0a;
+  color: #fff;
+  outline: none;
+}
+
+.nav-search-btn svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.bottom-nav {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  height: calc(var(--bottom-nav-h) + env(safe-area-inset-bottom, 0px));
+  padding: 0 0 env(safe-area-inset-bottom, 0px);
+  background: #fff;
+  border-top: 1px solid var(--rule, #d9d9d9);
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+.bottom-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: var(--display, system-ui, sans-serif);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink, #0a0a0a);
+  min-height: 44px;
+}
+
+.bottom-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.bottom-nav a[aria-label="Search"],
+.bottom-nav a[data-nav-search] {
+  font-size: .58rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .wordmark-title {
+    display: none;
+  }
+
+  .wordmark-short {
+    display: inline;
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: grid;
+  }
+
+  body {
+    padding-bottom: calc(var(--bottom-nav-h) + env(safe-area-inset-bottom, 0px));
+  }
+}

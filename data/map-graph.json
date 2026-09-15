@@ -1,0 +1,1950 @@
+{
+  "version": "ia18",
+  "viewBox": [
+    0,
+    0,
+    1140,
+    700
+  ],
+  "domains": [
+    {
+      "id": "grappling",
+      "label": "Grappling",
+      "x": 32,
+      "y": 36,
+      "w": 350,
+      "h": 440
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed",
+      "x": 404,
+      "y": 36,
+      "w": 290,
+      "h": 440
+    },
+    {
+      "id": "striking",
+      "label": "Striking",
+      "x": 716,
+      "y": 36,
+      "w": 390,
+      "h": 440
+    },
+    {
+      "id": "lineage",
+      "label": "Lineage · weapons · flow",
+      "x": 32,
+      "y": 500,
+      "w": 1074,
+      "h": 170
+    }
+  ],
+  "relationTypes": [
+    {
+      "id": "all",
+      "label": "All connections"
+    },
+    {
+      "id": "lineage",
+      "label": "Lineage"
+    },
+    {
+      "id": "influence",
+      "label": "Influence"
+    },
+    {
+      "id": "shared_practice",
+      "label": "Shared practice"
+    },
+    {
+      "id": "sport_overlap",
+      "label": "Sport overlap"
+    },
+    {
+      "id": "into_mma",
+      "label": "Into MMA"
+    }
+  ],
+  "entityTypes": [
+    {
+      "id": "art",
+      "label": "Martial art",
+      "shape": "square",
+      "defaultOn": true
+    },
+    {
+      "id": "style",
+      "label": "Style / branch",
+      "shape": "diamond",
+      "defaultOn": true
+    },
+    {
+      "id": "technique",
+      "label": "Technique",
+      "shape": "triangle",
+      "defaultOn": false
+    },
+    {
+      "id": "person",
+      "label": "Person",
+      "shape": "circle",
+      "defaultOn": false
+    },
+    {
+      "id": "lineage",
+      "label": "Lineage / org",
+      "shape": "bar",
+      "defaultOn": false
+    }
+  ],
+  "discoverPath": {
+    "label": "From Japanese jujutsu to Brazilian jiu-jitsu — three stops on one line.",
+    "ids": [
+      "jujutsu",
+      "judo",
+      "bjj"
+    ],
+    "href": "/sessions/",
+    "cta": "Explore all paths →"
+  },
+  "nodes": [
+    {
+      "id": "jujutsu",
+      "label": "Jujutsu",
+      "type": "art",
+      "domain": "grappling",
+      "x": 124.4,
+      "y": 100.8,
+      "tags": [
+        "Grappling",
+        "Root",
+        "Japan"
+      ],
+      "dek": "Japanese parent art of throws, locks, and close-range control — root of judo and Brazilian jiu-jitsu.",
+      "href": "/styles/jujutsu/",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/jiu-jitsu-contra-capoeira.jpg",
+      "year": 1532
+    },
+    {
+      "id": "judo",
+      "label": "Judo",
+      "type": "art",
+      "domain": "grappling",
+      "x": 269.5,
+      "y": 100.8,
+      "tags": [
+        "Grappling",
+        "Throws",
+        "Newaza"
+      ],
+      "dek": "Kodokan throwing art founded by Jigoro Kano. Olympic sport; forks into Sambo and Brazilian jiu-jitsu.",
+      "href": "/styles/judo/",
+      "fact": "Maeda carried Kodokan judo abroad — the seed that became Brazilian jiu-jitsu.",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/kano-mifune.jpg",
+      "lineageCard": {
+        "title": "Part of the Kodokan lineage",
+        "image": "/media/photos/kano-mifune.jpg",
+        "href": null
+      },
+      "year": 1882
+    },
+    {
+      "id": "wrestling",
+      "label": "Wrestling",
+      "type": "art",
+      "domain": "grappling",
+      "x": 103.6,
+      "y": 206.8,
+      "tags": [
+        "Grappling",
+        "Takedowns",
+        "Pins"
+      ],
+      "dek": "Folkstyle, freestyle, and Greco-Roman — takedowns, rides, turns, and pins without striking.",
+      "href": "/styles/wrestling/",
+      "kindLabel": "Style",
+      "origin": "Global",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/wrestling.jpg",
+      "year": 708
+    },
+    {
+      "id": "sambo",
+      "label": "Sambo",
+      "type": "art",
+      "domain": "grappling",
+      "x": 269.5,
+      "y": 206.8,
+      "tags": [
+        "Grappling",
+        "Jacket",
+        "Russia"
+      ],
+      "dek": "Soviet combat sport forked from judo with wrestling influence — jacket grappling and leg locks.",
+      "href": "/styles/sambo/",
+      "kindLabel": "Style",
+      "origin": "Russia",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/sambo-european-games.jpg",
+      "year": 1938
+    },
+    {
+      "id": "catch-wrestling",
+      "label": "Catch",
+      "type": "style",
+      "domain": "grappling",
+      "x": 103.6,
+      "y": 312.9,
+      "tags": [
+        "Grappling",
+        "Submissions",
+        "Catch"
+      ],
+      "dek": "Catch-as-catch-can wrestling — pins and submissions that fed early MMA and pro wrestling.",
+      "href": "/styles/catch-wrestling/",
+      "kindLabel": "Branch",
+      "origin": "Britain / US",
+      "accent": "#B85C4A",
+      "image": "/media/photos/strangler-lewis-headlock.jpg",
+      "year": 1870
+    },
+    {
+      "id": "bjj",
+      "label": "BJJ",
+      "type": "art",
+      "domain": "grappling",
+      "x": 269.5,
+      "y": 312.9,
+      "tags": [
+        "Grappling",
+        "Guard",
+        "Submissions"
+      ],
+      "dek": "Brazilian jiu-jitsu — leverage, positional hierarchy, and submissions from the guard and the back.",
+      "href": "/styles/bjj/",
+      "fact": "Closed guard is the signature BJJ control frame before sweeps and submissions.",
+      "kindLabel": "Style",
+      "origin": "Brazil",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/lepri-gregor-gracie-2009.jpg",
+      "lineageCard": {
+        "title": "Part of the Gracie lineage",
+        "image": "/media/photos/helio-gracie-1932.jpg",
+        "href": null
+      },
+      "year": 1925
+    },
+    {
+      "id": "aikido",
+      "label": "Aikido",
+      "type": "art",
+      "domain": "grappling",
+      "x": 103.6,
+      "y": 418.9,
+      "tags": [
+        "Grappling",
+        "Blends",
+        "Japan"
+      ],
+      "dek": "Ueshiba’s blending art — throws and locks drawn from jujutsu lineages, with a distinct philosophy.",
+      "href": "/styles/aikido/",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/aikido-demonstration.jpg",
+      "year": 1942
+    },
+    {
+      "id": "sumo",
+      "label": "Sumo",
+      "type": "art",
+      "domain": "grappling",
+      "x": 259.1,
+      "y": 418.9,
+      "tags": [
+        "Grappling",
+        "Push",
+        "Japan"
+      ],
+      "dek": "Japanese ring grappling — shove, trip, and throw to force the opponent out or down.",
+      "href": "/styles/sumo/",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#6F8F6A",
+      "image": "/media/photos/sumo-hitachiyama-1905.jpg",
+      "year": 700
+    },
+    {
+      "id": "vale-tudo",
+      "label": "Vale Tudo",
+      "type": "style",
+      "domain": "mixed",
+      "x": 549.3,
+      "y": 100.8,
+      "tags": [
+        "Mixed",
+        "No-gi",
+        "Brazil"
+      ],
+      "dek": "Brazilian no-holds-barred contests that preceded modern MMA rulesets.",
+      "href": "/styles/vale-tudo/",
+      "kindLabel": "Branch",
+      "origin": "Brazil",
+      "accent": "#B85C4A",
+      "image": "/media/photos/rickson-zulu-1980.jpg",
+      "year": 1930
+    },
+    {
+      "id": "mma",
+      "label": "MMA",
+      "type": "art",
+      "domain": "mixed",
+      "x": 549.3,
+      "y": 243.9,
+      "tags": [
+        "Mixed",
+        "Hub",
+        "Sport"
+      ],
+      "dek": "Full-rules combat sport drawing striking and grappling standing and on the ground.",
+      "href": "/styles/mma/",
+      "hub": true,
+      "kindLabel": "Style",
+      "origin": "Global",
+      "accent": "#5B6B8C",
+      "image": "/media/photos/brian-stann-wec30-gnp.jpg",
+      "year": 1993
+    },
+    {
+      "id": "krav-maga",
+      "label": "Krav Maga",
+      "type": "art",
+      "domain": "mixed",
+      "x": 549.3,
+      "y": 392.4,
+      "tags": [
+        "Mixed",
+        "Self-defense"
+      ],
+      "dek": "Israeli self-defense system — hybrid striking and grappling prioritized for street contexts.",
+      "href": "/styles/krav-maga/",
+      "kindLabel": "Style",
+      "origin": "Israel",
+      "accent": "#5B6B8C",
+      "image": "/media/photos/krav-maga-demo.jpg",
+      "year": 1948
+    },
+    {
+      "id": "hapkido",
+      "label": "Hapkido",
+      "type": "art",
+      "domain": "mixed",
+      "x": 445.6,
+      "y": 392.4,
+      "tags": [
+        "Mixed",
+        "Korea",
+        "Locks"
+      ],
+      "dek": "Korean hybrid of strikes, joint locks, and throws with shared roots in Japanese jujutsu lineages.",
+      "href": "/styles/hapkido/",
+      "kindLabel": "Style",
+      "origin": "Korea",
+      "accent": "#5B6B8C",
+      "image": "/media/photos/hapkido-dojang.jpg",
+      "year": 1950
+    },
+    {
+      "id": "boxing",
+      "label": "Boxing",
+      "type": "art",
+      "domain": "striking",
+      "x": 787.6,
+      "y": 100.8,
+      "tags": [
+        "Striking",
+        "Hands",
+        "Ring"
+      ],
+      "dek": "Fist-fighting sport of punches, footwork, defense, and ringcraft under gloved rules.",
+      "href": "/styles/boxing/",
+      "kindLabel": "Style",
+      "origin": "Global",
+      "accent": "#C48A4A",
+      "image": "/media/photos/johnson-jeffries-1911.jpg",
+      "year": 1867
+    },
+    {
+      "id": "muay-thai",
+      "label": "Muay Thai",
+      "type": "art",
+      "domain": "striking",
+      "x": 953.5,
+      "y": 100.8,
+      "tags": [
+        "Striking",
+        "Eight limbs",
+        "Clinch"
+      ],
+      "dek": "Thai striking with fists, elbows, knees, and shins — plus a punishing clinch.",
+      "href": "/styles/muay-thai/",
+      "kindLabel": "Style",
+      "origin": "Thailand",
+      "accent": "#C48A4A",
+      "image": "/media/photos/siamese-boxing-1920s.jpg",
+      "year": 1921
+    },
+    {
+      "id": "kickboxing",
+      "label": "Kickboxing",
+      "type": "art",
+      "domain": "striking",
+      "x": 787.6,
+      "y": 206.8,
+      "tags": [
+        "Striking",
+        "Sport",
+        "Hybrid"
+      ],
+      "dek": "Sport striking that blends boxing hands with kicks — rulesets vary by org.",
+      "href": "/styles/kickboxing/",
+      "kindLabel": "Style",
+      "origin": "Global",
+      "accent": "#C48A4A",
+      "image": "/media/photos/kickboxing.jpg",
+      "year": 1960
+    },
+    {
+      "id": "karate",
+      "label": "Karate",
+      "type": "art",
+      "domain": "striking",
+      "x": 953.5,
+      "y": 206.8,
+      "tags": [
+        "Striking",
+        "Japan",
+        "Kata"
+      ],
+      "dek": "Okinawan/Japanese striking family — punches, kicks, and kata across many branches.",
+      "href": "/styles/karate/",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#C48A4A",
+      "image": "/media/photos/kata.jpg",
+      "year": 1922
+    },
+    {
+      "id": "taekwondo",
+      "label": "Taekwondo",
+      "type": "art",
+      "domain": "striking",
+      "x": 787.6,
+      "y": 312.9,
+      "tags": [
+        "Striking",
+        "Korea",
+        "Kicks"
+      ],
+      "dek": "Korean Olympic kicking art with sport and traditional lineages.",
+      "href": "/styles/taekwondo/",
+      "kindLabel": "Style",
+      "origin": "Korea",
+      "accent": "#C48A4A",
+      "image": "/media/photos/olympic-taekwondo.jpg",
+      "year": 1955
+    },
+    {
+      "id": "kyokushin",
+      "label": "Kyokushin",
+      "type": "style",
+      "domain": "striking",
+      "x": 953.5,
+      "y": 312.9,
+      "tags": [
+        "Striking",
+        "Full contact",
+        "Karate"
+      ],
+      "dek": "Oyama’s full-contact karate branch — knockdown fighting without head punches.",
+      "href": "/styles/kyokushin/",
+      "kindLabel": "Branch",
+      "origin": "Japan",
+      "accent": "#B85C4A",
+      "image": "/media/photos/kyokushin-match.jpg",
+      "year": 1964
+    },
+    {
+      "id": "lethwei",
+      "label": "Lethwei",
+      "type": "art",
+      "domain": "striking",
+      "x": 787.6,
+      "y": 418.9,
+      "tags": [
+        "Striking",
+        "Myanmar",
+        "Headbutts"
+      ],
+      "dek": "Burmese bare-knuckle striking — punches, kicks, elbows, knees, and headbutts.",
+      "href": "/styles/lethwei/",
+      "kindLabel": "Style",
+      "origin": "Myanmar",
+      "accent": "#C48A4A",
+      "image": "/media/photos/lethwei-thein-phyu.jpg",
+      "year": 1950
+    },
+    {
+      "id": "savate",
+      "label": "Savate",
+      "type": "art",
+      "domain": "striking",
+      "x": 953.5,
+      "y": 418.9,
+      "tags": [
+        "Striking",
+        "France",
+        "Shoes"
+      ],
+      "dek": "French kickboxing with shoes — precise kicks and boxing hands.",
+      "href": "/styles/savate/",
+      "kindLabel": "Style",
+      "origin": "France",
+      "accent": "#C48A4A",
+      "image": "/media/photos/savate-salle-legrand.jpg",
+      "year": 1825
+    },
+    {
+      "id": "kung-fu",
+      "label": "Kung Fu",
+      "type": "art",
+      "domain": "lineage",
+      "x": 93.3,
+      "y": 578,
+      "tags": [
+        "Chinese",
+        "Family"
+      ],
+      "dek": "Umbrella for Chinese martial systems — many styles under one catalog label.",
+      "href": "/styles/kung-fu/",
+      "kindLabel": "Style",
+      "origin": "China",
+      "accent": "#8B6B8C",
+      "year": 1600,
+      "image": "/media/photos/kung-fu.jpg"
+    },
+    {
+      "id": "wing-chun",
+      "label": "Wing Chun",
+      "type": "style",
+      "domain": "lineage",
+      "x": 228,
+      "y": 578,
+      "tags": [
+        "Chinese",
+        "Close range"
+      ],
+      "dek": "Close-range Chinese style — centerline punches, traps, and sticky hands.",
+      "href": "/styles/wing-chun/",
+      "kindLabel": "Branch",
+      "origin": "China",
+      "accent": "#B85C4A",
+      "image": "/media/photos/wing-chun-forms.jpg",
+      "year": 1940
+    },
+    {
+      "id": "jeet-kune-do",
+      "label": "Jeet Kune Do",
+      "type": "style",
+      "domain": "lineage",
+      "x": 383.5,
+      "y": 578,
+      "tags": [
+        "Hybrid",
+        "Lee"
+      ],
+      "dek": "Bruce Lee’s hybrid method — intercepting, economy, and cross-training over fixed style.",
+      "href": "/styles/jeet-kune-do/",
+      "kindLabel": "Branch",
+      "origin": "US / Hong Kong",
+      "accent": "#B85C4A",
+      "year": 1967
+    },
+    {
+      "id": "capoeira",
+      "label": "Capoeira",
+      "type": "art",
+      "domain": "lineage",
+      "x": 538.9,
+      "y": 578,
+      "tags": [
+        "Flow",
+        "Brazil"
+      ],
+      "dek": "Afro-Brazilian movement art — kicks, ginga, and music in a circular game.",
+      "href": "/styles/capoeira/",
+      "kindLabel": "Style",
+      "origin": "Brazil",
+      "accent": "#8B6B8C",
+      "image": "/media/photos/jogo-da-capoeira-1927.jpg",
+      "year": 1600
+    },
+    {
+      "id": "silat",
+      "label": "Silat",
+      "type": "art",
+      "domain": "lineage",
+      "x": 673.6,
+      "y": 578,
+      "tags": [
+        "SE Asian",
+        "Weapons"
+      ],
+      "dek": "Southeast Asian family of empty-hand and weapons systems.",
+      "href": "/styles/silat/",
+      "kindLabel": "Style",
+      "origin": "SE Asia",
+      "accent": "#8B6B8C",
+      "year": 1700,
+      "image": "/media/photos/silat.jpg"
+    },
+    {
+      "id": "eskrima",
+      "label": "Eskrima",
+      "type": "art",
+      "domain": "lineage",
+      "x": 787.6,
+      "y": 578,
+      "tags": [
+        "Weapons",
+        "Philippines"
+      ],
+      "dek": "Filipino stick and blade arts — weapon-first training that transfers to empty hand.",
+      "href": "/styles/eskrima/",
+      "kindLabel": "Style",
+      "origin": "Philippines",
+      "accent": "#8B6B8C",
+      "year": 1750,
+      "image": "/media/photos/eskrima.jpg"
+    },
+    {
+      "id": "fencing",
+      "label": "Fencing",
+      "type": "art",
+      "domain": "lineage",
+      "x": 901.6,
+      "y": 578,
+      "tags": [
+        "Weapons",
+        "Sport"
+      ],
+      "dek": "Olympic sword sport — foil, épée, and sabre with precise timing and distance.",
+      "href": "/styles/fencing/",
+      "kindLabel": "Style",
+      "origin": "Europe",
+      "accent": "#8B6B8C",
+      "year": 1780,
+      "image": "/media/photos/fencing.jpg"
+    },
+    {
+      "id": "hema",
+      "label": "HEMA",
+      "type": "art",
+      "domain": "lineage",
+      "x": 1005.3,
+      "y": 578,
+      "tags": [
+        "Weapons",
+        "Historical"
+      ],
+      "dek": "Historical European martial arts — reconstructed from treatises and fencing manuals.",
+      "href": "/styles/hema/",
+      "kindLabel": "Style",
+      "origin": "Europe",
+      "accent": "#8B6B8C",
+      "year": 1890,
+      "image": "/media/photos/hema.jpg"
+    },
+    {
+      "id": "kendo",
+      "label": "Kendo",
+      "type": "art",
+      "domain": "lineage",
+      "x": 1083,
+      "y": 578,
+      "tags": [
+        "Weapons",
+        "Japan"
+      ],
+      "dek": "Japanese sword sport with shinai and bogu — strikes to defined targets.",
+      "href": "/styles/kendo/",
+      "kindLabel": "Style",
+      "origin": "Japan",
+      "accent": "#8B6B8C",
+      "year": 1912,
+      "image": "/media/photos/kendo.jpg"
+    },
+    {
+      "id": "kano",
+      "label": "Jigoro Kano",
+      "type": "person",
+      "domain": "grappling",
+      "x": 207.3,
+      "y": 50.9,
+      "anchor": "judo",
+      "tags": [
+        "Founder",
+        "Kodokan"
+      ],
+      "dek": "Founder of Kodokan judo — systematized jujutsu into education and sport.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "Japan",
+      "accent": "#5A5A5A",
+      "image": "/media/photos/jigoro-kano.jpg",
+      "year": 1860
+    },
+    {
+      "id": "maeda",
+      "label": "Mitsuyo Maeda",
+      "type": "person",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 153.8,
+      "anchor": "judo",
+      "tags": [
+        "Ambassador",
+        "Brazil"
+      ],
+      "dek": "Kodokan judoka who taught in Brazil — the transmission that seeded Brazilian jiu-jitsu.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "Japan / Brazil",
+      "accent": "#5A5A5A",
+      "year": 1878,
+      "image": "/media/photos/mitsuyo-maeda.jpg"
+    },
+    {
+      "id": "gracie",
+      "label": "Helio Gracie",
+      "type": "person",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 381.8,
+      "anchor": "bjj",
+      "tags": [
+        "Founder",
+        "BJJ"
+      ],
+      "dek": "Key figure in early Brazilian jiu-jitsu — leverage-focused adaptation of Maeda’s teaching.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "Brazil",
+      "accent": "#5A5A5A",
+      "image": "/media/photos/helio-gracie-1932.jpg",
+      "year": 1913
+    },
+    {
+      "id": "lee",
+      "label": "Bruce Lee",
+      "type": "person",
+      "domain": "lineage",
+      "x": 383.5,
+      "y": 530.3,
+      "anchor": "jeet-kune-do",
+      "tags": [
+        "Founder",
+        "JKD"
+      ],
+      "dek": "Founder of Jeet Kune Do — rejected rigid style in favor of adaptable method.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "US / Hong Kong",
+      "accent": "#5A5A5A",
+      "year": 1940
+    },
+    {
+      "id": "oyama",
+      "label": "Mas Oyama",
+      "type": "person",
+      "domain": "striking",
+      "x": 1026,
+      "y": 270.5,
+      "anchor": "kyokushin",
+      "tags": [
+        "Founder",
+        "Kyokushin"
+      ],
+      "dek": "Founder of Kyokushin karate — full-contact knockdown tradition.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "Japan",
+      "accent": "#5A5A5A",
+      "year": 1923,
+      "image": "/media/photos/mas-oyama.jpg"
+    },
+    {
+      "id": "ueshiba",
+      "label": "Morihei Ueshiba",
+      "type": "person",
+      "domain": "grappling",
+      "x": 160.6,
+      "y": 381.8,
+      "anchor": "aikido",
+      "tags": [
+        "Founder",
+        "Aikido"
+      ],
+      "dek": "Founder of aikido — blended jujutsu with a distinct spiritual and blending ethos.",
+      "href": null,
+      "kindLabel": "Person",
+      "origin": "Japan",
+      "accent": "#5A5A5A",
+      "year": 1883,
+      "image": "/media/photos/morihei-ueshiba.jpg"
+    },
+    {
+      "id": "kodokan",
+      "label": "Kodokan",
+      "type": "lineage",
+      "domain": "grappling",
+      "x": 145.1,
+      "y": 50.9,
+      "anchor": "judo",
+      "tags": [
+        "Org",
+        "Tokyo"
+      ],
+      "dek": "Judo’s founding institute in Tokyo — the institutional home of Kodokan judo.",
+      "href": null,
+      "kindLabel": "Lineage",
+      "origin": "Japan",
+      "accent": "#7A6A5A",
+      "image": "/media/photos/kano-mifune.jpg",
+      "year": 1882
+    },
+    {
+      "id": "gracie-lineage",
+      "label": "Gracie lineage",
+      "type": "lineage",
+      "domain": "grappling",
+      "x": 207.3,
+      "y": 381.8,
+      "anchor": "bjj",
+      "tags": [
+        "Family",
+        "Brazil"
+      ],
+      "dek": "Family and academy lines that carried Brazilian jiu-jitsu from Maeda’s students outward.",
+      "href": null,
+      "kindLabel": "Lineage",
+      "origin": "Brazil",
+      "accent": "#7A6A5A",
+      "image": "/media/photos/helio-gracie-1932.jpg",
+      "year": 1925
+    },
+    {
+      "id": "osoto-gari",
+      "label": "Osoto-gari",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 58.3,
+      "anchor": "judo",
+      "tags": [
+        "Throw",
+        "Ashi-waza"
+      ],
+      "dek": "Major outer reap — classic judo throw that clears the support leg.",
+      "href": "/terms/osoto-gari/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A"
+    },
+    {
+      "id": "uchi-mata",
+      "label": "Uchi-mata",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 106.1,
+      "anchor": "judo",
+      "tags": [
+        "Throw",
+        "Ashi-waza"
+      ],
+      "dek": "Inner thigh throw — high-amplitude judo classic also seen in MMA entries.",
+      "href": "/terms/uchi-mata/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/uchi-mata-judo-throw.jpg"
+    },
+    {
+      "id": "seoi-nage",
+      "label": "Seoi-nage",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 207.3,
+      "y": 153.8,
+      "anchor": "judo",
+      "tags": [
+        "Throw",
+        "Te-waza"
+      ],
+      "dek": "Shoulder throw — load the opponent over the back and finish forward.",
+      "href": "/terms/seoi-nage/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/drop-ippon-seoi-nage-practice.jpg"
+    },
+    {
+      "id": "closed-guard",
+      "label": "Closed guard",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 275.8,
+      "anchor": "bjj",
+      "tags": [
+        "Position",
+        "Guard"
+      ],
+      "dek": "Both legs locked around the passer’s waist — control before sweep or submission.",
+      "href": "/terms/closed-guard/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/bjj-closed-guard-2010.jpg"
+    },
+    {
+      "id": "armbar",
+      "label": "Armbar",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 328.8,
+      "anchor": "bjj",
+      "tags": [
+        "Submission",
+        "Joint"
+      ],
+      "dek": "Juji-gatame — hyperextend the elbow from guard, mount, or back.",
+      "href": "/terms/armbar/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/eijc-kata-juji-gatame.jpg"
+    },
+    {
+      "id": "kimura",
+      "label": "Kimura",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 181.4,
+      "y": 339.4,
+      "anchor": "bjj",
+      "tags": [
+        "Submission",
+        "Shoulder"
+      ],
+      "dek": "Figure-four shoulder lock — named after Masahiko Kimura’s win over Helio Gracie.",
+      "href": "/terms/kimura/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/kimura-from-guard.jpg"
+    },
+    {
+      "id": "triangle-choke",
+      "label": "Triangle",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 331.6,
+      "y": 424.2,
+      "anchor": "bjj",
+      "tags": [
+        "Submission",
+        "Choke"
+      ],
+      "dek": "Leg triangle choke from guard — isolate an arm and compress the neck.",
+      "href": "/terms/triangle-choke/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/vella-barral-triangle-2009.jpg"
+    },
+    {
+      "id": "rear-naked-choke",
+      "label": "RNC",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 181.4,
+      "y": 275.8,
+      "anchor": "bjj",
+      "tags": [
+        "Submission",
+        "Choke"
+      ],
+      "dek": "Hadaka-jime — rear naked choke from the back, a staple finish in BJJ and MMA.",
+      "href": "/terms/rear-naked-choke/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A"
+    },
+    {
+      "id": "double-leg",
+      "label": "Double leg",
+      "type": "technique",
+      "domain": "grappling",
+      "x": 160.6,
+      "y": 164.4,
+      "anchor": "wrestling",
+      "tags": [
+        "Takedown",
+        "Shot"
+      ],
+      "dek": "Level-change shot that picks both legs — wrestling’s primary entry to the mat.",
+      "href": "/terms/double-leg-takedown/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/wrestling-double-leg.jpg"
+    },
+    {
+      "id": "jab",
+      "label": "Jab",
+      "type": "technique",
+      "domain": "striking",
+      "x": 725.5,
+      "y": 58.3,
+      "anchor": "boxing",
+      "tags": [
+        "Punch",
+        "Range"
+      ],
+      "dek": "Lead-hand punch — range finder, setup, and defense disruptor.",
+      "href": "/terms/jab/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/jack-johnson-1911-jab.jpg"
+    },
+    {
+      "id": "roundhouse-kick",
+      "label": "Roundhouse",
+      "type": "technique",
+      "domain": "striking",
+      "x": 1026,
+      "y": 58.3,
+      "anchor": "muay-thai",
+      "tags": [
+        "Kick",
+        "Shin"
+      ],
+      "dek": "Circular kick with the shin or instep — power tool across Muay Thai and kickboxing.",
+      "href": "/terms/roundhouse-kick/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/kickboxing-roundhouse.jpg"
+    },
+    {
+      "id": "clinch",
+      "label": "Clinch",
+      "type": "technique",
+      "domain": "striking",
+      "x": 1026,
+      "y": 148.5,
+      "anchor": "muay-thai",
+      "tags": [
+        "Control",
+        "Knees"
+      ],
+      "dek": "Plum / double-collar control — knees, sweeps, and breaks from the Muay Thai clinch.",
+      "href": "/terms/clinch/",
+      "kindLabel": "Technique",
+      "accent": "#7A6A9A",
+      "image": "/media/photos/muay-thai-knee-clinch.jpg"
+    }
+  ],
+  "edges": [
+    {
+      "source": "jujutsu",
+      "target": "judo",
+      "type": "lineage",
+      "label": "Lineage"
+    },
+    {
+      "source": "judo",
+      "target": "bjj",
+      "type": "lineage",
+      "label": "Direct evolution"
+    },
+    {
+      "source": "judo",
+      "target": "sambo",
+      "type": "lineage",
+      "label": "Fork"
+    },
+    {
+      "source": "judo",
+      "target": "aikido",
+      "type": "influence",
+      "label": "Influence"
+    },
+    {
+      "source": "jujutsu",
+      "target": "aikido",
+      "type": "lineage",
+      "label": "Lineage"
+    },
+    {
+      "source": "jujutsu",
+      "target": "hapkido",
+      "type": "influence",
+      "label": "Shared roots"
+    },
+    {
+      "source": "wrestling",
+      "target": "sambo",
+      "type": "influence",
+      "label": "Influence"
+    },
+    {
+      "source": "wrestling",
+      "target": "catch-wrestling",
+      "type": "lineage",
+      "label": "Branch"
+    },
+    {
+      "source": "maeda",
+      "target": "bjj",
+      "type": "lineage",
+      "label": "Transmission"
+    },
+    {
+      "source": "kano",
+      "target": "judo",
+      "type": "lineage",
+      "label": "Founded"
+    },
+    {
+      "source": "kano",
+      "target": "kodokan",
+      "type": "lineage",
+      "label": "Founded"
+    },
+    {
+      "source": "kodokan",
+      "target": "judo",
+      "type": "lineage",
+      "label": "Institution"
+    },
+    {
+      "source": "maeda",
+      "target": "judo",
+      "type": "lineage",
+      "label": "Kodokan"
+    },
+    {
+      "source": "gracie",
+      "target": "bjj",
+      "type": "lineage",
+      "label": "Founding line"
+    },
+    {
+      "source": "gracie-lineage",
+      "target": "bjj",
+      "type": "lineage",
+      "label": "Family"
+    },
+    {
+      "source": "gracie",
+      "target": "gracie-lineage",
+      "type": "lineage",
+      "label": "Family"
+    },
+    {
+      "source": "ueshiba",
+      "target": "aikido",
+      "type": "lineage",
+      "label": "Founded"
+    },
+    {
+      "source": "judo",
+      "target": "osoto-gari",
+      "type": "shared_practice",
+      "label": "Core throw"
+    },
+    {
+      "source": "judo",
+      "target": "uchi-mata",
+      "type": "shared_practice",
+      "label": "Core throw"
+    },
+    {
+      "source": "judo",
+      "target": "seoi-nage",
+      "type": "shared_practice",
+      "label": "Core throw"
+    },
+    {
+      "source": "bjj",
+      "target": "closed-guard",
+      "type": "shared_practice",
+      "label": "Position"
+    },
+    {
+      "source": "bjj",
+      "target": "armbar",
+      "type": "shared_practice",
+      "label": "Submission"
+    },
+    {
+      "source": "bjj",
+      "target": "kimura",
+      "type": "shared_practice",
+      "label": "Submission"
+    },
+    {
+      "source": "bjj",
+      "target": "triangle-choke",
+      "type": "shared_practice",
+      "label": "Submission"
+    },
+    {
+      "source": "bjj",
+      "target": "rear-naked-choke",
+      "type": "shared_practice",
+      "label": "Submission"
+    },
+    {
+      "source": "wrestling",
+      "target": "double-leg",
+      "type": "shared_practice",
+      "label": "Shot"
+    },
+    {
+      "source": "boxing",
+      "target": "jab",
+      "type": "shared_practice",
+      "label": "Core punch"
+    },
+    {
+      "source": "muay-thai",
+      "target": "roundhouse-kick",
+      "type": "shared_practice",
+      "label": "Core kick"
+    },
+    {
+      "source": "muay-thai",
+      "target": "clinch",
+      "type": "shared_practice",
+      "label": "Control"
+    },
+    {
+      "source": "closed-guard",
+      "target": "armbar",
+      "type": "shared_practice",
+      "label": "From guard"
+    },
+    {
+      "source": "closed-guard",
+      "target": "triangle-choke",
+      "type": "shared_practice",
+      "label": "From guard"
+    },
+    {
+      "source": "closed-guard",
+      "target": "kimura",
+      "type": "shared_practice",
+      "label": "From guard"
+    },
+    {
+      "source": "boxing",
+      "target": "kickboxing",
+      "type": "influence",
+      "label": "Hands"
+    },
+    {
+      "source": "muay-thai",
+      "target": "kickboxing",
+      "type": "influence",
+      "label": "Kicks / clinch"
+    },
+    {
+      "source": "karate",
+      "target": "kyokushin",
+      "type": "lineage",
+      "label": "Branch"
+    },
+    {
+      "source": "oyama",
+      "target": "kyokushin",
+      "type": "lineage",
+      "label": "Founded"
+    },
+    {
+      "source": "karate",
+      "target": "taekwondo",
+      "type": "influence",
+      "label": "Influence"
+    },
+    {
+      "source": "muay-thai",
+      "target": "lethwei",
+      "type": "sport_overlap",
+      "label": "Kin"
+    },
+    {
+      "source": "kickboxing",
+      "target": "savate",
+      "type": "sport_overlap",
+      "label": "Kin"
+    },
+    {
+      "source": "boxing",
+      "target": "savate",
+      "type": "influence",
+      "label": "Hands"
+    },
+    {
+      "source": "kung-fu",
+      "target": "wing-chun",
+      "type": "lineage",
+      "label": "Family"
+    },
+    {
+      "source": "wing-chun",
+      "target": "jeet-kune-do",
+      "type": "influence",
+      "label": "Influence"
+    },
+    {
+      "source": "lee",
+      "target": "jeet-kune-do",
+      "type": "lineage",
+      "label": "Founded"
+    },
+    {
+      "source": "boxing",
+      "target": "jeet-kune-do",
+      "type": "influence",
+      "label": "Influence"
+    },
+    {
+      "source": "silat",
+      "target": "eskrima",
+      "type": "sport_overlap",
+      "label": "SE Asian"
+    },
+    {
+      "source": "hema",
+      "target": "kendo",
+      "type": "sport_overlap",
+      "label": "Sword sport"
+    },
+    {
+      "source": "hema",
+      "target": "fencing",
+      "type": "sport_overlap",
+      "label": "Blade"
+    },
+    {
+      "source": "fencing",
+      "target": "kendo",
+      "type": "sport_overlap",
+      "label": "Sport fencing"
+    },
+    {
+      "source": "wrestling",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "sambo",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "bjj",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "catch-wrestling",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "vale-tudo",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Precursor"
+    },
+    {
+      "source": "krav-maga",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Feeder"
+    },
+    {
+      "source": "boxing",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "muay-thai",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "kickboxing",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "judo",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "boxing",
+      "target": "kickboxing",
+      "type": "sport_overlap",
+      "label": "Sport overlap"
+    },
+    {
+      "source": "muay-thai",
+      "target": "kickboxing",
+      "type": "sport_overlap",
+      "label": "Sport overlap"
+    },
+    {
+      "source": "sumo",
+      "target": "judo",
+      "type": "influence",
+      "label": "Sumo → judo"
+    },
+    {
+      "source": "sumo",
+      "target": "wrestling",
+      "type": "sport_overlap",
+      "label": "Grappling sports"
+    },
+    {
+      "source": "sumo",
+      "target": "jujutsu",
+      "type": "shared_practice",
+      "label": "Japanese grappling"
+    },
+    {
+      "source": "sumo",
+      "target": "aikido",
+      "type": "influence",
+      "label": "Japanese budo"
+    },
+    {
+      "source": "capoeira",
+      "target": "vale-tudo",
+      "type": "influence",
+      "label": "Brazilian fight culture"
+    },
+    {
+      "source": "capoeira",
+      "target": "bjj",
+      "type": "shared_practice",
+      "label": "Brazilian cultural overlap"
+    },
+    {
+      "source": "capoeira",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "capoeira",
+      "target": "kung-fu",
+      "type": "sport_overlap",
+      "label": "Flow arts dialogue"
+    },
+    {
+      "source": "lethwei",
+      "target": "muay-thai",
+      "type": "influence",
+      "label": "SE Asian kinship"
+    },
+    {
+      "source": "lethwei",
+      "target": "kickboxing",
+      "type": "sport_overlap",
+      "label": "Full-contact striking"
+    },
+    {
+      "source": "lethwei",
+      "target": "boxing",
+      "type": "influence",
+      "label": "Western boxing adopted"
+    },
+    {
+      "source": "silat",
+      "target": "kung-fu",
+      "type": "influence",
+      "label": "Chinese–Malay exchange"
+    },
+    {
+      "source": "silat",
+      "target": "karate",
+      "type": "influence",
+      "label": "SE Asian–Japanese exchange"
+    },
+    {
+      "source": "eskrima",
+      "target": "fencing",
+      "type": "sport_overlap",
+      "label": "Blade arts"
+    },
+    {
+      "source": "eskrima",
+      "target": "silat",
+      "type": "shared_practice",
+      "label": "Archipelago weapons"
+    },
+    {
+      "source": "eskrima",
+      "target": "hema",
+      "type": "sport_overlap",
+      "label": "Historical weapons"
+    },
+    {
+      "source": "fencing",
+      "target": "hema",
+      "type": "influence",
+      "label": "Historical revival roots"
+    },
+    {
+      "source": "fencing",
+      "target": "savate",
+      "type": "sport_overlap",
+      "label": "French combat sports"
+    },
+    {
+      "source": "kendo",
+      "target": "karate",
+      "type": "influence",
+      "label": "Japanese budo"
+    },
+    {
+      "source": "kendo",
+      "target": "aikido",
+      "type": "influence",
+      "label": "Japanese budo"
+    },
+    {
+      "source": "hema",
+      "target": "kendo",
+      "type": "influence",
+      "label": "Sword culture bridge"
+    },
+    {
+      "source": "kung-fu",
+      "target": "karate",
+      "type": "influence",
+      "label": "China → Okinawa"
+    },
+    {
+      "source": "kung-fu",
+      "target": "taekwondo",
+      "type": "influence",
+      "label": "East Asian striking"
+    },
+    {
+      "source": "kung-fu",
+      "target": "jeet-kune-do",
+      "type": "lineage",
+      "label": "JKD roots"
+    },
+    {
+      "source": "kung-fu",
+      "target": "hapkido",
+      "type": "influence",
+      "label": "East Asian exchange"
+    },
+    {
+      "source": "wing-chun",
+      "target": "boxing",
+      "type": "sport_overlap",
+      "label": "Close-range striking"
+    },
+    {
+      "source": "jeet-kune-do",
+      "target": "fencing",
+      "type": "influence",
+      "label": "Intercepting concepts"
+    },
+    {
+      "source": "jeet-kune-do",
+      "target": "kickboxing",
+      "type": "shared_practice",
+      "label": "Hybrid striking"
+    },
+    {
+      "source": "hapkido",
+      "target": "aikido",
+      "type": "influence",
+      "label": "Circular joint locks"
+    },
+    {
+      "source": "hapkido",
+      "target": "judo",
+      "type": "influence",
+      "label": "Throws & locks"
+    },
+    {
+      "source": "hapkido",
+      "target": "taekwondo",
+      "type": "shared_practice",
+      "label": "Korean arts"
+    },
+    {
+      "source": "krav-maga",
+      "target": "boxing",
+      "type": "influence",
+      "label": "Combatives striking"
+    },
+    {
+      "source": "krav-maga",
+      "target": "wrestling",
+      "type": "influence",
+      "label": "Combatives clinch"
+    },
+    {
+      "source": "krav-maga",
+      "target": "judo",
+      "type": "influence",
+      "label": "Combatives throws"
+    },
+    {
+      "source": "krav-maga",
+      "target": "kickboxing",
+      "type": "shared_practice",
+      "label": "Street–sport overlap"
+    },
+    {
+      "source": "bjj",
+      "target": "wrestling",
+      "type": "shared_practice",
+      "label": "No-gi / MMA grappling"
+    },
+    {
+      "source": "bjj",
+      "target": "catch-wrestling",
+      "type": "influence",
+      "label": "Submission wrestling"
+    },
+    {
+      "source": "wrestling",
+      "target": "judo",
+      "type": "sport_overlap",
+      "label": "Olympic grappling"
+    },
+    {
+      "source": "catch-wrestling",
+      "target": "sambo",
+      "type": "sport_overlap",
+      "label": "Jacket & catch"
+    },
+    {
+      "source": "aikido",
+      "target": "jujutsu",
+      "type": "shared_practice",
+      "label": "Aiki roots"
+    },
+    {
+      "source": "sambo",
+      "target": "bjj",
+      "type": "sport_overlap",
+      "label": "Submission sports"
+    },
+    {
+      "source": "judo",
+      "target": "catch-wrestling",
+      "type": "sport_overlap",
+      "label": "Grappling cross-talk"
+    },
+    {
+      "source": "karate",
+      "target": "kickboxing",
+      "type": "influence",
+      "label": "Japanese kickboxing roots"
+    },
+    {
+      "source": "taekwondo",
+      "target": "kickboxing",
+      "type": "sport_overlap",
+      "label": "Sport kicking"
+    },
+    {
+      "source": "kyokushin",
+      "target": "kickboxing",
+      "type": "influence",
+      "label": "Full-contact karate"
+    },
+    {
+      "source": "kyokushin",
+      "target": "muay-thai",
+      "type": "sport_overlap",
+      "label": "Full-contact striking"
+    },
+    {
+      "source": "karate",
+      "target": "boxing",
+      "type": "shared_practice",
+      "label": "Punch mechanics"
+    },
+    {
+      "source": "taekwondo",
+      "target": "karate",
+      "type": "shared_practice",
+      "label": "Korean–Japanese kicking"
+    },
+    {
+      "source": "savate",
+      "target": "boxing",
+      "type": "shared_practice",
+      "label": "Western striking"
+    },
+    {
+      "source": "muay-thai",
+      "target": "karate",
+      "type": "sport_overlap",
+      "label": "Stand-up striking"
+    },
+    {
+      "source": "vale-tudo",
+      "target": "bjj",
+      "type": "lineage",
+      "label": "Vale tudo → BJJ era"
+    },
+    {
+      "source": "vale-tudo",
+      "target": "wrestling",
+      "type": "influence",
+      "label": "Early NHB"
+    },
+    {
+      "source": "mma",
+      "target": "kickboxing",
+      "type": "shared_practice",
+      "label": "MMA striking"
+    },
+    {
+      "source": "mma",
+      "target": "wrestling",
+      "type": "shared_practice",
+      "label": "MMA wrestling"
+    },
+    {
+      "source": "krav-maga",
+      "target": "mma",
+      "type": "shared_practice",
+      "label": "Pressure testing"
+    },
+    {
+      "source": "hapkido",
+      "target": "krav-maga",
+      "type": "sport_overlap",
+      "label": "Self-defense systems"
+    },
+    {
+      "source": "karate",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "taekwondo",
+      "target": "mma",
+      "type": "into_mma",
+      "label": "Into MMA"
+    },
+    {
+      "source": "sambo",
+      "target": "judo",
+      "type": "shared_practice",
+      "label": "Jacket grappling"
+    },
+    {
+      "source": "wing-chun",
+      "target": "krav-maga",
+      "type": "sport_overlap",
+      "label": "Close-range defense"
+    }
+  ],
+  "discoverPaths": [
+    {
+      "id": "lineage-cage",
+      "sessionId": "lineage-cage",
+      "title": "Judo → BJJ → MMA",
+      "kind": "Lineage",
+      "dek": "Throws to guard to the cage — the modern grappling trunk.",
+      "image": "/media/photos/bsd-alvarez-cage-control.jpg",
+      "href": "/sessions/?path=lineage-cage",
+      "journey": [
+        "judo",
+        "bjj",
+        "mma"
+      ],
+      "from": "Judo",
+      "to": "MMA",
+      "alias": "jj-judo-bjj"
+    },
+    {
+      "id": "striking-ring",
+      "sessionId": "striking-ring",
+      "title": "Boxing → Muay Thai → Kickboxing",
+      "kind": "Influence",
+      "dek": "Hands only, then eight limbs, then the hybrid kickboxing frame.",
+      "image": "/media/photos/boxing-range-chase.jpg",
+      "href": "/sessions/?path=striking-ring",
+      "journey": [
+        "boxing",
+        "muay-thai",
+        "kickboxing"
+      ],
+      "from": "Boxing",
+      "to": "Kickboxing"
+    },
+    {
+      "id": "grappling-ground",
+      "sessionId": "grappling-ground",
+      "title": "Wrestling → Judo → BJJ",
+      "kind": "Shared practice",
+      "dek": "Takedowns into throws into the guard — three grappling languages.",
+      "image": "/media/photos/freestyle-wrestling.jpg",
+      "href": "/sessions/?path=grappling-ground",
+      "journey": [
+        "wrestling",
+        "judo",
+        "bjj"
+      ],
+      "from": "Wrestling",
+      "to": "BJJ",
+      "alias": "wrestle-cage"
+    },
+    {
+      "id": "lineage-flow",
+      "sessionId": "lineage-flow",
+      "title": "Wing Chun → Jeet Kune Do",
+      "kind": "Evolution",
+      "dek": "Centerline intercept into Jeet Kune Do’s open syllabus.",
+      "image": "/media/photos/wing-chun-forms.jpg",
+      "href": "/sessions/?path=lineage-flow",
+      "journey": [
+        "wing-chun",
+        "jeet-kune-do"
+      ],
+      "from": "Wing Chun",
+      "to": "Jeet Kune Do",
+      "alias": "wing-jkd"
+    }
+  ],
+  "comparePairs": [
+    {
+      "a": "judo",
+      "b": "bjj",
+      "aFocus": [
+        "Throws",
+        "Pins",
+        "Newaza",
+        "Standing grip fighting"
+      ],
+      "bFocus": [
+        "Positions",
+        "Submissions",
+        "Guard play",
+        "Ground fighting"
+      ],
+      "shared": [
+        "Grappling",
+        "Jujutsu roots",
+        "Submissions",
+        "Jacket / gi work"
+      ],
+      "dek": "Kodokan judo and Brazilian jiu-jitsu share a direct lineage through Maeda — then diverge in sport emphasis."
+    },
+    {
+      "a": "boxing",
+      "b": "muay-thai",
+      "aFocus": [
+        "Punches",
+        "Footwork",
+        "Head movement",
+        "Ringcraft"
+      ],
+      "bFocus": [
+        "Eight limbs",
+        "Clinch",
+        "Low kicks",
+        "Elbows / knees"
+      ],
+      "shared": [
+        "Striking",
+        "Timing",
+        "Range control",
+        "Sport combat"
+      ],
+      "dek": "Western boxing and Muay Thai both own the pocket — one with hands, the other with the full eight limbs."
+    }
+  ],
+  "discoveryFacts": [
+    {
+      "id": "sambo-judo",
+      "ids": [
+        "sambo",
+        "judo"
+      ],
+      "text": "Sambo and Judo share a common ancestor in jacket grappling — Soviet coaches folded Kodokan throws into a national combat sport.",
+      "cta": "Explore the connection"
+    },
+    {
+      "id": "maeda-bjj",
+      "ids": [
+        "maeda",
+        "bjj",
+        "judo"
+      ],
+      "text": "Mitsuyo Maeda carried Kodokan judo to Brazil — the transmission that seeded Brazilian jiu-jitsu.",
+      "cta": "Explore the connection"
+    },
+    {
+      "id": "wing-jkd",
+      "ids": [
+        "wing-chun",
+        "jeet-kune-do"
+      ],
+      "text": "Jeet Kune Do grew from Wing Chun’s centerline ideas — then deliberately outgrew any single style.",
+      "cta": "Explore the connection"
+    },
+    {
+      "id": "catch-mma",
+      "ids": [
+        "catch-wrestling",
+        "mma"
+      ],
+      "text": "Catch wrestling’s submissions and pins fed early no-holds-barred contests long before the modern cage.",
+      "cta": "Explore the connection"
+    }
+  ],
+  "discoverPathAliases": {
+    "jj-judo-bjj": "lineage-cage",
+    "wrestle-cage": "grappling-ground",
+    "wing-jkd": "lineage-flow"
+  }
+}
