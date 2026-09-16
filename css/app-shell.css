@@ -1654,4 +1654,121 @@ body.is-sessions main{padding:2rem 0 4rem}
   .mp-node__shape{transition:none}
 }
 
-/* ia22 */
+/* ============================================================
+   ia23 — start-here strip + quieter atlas chrome
+   ============================================================ */
+.home-start{
+  display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.9fr);
+  gap:0;margin:0 0 1rem;
+  border:1px solid #0A0A0A;background:#fff;
+}
+.home-start__copy{
+  padding:1.15rem 1.25rem 1.3rem;
+  display:flex;flex-direction:column;gap:.55rem;
+  border-right:1px solid #0A0A0A;
+}
+.home-start__kicker{
+  margin:0;
+  font-family:var(--display);font-size:var(--t11);font-weight:650;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--mute);
+}
+.home-start__title{
+  margin:0;
+  font-family:var(--serif);font-size:clamp(1.35rem,2.8vw,1.75rem);font-weight:600;
+  letter-spacing:-.02em;line-height:1.12;color:var(--ink);
+}
+.home-start__dek{
+  margin:0;max-width:38ch;
+  font-family:var(--sans);font-size:.95rem;font-weight:500;line-height:1.45;color:var(--mute);
+}
+.home-start__meta{
+  margin:0;
+  font-family:var(--display);font-size:9px;font-weight:650;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--mute-soft);
+}
+.home-start__cta{
+  align-self:flex-start;margin-top:.35rem;
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;padding:.65rem 1.15rem;
+  border:2px solid #0A0A0A;background:#0A0A0A;color:#fff;text-decoration:none;
+  font-family:var(--display);font-size:.72rem;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;
+}
+.home-start__cta:hover{background:#fff;color:#0A0A0A}
+.home-start__media{
+  position:relative;min-height:11rem;background:#111;overflow:hidden;
+}
+.home-start__media img{
+  width:100%;height:100%;object-fit:cover;display:block;
+  filter:grayscale(1) contrast(1.05);
+  position:absolute;inset:0;
+}
+@media (max-width:720px){
+  .home-start{grid-template-columns:1fr}
+  .home-start__copy{border-right:0;border-bottom:1px solid #0A0A0A}
+  .home-start__media{min-height:9.5rem}
+}
+
+/* Quieter rail — Map primary, More disclosure */
+.map-rail__more{position:relative;width:100%}
+.map-rail__btn--more{width:100%}
+.map-rail__menu{
+  position:absolute;left:calc(100% + .35rem);top:0;z-index:12;
+  min-width:8.5rem;padding:.35rem;
+  border:1px solid rgba(42,36,24,.18);background:#FFFCF7;
+  box-shadow:4px 4px 0 0 rgba(42,36,24,.12);
+  display:flex;flex-direction:column;gap:.15rem;
+}
+.map-rail__menu[hidden]{display:none!important}
+.map-rail__menu-item{
+  appearance:none;display:block;width:100%;margin:0;padding:.55rem .65rem;
+  border:0;border-radius:0;background:transparent;color:var(--mp-ink);
+  font-family:var(--sans);font-size:.78rem;font-weight:650;text-align:left;
+  text-decoration:none;cursor:pointer;line-height:1.2;
+}
+.map-rail__menu-item:hover{background:rgba(42,36,24,.06)}
+@media (max-width:900px){
+  .map-rail__more{width:auto}
+  .map-rail__btn--more{width:auto}
+  .map-rail__menu{
+    left:0;top:calc(100% + .25rem);right:auto;
+    min-width:9rem;
+  }
+}
+
+/* Stage affordance + quieter pills */
+.map-product__affordance{
+  margin:0;padding:0 var(--home-gutter,1.15rem) .55rem;
+  font-family:var(--display);font-size:9px;font-weight:550;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--mute-soft);
+}
+.map-product__stage-head{padding:0.85rem var(--home-gutter,1.15rem) .2rem}
+.map-product__pills{padding:.15rem var(--home-gutter,1.15rem) .45rem}
+.map-pill--more{
+  border-style:dashed;background:transparent;color:var(--mute-soft);
+}
+.map-pill--more[aria-expanded="true"]{border-style:solid;color:var(--mp-ink);border-color:var(--mp-ink)}
+.map-pill.is-extra{display:none}
+.map-product__pills.is-expanded .map-pill.is-extra{display:inline-flex}
+.map-product__pills.is-collapsed-mobile .map-pill.is-extra{display:none}
+@media (max-width:900px){
+  .map-product__pills.is-mobile-collapse .map-pill.is-extra{display:none}
+  .map-product__pills.is-mobile-collapse.is-expanded .map-pill.is-extra{display:inline-flex}
+  .map-product__affordance{padding:0 .65rem .4rem;font-size:8px}
+}
+
+/* Smaller legend — less competition with the plate */
+.map-product__legend{
+  min-width:0;max-width:8.2rem;padding:.4rem .5rem .45rem;
+  font-size:.65rem;opacity:.78;border-radius:.25rem;
+  background:rgba(255,252,247,.86);
+}
+.map-product__legend:hover{opacity:1}
+.map-legend__title{margin:0 0 .28rem;font-size:7px;letter-spacing:.1em}
+.map-legend__list{gap:.18rem}
+.map-legend__swatch{width:.85rem}
+.map-legend__reset{margin:.4rem 0 0;font-size:.65rem}
+.map-product__zoom{opacity:.62}
+.map-product__zoom:hover,.map-product__zoom:focus-within{opacity:1}
+
+/* ia23 */

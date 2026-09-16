@@ -1,8 +1,8 @@
-/* Martial Index — ia22 homepage Field map (touch pan, sparse mobile labels, tighter chrome) */
+/* Martial Index — ia23 homepage Field map (start-here chrome quiet, touch pan, sparse mobile labels) */
 (function () {
   "use strict";
 
-  var DATA_URL = "/data/map-graph.json?v=ia22";
+  var DATA_URL = "/data/map-graph.json?v=ia23";
   var VB = { w: 1140, h: 700 };
   var SCALE_MIN = 0.75;
   var SCALE_MAX = 3.2;
@@ -1441,16 +1441,26 @@
     function renderPills(data) {
       if (!pills) return;
       pills.innerHTML = "";
+      pills.classList.add("is-mobile-collapse");
+      pills.classList.remove("is-expanded");
       var byId = {};
       (data.relationTypes || []).forEach(function (r) {
         byId[r.id] = r;
       });
+      /* Primary plate filters — rest behind Connections disclosure */
+      var PRIMARY = { all: true, lineage: true, into_mma: true };
+      var hasExtra = false;
       CHIP_ORDER.forEach(function (id) {
         var r = byId[id] || { id: id, label: relationLabel(id) };
-        if (id === "all") r = { id: "all", label: "All connections" };
+        if (id === "all") r = { id: "all", label: "All" };
         var btn = document.createElement("button");
         btn.type = "button";
-        btn.className = "map-pill" + (state.explore === r.id ? " is-active" : "");
+        var extra = !PRIMARY[id];
+        if (extra) hasExtra = true;
+        btn.className =
+          "map-pill" +
+          (extra ? " is-extra" : "") +
+          (state.explore === r.id ? " is-active" : "");
         btn.setAttribute("data-explore", r.id);
         btn.textContent = r.label;
         btn.addEventListener("click", function () {
@@ -1458,6 +1468,30 @@
         });
         pills.appendChild(btn);
       });
+      if (hasExtra) {
+        var more = document.createElement("button");
+        more.type = "button";
+        more.className = "map-pill map-pill--more";
+        more.setAttribute("data-pills-more", "");
+        more.setAttribute("aria-expanded", "false");
+        more.textContent = "Connections";
+        more.addEventListener("click", function () {
+          var open = !pills.classList.contains("is-expanded");
+          pills.classList.toggle("is-expanded", open);
+          more.setAttribute("aria-expanded", open ? "true" : "false");
+          more.textContent = open ? "Less" : "Connections";
+        });
+        pills.appendChild(more);
+      }
+      /* If an extra filter is active, keep disclosure open so state stays visible */
+      if (state.explore && !PRIMARY[state.explore]) {
+        pills.classList.add("is-expanded");
+        var m = $("[data-pills-more]", pills);
+        if (m) {
+          m.setAttribute("aria-expanded", "true");
+          m.textContent = "Less";
+        }
+      }
     }
 
     function setExplore(id) {
@@ -1471,17 +1505,14 @@
     function renderLegend() {
       if (!legend) return;
       legend.innerHTML =
-        '<p class="map-legend__title">Relationship Types</p>' +
+        '<p class="map-legend__title">Key</p>' +
         '<ul class="map-legend__list">' +
         '<li><span class="map-legend__swatch map-legend__swatch--lineage"></span>Lineage</li>' +
         '<li><span class="map-legend__swatch map-legend__swatch--influence"></span>Influence</li>' +
-        '<li><span class="map-legend__swatch map-legend__swatch--shared"></span>Shared practice</li>' +
-        '<li><span class="map-legend__swatch map-legend__swatch--sport"></span>Sport overlap</li>' +
+        '<li><span class="map-legend__swatch map-legend__swatch--shared"></span>Shared</li>' +
+        '<li><span class="map-legend__swatch map-legend__swatch--sport"></span>Sport</li>' +
         '<li><span class="map-legend__swatch map-legend__swatch--mma"></span>Into MMA</li>' +
-        "</ul>" +
-        '<button type="button" class="map-legend__reset" data-map-recenter-inline>Reset view</button>';
-      var btn = $("[data-map-recenter-inline]", legend);
-      if (btn) btn.addEventListener("click", resetView);
+        "</ul>";
     }
 
     function renderDiscover(data) {
@@ -1934,9 +1965,24 @@
       }
 
       if (rail) {
+        var moreWrap = $("[data-map-more]", rail);
+        var moreToggle = $("[data-map-more-toggle]", rail);
+        var moreMenu = $("[data-map-more-menu]", rail);
+        function closeMoreMenu() {
+          if (!moreMenu || !moreToggle) return;
+          moreMenu.hidden = true;
+          moreToggle.setAttribute("aria-expanded", "false");
+        }
+        function openMoreMenu() {
+          if (!moreMenu || !moreToggle) return;
+          moreMenu.hidden = false;
+          moreToggle.setAttribute("aria-expanded", "true");
+        }
+
         $$("[data-map-mode]", rail).forEach(function (btn) {
           btn.addEventListener("click", function () {
             var m = btn.getAttribute("data-map-mode");
+            closeMoreMenu();
             if (m === "map") exitToMap();
             else if (m === "path") {
               var first = (state.data.discoverPaths || [])[0];
@@ -1945,6 +1991,18 @@
             }
           });
         });
+
+        if (moreToggle && moreMenu) {
+          moreToggle.addEventListener("click", function (e) {
+            e.stopPropagation();
+            if (moreMenu.hidden) openMoreMenu();
+            else closeMoreMenu();
+          });
+          document.addEventListener("click", function (e) {
+            if (!moreWrap) return;
+            if (!moreWrap.contains(e.target)) closeMoreMenu();
+          });
+        }
       }
 
       document.addEventListener("keydown", function (e) {
