@@ -1,422 +1,426 @@
 {
- "id": "closed-guard",
- "title": "Closed Guard",
- "type": "Position",
- "art": "Brazilian Jiu-Jitsu",
- "artShort": "BJJ",
- "artUrl": "/styles/bjj/",
- "breadcrumb": [
-  {
-   "label": "Positions",
-   "url": "/terms/"
-  },
-  {
-   "label": "Closed Guard"
-  }
- ],
- "definition": "Both legs locked around the passer’s waist — control distance and posture before you attack.",
- "image": "/media/photos/bjj-closed-guard-2010.jpg",
- "imageAlt": "Brazilian jiu-jitsu closed guard in the gi",
- "sessionUrl": "/sessions/?path=stuck-closed-guard",
- "mapUrl": "/map/?focus=closed-guard",
- "counts": {
-  "techniques": 6,
-  "counters": 8,
-  "related": 7,
-  "people": 12,
-  "history": 3
- },
- "keyRelationships": [
-  {
-   "label": "Techniques",
-   "count": 6,
-   "lens": "techniques"
-  },
-  {
-   "label": "Counters",
-   "count": 8,
-   "lens": "counters"
-  },
-  {
-   "label": "Variations",
-   "count": 4,
-   "lens": "related"
-  },
-  {
-   "label": "Related Positions",
-   "count": 7,
-   "lens": "related"
-  },
-  {
-   "label": "People",
-   "count": 12,
-   "lens": "people"
-  }
- ],
- "relatedPositions": [
-  {
-   "label": "Open Guard",
-   "url": "/terms/open-guard/",
-   "note": "Position"
-  },
-  {
-   "label": "Half Guard",
-   "url": "/terms/half-guard/",
-   "note": "Position"
-  },
-  {
-   "label": "Mount",
-   "url": "/terms/mount/",
-   "note": "Position"
-  },
-  {
-   "label": "Back Control",
-   "url": "/terms/back-control/",
-   "note": "Position"
-  }
- ],
- "overview": {
-  "situation": "You are on your back with both legs locked around their waist. Posture and hips decide whether this is control or a trap you are stuck in.",
-  "youCan": {
-   "attack": [
+  "id": "closed-guard",
+  "title": "Closed Guard",
+  "type": "Position",
+  "art": "Brazilian Jiu-Jitsu",
+  "artShort": "BJJ",
+  "artUrl": "/styles/bjj/",
+  "breadcrumb": [
     {
-     "label": "Armbar",
-     "url": "/terms/armbar/"
+      "label": "Positions",
+      "url": "/terms/"
     },
     {
-     "label": "Triangle",
-     "url": "/terms/triangle-choke/"
-    },
-    {
-     "label": "Kimura",
-     "url": "/terms/kimura/"
+      "label": "Closed Guard"
     }
-   ],
-   "control": [
+  ],
+  "definition": "Both legs locked around the passer’s waist — control distance and posture before you attack.",
+  "image": "/media/illustrations/closed-guard-1200.webp",
+  "imageAlt": "Illustration of closed guard with ankles crossed behind a kneeling partner’s waist.",
+  "sessionUrl": "/sessions/?path=stuck-closed-guard",
+  "mapUrl": "/map/?focus=closed-guard",
+  "counts": {
+    "techniques": 6,
+    "counters": 8,
+    "related": 7,
+    "people": 12,
+    "history": 3
+  },
+  "keyRelationships": [
     {
-     "label": "Break posture",
-     "note": "Knee-pull + angle"
+      "label": "Techniques",
+      "count": 6,
+      "lens": "techniques"
     },
     {
-     "label": "Sweep",
-     "url": "/terms/sweep/"
+      "label": "Counters",
+      "count": 8,
+      "lens": "counters"
     },
     {
-     "label": "Scissor sweep",
-     "url": "/terms/scissor-sweep/"
+      "label": "Variations",
+      "count": 4,
+      "lens": "related"
+    },
+    {
+      "label": "Related Positions",
+      "count": 7,
+      "lens": "related"
+    },
+    {
+      "label": "People",
+      "count": 12,
+      "lens": "people"
     }
-   ]
-  },
-  "theyCan": [
-   {
-    "label": "Stand and open",
-    "note": "Pressure ankles / stack"
-   },
-   {
-    "label": "Pass to side / mount",
-    "url": "/terms/closed-guard-pass/"
-   },
-   {
-    "label": "Wait for flat hips",
-    "note": "Your freeze is their green light"
-   }
   ],
-  "connectsTo": [
-   {
-    "label": "Open Guard",
-    "url": "/terms/open-guard/"
-   },
-   {
-    "label": "Half Guard",
-    "url": "/terms/half-guard/"
-   },
-   {
-    "label": "Mount",
-    "url": "/terms/mount/"
-   },
-   {
-    "label": "Back Control",
-    "url": "/terms/back-control/"
-   }
-  ]
- },
- "techniques": [
-  {
-   "label": "Armbar from closed guard",
-   "url": "/terms/armbar/",
-   "note": "Angle off, hips under elbow"
-  },
-  {
-   "label": "Triangle choke",
-   "url": "/terms/triangle-choke/",
-   "note": "Climb the legs, lock the figure-four"
-  },
-  {
-   "label": "Kimura",
-   "url": "/terms/kimura/",
-   "note": "Figure-four the wrist, tip them"
-  },
-  {
-   "label": "Scissor sweep",
-   "url": "/terms/scissor-sweep/",
-   "note": "Knee across, chop the base"
-  },
-  {
-   "label": "Pendulum sweep",
-   "url": "/terms/pendulum-sweep/"
-  },
-  {
-   "label": "Flower sweep",
-   "url": "/terms/flower-sweep/",
-   "note": "Hip under, kick the far leg"
-  }
- ],
- "counters": [
-  {
-   "label": "Posture recovery",
-   "note": "Spine tall, elbows in"
-  },
-  {
-   "label": "Stand to open",
-   "note": "Base, open the ankles, step back"
-  },
-  {
-   "label": "Knee slice pass",
-   "url": "/terms/closed-guard-pass/"
-  },
-  {
-   "label": "Stack pass",
-   "note": "Drive knees to shoulders"
-  },
-  {
-   "label": "Torreando",
-   "note": "Grip pants, clear the legs"
-  },
-  {
-   "label": "Leg weave / smash",
-   "note": "Pin a leg, walk around"
-  },
-  {
-   "label": "Backstep pass",
-   "note": "When they high-guard"
-  },
-  {
-   "label": "Wait for flat hips",
-   "note": "Punish frozen hips"
-  }
- ],
- "related": [
-  {
-   "label": "Open Guard",
-   "url": "/terms/open-guard/"
-  },
-  {
-   "label": "Half Guard",
-   "url": "/terms/half-guard/"
-  },
-  {
-   "label": "Mount",
-   "url": "/terms/mount/"
-  },
-  {
-   "label": "Back Control",
-   "url": "/terms/back-control/"
-  },
-  {
-   "label": "De La Riva",
-   "url": "/terms/de-la-riva/"
-  },
-  {
-   "label": "Butterfly Guard",
-   "url": "/terms/butterfly-guard/"
-  },
-  {
-   "label": "Guard Passing",
-   "url": "/terms/guard-passing/"
-  }
- ],
- "people": [
-  {
-   "label": "Roger Gracie",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Helio Gracie",
-   "note": "BJJ — Founder lineage"
-  },
-  {
-   "label": "Carlos Gracie",
-   "note": "BJJ — Founder lineage"
-  },
-  {
-   "label": "Marcelo Garcia",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Keenan Cornelius",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Gordon Ryan",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Mikey Musumeci",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Gui Mendes",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Rafael Mendes",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Bernardo Faria",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Kron Gracie",
-   "note": "BJJ — Practitioner"
-  },
-  {
-   "label": "Rickson Gracie",
-   "note": "BJJ — Practitioner"
-  }
- ],
- "history": {
-  "stub": "Closed guard carried over from judo newaza into early Gracie jiu-jitsu as the beginner control frame — lock, break posture, then attack. Sport eras layered high guard, rubber, and lapel games on the same locked-legs idea.",
-  "items": [
-   {
-    "label": "Judo newaza root",
-    "note": "Locked-legs control before sport BJJ"
-   },
-   {
-    "label": "Early Gracie curriculum",
-    "note": "Beginner frame: lock → posture → attack"
-   },
-   {
-    "label": "Sport evolutions",
-    "note": "High guard, rubber, lapel systems"
-   }
-  ]
- },
- "neighborhood": {
-  "center": {
-   "id": "closed-guard",
-   "label": "Closed Guard",
-   "url": "/terms/closed-guard/"
-  },
-  "nodes": [
-   {
-    "id": "armbar",
-    "label": "Armbar",
-    "url": "/terms/armbar/",
-    "ring": "attack",
-    "x": 0.22,
-    "y": 0.28,
-    "entity": "armbar"
-   },
-   {
-    "id": "triangle",
-    "label": "Triangle",
-    "url": "/terms/triangle-choke/",
-    "ring": "attack",
-    "x": 0.5,
-    "y": 0.12
-   },
-   {
-    "id": "kimura",
-    "label": "Kimura",
-    "url": "/terms/kimura/",
-    "ring": "attack",
-    "x": 0.78,
-    "y": 0.28
-   },
-   {
-    "id": "sweep",
-    "label": "Sweep",
-    "url": "/terms/sweep/",
-    "ring": "control",
-    "x": 0.18,
-    "y": 0.55
-   },
-   {
-    "id": "open-guard",
-    "label": "Open Guard",
-    "url": "/terms/open-guard/",
-    "ring": "transition",
-    "x": 0.82,
-    "y": 0.55
-   },
-   {
-    "id": "half-guard",
-    "label": "Half Guard",
-    "url": "/terms/half-guard/",
-    "ring": "transition",
-    "x": 0.88,
-    "y": 0.78
-   },
-   {
-    "id": "mount",
-    "label": "Mount",
-    "url": "/terms/mount/",
-    "ring": "transition",
-    "x": 0.5,
-    "y": 0.88
-   },
-   {
-    "id": "back",
-    "label": "Back",
-    "url": "/terms/back-control/",
-    "ring": "transition",
-    "x": 0.68,
-    "y": 0.88
-   }
+  "relatedPositions": [
+    {
+      "label": "Open Guard",
+      "url": "/terms/open-guard/",
+      "note": "Position"
+    },
+    {
+      "label": "Half Guard",
+      "url": "/terms/half-guard/",
+      "note": "Position"
+    },
+    {
+      "label": "Mount",
+      "url": "/terms/mount/",
+      "note": "Position"
+    },
+    {
+      "label": "Back Control",
+      "url": "/terms/back-control/",
+      "note": "Position"
+    }
   ],
-  "edges": [
-   [
-    "closed-guard",
-    "armbar"
-   ],
-   [
-    "closed-guard",
-    "triangle"
-   ],
-   [
-    "closed-guard",
-    "kimura"
-   ],
-   [
-    "closed-guard",
-    "sweep"
-   ],
-   [
-    "closed-guard",
-    "open-guard"
-   ],
-   [
-    "closed-guard",
-    "half-guard"
-   ],
-   [
-    "closed-guard",
-    "mount"
-   ],
-   [
-    "closed-guard",
-    "back"
-   ]
-  ]
- },
- "prompt": "What do you want to know?",
- "whatItIs": "Both legs locked around the passer’s waist — you control distance and posture from your back. Posture and hips decide whether this is control or a trap you are stuck in.",
- "cues": [
-  "Cross the ankles — no gap to stand into",
-  "Break posture before you hunt submissions",
-  "Hips active — angle off, don’t stay flat",
-  "Hands busy — collar, sleeves, or underhooks"
- ],
- "catalogUrl": "/terms/closed-guard/"
+  "overview": {
+    "situation": "You are on your back with both legs locked around their waist. Posture and hips decide whether this is control or a trap you are stuck in.",
+    "youCan": {
+      "attack": [
+        {
+          "label": "Armbar",
+          "url": "/terms/armbar/"
+        },
+        {
+          "label": "Triangle",
+          "url": "/terms/triangle-choke/"
+        },
+        {
+          "label": "Kimura",
+          "url": "/terms/kimura/"
+        }
+      ],
+      "control": [
+        {
+          "label": "Break posture",
+          "note": "Knee-pull + angle"
+        },
+        {
+          "label": "Sweep",
+          "url": "/terms/sweep/"
+        },
+        {
+          "label": "Scissor sweep",
+          "url": "/terms/scissor-sweep/"
+        }
+      ]
+    },
+    "theyCan": [
+      {
+        "label": "Stand and open",
+        "note": "Pressure ankles / stack"
+      },
+      {
+        "label": "Pass to side / mount",
+        "url": "/terms/closed-guard-pass/"
+      },
+      {
+        "label": "Wait for flat hips",
+        "note": "Your freeze is their green light"
+      }
+    ],
+    "connectsTo": [
+      {
+        "label": "Open Guard",
+        "url": "/terms/open-guard/"
+      },
+      {
+        "label": "Half Guard",
+        "url": "/terms/half-guard/"
+      },
+      {
+        "label": "Mount",
+        "url": "/terms/mount/"
+      },
+      {
+        "label": "Back Control",
+        "url": "/terms/back-control/"
+      }
+    ]
+  },
+  "techniques": [
+    {
+      "label": "Armbar from closed guard",
+      "url": "/terms/armbar/",
+      "note": "Angle off, hips under elbow"
+    },
+    {
+      "label": "Triangle choke",
+      "url": "/terms/triangle-choke/",
+      "note": "Climb the legs, lock the figure-four"
+    },
+    {
+      "label": "Kimura",
+      "url": "/terms/kimura/",
+      "note": "Figure-four the wrist, tip them"
+    },
+    {
+      "label": "Scissor sweep",
+      "url": "/terms/scissor-sweep/",
+      "note": "Knee across, chop the base"
+    },
+    {
+      "label": "Pendulum sweep",
+      "url": "/terms/pendulum-sweep/"
+    },
+    {
+      "label": "Flower sweep",
+      "url": "/terms/flower-sweep/",
+      "note": "Hip under, kick the far leg"
+    }
+  ],
+  "counters": [
+    {
+      "label": "Posture recovery",
+      "note": "Spine tall, elbows in"
+    },
+    {
+      "label": "Stand to open",
+      "note": "Base, open the ankles, step back"
+    },
+    {
+      "label": "Knee slice pass",
+      "url": "/terms/closed-guard-pass/"
+    },
+    {
+      "label": "Stack pass",
+      "note": "Drive knees to shoulders"
+    },
+    {
+      "label": "Torreando",
+      "note": "Grip pants, clear the legs"
+    },
+    {
+      "label": "Leg weave / smash",
+      "note": "Pin a leg, walk around"
+    },
+    {
+      "label": "Backstep pass",
+      "note": "When they high-guard"
+    },
+    {
+      "label": "Wait for flat hips",
+      "note": "Punish frozen hips"
+    }
+  ],
+  "related": [
+    {
+      "label": "Open Guard",
+      "url": "/terms/open-guard/"
+    },
+    {
+      "label": "Half Guard",
+      "url": "/terms/half-guard/"
+    },
+    {
+      "label": "Mount",
+      "url": "/terms/mount/"
+    },
+    {
+      "label": "Back Control",
+      "url": "/terms/back-control/"
+    },
+    {
+      "label": "De La Riva",
+      "url": "/terms/de-la-riva/"
+    },
+    {
+      "label": "Butterfly Guard",
+      "url": "/terms/butterfly-guard/"
+    },
+    {
+      "label": "Guard Passing",
+      "url": "/terms/guard-passing/"
+    }
+  ],
+  "people": [
+    {
+      "label": "Roger Gracie",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Helio Gracie",
+      "note": "BJJ — Founder lineage"
+    },
+    {
+      "label": "Carlos Gracie",
+      "note": "BJJ — Founder lineage"
+    },
+    {
+      "label": "Marcelo Garcia",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Keenan Cornelius",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Gordon Ryan",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Mikey Musumeci",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Gui Mendes",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Rafael Mendes",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Bernardo Faria",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Kron Gracie",
+      "note": "BJJ — Practitioner"
+    },
+    {
+      "label": "Rickson Gracie",
+      "note": "BJJ — Practitioner"
+    }
+  ],
+  "history": {
+    "stub": "Closed guard carried over from judo newaza into early Gracie jiu-jitsu as the beginner control frame — lock, break posture, then attack. Sport eras layered high guard, rubber, and lapel games on the same locked-legs idea.",
+    "items": [
+      {
+        "label": "Judo newaza root",
+        "note": "Locked-legs control before sport BJJ"
+      },
+      {
+        "label": "Early Gracie curriculum",
+        "note": "Beginner frame: lock → posture → attack"
+      },
+      {
+        "label": "Sport evolutions",
+        "note": "High guard, rubber, lapel systems"
+      }
+    ]
+  },
+  "neighborhood": {
+    "center": {
+      "id": "closed-guard",
+      "label": "Closed Guard",
+      "url": "/terms/closed-guard/"
+    },
+    "nodes": [
+      {
+        "id": "armbar",
+        "label": "Armbar",
+        "url": "/terms/armbar/",
+        "ring": "attack",
+        "x": 0.22,
+        "y": 0.28,
+        "entity": "armbar"
+      },
+      {
+        "id": "triangle",
+        "label": "Triangle",
+        "url": "/terms/triangle-choke/",
+        "ring": "attack",
+        "x": 0.5,
+        "y": 0.12
+      },
+      {
+        "id": "kimura",
+        "label": "Kimura",
+        "url": "/terms/kimura/",
+        "ring": "attack",
+        "x": 0.78,
+        "y": 0.28
+      },
+      {
+        "id": "sweep",
+        "label": "Sweep",
+        "url": "/terms/sweep/",
+        "ring": "control",
+        "x": 0.18,
+        "y": 0.55
+      },
+      {
+        "id": "open-guard",
+        "label": "Open Guard",
+        "url": "/terms/open-guard/",
+        "ring": "transition",
+        "x": 0.82,
+        "y": 0.55
+      },
+      {
+        "id": "half-guard",
+        "label": "Half Guard",
+        "url": "/terms/half-guard/",
+        "ring": "transition",
+        "x": 0.88,
+        "y": 0.78
+      },
+      {
+        "id": "mount",
+        "label": "Mount",
+        "url": "/terms/mount/",
+        "ring": "transition",
+        "x": 0.5,
+        "y": 0.88
+      },
+      {
+        "id": "back",
+        "label": "Back",
+        "url": "/terms/back-control/",
+        "ring": "transition",
+        "x": 0.68,
+        "y": 0.88
+      }
+    ],
+    "edges": [
+      [
+        "closed-guard",
+        "armbar"
+      ],
+      [
+        "closed-guard",
+        "triangle"
+      ],
+      [
+        "closed-guard",
+        "kimura"
+      ],
+      [
+        "closed-guard",
+        "sweep"
+      ],
+      [
+        "closed-guard",
+        "open-guard"
+      ],
+      [
+        "closed-guard",
+        "half-guard"
+      ],
+      [
+        "closed-guard",
+        "mount"
+      ],
+      [
+        "closed-guard",
+        "back"
+      ]
+    ]
+  },
+  "prompt": "What do you want to know?",
+  "whatItIs": "Both legs locked around the passer’s waist — you control distance and posture from your back. Posture and hips decide whether this is control or a trap you are stuck in.",
+  "cues": [
+    "Cross the ankles — no gap to stand into",
+    "Break posture before you hunt submissions",
+    "Hips active — angle off, don’t stay flat",
+    "Hands busy — collar, sleeves, or underhooks"
+  ],
+  "catalogUrl": "/terms/closed-guard/",
+  "imageWidth": 1200,
+  "imageHeight": 800,
+  "imageSrcset": "/media/illustrations/closed-guard-480.webp 480w, /media/illustrations/closed-guard-768.webp 768w, /media/illustrations/closed-guard-1200.webp 1200w, /media/illustrations/closed-guard-1536.webp 1536w",
+  "imageSizes": "(max-width: 800px) 100vw, 420px"
 }

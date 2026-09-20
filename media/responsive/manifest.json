@@ -1,0 +1,4238 @@
+{
+  "/media/photos/age-uke.jpg": {
+    "original_bytes": 115814,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--age-uke-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 14216
+      },
+      {
+        "url": "/media/responsive/media--photos--age-uke-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 32042
+      },
+      {
+        "url": "/media/responsive/media--photos--age-uke-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 70696
+      }
+    ]
+  },
+  "/media/photos/aikido-demonstration.jpg": {
+    "original_bytes": 125373,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--aikido-demonstration-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 9832
+      },
+      {
+        "url": "/media/responsive/media--photos--aikido-demonstration-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 20884
+      },
+      {
+        "url": "/media/responsive/media--photos--aikido-demonstration-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 54336
+      }
+    ]
+  },
+  "/media/photos/american-kickboxing.jpg": {
+    "original_bytes": 222620,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--american-kickboxing-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 33634
+      },
+      {
+        "url": "/media/responsive/media--photos--american-kickboxing-768.webp",
+        "width": 768,
+        "height": 513,
+        "bytes": 61162
+      },
+      {
+        "url": "/media/responsive/media--photos--american-kickboxing-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 104446
+      }
+    ]
+  },
+  "/media/photos/ankle-ride.jpg": {
+    "original_bytes": 109554,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ankle-ride-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11822
+      },
+      {
+        "url": "/media/responsive/media--photos--ankle-ride-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 31942
+      },
+      {
+        "url": "/media/responsive/media--photos--ankle-ride-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 82028
+      }
+    ]
+  },
+  "/media/photos/ap-chagi.jpg": {
+    "original_bytes": 161577,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ap-chagi-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25454
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-chagi-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 54632
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-chagi-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 110756
+      }
+    ]
+  },
+  "/media/photos/ap-kubi.jpg": {
+    "original_bytes": 90568,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ap-kubi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11180
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-kubi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 27500
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-kubi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 59722
+      }
+    ]
+  },
+  "/media/photos/ap-seogi.jpg": {
+    "original_bytes": 67368,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ap-seogi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6122
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-seogi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 16388
+      },
+      {
+        "url": "/media/responsive/media--photos--ap-seogi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 39266
+      }
+    ]
+  },
+  "/media/photos/arae-makki.jpg": {
+    "original_bytes": 72805,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--arae-makki-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 5792
+      },
+      {
+        "url": "/media/responsive/media--photos--arae-makki-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 15960
+      },
+      {
+        "url": "/media/responsive/media--photos--arae-makki-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 42940
+      }
+    ]
+  },
+  "/media/photos/arm-triangle-choke.jpg": {
+    "original_bytes": 146198,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--arm-triangle-choke-480.webp",
+        "width": 480,
+        "height": 318,
+        "bytes": 16552
+      },
+      {
+        "url": "/media/responsive/media--photos--arm-triangle-choke-768.webp",
+        "width": 768,
+        "height": 509,
+        "bytes": 34648
+      },
+      {
+        "url": "/media/responsive/media--photos--arm-triangle-choke-1200.webp",
+        "width": 1200,
+        "height": 795,
+        "bytes": 71186
+      }
+    ]
+  },
+  "/media/photos/baku-2018-yoko-shiho-gatame.jpg": {
+    "original_bytes": 81983,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--baku-2018-yoko-shiho-gatame-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 8684
+      },
+      {
+        "url": "/media/responsive/media--photos--baku-2018-yoko-shiho-gatame-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 20238
+      },
+      {
+        "url": "/media/responsive/media--photos--baku-2018-yoko-shiho-gatame-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 44244
+      }
+    ]
+  },
+  "/media/photos/bassai-dai.jpg": {
+    "original_bytes": 103824,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--bassai-dai-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12830
+      },
+      {
+        "url": "/media/responsive/media--photos--bassai-dai-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 32500
+      },
+      {
+        "url": "/media/responsive/media--photos--bassai-dai-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 75062
+      }
+    ]
+  },
+  "/media/photos/bjj-closed-guard-2010.jpg": {
+    "original_bytes": 112133,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--bjj-closed-guard-2010-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 22994
+      },
+      {
+        "url": "/media/responsive/media--photos--bjj-closed-guard-2010-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 45002
+      },
+      {
+        "url": "/media/responsive/media--photos--bjj-closed-guard-2010-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 81788
+      }
+    ]
+  },
+  "/media/photos/bjj-half-guard.jpg": {
+    "original_bytes": 135162,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--bjj-half-guard-480.webp",
+        "width": 480,
+        "height": 343,
+        "bytes": 25834
+      },
+      {
+        "url": "/media/responsive/media--photos--bjj-half-guard-768.webp",
+        "width": 768,
+        "height": 548,
+        "bytes": 51234
+      },
+      {
+        "url": "/media/responsive/media--photos--bjj-half-guard-1200.webp",
+        "width": 1200,
+        "height": 857,
+        "bytes": 92646
+      }
+    ]
+  },
+  "/media/photos/blast-double.jpg": {
+    "original_bytes": 125288,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--blast-double-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16824
+      },
+      {
+        "url": "/media/responsive/media--photos--blast-double-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 43340
+      },
+      {
+        "url": "/media/responsive/media--photos--blast-double-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 99770
+      }
+    ]
+  },
+  "/media/photos/body-kick-tkd.jpg": {
+    "original_bytes": 118958,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--body-kick-tkd-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 21936
+      },
+      {
+        "url": "/media/responsive/media--photos--body-kick-tkd-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 43308
+      },
+      {
+        "url": "/media/responsive/media--photos--body-kick-tkd-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 83580
+      }
+    ]
+  },
+  "/media/photos/brian-stann-wec30-gnp.jpg": {
+    "original_bytes": 169311,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--brian-stann-wec30-gnp-480.webp",
+        "width": 480,
+        "height": 631,
+        "bytes": 28846
+      },
+      {
+        "url": "/media/responsive/media--photos--brian-stann-wec30-gnp-768.webp",
+        "width": 768,
+        "height": 1009,
+        "bytes": 55292
+      },
+      {
+        "url": "/media/responsive/media--photos--brian-stann-wec30-gnp-913.webp",
+        "width": 913,
+        "height": 1200,
+        "bytes": 73200
+      }
+    ]
+  },
+  "/media/photos/bsd-alvarez-cage-control.jpg": {
+    "original_bytes": 132113,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--bsd-alvarez-cage-control-480.webp",
+        "width": 480,
+        "height": 759,
+        "bytes": 39616
+      },
+      {
+        "url": "/media/responsive/media--photos--bsd-alvarez-cage-control-759.webp",
+        "width": 759,
+        "height": 1200,
+        "bytes": 92500
+      }
+    ]
+  },
+  "/media/photos/bsd-en-cage-control.jpg": {
+    "original_bytes": 125636,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--bsd-en-cage-control-480.webp",
+        "width": 480,
+        "height": 552,
+        "bytes": 24990
+      },
+      {
+        "url": "/media/responsive/media--photos--bsd-en-cage-control-768.webp",
+        "width": 768,
+        "height": 884,
+        "bytes": 53024
+      },
+      {
+        "url": "/media/responsive/media--photos--bsd-en-cage-control-1043.webp",
+        "width": 1043,
+        "height": 1200,
+        "bytes": 88630
+      }
+    ]
+  },
+  "/media/photos/buckley-mercado-sprawl.jpg": {
+    "original_bytes": 201024,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--buckley-mercado-sprawl-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25628
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-mercado-sprawl-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 47986
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-mercado-sprawl-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 88956
+      }
+    ]
+  },
+  "/media/photos/buckley-omalley-collar-tie.jpg": {
+    "original_bytes": 163823,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--buckley-omalley-collar-tie-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 30922
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-omalley-collar-tie-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 56602
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-omalley-collar-tie-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 98272
+      }
+    ]
+  },
+  "/media/photos/buckley-talley-leg-pick.jpg": {
+    "original_bytes": 153965,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--buckley-talley-leg-pick-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25164
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-talley-leg-pick-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 48992
+      },
+      {
+        "url": "/media/responsive/media--photos--buckley-talley-leg-pick-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 88082
+      }
+    ]
+  },
+  "/media/photos/burns-and-gotch.jpg": {
+    "original_bytes": 137168,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--burns-and-gotch-480.webp",
+        "width": 480,
+        "height": 696,
+        "bytes": 39818
+      },
+      {
+        "url": "/media/responsive/media--photos--burns-and-gotch-768.webp",
+        "width": 768,
+        "height": 1113,
+        "bytes": 85156
+      },
+      {
+        "url": "/media/responsive/media--photos--burns-and-gotch-828.webp",
+        "width": 828,
+        "height": 1200,
+        "bytes": 98222
+      }
+    ]
+  },
+  "/media/photos/carlos-gracie-1951.jpg": {
+    "original_bytes": 133540,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--carlos-gracie-1951-480.webp",
+        "width": 480,
+        "height": 682,
+        "bytes": 14894
+      },
+      {
+        "url": "/media/responsive/media--photos--carlos-gracie-1951-768.webp",
+        "width": 768,
+        "height": 1091,
+        "bytes": 29522
+      },
+      {
+        "url": "/media/responsive/media--photos--carlos-gracie-1951-1126.webp",
+        "width": 1126,
+        "height": 1600,
+        "bytes": 54768
+      }
+    ]
+  },
+  "/media/photos/catch-wrestling.jpg": {
+    "original_bytes": 132694,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--catch-wrestling-480.webp",
+        "width": 480,
+        "height": 696,
+        "bytes": 41470
+      },
+      {
+        "url": "/media/responsive/media--photos--catch-wrestling-768.webp",
+        "width": 768,
+        "height": 1113,
+        "bytes": 86594
+      },
+      {
+        "url": "/media/responsive/media--photos--catch-wrestling-828.webp",
+        "width": 828,
+        "height": 1200,
+        "bytes": 96786
+      }
+    ]
+  },
+  "/media/photos/chicken-wing.jpg": {
+    "original_bytes": 146237,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--chicken-wing-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 21780
+      },
+      {
+        "url": "/media/responsive/media--photos--chicken-wing-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 55228
+      },
+      {
+        "url": "/media/responsive/media--photos--chicken-wing-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 125570
+      }
+    ]
+  },
+  "/media/photos/combat-center-padilla-gnp.jpg": {
+    "original_bytes": 196849,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--combat-center-padilla-gnp-480.webp",
+        "width": 480,
+        "height": 414,
+        "bytes": 41598
+      },
+      {
+        "url": "/media/responsive/media--photos--combat-center-padilla-gnp-768.webp",
+        "width": 768,
+        "height": 662,
+        "bytes": 80326
+      },
+      {
+        "url": "/media/responsive/media--photos--combat-center-padilla-gnp-1200.webp",
+        "width": 1200,
+        "height": 1035,
+        "bytes": 148896
+      }
+    ]
+  },
+  "/media/photos/corbett-punching-bag.jpg": {
+    "original_bytes": 194240,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--corbett-punching-bag-480.webp",
+        "width": 480,
+        "height": 676,
+        "bytes": 20142
+      },
+      {
+        "url": "/media/responsive/media--photos--corbett-punching-bag-768.webp",
+        "width": 768,
+        "height": 1081,
+        "bytes": 40676
+      },
+      {
+        "url": "/media/responsive/media--photos--corbett-punching-bag-1091.webp",
+        "width": 1091,
+        "height": 1536,
+        "bytes": 66470
+      }
+    ]
+  },
+  "/media/photos/cradle.jpg": {
+    "original_bytes": 121630,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--cradle-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18184
+      },
+      {
+        "url": "/media/responsive/media--photos--cradle-768.webp",
+        "width": 768,
+        "height": 513,
+        "bytes": 37326
+      },
+      {
+        "url": "/media/responsive/media--photos--cradle-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 87350
+      }
+    ]
+  },
+  "/media/photos/crossface.jpg": {
+    "original_bytes": 165621,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--crossface-480.webp",
+        "width": 480,
+        "height": 388,
+        "bytes": 18616
+      },
+      {
+        "url": "/media/responsive/media--photos--crossface-768.webp",
+        "width": 768,
+        "height": 620,
+        "bytes": 52666
+      },
+      {
+        "url": "/media/responsive/media--photos--crossface-1200.webp",
+        "width": 1200,
+        "height": 969,
+        "bytes": 137484
+      }
+    ]
+  },
+  "/media/photos/de-la-riva-guard.jpg": {
+    "original_bytes": 84863,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--de-la-riva-guard-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 14920
+      },
+      {
+        "url": "/media/responsive/media--photos--de-la-riva-guard-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 30334
+      },
+      {
+        "url": "/media/responsive/media--photos--de-la-riva-guard-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 60580
+      }
+    ]
+  },
+  "/media/photos/dobok.jpg": {
+    "original_bytes": 75875,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dobok-480.webp",
+        "width": 480,
+        "height": 258,
+        "bytes": 11332
+      },
+      {
+        "url": "/media/responsive/media--photos--dobok-768.webp",
+        "width": 768,
+        "height": 413,
+        "bytes": 22284
+      },
+      {
+        "url": "/media/responsive/media--photos--dobok-1200.webp",
+        "width": 1200,
+        "height": 646,
+        "bytes": 46416
+      }
+    ]
+  },
+  "/media/photos/dollyo-chagi.jpg": {
+    "original_bytes": 117669,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dollyo-chagi-480.webp",
+        "width": 480,
+        "height": 777,
+        "bytes": 31954
+      },
+      {
+        "url": "/media/responsive/media--photos--dollyo-chagi-741.webp",
+        "width": 741,
+        "height": 1200,
+        "bytes": 62602
+      }
+    ]
+  },
+  "/media/photos/dutch-kickboxing.jpg": {
+    "original_bytes": 153948,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dutch-kickboxing-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17474
+      },
+      {
+        "url": "/media/responsive/media--photos--dutch-kickboxing-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 33406
+      },
+      {
+        "url": "/media/responsive/media--photos--dutch-kickboxing-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 64350
+      }
+    ]
+  },
+  "/media/photos/dutch-low-kick.jpg": {
+    "original_bytes": 148379,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dutch-low-kick-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 25008
+      },
+      {
+        "url": "/media/responsive/media--photos--dutch-low-kick-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 63248
+      },
+      {
+        "url": "/media/responsive/media--photos--dutch-low-kick-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 125046
+      }
+    ]
+  },
+  "/media/photos/dwi-chagi.jpg": {
+    "original_bytes": 99317,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dwi-chagi-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 15440
+      },
+      {
+        "url": "/media/responsive/media--photos--dwi-chagi-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 28720
+      },
+      {
+        "url": "/media/responsive/media--photos--dwi-chagi-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 55632
+      }
+    ]
+  },
+  "/media/photos/dwi-kubi.jpg": {
+    "original_bytes": 85027,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--dwi-kubi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7602
+      },
+      {
+        "url": "/media/responsive/media--photos--dwi-kubi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 21842
+      },
+      {
+        "url": "/media/responsive/media--photos--dwi-kubi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 57578
+      }
+    ]
+  },
+  "/media/photos/elbow-strike-tkd.jpg": {
+    "original_bytes": 110750,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--elbow-strike-tkd-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 20260
+      },
+      {
+        "url": "/media/responsive/media--photos--elbow-strike-tkd-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 38036
+      },
+      {
+        "url": "/media/responsive/media--photos--elbow-strike-tkd-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 71006
+      }
+    ]
+  },
+  "/media/photos/electronic-scoring.jpg": {
+    "original_bytes": 107266,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--electronic-scoring-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10066
+      },
+      {
+        "url": "/media/responsive/media--photos--electronic-scoring-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 33668
+      },
+      {
+        "url": "/media/responsive/media--photos--electronic-scoring-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 85218
+      }
+    ]
+  },
+  "/media/photos/embusen.jpg": {
+    "original_bytes": 8652,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--embusen-480.webp",
+        "width": 480,
+        "height": 489,
+        "bytes": 2238
+      },
+      {
+        "url": "/media/responsive/media--photos--embusen-485.webp",
+        "width": 485,
+        "height": 494,
+        "bytes": 2360
+      }
+    ]
+  },
+  "/media/photos/empi-kata.jpg": {
+    "original_bytes": 133756,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--empi-kata-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25086
+      },
+      {
+        "url": "/media/responsive/media--photos--empi-kata-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 48582
+      },
+      {
+        "url": "/media/responsive/media--photos--empi-kata-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 91726
+      }
+    ]
+  },
+  "/media/photos/estima-ceconi-back-take-2010.jpg": {
+    "original_bytes": 93669,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--estima-ceconi-back-take-2010-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 26736
+      },
+      {
+        "url": "/media/responsive/media--photos--estima-ceconi-back-take-2010-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 53072
+      },
+      {
+        "url": "/media/responsive/media--photos--estima-ceconi-back-take-2010-900.webp",
+        "width": 900,
+        "height": 598,
+        "bytes": 69410
+      }
+    ]
+  },
+  "/media/photos/exposure.jpg": {
+    "original_bytes": 137470,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--exposure-480.webp",
+        "width": 480,
+        "height": 296,
+        "bytes": 21156
+      },
+      {
+        "url": "/media/responsive/media--photos--exposure-768.webp",
+        "width": 768,
+        "height": 473,
+        "bytes": 47210
+      },
+      {
+        "url": "/media/responsive/media--photos--exposure-1200.webp",
+        "width": 1200,
+        "height": 739,
+        "bytes": 108816
+      }
+    ]
+  },
+  "/media/photos/folkstyle-wrestling.jpg": {
+    "original_bytes": 121591,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--folkstyle-wrestling-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18278
+      },
+      {
+        "url": "/media/responsive/media--photos--folkstyle-wrestling-768.webp",
+        "width": 768,
+        "height": 513,
+        "bytes": 37268
+      },
+      {
+        "url": "/media/responsive/media--photos--folkstyle-wrestling-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 87346
+      }
+    ]
+  },
+  "/media/photos/freestyle-wrestling.jpg": {
+    "original_bytes": 175374,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--freestyle-wrestling-480.webp",
+        "width": 480,
+        "height": 324,
+        "bytes": 28060
+      },
+      {
+        "url": "/media/responsive/media--photos--freestyle-wrestling-768.webp",
+        "width": 768,
+        "height": 519,
+        "bytes": 65730
+      },
+      {
+        "url": "/media/responsive/media--photos--freestyle-wrestling-1200.webp",
+        "width": 1200,
+        "height": 811,
+        "bytes": 148498
+      }
+    ]
+  },
+  "/media/photos/front-kick-kickboxing.jpg": {
+    "original_bytes": 92165,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--front-kick-kickboxing-480.webp",
+        "width": 480,
+        "height": 476,
+        "bytes": 21260
+      },
+      {
+        "url": "/media/responsive/media--photos--front-kick-kickboxing-768.webp",
+        "width": 768,
+        "height": 762,
+        "bytes": 42882
+      },
+      {
+        "url": "/media/responsive/media--photos--front-kick-kickboxing-960.webp",
+        "width": 960,
+        "height": 952,
+        "bytes": 61414
+      }
+    ]
+  },
+  "/media/photos/full-nelson.jpg": {
+    "original_bytes": 57410,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--full-nelson-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6898
+      },
+      {
+        "url": "/media/responsive/media--photos--full-nelson-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 14556
+      },
+      {
+        "url": "/media/responsive/media--photos--full-nelson-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 32224
+      }
+    ]
+  },
+  "/media/photos/gankaku.jpg": {
+    "original_bytes": 142123,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gankaku-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 25650
+      },
+      {
+        "url": "/media/responsive/media--photos--gankaku-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 58702
+      },
+      {
+        "url": "/media/responsive/media--photos--gankaku-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 114198
+      }
+    ]
+  },
+  "/media/photos/gedan-barai.jpg": {
+    "original_bytes": 115777,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gedan-barai-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 14270
+      },
+      {
+        "url": "/media/responsive/media--photos--gedan-barai-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 32038
+      },
+      {
+        "url": "/media/responsive/media--photos--gedan-barai-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 70786
+      }
+    ]
+  },
+  "/media/photos/geesink-judo-nationals.jpg": {
+    "original_bytes": 193737,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--geesink-judo-nationals-480.webp",
+        "width": 480,
+        "height": 423,
+        "bytes": 24470
+      },
+      {
+        "url": "/media/responsive/media--photos--geesink-judo-nationals-768.webp",
+        "width": 768,
+        "height": 677,
+        "bytes": 62560
+      },
+      {
+        "url": "/media/responsive/media--photos--geesink-judo-nationals-1200.webp",
+        "width": 1200,
+        "height": 1058,
+        "bytes": 157946
+      }
+    ]
+  },
+  "/media/photos/georg-hackenschmidt.jpg": {
+    "original_bytes": 156793,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--georg-hackenschmidt-480.webp",
+        "width": 480,
+        "height": 751,
+        "bytes": 55722
+      },
+      {
+        "url": "/media/responsive/media--photos--georg-hackenschmidt-767.webp",
+        "width": 767,
+        "height": 1200,
+        "bytes": 132572
+      }
+    ]
+  },
+  "/media/photos/gojushiho-dai.jpg": {
+    "original_bytes": 108108,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gojushiho-dai-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15278
+      },
+      {
+        "url": "/media/responsive/media--photos--gojushiho-dai-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 35304
+      },
+      {
+        "url": "/media/responsive/media--photos--gojushiho-dai-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 74422
+      }
+    ]
+  },
+  "/media/photos/gotch-hackenschmidt-1908.jpg": {
+    "original_bytes": 29165,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gotch-hackenschmidt-1908-300.webp",
+        "width": 300,
+        "height": 624,
+        "bytes": 15708
+      }
+    ]
+  },
+  "/media/photos/grapevine.jpg": {
+    "original_bytes": 127390,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--grapevine-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16226
+      },
+      {
+        "url": "/media/responsive/media--photos--grapevine-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 44102
+      },
+      {
+        "url": "/media/responsive/media--photos--grapevine-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 101578
+      }
+    ]
+  },
+  "/media/photos/greco-roman-wrestling.jpg": {
+    "original_bytes": 212595,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--greco-roman-wrestling-480.webp",
+        "width": 480,
+        "height": 313,
+        "bytes": 39230
+      },
+      {
+        "url": "/media/responsive/media--photos--greco-roman-wrestling-768.webp",
+        "width": 768,
+        "height": 500,
+        "bytes": 97302
+      },
+      {
+        "url": "/media/responsive/media--photos--greco-roman-wrestling-1200.webp",
+        "width": 1200,
+        "height": 782,
+        "bytes": 199480
+      }
+    ]
+  },
+  "/media/photos/guard-advanced.jpg": {
+    "original_bytes": 59258,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--guard-advanced-480.webp",
+        "width": 480,
+        "height": 545,
+        "bytes": 13298
+      },
+      {
+        "url": "/media/responsive/media--photos--guard-advanced-768.webp",
+        "width": 768,
+        "height": 872,
+        "bytes": 26394
+      },
+      {
+        "url": "/media/responsive/media--photos--guard-advanced-960.webp",
+        "width": 960,
+        "height": 1090,
+        "bytes": 37974
+      }
+    ]
+  },
+  "/media/photos/guillotine-mcmap.jpg": {
+    "original_bytes": 146081,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--guillotine-mcmap-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 21814
+      },
+      {
+        "url": "/media/responsive/media--photos--guillotine-mcmap-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 55358
+      },
+      {
+        "url": "/media/responsive/media--photos--guillotine-mcmap-1200.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 124466
+      }
+    ]
+  },
+  "/media/photos/gut-wrench.jpg": {
+    "original_bytes": 150801,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gut-wrench-480.webp",
+        "width": 480,
+        "height": 350,
+        "bytes": 19190
+      },
+      {
+        "url": "/media/responsive/media--photos--gut-wrench-768.webp",
+        "width": 768,
+        "height": 561,
+        "bytes": 50432
+      },
+      {
+        "url": "/media/responsive/media--photos--gut-wrench-1200.webp",
+        "width": 1200,
+        "height": 876,
+        "bytes": 118204
+      }
+    ]
+  },
+  "/media/photos/gyaku-zuki.jpg": {
+    "original_bytes": 156275,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--gyaku-zuki-480.webp",
+        "width": 480,
+        "height": 378,
+        "bytes": 28994
+      },
+      {
+        "url": "/media/responsive/media--photos--gyaku-zuki-768.webp",
+        "width": 768,
+        "height": 605,
+        "bytes": 56912
+      },
+      {
+        "url": "/media/responsive/media--photos--gyaku-zuki-1200.webp",
+        "width": 1200,
+        "height": 946,
+        "bytes": 101060
+      }
+    ]
+  },
+  "/media/photos/hackenschmidt-1906.jpg": {
+    "original_bytes": 416607,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hackenschmidt-1906-480.webp",
+        "width": 480,
+        "height": 818,
+        "bytes": 212952
+      },
+      {
+        "url": "/media/responsive/media--photos--hackenschmidt-1906-704.webp",
+        "width": 704,
+        "height": 1200,
+        "bytes": 478836
+      }
+    ]
+  },
+  "/media/photos/hackenschmidt-ben-roller.jpg": {
+    "original_bytes": 113489,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hackenschmidt-ben-roller-458.webp",
+        "width": 458,
+        "height": 803,
+        "bytes": 73266
+      }
+    ]
+  },
+  "/media/photos/hackenschmidt-ca-1905.jpg": {
+    "original_bytes": 180969,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hackenschmidt-ca-1905-480.webp",
+        "width": 480,
+        "height": 911,
+        "bytes": 107008
+      },
+      {
+        "url": "/media/responsive/media--photos--hackenschmidt-ca-1905-632.webp",
+        "width": 632,
+        "height": 1200,
+        "bytes": 178256
+      }
+    ]
+  },
+  "/media/photos/half-nelson.jpg": {
+    "original_bytes": 41961,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--half-nelson-480.webp",
+        "width": 480,
+        "height": 581,
+        "bytes": 19934
+      },
+      {
+        "url": "/media/responsive/media--photos--half-nelson-595.webp",
+        "width": 595,
+        "height": 720,
+        "bytes": 34904
+      }
+    ]
+  },
+  "/media/photos/hangetsu.jpg": {
+    "original_bytes": 164428,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hangetsu-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 28050
+      },
+      {
+        "url": "/media/responsive/media--photos--hangetsu-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 71676
+      },
+      {
+        "url": "/media/responsive/media--photos--hangetsu-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 150816
+      }
+    ]
+  },
+  "/media/photos/hapkido-dojang.jpg": {
+    "original_bytes": 166030,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hapkido-dojang-480.webp",
+        "width": 480,
+        "height": 334,
+        "bytes": 31352
+      },
+      {
+        "url": "/media/responsive/media--photos--hapkido-dojang-768.webp",
+        "width": 768,
+        "height": 534,
+        "bytes": 66126
+      },
+      {
+        "url": "/media/responsive/media--photos--hapkido-dojang-1200.webp",
+        "width": 1200,
+        "height": 835,
+        "bytes": 125984
+      }
+    ]
+  },
+  "/media/photos/headlock.jpg": {
+    "original_bytes": 88602,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--headlock-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10242
+      },
+      {
+        "url": "/media/responsive/media--photos--headlock-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 26234
+      },
+      {
+        "url": "/media/responsive/media--photos--headlock-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 61928
+      }
+    ]
+  },
+  "/media/photos/heian-godan.jpg": {
+    "original_bytes": 117051,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--heian-godan-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15812
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-godan-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 40894
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-godan-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 89230
+      }
+    ]
+  },
+  "/media/photos/heian-nidan.jpg": {
+    "original_bytes": 55267,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--heian-nidan-409.webp",
+        "width": 409,
+        "height": 675,
+        "bytes": 49248
+      }
+    ]
+  },
+  "/media/photos/heian-sandan.jpg": {
+    "original_bytes": 83561,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--heian-sandan-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11800
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-sandan-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 27006
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-sandan-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 56688
+      }
+    ]
+  },
+  "/media/photos/heian-yondan.jpg": {
+    "original_bytes": 131287,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--heian-yondan-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 19302
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-yondan-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 48862
+      },
+      {
+        "url": "/media/responsive/media--photos--heian-yondan-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 105942
+      }
+    ]
+  },
+  "/media/photos/helio-gracie-1932.jpg": {
+    "original_bytes": 147671,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--helio-gracie-1932-480.webp",
+        "width": 480,
+        "height": 705,
+        "bytes": 23260
+      },
+      {
+        "url": "/media/responsive/media--photos--helio-gracie-1932-768.webp",
+        "width": 768,
+        "height": 1127,
+        "bytes": 41384
+      },
+      {
+        "url": "/media/responsive/media--photos--helio-gracie-1932-1090.webp",
+        "width": 1090,
+        "height": 1600,
+        "bytes": 68056
+      }
+    ]
+  },
+  "/media/photos/hiki-otoshi.jpg": {
+    "original_bytes": 39754,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hiki-otoshi-480.webp",
+        "width": 480,
+        "height": 339,
+        "bytes": 16210
+      },
+      {
+        "url": "/media/responsive/media--photos--hiki-otoshi-536.webp",
+        "width": 536,
+        "height": 378,
+        "bytes": 22492
+      }
+    ]
+  },
+  "/media/photos/hikite.jpg": {
+    "original_bytes": 120634,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hikite-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 28608
+      },
+      {
+        "url": "/media/responsive/media--photos--hikite-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 58434
+      },
+      {
+        "url": "/media/responsive/media--photos--hikite-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 64064
+      }
+    ]
+  },
+  "/media/photos/hogu.jpg": {
+    "original_bytes": 119672,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--hogu-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 19126
+      },
+      {
+        "url": "/media/responsive/media--photos--hogu-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 42036
+      },
+      {
+        "url": "/media/responsive/media--photos--hogu-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 56732
+      }
+    ]
+  },
+  "/media/photos/inside-trip.jpg": {
+    "original_bytes": 110615,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--inside-trip-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 14852
+      },
+      {
+        "url": "/media/responsive/media--photos--inside-trip-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 39038
+      },
+      {
+        "url": "/media/responsive/media--photos--inside-trip-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 88494
+      }
+    ]
+  },
+  "/media/photos/itf-taekwondo.jpg": {
+    "original_bytes": 220617,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--itf-taekwondo-480.webp",
+        "width": 480,
+        "height": 346,
+        "bytes": 33376
+      },
+      {
+        "url": "/media/responsive/media--photos--itf-taekwondo-768.webp",
+        "width": 768,
+        "height": 554,
+        "bytes": 69632
+      },
+      {
+        "url": "/media/responsive/media--photos--itf-taekwondo-1200.webp",
+        "width": 1200,
+        "height": 866,
+        "bytes": 142020
+      }
+    ]
+  },
+  "/media/photos/jack-johnson-1911-jab.jpg": {
+    "original_bytes": 170214,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--jack-johnson-1911-jab-480.webp",
+        "width": 480,
+        "height": 338,
+        "bytes": 10342
+      },
+      {
+        "url": "/media/responsive/media--photos--jack-johnson-1911-jab-768.webp",
+        "width": 768,
+        "height": 541,
+        "bytes": 24982
+      },
+      {
+        "url": "/media/responsive/media--photos--jack-johnson-1911-jab-1200.webp",
+        "width": 1200,
+        "height": 846,
+        "bytes": 61654
+      }
+    ]
+  },
+  "/media/photos/james-j-corbett-stance.jpg": {
+    "original_bytes": 187481,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--james-j-corbett-stance-480.webp",
+        "width": 480,
+        "height": 729,
+        "bytes": 25010
+      },
+      {
+        "url": "/media/responsive/media--photos--james-j-corbett-stance-768.webp",
+        "width": 768,
+        "height": 1167,
+        "bytes": 45982
+      },
+      {
+        "url": "/media/responsive/media--photos--james-j-corbett-stance-1011.webp",
+        "width": 1011,
+        "height": 1536,
+        "bytes": 68538
+      }
+    ]
+  },
+  "/media/photos/japanese-kickboxing.jpg": {
+    "original_bytes": 125860,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--japanese-kickboxing-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15612
+      },
+      {
+        "url": "/media/responsive/media--photos--japanese-kickboxing-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 27776
+      },
+      {
+        "url": "/media/responsive/media--photos--japanese-kickboxing-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 51140
+      }
+    ]
+  },
+  "/media/photos/jigoro-kano.jpg": {
+    "original_bytes": 222207,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--jigoro-kano-480.webp",
+        "width": 480,
+        "height": 629,
+        "bytes": 54114
+      },
+      {
+        "url": "/media/responsive/media--photos--jigoro-kano-768.webp",
+        "width": 768,
+        "height": 1006,
+        "bytes": 167564
+      },
+      {
+        "url": "/media/responsive/media--photos--jigoro-kano-875.webp",
+        "width": 875,
+        "height": 1146,
+        "bytes": 223830
+      }
+    ]
+  },
+  "/media/photos/jiin.jpg": {
+    "original_bytes": 137305,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--jiin-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 21918
+      },
+      {
+        "url": "/media/responsive/media--photos--jiin-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 53580
+      },
+      {
+        "url": "/media/responsive/media--photos--jiin-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 108676
+      }
+    ]
+  },
+  "/media/photos/jion.jpg": {
+    "original_bytes": 63516,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--jion-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 18632
+      },
+      {
+        "url": "/media/responsive/media--photos--jion-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 31416
+      },
+      {
+        "url": "/media/responsive/media--photos--jion-800.webp",
+        "width": 800,
+        "height": 531,
+        "bytes": 33608
+      }
+    ]
+  },
+  "/media/photos/jitte.jpg": {
+    "original_bytes": 132647,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--jitte-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 22260
+      },
+      {
+        "url": "/media/responsive/media--photos--jitte-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 51678
+      },
+      {
+        "url": "/media/responsive/media--photos--jitte-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 103750
+      }
+    ]
+  },
+  "/media/photos/johnson-jeffries-1911.jpg": {
+    "original_bytes": 120313,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--johnson-jeffries-1911-480.webp",
+        "width": 480,
+        "height": 335,
+        "bytes": 25106
+      },
+      {
+        "url": "/media/responsive/media--photos--johnson-jeffries-1911-768.webp",
+        "width": 768,
+        "height": 536,
+        "bytes": 45738
+      },
+      {
+        "url": "/media/responsive/media--photos--johnson-jeffries-1911-1200.webp",
+        "width": 1200,
+        "height": 838,
+        "bytes": 82712
+      }
+    ]
+  },
+  "/media/photos/juchum-seogi.jpg": {
+    "original_bytes": 80642,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--juchum-seogi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9934
+      },
+      {
+        "url": "/media/responsive/media--photos--juchum-seogi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 23398
+      },
+      {
+        "url": "/media/responsive/media--photos--juchum-seogi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 50752
+      }
+    ]
+  },
+  "/media/photos/judo-action-flickr.jpg": {
+    "original_bytes": 114363,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--judo-action-flickr-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13364
+      },
+      {
+        "url": "/media/responsive/media--photos--judo-action-flickr-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 29696
+      },
+      {
+        "url": "/media/responsive/media--photos--judo-action-flickr-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 86910
+      }
+    ]
+  },
+  "/media/photos/judo-throw.jpg": {
+    "original_bytes": 153612,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--judo-throw-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 13310
+      },
+      {
+        "url": "/media/responsive/media--photos--judo-throw-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 26750
+      },
+      {
+        "url": "/media/responsive/media--photos--judo-throw-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 51068
+      }
+    ]
+  },
+  "/media/photos/judogi-azul-blue-uniform.jpg": {
+    "original_bytes": 135101,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--judogi-azul-blue-uniform-480.webp",
+        "width": 480,
+        "height": 773,
+        "bytes": 52434
+      },
+      {
+        "url": "/media/responsive/media--photos--judogi-azul-blue-uniform-745.webp",
+        "width": 745,
+        "height": 1200,
+        "bytes": 106360
+      }
+    ]
+  },
+  "/media/photos/k-1-rules.jpg": {
+    "original_bytes": 208214,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--k-1-rules-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 27652
+      },
+      {
+        "url": "/media/responsive/media--photos--k-1-rules-768.webp",
+        "width": 768,
+        "height": 513,
+        "bytes": 50762
+      },
+      {
+        "url": "/media/responsive/media--photos--k-1-rules-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 89880
+      }
+    ]
+  },
+  "/media/photos/kamae.jpg": {
+    "original_bytes": 103052,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kamae-480.webp",
+        "width": 480,
+        "height": 343,
+        "bytes": 12572
+      },
+      {
+        "url": "/media/responsive/media--photos--kamae-768.webp",
+        "width": 768,
+        "height": 548,
+        "bytes": 23574
+      },
+      {
+        "url": "/media/responsive/media--photos--kamae-1200.webp",
+        "width": 1200,
+        "height": 857,
+        "bytes": 44174
+      }
+    ]
+  },
+  "/media/photos/kanku-dai.jpg": {
+    "original_bytes": 94456,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kanku-dai-415.webp",
+        "width": 415,
+        "height": 681,
+        "bytes": 65610
+      }
+    ]
+  },
+  "/media/photos/kano-mifune.jpg": {
+    "original_bytes": 283270,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kano-mifune-480.webp",
+        "width": 480,
+        "height": 620,
+        "bytes": 59880
+      },
+      {
+        "url": "/media/responsive/media--photos--kano-mifune-768.webp",
+        "width": 768,
+        "height": 992,
+        "bytes": 217052
+      },
+      {
+        "url": "/media/responsive/media--photos--kano-mifune-867.webp",
+        "width": 867,
+        "height": 1120,
+        "bytes": 304664
+      }
+    ]
+  },
+  "/media/photos/kata.jpg": {
+    "original_bytes": 80508,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kata-480.webp",
+        "width": 480,
+        "height": 771,
+        "bytes": 24728
+      },
+      {
+        "url": "/media/responsive/media--photos--kata-747.webp",
+        "width": 747,
+        "height": 1200,
+        "bytes": 44654
+      }
+    ]
+  },
+  "/media/photos/kickboxing-body-kick.jpg": {
+    "original_bytes": 142639,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-body-kick-480.webp",
+        "width": 480,
+        "height": 523,
+        "bytes": 23934
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-body-kick-768.webp",
+        "width": 768,
+        "height": 837,
+        "bytes": 49248
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-body-kick-1101.webp",
+        "width": 1101,
+        "height": 1200,
+        "bytes": 90558
+      }
+    ]
+  },
+  "/media/photos/kickboxing-check.jpg": {
+    "original_bytes": 92347,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-check-480.webp",
+        "width": 480,
+        "height": 419,
+        "bytes": 20744
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-check-768.webp",
+        "width": 768,
+        "height": 670,
+        "bytes": 41822
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-check-960.webp",
+        "width": 960,
+        "height": 838,
+        "bytes": 62050
+      }
+    ]
+  },
+  "/media/photos/kickboxing-combination.jpg": {
+    "original_bytes": 117803,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-combination-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28794
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-combination-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 60042
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-combination-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 89666
+      }
+    ]
+  },
+  "/media/photos/kickboxing-counter.jpg": {
+    "original_bytes": 117820,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-counter-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 28876
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-counter-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 59820
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-counter-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 89442
+      }
+    ]
+  },
+  "/media/photos/kickboxing-cross.jpg": {
+    "original_bytes": 136889,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-cross-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 16024
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-cross-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 32032
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-cross-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 73522
+      }
+    ]
+  },
+  "/media/photos/kickboxing-feint.jpg": {
+    "original_bytes": 88226,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-feint-480.webp",
+        "width": 480,
+        "height": 478,
+        "bytes": 21936
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-feint-768.webp",
+        "width": 768,
+        "height": 764,
+        "bytes": 41106
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-feint-960.webp",
+        "width": 960,
+        "height": 955,
+        "bytes": 58450
+      }
+    ]
+  },
+  "/media/photos/kickboxing-footwork.jpg": {
+    "original_bytes": 81267,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-footwork-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9254
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-footwork-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 23754
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-footwork-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 54606
+      }
+    ]
+  },
+  "/media/photos/kickboxing-guard.jpg": {
+    "original_bytes": 126648,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-guard-480.webp",
+        "width": 480,
+        "height": 445,
+        "bytes": 15500
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-guard-768.webp",
+        "width": 768,
+        "height": 712,
+        "bytes": 31032
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-guard-1200.webp",
+        "width": 1200,
+        "height": 1112,
+        "bytes": 60612
+      }
+    ]
+  },
+  "/media/photos/kickboxing-high-kick.jpg": {
+    "original_bytes": 146190,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-high-kick-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22332
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-high-kick-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 45198
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-high-kick-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 87406
+      }
+    ]
+  },
+  "/media/photos/kickboxing-hook.jpg": {
+    "original_bytes": 125760,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-hook-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 15694
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-hook-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 27636
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-hook-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 50978
+      }
+    ]
+  },
+  "/media/photos/kickboxing-jab.jpg": {
+    "original_bytes": 170570,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-jab-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22164
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-jab-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 51636
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-jab-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 115410
+      }
+    ]
+  },
+  "/media/photos/kickboxing-range.jpg": {
+    "original_bytes": 214099,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-range-480.webp",
+        "width": 480,
+        "height": 356,
+        "bytes": 35330
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-range-768.webp",
+        "width": 768,
+        "height": 569,
+        "bytes": 69296
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-range-1200.webp",
+        "width": 1200,
+        "height": 889,
+        "bytes": 130146
+      }
+    ]
+  },
+  "/media/photos/kickboxing-roundhouse.jpg": {
+    "original_bytes": 146190,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-roundhouse-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 22332
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-roundhouse-768.webp",
+        "width": 768,
+        "height": 576,
+        "bytes": 45198
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-roundhouse-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 87406
+      }
+    ]
+  },
+  "/media/photos/kickboxing-stance.jpg": {
+    "original_bytes": 107137,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kickboxing-stance-480.webp",
+        "width": 480,
+        "height": 318,
+        "bytes": 12716
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-stance-768.webp",
+        "width": 768,
+        "height": 509,
+        "bytes": 22834
+      },
+      {
+        "url": "/media/responsive/media--photos--kickboxing-stance-1200.webp",
+        "width": 1200,
+        "height": 795,
+        "bytes": 44262
+      }
+    ]
+  },
+  "/media/photos/kihon.jpg": {
+    "original_bytes": 120318,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kihon-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 17272
+      },
+      {
+        "url": "/media/responsive/media--photos--kihon-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 33536
+      },
+      {
+        "url": "/media/responsive/media--photos--kihon-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 64890
+      }
+    ]
+  },
+  "/media/photos/kime.jpg": {
+    "original_bytes": 109108,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kime-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 25788
+      },
+      {
+        "url": "/media/responsive/media--photos--kime-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 52800
+      },
+      {
+        "url": "/media/responsive/media--photos--kime-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 59734
+      }
+    ]
+  },
+  "/media/photos/kimura-from-guard.jpg": {
+    "original_bytes": 114344,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kimura-from-guard-480.webp",
+        "width": 480,
+        "height": 723,
+        "bytes": 33718
+      },
+      {
+        "url": "/media/responsive/media--photos--kimura-from-guard-768.webp",
+        "width": 768,
+        "height": 1156,
+        "bytes": 65422
+      },
+      {
+        "url": "/media/responsive/media--photos--kimura-from-guard-797.webp",
+        "width": 797,
+        "height": 1200,
+        "bytes": 73678
+      }
+    ]
+  },
+  "/media/photos/kizami-zuki.jpg": {
+    "original_bytes": 150529,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kizami-zuki-480.webp",
+        "width": 480,
+        "height": 433,
+        "bytes": 19116
+      },
+      {
+        "url": "/media/responsive/media--photos--kizami-zuki-768.webp",
+        "width": 768,
+        "height": 692,
+        "bytes": 38418
+      },
+      {
+        "url": "/media/responsive/media--photos--kizami-zuki-1200.webp",
+        "width": 1200,
+        "height": 1082,
+        "bytes": 77704
+      }
+    ]
+  },
+  "/media/photos/knee-pick.jpg": {
+    "original_bytes": 101867,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--knee-pick-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 13550
+      },
+      {
+        "url": "/media/responsive/media--photos--knee-pick-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 35746
+      },
+      {
+        "url": "/media/responsive/media--photos--knee-pick-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 80578
+      }
+    ]
+  },
+  "/media/photos/kokutsu-dachi.jpg": {
+    "original_bytes": 183646,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kokutsu-dachi-480.webp",
+        "width": 480,
+        "height": 626,
+        "bytes": 33340
+      },
+      {
+        "url": "/media/responsive/media--photos--kokutsu-dachi-768.webp",
+        "width": 768,
+        "height": 1002,
+        "bytes": 84208
+      },
+      {
+        "url": "/media/responsive/media--photos--kokutsu-dachi-920.webp",
+        "width": 920,
+        "height": 1200,
+        "bytes": 123502
+      }
+    ]
+  },
+  "/media/photos/krav-maga-demo.jpg": {
+    "original_bytes": 176787,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--krav-maga-demo-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 20846
+      },
+      {
+        "url": "/media/responsive/media--photos--krav-maga-demo-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 40232
+      },
+      {
+        "url": "/media/responsive/media--photos--krav-maga-demo-1200.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 73774
+      }
+    ]
+  },
+  "/media/photos/kyokushin-karate-match.jpg": {
+    "original_bytes": 93812,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kyokushin-karate-match-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 24330
+      },
+      {
+        "url": "/media/responsive/media--photos--kyokushin-karate-match-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 42818
+      },
+      {
+        "url": "/media/responsive/media--photos--kyokushin-karate-match-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 56974
+      }
+    ]
+  },
+  "/media/photos/kyokushin-match.jpg": {
+    "original_bytes": 93812,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kyokushin-match-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 24330
+      },
+      {
+        "url": "/media/responsive/media--photos--kyokushin-match-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 42818
+      },
+      {
+        "url": "/media/responsive/media--photos--kyokushin-match-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 56974
+      }
+    ]
+  },
+  "/media/photos/kyorugi.jpg": {
+    "original_bytes": 120845,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--kyorugi-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 22782
+      },
+      {
+        "url": "/media/responsive/media--photos--kyorugi-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 44040
+      },
+      {
+        "url": "/media/responsive/media--photos--kyorugi-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 48636
+      }
+    ]
+  },
+  "/media/photos/lateral-drop.jpg": {
+    "original_bytes": 89158,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--lateral-drop-480.webp",
+        "width": 480,
+        "height": 397,
+        "bytes": 23576
+      },
+      {
+        "url": "/media/responsive/media--photos--lateral-drop-768.webp",
+        "width": 768,
+        "height": 635,
+        "bytes": 41036
+      },
+      {
+        "url": "/media/responsive/media--photos--lateral-drop-960.webp",
+        "width": 960,
+        "height": 794,
+        "bytes": 56972
+      }
+    ]
+  },
+  "/media/photos/lepri-gregor-gracie-2009.jpg": {
+    "original_bytes": 126676,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--lepri-gregor-gracie-2009-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 19924
+      },
+      {
+        "url": "/media/responsive/media--photos--lepri-gregor-gracie-2009-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 39624
+      },
+      {
+        "url": "/media/responsive/media--photos--lepri-gregor-gracie-2009-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 76648
+      }
+    ]
+  },
+  "/media/photos/lethwei-thein-phyu.jpg": {
+    "original_bytes": 282010,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--lethwei-thein-phyu-480.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 54298
+      },
+      {
+        "url": "/media/responsive/media--photos--lethwei-thein-phyu-768.webp",
+        "width": 768,
+        "height": 768,
+        "bytes": 116112
+      },
+      {
+        "url": "/media/responsive/media--photos--lethwei-thein-phyu-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "bytes": 234308
+      }
+    ]
+  },
+  "/media/photos/mae-geri.jpg": {
+    "original_bytes": 157554,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mae-geri-480.webp",
+        "width": 480,
+        "height": 442,
+        "bytes": 21514
+      },
+      {
+        "url": "/media/responsive/media--photos--mae-geri-768.webp",
+        "width": 768,
+        "height": 707,
+        "bytes": 44150
+      },
+      {
+        "url": "/media/responsive/media--photos--mae-geri-1200.webp",
+        "width": 1200,
+        "height": 1104,
+        "bytes": 90786
+      }
+    ]
+  },
+  "/media/photos/mawashi-geri.jpg": {
+    "original_bytes": 112147,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mawashi-geri-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12466
+      },
+      {
+        "url": "/media/responsive/media--photos--mawashi-geri-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 24384
+      },
+      {
+        "url": "/media/responsive/media--photos--mawashi-geri-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 47440
+      }
+    ]
+  },
+  "/media/photos/mcmap-clinch.jpg": {
+    "original_bytes": 179059,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mcmap-clinch-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 31094
+      },
+      {
+        "url": "/media/responsive/media--photos--mcmap-clinch-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 60884
+      },
+      {
+        "url": "/media/responsive/media--photos--mcmap-clinch-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 109606
+      }
+    ]
+  },
+  "/media/photos/mifune-kyuzo.jpg": {
+    "original_bytes": 418350,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mifune-kyuzo-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 112278
+      },
+      {
+        "url": "/media/responsive/media--photos--mifune-kyuzo-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 325824
+      },
+      {
+        "url": "/media/responsive/media--photos--mifune-kyuzo-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 460352
+      }
+    ]
+  },
+  "/media/photos/mikazuki-geri.jpg": {
+    "original_bytes": 138597,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mikazuki-geri-480.webp",
+        "width": 480,
+        "height": 478,
+        "bytes": 23900
+      },
+      {
+        "url": "/media/responsive/media--photos--mikazuki-geri-768.webp",
+        "width": 768,
+        "height": 765,
+        "bytes": 49498
+      },
+      {
+        "url": "/media/responsive/media--photos--mikazuki-geri-1052.webp",
+        "width": 1052,
+        "height": 1048,
+        "bytes": 84118
+      }
+    ]
+  },
+  "/media/photos/mosul-norwood-mat-return.jpg": {
+    "original_bytes": 142220,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--mosul-norwood-mat-return-480.webp",
+        "width": 480,
+        "height": 723,
+        "bytes": 45534
+      },
+      {
+        "url": "/media/responsive/media--photos--mosul-norwood-mat-return-768.webp",
+        "width": 768,
+        "height": 1156,
+        "bytes": 98048
+      },
+      {
+        "url": "/media/responsive/media--photos--mosul-norwood-mat-return-797.webp",
+        "width": 797,
+        "height": 1200,
+        "bytes": 109442
+      }
+    ]
+  },
+  "/media/photos/motobu-choki.jpg": {
+    "original_bytes": 58310,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--motobu-choki-437.webp",
+        "width": 437,
+        "height": 581,
+        "bytes": 15818
+      }
+    ]
+  },
+  "/media/photos/muay-thai-1865.jpg": {
+    "original_bytes": 165014,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-1865-480.webp",
+        "width": 480,
+        "height": 354,
+        "bytes": 20774
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-1865-768.webp",
+        "width": 768,
+        "height": 566,
+        "bytes": 50520
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-1865-1200.webp",
+        "width": 1200,
+        "height": 884,
+        "bytes": 134236
+      }
+    ]
+  },
+  "/media/photos/muay-thai-girl-teacher.jpg": {
+    "original_bytes": 219064,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-girl-teacher-480.webp",
+        "width": 480,
+        "height": 615,
+        "bytes": 65042
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-girl-teacher-768.webp",
+        "width": 768,
+        "height": 984,
+        "bytes": 126432
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-girl-teacher-937.webp",
+        "width": 937,
+        "height": 1200,
+        "bytes": 168676
+      }
+    ]
+  },
+  "/media/photos/muay-thai-high-kick.jpg": {
+    "original_bytes": 250593,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-high-kick-480.webp",
+        "width": 480,
+        "height": 318,
+        "bytes": 25570
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-high-kick-768.webp",
+        "width": 768,
+        "height": 509,
+        "bytes": 47900
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-high-kick-1200.webp",
+        "width": 1200,
+        "height": 795,
+        "bytes": 88760
+      }
+    ]
+  },
+  "/media/photos/muay-thai-knee-clinch.jpg": {
+    "original_bytes": 208604,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-knee-clinch-480.webp",
+        "width": 480,
+        "height": 722,
+        "bytes": 44544
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-knee-clinch-768.webp",
+        "width": 768,
+        "height": 1156,
+        "bytes": 82632
+      }
+    ]
+  },
+  "/media/photos/muay-thai-marines-clinch.jpg": {
+    "original_bytes": 292606,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-marines-clinch-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 55134
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-marines-clinch-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 132072
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-marines-clinch-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 290332
+      }
+    ]
+  },
+  "/media/photos/muay-thai-royal-marines.jpg": {
+    "original_bytes": 260187,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-royal-marines-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43576
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-royal-marines-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 105090
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-royal-marines-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 244060
+      }
+    ]
+  },
+  "/media/photos/muay-thai-spectacular-kick.jpg": {
+    "original_bytes": 161818,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muay-thai-spectacular-kick-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 32042
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-spectacular-kick-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 62644
+      },
+      {
+        "url": "/media/responsive/media--photos--muay-thai-spectacular-kick-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 118230
+      }
+    ]
+  },
+  "/media/photos/muhammad-ali-1967.jpg": {
+    "original_bytes": 160872,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--muhammad-ali-1967-480.webp",
+        "width": 480,
+        "height": 601,
+        "bytes": 19050
+      },
+      {
+        "url": "/media/responsive/media--photos--muhammad-ali-1967-768.webp",
+        "width": 768,
+        "height": 962,
+        "bytes": 37518
+      },
+      {
+        "url": "/media/responsive/media--photos--muhammad-ali-1967-1200.webp",
+        "width": 1200,
+        "height": 1502,
+        "bytes": 66020
+      }
+    ]
+  },
+  "/media/photos/naeryeo-chagi.jpg": {
+    "original_bytes": 47614,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--naeryeo-chagi-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 4914
+      },
+      {
+        "url": "/media/responsive/media--photos--naeryeo-chagi-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 9788
+      },
+      {
+        "url": "/media/responsive/media--photos--naeryeo-chagi-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 11034
+      }
+    ]
+  },
+  "/media/photos/narae-chagi.jpg": {
+    "original_bytes": 37749,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--narae-chagi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 4812
+      },
+      {
+        "url": "/media/responsive/media--photos--narae-chagi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 9122
+      },
+      {
+        "url": "/media/responsive/media--photos--narae-chagi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 18346
+      }
+    ]
+  },
+  "/media/photos/neko-ashi-dachi.jpg": {
+    "original_bytes": 245758,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--neko-ashi-dachi-480.webp",
+        "width": 480,
+        "height": 323,
+        "bytes": 42230
+      },
+      {
+        "url": "/media/responsive/media--photos--neko-ashi-dachi-768.webp",
+        "width": 768,
+        "height": 516,
+        "bytes": 98228
+      },
+      {
+        "url": "/media/responsive/media--photos--neko-ashi-dachi-1200.webp",
+        "width": 1200,
+        "height": 807,
+        "bytes": 195814
+      }
+    ]
+  },
+  "/media/photos/ng-combatives-wrist-pin.jpg": {
+    "original_bytes": 178810,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ng-combatives-wrist-pin-480.webp",
+        "width": 480,
+        "height": 349,
+        "bytes": 31080
+      },
+      {
+        "url": "/media/responsive/media--photos--ng-combatives-wrist-pin-768.webp",
+        "width": 768,
+        "height": 558,
+        "bytes": 73330
+      },
+      {
+        "url": "/media/responsive/media--photos--ng-combatives-wrist-pin-1200.webp",
+        "width": 1200,
+        "height": 872,
+        "bytes": 150084
+      }
+    ]
+  },
+  "/media/photos/nijushiho.jpg": {
+    "original_bytes": 97890,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--nijushiho-480.webp",
+        "width": 480,
+        "height": 581,
+        "bytes": 83462
+      },
+      {
+        "url": "/media/responsive/media--photos--nijushiho-538.webp",
+        "width": 538,
+        "height": 651,
+        "bytes": 114674
+      }
+    ]
+  },
+  "/media/photos/oi-zuki.jpg": {
+    "original_bytes": 71967,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--oi-zuki-480.webp",
+        "width": 480,
+        "height": 304,
+        "bytes": 11578
+      },
+      {
+        "url": "/media/responsive/media--photos--oi-zuki-768.webp",
+        "width": 768,
+        "height": 487,
+        "bytes": 21414
+      },
+      {
+        "url": "/media/responsive/media--photos--oi-zuki-1200.webp",
+        "width": 1200,
+        "height": 761,
+        "bytes": 38082
+      }
+    ]
+  },
+  "/media/photos/okinawa-daeho-mount-gnp.jpg": {
+    "original_bytes": 184192,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--okinawa-daeho-mount-gnp-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 62760
+      },
+      {
+        "url": "/media/responsive/media--photos--okinawa-daeho-mount-gnp-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 135820
+      },
+      {
+        "url": "/media/responsive/media--photos--okinawa-daeho-mount-gnp-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 149652
+      }
+    ]
+  },
+  "/media/photos/olgul-makki.jpg": {
+    "original_bytes": 68836,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--olgul-makki-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7220
+      },
+      {
+        "url": "/media/responsive/media--photos--olgul-makki-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 17112
+      },
+      {
+        "url": "/media/responsive/media--photos--olgul-makki-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 38524
+      }
+    ]
+  },
+  "/media/photos/olympic-taekwondo.jpg": {
+    "original_bytes": 126533,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--olympic-taekwondo-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 12946
+      },
+      {
+        "url": "/media/responsive/media--photos--olympic-taekwondo-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 29708
+      },
+      {
+        "url": "/media/responsive/media--photos--olympic-taekwondo-1200.webp",
+        "width": 1200,
+        "height": 799,
+        "bytes": 75546
+      }
+    ]
+  },
+  "/media/photos/one-two-low-kick.jpg": {
+    "original_bytes": 99824,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--one-two-low-kick-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15536
+      },
+      {
+        "url": "/media/responsive/media--photos--one-two-low-kick-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 34234
+      },
+      {
+        "url": "/media/responsive/media--photos--one-two-low-kick-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 71166
+      }
+    ]
+  },
+  "/media/photos/orthodox-kickboxing-stance.jpg": {
+    "original_bytes": 123642,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--orthodox-kickboxing-stance-480.webp",
+        "width": 480,
+        "height": 950,
+        "bytes": 67060
+      },
+      {
+        "url": "/media/responsive/media--photos--orthodox-kickboxing-stance-606.webp",
+        "width": 606,
+        "height": 1200,
+        "bytes": 101366
+      }
+    ]
+  },
+  "/media/photos/outside-trip.jpg": {
+    "original_bytes": 92398,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--outside-trip-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12568
+      },
+      {
+        "url": "/media/responsive/media--photos--outside-trip-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 27928
+      },
+      {
+        "url": "/media/responsive/media--photos--outside-trip-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 61586
+      }
+    ]
+  },
+  "/media/photos/par-terre.jpg": {
+    "original_bytes": 164168,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--par-terre-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22374
+      },
+      {
+        "url": "/media/responsive/media--photos--par-terre-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 61736
+      },
+      {
+        "url": "/media/responsive/media--photos--par-terre-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 145818
+      }
+    ]
+  },
+  "/media/photos/pinning-combination.jpg": {
+    "original_bytes": 184660,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--pinning-combination-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 22960
+      },
+      {
+        "url": "/media/responsive/media--photos--pinning-combination-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 69348
+      },
+      {
+        "url": "/media/responsive/media--photos--pinning-combination-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 177990
+      }
+    ]
+  },
+  "/media/photos/poomsae.jpg": {
+    "original_bytes": 90428,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--poomsae-480.webp",
+        "width": 480,
+        "height": 721,
+        "bytes": 24058
+      },
+      {
+        "url": "/media/responsive/media--photos--poomsae-768.webp",
+        "width": 768,
+        "height": 1153,
+        "bytes": 51800
+      },
+      {
+        "url": "/media/responsive/media--photos--poomsae-799.webp",
+        "width": 799,
+        "height": 1200,
+        "bytes": 57452
+      }
+    ]
+  },
+  "/media/photos/punch-jirugi.jpg": {
+    "original_bytes": 108729,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--punch-jirugi-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 18422
+      },
+      {
+        "url": "/media/responsive/media--photos--punch-jirugi-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 37276
+      },
+      {
+        "url": "/media/responsive/media--photos--punch-jirugi-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 73076
+      }
+    ]
+  },
+  "/media/photos/rickson-zulu-1980.jpg": {
+    "original_bytes": 186661,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--rickson-zulu-1980-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 28970
+      },
+      {
+        "url": "/media/responsive/media--photos--rickson-zulu-1980-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 56760
+      },
+      {
+        "url": "/media/responsive/media--photos--rickson-zulu-1980-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 104838
+      }
+    ]
+  },
+  "/media/photos/rnc-grappling.jpg": {
+    "original_bytes": 104195,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--rnc-grappling-480.webp",
+        "width": 480,
+        "height": 764,
+        "bytes": 35040
+      },
+      {
+        "url": "/media/responsive/media--photos--rnc-grappling-754.webp",
+        "width": 754,
+        "height": 1200,
+        "bytes": 61362
+      }
+    ]
+  },
+  "/media/photos/sambo-european-games.jpg": {
+    "original_bytes": 173453,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--sambo-european-games-480.webp",
+        "width": 480,
+        "height": 415,
+        "bytes": 20378
+      },
+      {
+        "url": "/media/responsive/media--photos--sambo-european-games-768.webp",
+        "width": 768,
+        "height": 664,
+        "bytes": 40874
+      },
+      {
+        "url": "/media/responsive/media--photos--sambo-european-games-1200.webp",
+        "width": 1200,
+        "height": 1038,
+        "bytes": 83018
+      }
+    ]
+  },
+  "/media/photos/savate-salle-legrand.jpg": {
+    "original_bytes": 165371,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--savate-salle-legrand-480.webp",
+        "width": 480,
+        "height": 349,
+        "bytes": 23842
+      },
+      {
+        "url": "/media/responsive/media--photos--savate-salle-legrand-768.webp",
+        "width": 768,
+        "height": 559,
+        "bytes": 58544
+      },
+      {
+        "url": "/media/responsive/media--photos--savate-salle-legrand-1200.webp",
+        "width": 1200,
+        "height": 873,
+        "bytes": 136852
+      }
+    ]
+  },
+  "/media/photos/shuto-uke.jpg": {
+    "original_bytes": 115922,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--shuto-uke-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 26018
+      },
+      {
+        "url": "/media/responsive/media--photos--shuto-uke-768.webp",
+        "width": 768,
+        "height": 1152,
+        "bytes": 59092
+      },
+      {
+        "url": "/media/responsive/media--photos--shuto-uke-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 67286
+      }
+    ]
+  },
+  "/media/photos/siamese-boxing-1920s.jpg": {
+    "original_bytes": 151071,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--siamese-boxing-1920s-480.webp",
+        "width": 480,
+        "height": 303,
+        "bytes": 32042
+      },
+      {
+        "url": "/media/responsive/media--photos--siamese-boxing-1920s-768.webp",
+        "width": 768,
+        "height": 485,
+        "bytes": 62888
+      },
+      {
+        "url": "/media/responsive/media--photos--siamese-boxing-1920s-1200.webp",
+        "width": 1200,
+        "height": 758,
+        "bytes": 109864
+      }
+    ]
+  },
+  "/media/photos/side-choke-mcmap.jpg": {
+    "original_bytes": 190423,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--side-choke-mcmap-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 19170
+      },
+      {
+        "url": "/media/responsive/media--photos--side-choke-mcmap-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 39732
+      },
+      {
+        "url": "/media/responsive/media--photos--side-choke-mcmap-1200.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 81976
+      }
+    ]
+  },
+  "/media/photos/sochin.jpg": {
+    "original_bytes": 96452,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--sochin-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 13270
+      },
+      {
+        "url": "/media/responsive/media--photos--sochin-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 31226
+      },
+      {
+        "url": "/media/responsive/media--photos--sochin-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 65988
+      }
+    ]
+  },
+  "/media/photos/soto-uke.jpg": {
+    "original_bytes": 63355,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--soto-uke-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 5172
+      },
+      {
+        "url": "/media/responsive/media--photos--soto-uke-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 14058
+      },
+      {
+        "url": "/media/responsive/media--photos--soto-uke-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 38124
+      }
+    ]
+  },
+  "/media/photos/southpaw-kickboxing-stance.jpg": {
+    "original_bytes": 97953,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--southpaw-kickboxing-stance-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12680
+      },
+      {
+        "url": "/media/responsive/media--photos--southpaw-kickboxing-stance-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 32168
+      },
+      {
+        "url": "/media/responsive/media--photos--southpaw-kickboxing-stance-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 70430
+      }
+    ]
+  },
+  "/media/photos/strangler-lewis-headlock.jpg": {
+    "original_bytes": 89009,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--strangler-lewis-headlock-480.webp",
+        "width": 480,
+        "height": 398,
+        "bytes": 15922
+      },
+      {
+        "url": "/media/responsive/media--photos--strangler-lewis-headlock-768.webp",
+        "width": 768,
+        "height": 636,
+        "bytes": 27028
+      },
+      {
+        "url": "/media/responsive/media--photos--strangler-lewis-headlock-1200.webp",
+        "width": 1200,
+        "height": 994,
+        "bytes": 45296
+      }
+    ]
+  },
+  "/media/photos/sumo-hitachiyama-1905.jpg": {
+    "original_bytes": 158675,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--sumo-hitachiyama-1905-480.webp",
+        "width": 480,
+        "height": 354,
+        "bytes": 34642
+      },
+      {
+        "url": "/media/responsive/media--photos--sumo-hitachiyama-1905-768.webp",
+        "width": 768,
+        "height": 566,
+        "bytes": 64410
+      },
+      {
+        "url": "/media/responsive/media--photos--sumo-hitachiyama-1905-1200.webp",
+        "width": 1200,
+        "height": 885,
+        "bytes": 109826
+      }
+    ]
+  },
+  "/media/photos/taekwondo-stance.jpg": {
+    "original_bytes": 114958,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--taekwondo-stance-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 25656
+      },
+      {
+        "url": "/media/responsive/media--photos--taekwondo-stance-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 52928
+      },
+      {
+        "url": "/media/responsive/media--photos--taekwondo-stance-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 69326
+      }
+    ]
+  },
+  "/media/photos/tekki-nidan.jpg": {
+    "original_bytes": 173506,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--tekki-nidan-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 29576
+      },
+      {
+        "url": "/media/responsive/media--photos--tekki-nidan-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 77524
+      },
+      {
+        "url": "/media/responsive/media--photos--tekki-nidan-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 164050
+      }
+    ]
+  },
+  "/media/photos/tekki-sandan.jpg": {
+    "original_bytes": 114862,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--tekki-sandan-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15602
+      },
+      {
+        "url": "/media/responsive/media--photos--tekki-sandan-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 39706
+      },
+      {
+        "url": "/media/responsive/media--photos--tekki-sandan-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 86304
+      }
+    ]
+  },
+  "/media/photos/tekki-shodan.jpg": {
+    "original_bytes": 67972,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--tekki-shodan-426.webp",
+        "width": 426,
+        "height": 665,
+        "bytes": 85652
+      }
+    ]
+  },
+  "/media/photos/throw-by.jpg": {
+    "original_bytes": 106098,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--throw-by-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15640
+      },
+      {
+        "url": "/media/responsive/media--photos--throw-by-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 33976
+      },
+      {
+        "url": "/media/responsive/media--photos--throw-by-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 72264
+      }
+    ]
+  },
+  "/media/photos/tobias-mesevage.jpg": {
+    "original_bytes": 24779,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--tobias-mesevage-400.webp",
+        "width": 400,
+        "height": 400,
+        "bytes": 11406
+      }
+    ]
+  },
+  "/media/photos/turk.jpg": {
+    "original_bytes": 95262,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--turk-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 14528
+      },
+      {
+        "url": "/media/responsive/media--photos--turk-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 30014
+      },
+      {
+        "url": "/media/responsive/media--photos--turk-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 62050
+      }
+    ]
+  },
+  "/media/photos/twio-ap-chagi.jpg": {
+    "original_bytes": 58985,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--twio-ap-chagi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7540
+      },
+      {
+        "url": "/media/responsive/media--photos--twio-ap-chagi-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 16964
+      },
+      {
+        "url": "/media/responsive/media--photos--twio-ap-chagi-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 36392
+      }
+    ]
+  },
+  "/media/photos/twio-dollyo-chagi.jpg": {
+    "original_bytes": 12893,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--twio-dollyo-chagi-480.webp",
+        "width": 480,
+        "height": 366,
+        "bytes": 6060
+      },
+      {
+        "url": "/media/responsive/media--photos--twio-dollyo-chagi-500.webp",
+        "width": 500,
+        "height": 381,
+        "bytes": 6942
+      }
+    ]
+  },
+  "/media/photos/twio-yeop-chagi.jpg": {
+    "original_bytes": 51128,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--twio-yeop-chagi-480.webp",
+        "width": 480,
+        "height": 621,
+        "bytes": 39616
+      },
+      {
+        "url": "/media/responsive/media--photos--twio-yeop-chagi-500.webp",
+        "width": 500,
+        "height": 647,
+        "bytes": 43276
+      }
+    ]
+  },
+  "/media/photos/uchi-uke.jpg": {
+    "original_bytes": 94310,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--uchi-uke-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11732
+      },
+      {
+        "url": "/media/responsive/media--photos--uchi-uke-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 26600
+      },
+      {
+        "url": "/media/responsive/media--photos--uchi-uke-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 61852
+      }
+    ]
+  },
+  "/media/photos/ude-garami-judo.jpg": {
+    "original_bytes": 49177,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ude-garami-judo-480.webp",
+        "width": 480,
+        "height": 288,
+        "bytes": 4642
+      },
+      {
+        "url": "/media/responsive/media--photos--ude-garami-judo-768.webp",
+        "width": 768,
+        "height": 460,
+        "bytes": 9346
+      },
+      {
+        "url": "/media/responsive/media--photos--ude-garami-judo-1200.webp",
+        "width": 1200,
+        "height": 719,
+        "bytes": 18130
+      }
+    ]
+  },
+  "/media/photos/ushiro-geri.jpg": {
+    "original_bytes": 106674,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--ushiro-geri-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12824
+      },
+      {
+        "url": "/media/responsive/media--photos--ushiro-geri-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 33366
+      },
+      {
+        "url": "/media/responsive/media--photos--ushiro-geri-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 76274
+      }
+    ]
+  },
+  "/media/photos/vella-barral-triangle-2009.jpg": {
+    "original_bytes": 128690,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--vella-barral-triangle-2009-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 18440
+      },
+      {
+        "url": "/media/responsive/media--photos--vella-barral-triangle-2009-768.webp",
+        "width": 768,
+        "height": 510,
+        "bytes": 33110
+      },
+      {
+        "url": "/media/responsive/media--photos--vella-barral-triangle-2009-1200.webp",
+        "width": 1200,
+        "height": 797,
+        "bytes": 58978
+      }
+    ]
+  },
+  "/media/photos/wing-chun-forms.jpg": {
+    "original_bytes": 75773,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wing-chun-forms-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 18338
+      },
+      {
+        "url": "/media/responsive/media--photos--wing-chun-forms-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 34828
+      },
+      {
+        "url": "/media/responsive/media--photos--wing-chun-forms-900.webp",
+        "width": 900,
+        "height": 1200,
+        "bytes": 45838
+      }
+    ]
+  },
+  "/media/photos/wrestling-1904-olympics.jpg": {
+    "original_bytes": 35589,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-1904-olympics-480.webp",
+        "width": 480,
+        "height": 286,
+        "bytes": 6722
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-1904-olympics-768.webp",
+        "width": 768,
+        "height": 458,
+        "bytes": 11116
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-1904-olympics-1200.webp",
+        "width": 1200,
+        "height": 715,
+        "bytes": 18076
+      }
+    ]
+  },
+  "/media/photos/wrestling-ankle-pick.jpg": {
+    "original_bytes": 125020,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-ankle-pick-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 17474
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-ankle-pick-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 44694
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-ankle-pick-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 96844
+      }
+    ]
+  },
+  "/media/photos/wrestling-arm-drag.jpg": {
+    "original_bytes": 124286,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-arm-drag-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 15950
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-arm-drag-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 43458
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-arm-drag-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 99464
+      }
+    ]
+  },
+  "/media/photos/wrestling-double-leg.jpg": {
+    "original_bytes": 102612,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-double-leg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 17176
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-double-leg-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 33270
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-double-leg-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 68172
+      }
+    ]
+  },
+  "/media/photos/wrestling-front-headlock.jpg": {
+    "original_bytes": 135762,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-front-headlock-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 23104
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-front-headlock-768.webp",
+        "width": 768,
+        "height": 513,
+        "bytes": 46618
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-front-headlock-1200.webp",
+        "width": 1200,
+        "height": 801,
+        "bytes": 96496
+      }
+    ]
+  },
+  "/media/photos/wrestling-sikeston-1938.jpg": {
+    "original_bytes": 146688,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-sikeston-1938-480.webp",
+        "width": 480,
+        "height": 332,
+        "bytes": 20288
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-sikeston-1938-768.webp",
+        "width": 768,
+        "height": 531,
+        "bytes": 48168
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-sikeston-1938-1200.webp",
+        "width": 1200,
+        "height": 830,
+        "bytes": 108580
+      }
+    ]
+  },
+  "/media/photos/wrestling-single-leg.jpg": {
+    "original_bytes": 86729,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-single-leg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12398
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-single-leg-768.webp",
+        "width": 768,
+        "height": 432,
+        "bytes": 26446
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-single-leg-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 54472
+      }
+    ]
+  },
+  "/media/photos/wrestling-sprawl.jpg": {
+    "original_bytes": 144105,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-sprawl-480.webp",
+        "width": 480,
+        "height": 336,
+        "bytes": 21080
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-sprawl-768.webp",
+        "width": 768,
+        "height": 538,
+        "bytes": 45032
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-sprawl-1200.webp",
+        "width": 1200,
+        "height": 840,
+        "bytes": 104694
+      }
+    ]
+  },
+  "/media/photos/wrestling-stance.jpg": {
+    "original_bytes": 133467,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-stance-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 19158
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-stance-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 40704
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-stance-1200.webp",
+        "width": 1200,
+        "height": 799,
+        "bytes": 98210
+      }
+    ]
+  },
+  "/media/photos/wrestling-underhook.jpg": {
+    "original_bytes": 220536,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wrestling-underhook-480.webp",
+        "width": 480,
+        "height": 457,
+        "bytes": 28914
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-underhook-768.webp",
+        "width": 768,
+        "height": 732,
+        "bytes": 57832
+      },
+      {
+        "url": "/media/responsive/media--photos--wrestling-underhook-1200.webp",
+        "width": 1200,
+        "height": 1143,
+        "bytes": 115662
+      }
+    ]
+  },
+  "/media/photos/wt-rules.jpg": {
+    "original_bytes": 188675,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--wt-rules-480.webp",
+        "width": 480,
+        "height": 410,
+        "bytes": 37984
+      },
+      {
+        "url": "/media/responsive/media--photos--wt-rules-768.webp",
+        "width": 768,
+        "height": 656,
+        "bytes": 75738
+      },
+      {
+        "url": "/media/responsive/media--photos--wt-rules-1200.webp",
+        "width": 1200,
+        "height": 1025,
+        "bytes": 136930
+      }
+    ]
+  },
+  "/media/photos/yeop-chagi.jpg": {
+    "original_bytes": 151950,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--yeop-chagi-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 11882
+      },
+      {
+        "url": "/media/responsive/media--photos--yeop-chagi-768.webp",
+        "width": 768,
+        "height": 512,
+        "bytes": 42938
+      },
+      {
+        "url": "/media/responsive/media--photos--yeop-chagi-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 134664
+      }
+    ]
+  },
+  "/media/photos/yoko-geri.jpg": {
+    "original_bytes": 83200,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--yoko-geri-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 7062
+      },
+      {
+        "url": "/media/responsive/media--photos--yoko-geri-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 13346
+      },
+      {
+        "url": "/media/responsive/media--photos--yoko-geri-1200.webp",
+        "width": 1200,
+        "height": 799,
+        "bytes": 30890
+      }
+    ]
+  },
+  "/media/photos/zenkutsu-dachi.jpg": {
+    "original_bytes": 116143,
+    "versions": [
+      {
+        "url": "/media/responsive/media--photos--zenkutsu-dachi-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 14314
+      },
+      {
+        "url": "/media/responsive/media--photos--zenkutsu-dachi-768.webp",
+        "width": 768,
+        "height": 511,
+        "bytes": 32398
+      },
+      {
+        "url": "/media/responsive/media--photos--zenkutsu-dachi-1200.webp",
+        "width": 1200,
+        "height": 798,
+        "bytes": 71088
+      }
+    ]
+  },
+  "/og/home.jpg": {
+    "original_bytes": 226192,
+    "versions": [
+      {
+        "url": "/media/responsive/og--home-480.webp",
+        "width": 480,
+        "height": 252,
+        "bytes": 24882
+      },
+      {
+        "url": "/media/responsive/og--home-768.webp",
+        "width": 768,
+        "height": 403,
+        "bytes": 59112
+      },
+      {
+        "url": "/media/responsive/og--home-1200.webp",
+        "width": 1200,
+        "height": 630,
+        "bytes": 136654
+      }
+    ]
+  }
+}
