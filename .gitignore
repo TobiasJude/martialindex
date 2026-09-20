@@ -6,3 +6,6 @@ media/photos/_pre-sepia/
 shots/
 styles/*.md
 terms/*.md
+
+__pycache__/
+*.pyc

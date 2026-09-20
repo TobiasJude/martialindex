@@ -348,7 +348,11 @@
         escapeHtml(data.image) +
         '" alt="' +
         escapeHtml(data.imageAlt || data.title || "") +
-        '" width="420" height="300" loading="eager" decoding="async"></figure>';
+        '" width="' + escapeHtml(data.imageWidth || 420) +
+        '" height="' + escapeHtml(data.imageHeight || 300) +
+        (data.imageSrcset ? '" srcset="' + escapeHtml(data.imageSrcset) +
+          '" sizes="' + escapeHtml(data.imageSizes || '(max-width: 800px) 100vw, 420px') : '') +
+        '" loading="eager" decoding="async"></figure>';
     }
     html += "</div>";
 

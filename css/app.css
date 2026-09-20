@@ -5879,3 +5879,20 @@ article[data-learning-app] .next-learn__lede {
   max-width: none;
   margin: 2rem 0 1.5rem;
 }
+
+/* Preserve the full technical pose in editorial illustrations.
+   Their warm hue is baked into the asset, including social previews. */
+.entity-os__plate img[src^="/media/illustrations/"],
+.media-frame img[src^="/media/illustrations/"],
+.next-learn__media img[src^="/media/illustrations/"] {
+  object-fit: contain;
+  background: #f3efe7;
+}
+
+article.term-closed-guard .session-plate img[src^="/media/illustrations/"],
+article[data-learning-app] .session-plate img[src^="/media/illustrations/"] {
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  background: #f3efe7;
+}

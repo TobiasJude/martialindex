@@ -1,0 +1,177 @@
+{
+  "closed-guard": {
+    "alt": "Illustration of closed guard with ankles crossed behind a kneeling partner\u2019s waist.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/closed-guard-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/closed-guard-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/closed-guard-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/closed-guard-1536.webp"
+      ]
+    ]
+  },
+  "open-guard": {
+    "alt": "Illustration of open guard with uncrossed legs and a foot framing the partner\u2019s hip.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/open-guard-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/open-guard-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/open-guard-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/open-guard-1536.webp"
+      ]
+    ]
+  },
+  "high-guard": {
+    "alt": "Illustration of high guard with the legs wrapped higher around the partner\u2019s torso.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/high-guard-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/high-guard-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/high-guard-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/high-guard-1536.webp"
+      ]
+    ]
+  },
+  "scissor-sweep": {
+    "alt": "Illustration of a scissor sweep setup with one shin across the partner\u2019s torso and the other leg low on the mat.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/scissor-sweep-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/scissor-sweep-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/scissor-sweep-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/scissor-sweep-1536.webp"
+      ]
+    ]
+  },
+  "spider-guard": {
+    "alt": "Illustration of spider guard with sleeve grips and feet on the partner\u2019s biceps.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/spider-guard-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/spider-guard-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/spider-guard-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/spider-guard-1536.webp"
+      ]
+    ]
+  },
+  "knee-on-belly": {
+    "alt": "Illustration of knee-on-belly control with one knee across the torso and the other foot based on the mat.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/knee-on-belly-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/knee-on-belly-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/knee-on-belly-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/knee-on-belly-1536.webp"
+      ]
+    ]
+  },
+  "collar-sleeve-guard": {
+    "alt": "Illustration of collar-sleeve guard with a collar grip, sleeve control, one foot on the hip and one on the upper arm.",
+    "versions": [
+      [
+        480,
+        320,
+        "/media/illustrations/collar-sleeve-guard-480.webp"
+      ],
+      [
+        768,
+        512,
+        "/media/illustrations/collar-sleeve-guard-768.webp"
+      ],
+      [
+        1200,
+        800,
+        "/media/illustrations/collar-sleeve-guard-1200.webp"
+      ],
+      [
+        1536,
+        1024,
+        "/media/illustrations/collar-sleeve-guard-1536.webp"
+      ]
+    ]
+  }
+}
