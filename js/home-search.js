@@ -1,13 +1,28 @@
 (function () {
   "use strict";
 
-  var EMPTY_MSG = "No matches. Try a style or technique name.";
-  var KIND_ORDER = ["style", "term"];
-  var KIND_HEADERS = { style: "STYLE", term: "TECHNIQUE" };
-  var MAX_RESULTS = 14;
-
+  var MAX_RESULTS = 80;
   var index = null;
   var loadPromise = null;
+
+  // Light enrichment when query clearly targets Closed Guard neighborhood
+  var CG_RELATED = [
+    { title: "Open Guard", url: "/terms/open-guard/", kind: "term", cat: "related", meta: "Position" },
+    { title: "Half Guard", url: "/terms/half-guard/", kind: "term", cat: "related", meta: "Position" }
+  ];
+  var CG_PEOPLE = [
+    { title: "Roger Gracie", url: "#", kind: "people", cat: "people", meta: "BJJ — Practitioner", entityId: "roger-gracie" }
+  ];
+
+  var CAT_ORDER = ["position", "technique", "style", "people", "related", "term"];
+  var CAT_LABELS = {
+    position: "Positions",
+    technique: "Techniques",
+    related: "Related",
+    people: "People",
+    style: "Martial Arts",
+    term: "Terms"
+  };
 
   function $(sel, root) {
     return (root || document).querySelector(sel);
@@ -16,7 +31,7 @@
   function loadIndex() {
     if (index) return Promise.resolve(index);
     if (loadPromise) return loadPromise;
-    loadPromise = fetch("/data/search-index.json")
+    loadPromise = fetch("/data/search-index.json?v=ia41")
       .then(function (r) {
         if (!r.ok) throw new Error("index fetch failed");
         return r.json();
@@ -30,42 +45,6 @@
         return index;
       });
     return loadPromise;
-  }
-
-  function kindLabel(kind) {
-    return KIND_HEADERS[kind] || String(kind || "").toUpperCase();
-  }
-
-  function scoreItem(item, q) {
-    var title = (item.title || "").toLowerCase();
-    var slug = (item.slug || "").toLowerCase();
-    var url = (item.url || "").toLowerCase();
-    var idx = title.indexOf(q);
-    if (idx === -1 && slug.indexOf(q) !== -1) idx = 40;
-    if (idx === -1 && url.indexOf(q) !== -1) idx = 60;
-    if (idx === -1) return -1;
-    var score = 1000 - (typeof idx === "number" ? idx : 0);
-    if (title === q) score += 500;
-    if (title.indexOf(q) === 0) score += 200;
-    if (item.kind === "style") score += 8;
-    return score;
-  }
-
-  function filter(q) {
-    q = (q || "").trim().toLowerCase();
-    if (!q) return [];
-    var scored = [];
-    var list = index || [];
-    for (var i = 0; i < list.length; i++) {
-      var s = scoreItem(list[i], q);
-      if (s >= 0) scored.push({ s: s, item: list[i] });
-    }
-    scored.sort(function (a, b) {
-      return b.s - a.s;
-    });
-    return scored.slice(0, MAX_RESULTS).map(function (x) {
-      return x.item;
-    });
   }
 
   function escapeHtml(s) {
@@ -90,358 +69,504 @@
     );
   }
 
-  function groupByKind(list) {
+  function classifyItem(item) {
+    if (item.cat && CAT_LABELS[item.cat]) return item.cat;
+    if (item.kind === "style") return "style";
+    if (item.kind === "people" || item.kind === "related") return item.kind;
+    if (item.kind === "technique") return "technique";
+    if (item.kind === "position") return "position";
+    var t = (item.title || "").toLowerCase();
+    var slug = (item.slug || "").toLowerCase();
+    var pos = [
+      "guard",
+      "mount",
+      "control",
+      "clinch",
+      "side",
+      "turtle",
+      "knee on",
+      "knee-on",
+      "stance",
+      "north-south",
+      "north south"
+    ];
+    for (var i = 0; i < pos.length; i++) {
+      if (t.indexOf(pos[i]) !== -1 || slug.indexOf(pos[i].replace(/\s+/g, "-")) !== -1) {
+        return "position";
+      }
+    }
+    return "technique";
+  }
+
+  function scoreItem(item, q) {
+    var title = (item.title || "").toLowerCase();
+    var slug = (item.slug || "").toLowerCase();
+    var url = (item.url || "").toLowerCase();
+    var meta = (item.meta || "").toLowerCase();
+    var idx = title.indexOf(q);
+    if (idx === -1 && slug.indexOf(q) !== -1) idx = 35;
+    if (idx === -1 && url.indexOf(q) !== -1) idx = 55;
+    if (idx === -1 && meta.indexOf(q) !== -1) idx = 70;
+    if (idx === -1) return -1;
+    var score = 1000 - (typeof idx === "number" ? idx : 0);
+    if (title === q) score += 500;
+    if (title.indexOf(q) === 0) score += 200;
+    if (item.kind === "style") score += 12;
+    if (classifyItem(item) === "position") score += 4;
+    return score;
+  }
+
+  function withMeta(item) {
+    var copy = Object.assign({}, item);
+    copy.cat = classifyItem(copy);
+    if (copy.meta) return copy;
+    if (copy.cat === "style") copy.meta = "Martial Art";
+    else if (copy.cat === "position") copy.meta = "Position";
+    else if (copy.cat === "people") copy.meta = "Person";
+    else if (copy.cat === "related") copy.meta = "Related";
+    else copy.meta = "Technique";
+    return copy;
+  }
+
+  function enrichClosedGuard(q, list) {
+    if (q.indexOf("closed") === -1 && q !== "guard" && q.indexOf("closed guard") === -1) {
+      if (q.indexOf("guard") === -1) return list;
+    }
+    var wantsCg = q.indexOf("closed") !== -1 || q === "closed guard";
+    if (!wantsCg && q.indexOf("guard") === -1) return list;
+
+    var out = list.slice();
+    var seen = {};
+    out.forEach(function (i) {
+      seen[(i.title || "").toLowerCase()] = true;
+    });
+    function push(arr) {
+      arr.forEach(function (item) {
+        var k = (item.title || "").toLowerCase();
+        if (seen[k]) return;
+        seen[k] = true;
+        out.push(Object.assign({}, item));
+      });
+    }
+    out = out.map(function (item) {
+      var copy = withMeta(item);
+      if ((copy.title || "").toLowerCase() === "closed guard") {
+        copy.cat = "position";
+        copy.meta = "BJJ — Position";
+        copy.entityId = "closed-guard";
+      }
+      return copy;
+    });
+    if (wantsCg || q.indexOf("guard") !== -1) {
+      push(CG_RELATED);
+      push(CG_PEOPLE);
+    }
+    return out;
+  }
+
+  /* Empty query → no results. Suggestions A–Z sidebar was the stuck-home bug. */
+  function filter(q) {
+    q = (q || "").trim().toLowerCase();
+    if (!q) return [];
+    var scored = [];
+    var list = index || [];
+    for (var i = 0; i < list.length; i++) {
+      var s = scoreItem(list[i], q);
+      if (s >= 0) scored.push({ s: s, item: list[i] });
+    }
+    scored.sort(function (a, b) {
+      return b.s - a.s;
+    });
+    var items = scored.slice(0, MAX_RESULTS).map(function (x) {
+      return withMeta(x.item);
+    });
+    return enrichClosedGuard(q, items);
+  }
+
+  function group(list) {
     var buckets = {};
     list.forEach(function (item) {
-      var k = item.kind || "term";
+      var k = item.cat || "term";
       if (!buckets[k]) buckets[k] = [];
       buckets[k].push(item);
     });
-    return KIND_ORDER.filter(function (k) {
+    return CAT_ORDER.filter(function (k) {
       return buckets[k] && buckets[k].length;
     }).map(function (k) {
-      return { kind: k, items: buckets[k] };
+      return { kind: k, label: CAT_LABELS[k] || k, items: buckets[k] };
     });
   }
 
-  function makeResult(item, optIndex, q) {
-    var a = document.createElement("a");
-    a.className = "home-search__result";
-    a.href = item.url || "#";
-    a.setAttribute("role", "option");
-    a.id = "home-search-opt-" + optIndex;
-    a.setAttribute("data-opt-index", String(optIndex));
-    a.innerHTML =
-      '<span class="home-search__result-title"></span>' +
-      '<span class="home-search__result-kind"></span>';
-    a.querySelector(".home-search__result-title").innerHTML = highlightTitle(
-      item.title || "",
-      q || ""
-    );
-    a.querySelector(".home-search__result-kind").textContent = kindLabel(item.kind);
-    return a;
+  function slugFromUrl(url) {
+    var m = String(url || "").match(/\/(?:terms|styles)\/([^\/]+)\/?/);
+    return m ? m[1] : "";
   }
 
-  function dimMapNodes(q) {
-    var nodes = document.querySelectorAll("[data-map-node]");
-    if (!nodes.length) return;
-    q = (q || "").trim().toLowerCase();
-    if (!q) {
-      nodes.forEach(function (n) {
-        n.classList.remove("is-dim", "is-match");
-      });
-      return;
+  function openEntityFromItem(item) {
+    var id = item.entityId || slugFromUrl(item.url) || item.slug;
+    if (window.MartialIndexEntity && typeof window.MartialIndexEntity.canOpen === "function" && window.MartialIndexEntity.canOpen(id)) {
+      window.MartialIndexEntity.open(id);
+      return true;
     }
-    var anyStyleMatch = false;
-    nodes.forEach(function (n) {
-      var label = (n.getAttribute("data-label") || n.textContent || "").toLowerCase();
-      if (label.indexOf(q) !== -1) anyStyleMatch = true;
-    });
-    if (!anyStyleMatch) {
-      nodes.forEach(function (n) {
-        n.classList.remove("is-dim", "is-match");
+    if (window.MartialIndexEntity && typeof window.MartialIndexEntity.openStub === "function") {
+      window.MartialIndexEntity.openStub({
+        id: id || (item.title || "").toLowerCase().replace(/\s+/g, "-"),
+        title: item.title,
+        type:
+          item.cat === "style"
+            ? "Martial Art"
+            : item.cat === "people"
+              ? "Person"
+              : item.cat === "position"
+                ? "Position"
+                : "Technique",
+        art: item.meta || "",
+        url: item.url || null
       });
-      return;
+      return true;
     }
-    nodes.forEach(function (n) {
-      var label = (n.getAttribute("data-label") || n.textContent || "").toLowerCase();
-      var match = label.indexOf(q) !== -1;
-      n.classList.toggle("is-dim", !match);
-      n.classList.toggle("is-match", match);
-    });
+    if (item.url && item.url !== "#") {
+      window.location.href = item.url;
+      return true;
+    }
+    return false;
   }
 
-  function initFieldHover() {
-    var roots = document.querySelectorAll(".field-map");
-    roots.forEach(function (root) {
-      var edges = root.querySelectorAll(".field-map__edges path[data-nodes]");
-      var nodes = root.querySelectorAll(".hm-static-node[data-id]");
-      if (!edges.length || !nodes.length) return;
+  function buildResultButton(item, q, className, optIndex, onPick) {
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = className;
+    btn.setAttribute("role", "option");
+    btn.setAttribute("data-opt-index", String(optIndex));
+    btn.innerHTML =
+      '<span class="' +
+      className +
+      '-title">' +
+      highlightTitle(item.title || "", q) +
+      '</span><span class="' +
+      className +
+      '-meta">' +
+      escapeHtml(item.meta || CAT_LABELS[item.cat] || "") +
+      "</span>";
+    btn.addEventListener("click", function () {
+      onPick(item);
+    });
+    return btn;
+  }
 
-      function clear() {
-        root.classList.remove("is-hovering");
-        edges.forEach(function (p) {
-          p.classList.remove("is-lit");
-        });
-        nodes.forEach(function (n) {
-          n.classList.remove("is-neighbor", "is-hovered");
-        });
+  function renderGrouped(host, list, q, resultClass, onPick) {
+    host.innerHTML = "";
+    var flat = list.slice();
+    if (!list.length) {
+      if ((q || "").trim()) {
+        host.innerHTML =
+          '<p class="' +
+          resultClass.replace(/__result$/, "__empty") +
+          '">No matches. Try a position, technique, or art.</p>';
       }
-
-      nodes.forEach(function (node) {
-        node.addEventListener("mouseenter", function () {
-          var id = node.getAttribute("data-id");
-          if (!id) return;
-          root.classList.add("is-hovering");
-          node.classList.add("is-hovered");
-          edges.forEach(function (p) {
-            var ids = (p.getAttribute("data-nodes") || "").split(" ");
-            if (ids.indexOf(id) !== -1) {
-              p.classList.add("is-lit");
-              ids.forEach(function (oid) {
-                if (oid === id) return;
-                var other = root.querySelector('.hm-static-node[data-id="' + oid + '"]');
-                if (other) other.classList.add("is-neighbor");
-              });
-            }
-          });
-        });
-        node.addEventListener("mouseleave", clear);
+      return flat;
+    }
+    var frag = document.createDocumentFragment();
+    var optIndex = 0;
+    var groupClass = resultClass.replace(/__result$/, "__group");
+    var labelClass = resultClass.replace(/__result$/, "__group-label");
+    group(list).forEach(function (g) {
+      var section = document.createElement("div");
+      section.className = groupClass;
+      var label = document.createElement("span");
+      label.className = labelClass;
+      label.textContent = g.label + (g.items.length > 3 ? " · " + g.items.length : "");
+      section.appendChild(label);
+      g.items.forEach(function (item) {
+        section.appendChild(buildResultButton(item, q, resultClass, optIndex, onPick));
+        optIndex++;
       });
+      frag.appendChild(section);
     });
+    host.appendChild(frag);
+    return flat;
   }
 
-  function initRoot(root) {
-    var input =
-      $("[data-home-search-input]", root) ||
-      $("#home-search-q", root) ||
-      $("input[type='search']", root);
-    var results = $("[data-home-search-results]", root);
-    var panel = $("[data-home-search-panel]", root);
-    if (!input || !results || !panel) return;
+  /* —— Hero inline results (product surface) —— */
+  function initHero() {
+    var wrap = $("[data-home-search]");
+    var input = $("[data-home-search-input]");
+    if (!wrap || !input) return null;
+
+    var panel = $("[data-home-search-panel]", wrap);
+    var results = $("[data-home-search-results]", wrap);
+    if (!panel || !results) return null;
 
     var active = -1;
+    var flat = [];
     var open = false;
 
-    function getOpts() {
-      return results.querySelectorAll(".home-search__result");
+    function close() {
+      panel.hidden = true;
+      panel.setAttribute("hidden", "");
+      input.setAttribute("aria-expanded", "false");
+      results.innerHTML = "";
+      active = -1;
+      flat = [];
+      open = false;
+      if (!$("[data-search-overlay]") || $("[data-search-overlay]").hidden) {
+        document.body.classList.remove("is-search-open");
+      }
     }
 
-    function setActive(opts, idx) {
+    function setActive(idx) {
+      active = idx;
+      var opts = results.querySelectorAll(".home-search__result");
       for (var i = 0; i < opts.length; i++) {
         opts[i].classList.toggle("is-active", i === idx);
       }
+      if (opts[idx]) opts[idx].scrollIntoView({ block: "nearest" });
     }
 
-    function closePanel() {
-      open = false;
-      panel.hidden = true;
-      panel.setAttribute("hidden", "");
-      panel.classList.remove("is-open");
-      root.classList.remove("is-search-open");
-      results.innerHTML = "";
-      results.hidden = true;
-      input.setAttribute("aria-expanded", "false");
-      active = -1;
-      var empty = panel.querySelector("[data-home-search-empty]");
-      if (empty) empty.hidden = true;
-    }
-
-    function showEmpty(want) {
-      var el = panel.querySelector("[data-home-search-empty]");
-      if (!want) {
-        if (el) el.hidden = true;
-        return;
-      }
-      if (!el) {
-        el = document.createElement("p");
-        el.className = "home-search__empty";
-        el.setAttribute("data-home-search-empty", "");
-        el.textContent = EMPTY_MSG;
-        panel.appendChild(el);
-      }
-      el.hidden = false;
-      el.removeAttribute("hidden");
-    }
-
-    function render(list, q) {
-      results.innerHTML = "";
-      if (!list.length) {
-        results.hidden = true;
-        showEmpty(true);
-        return;
-      }
-      showEmpty(false);
-      results.hidden = false;
-      var frag = document.createDocumentFragment();
-      var optIndex = 0;
-      groupByKind(list).forEach(function (g) {
-        var section = document.createElement("div");
-        section.className = "home-search__group";
-        section.setAttribute("role", "group");
-        section.setAttribute("aria-label", kindLabel(g.kind));
-        var label = document.createElement("span");
-        label.className = "home-search__group-label";
-        label.textContent = kindLabel(g.kind);
-        section.appendChild(label);
-        g.items.forEach(function (item) {
-          section.appendChild(makeResult(item, optIndex++, q));
-        });
-        frag.appendChild(section);
-      });
-      results.appendChild(frag);
-    }
-
-    function sync() {
+    function render(list) {
       var q = (input.value || "").trim();
+      flat = renderGrouped(results, list, q, "home-search__result", function (item) {
+        close();
+        openEntityFromItem(item);
+      });
       active = -1;
-      dimMapNodes(q);
-
-      if (!q) {
-        closePanel();
+      if (!list.length && !q) {
+        close();
         return;
       }
-
-      var list = filter(q);
-      open = true;
       panel.hidden = false;
       panel.removeAttribute("hidden");
-      panel.classList.add("is-open");
-      root.classList.add("is-search-open");
       input.setAttribute("aria-expanded", "true");
-      render(list, q);
-      setActive(getOpts(), -1);
+      open = true;
+      document.body.classList.add("is-search-open");
     }
 
-    function focusSearch() {
-      loadIndex().then(function () {
-        try {
-          input.focus({ preventScroll: false });
-        } catch (e) {
-          input.focus();
-        }
-        if (input.value.trim()) sync();
-      });
-      try {
-        input.scrollIntoView({ behavior: "smooth", block: "center" });
-      } catch (e2) {}
-    }
-
-    function activateResult(a) {
-      if (!a || !a.href) return;
-      var href = a.href || "";
-      var map = window.MartialIndexMap;
-      if (map && typeof map.focus === "function") {
-        var m = href.match(/\/styles\/([^\/]+)\/?/);
-        var slug = m && m[1];
-        if (slug && map.hasNode && map.hasNode(slug)) {
-          closePanel();
-          map.focus(slug, (input.value || "").trim() || slug);
-          var field = document.getElementById("map");
-          if (field) {
-            try { field.scrollIntoView({ behavior: "smooth", block: "start" }); } catch (e) {}
-          }
-          return;
-        }
+    function update() {
+      var q = (input.value || "").trim();
+      if (!q) {
+        close();
+        return;
       }
-      window.location.href = href;
+      loadIndex().then(function () {
+        render(filter(q));
+      });
     }
 
-    input.setAttribute("role", "combobox");
-    input.setAttribute("aria-autocomplete", "list");
-    input.setAttribute("aria-expanded", "false");
-    input.setAttribute("aria-controls", results.id || "home-search-results");
-    if (!results.id) results.id = "home-search-results";
-    results.setAttribute("role", "listbox");
+    function focusField() {
+      try {
+        input.focus({ preventScroll: true });
+      } catch (e) {
+        input.focus();
+      }
+    }
 
-    closePanel();
-    loadIndex();
+    input.addEventListener("input", update);
 
-    input.addEventListener("input", function () {
-      loadIndex().then(sync);
-    });
-    input.addEventListener("search", function () {
-      loadIndex().then(sync);
+    /* Focus alone must NOT open suggestions / overlay — that was the stuck sidebar. */
+    input.addEventListener("focus", function () {
+      loadIndex();
     });
 
     input.addEventListener("keydown", function (e) {
-      var opts = getOpts();
+      var opts = results.querySelectorAll(".home-search__result");
       if (e.key === "Escape") {
         e.preventDefault();
-        input.value = "";
-        dimMapNodes("");
-        closePanel();
-        input.blur();
+        if (open) {
+          close();
+        } else {
+          input.blur();
+        }
         return;
       }
       if (e.key === "ArrowDown") {
         e.preventDefault();
         if (!opts.length) return;
-        active = (active + 1) % opts.length;
-        setActive(opts, active);
-        opts[active].focus();
+        setActive(active < 0 ? 0 : (active + 1) % opts.length);
         return;
       }
       if (e.key === "ArrowUp") {
         e.preventDefault();
         if (!opts.length) return;
-        if (active <= 0) {
-          active = -1;
-          setActive(opts, -1);
-          input.focus();
-          return;
-        }
-        active -= 1;
-        setActive(opts, active);
-        opts[active].focus();
+        setActive(active <= 0 ? opts.length - 1 : active - 1);
         return;
       }
       if (e.key === "Enter") {
-        if (!opts.length) return;
+        if (!flat.length) return;
         e.preventDefault();
-        if (active >= 0 && opts[active]) activateResult(opts[active]);
-        else activateResult(opts[0]);
+        var item = flat[active >= 0 ? active : 0];
+        close();
+        openEntityFromItem(item);
       }
     });
 
-    results.addEventListener("keydown", function (e) {
-      var opts = getOpts();
+    document.addEventListener("mousedown", function (e) {
+      if (!open) return;
+      if (wrap.contains(e.target)) return;
+      close();
+    });
+
+    return {
+      close: close,
+      update: update,
+      focus: focusField,
+      input: input,
+      isOpen: function () {
+        return open;
+      }
+    };
+  }
+
+  /* —— Overlay: intentional ⌘K / nav only; never empty-query suggestions —— */
+  function initOverlay(heroApi) {
+    var overlay = $("[data-search-overlay]");
+    if (!overlay) return null;
+    var input = $("[data-overlay-search-input]", overlay);
+    var results = $("[data-overlay-search-results]", overlay);
+    var active = -1;
+    var flat = [];
+
+    function close() {
+      overlay.hidden = true;
+      overlay.setAttribute("hidden", "");
+      document.body.classList.remove("is-search-open");
+      results.innerHTML = "";
+      active = -1;
+      flat = [];
+    }
+
+    function open(prefill) {
+      if (heroApi) heroApi.close();
+      overlay.hidden = false;
+      overlay.removeAttribute("hidden");
+      document.body.classList.add("is-search-open");
+      loadIndex().then(function () {
+        if (prefill != null) input.value = prefill;
+        else if (heroApi && heroApi.input && heroApi.input.value) input.value = heroApi.input.value;
+        else if (prefill === undefined && !input.value) {
+          /* keep existing */
+        }
+        var q = (input.value || "").trim();
+        /* Empty intentional open: clean panel — type to see results */
+        render(filter(q));
+        try {
+          input.focus({ preventScroll: true });
+        } catch (e) {
+          input.focus();
+        }
+        if (input.select && input.value) input.select();
+      });
+    }
+
+    function setActive(idx) {
+      active = idx;
+      var opts = results.querySelectorAll(".search-overlay__result");
+      for (var i = 0; i < opts.length; i++) {
+        opts[i].classList.toggle("is-active", i === idx);
+      }
+      if (opts[idx]) opts[idx].scrollIntoView({ block: "nearest" });
+    }
+
+    function render(list) {
+      var q = (input.value || "").trim();
+      flat = renderGrouped(results, list, q, "search-overlay__result", function (item) {
+        close();
+        openEntityFromItem(item);
+      });
+      active = -1;
+    }
+
+    input.addEventListener("input", function () {
+      loadIndex().then(function () {
+        render(filter(input.value));
+      });
+    });
+
+    input.addEventListener("keydown", function (e) {
+      var opts = results.querySelectorAll(".search-overlay__result");
+      if (e.key === "Escape") {
+        e.preventDefault();
+        close();
+        return;
+      }
       if (e.key === "ArrowDown") {
         e.preventDefault();
-        active = Math.min(active + 1, opts.length - 1);
-        setActive(opts, active);
-        if (opts[active]) opts[active].focus();
-      } else if (e.key === "ArrowUp") {
+        if (!opts.length) return;
+        setActive(active < 0 ? 0 : (active + 1) % opts.length);
+        return;
+      }
+      if (e.key === "ArrowUp") {
         e.preventDefault();
-        if (active <= 0) {
-          active = -1;
-          setActive(opts, -1);
-          input.focus();
-        } else {
-          active -= 1;
-          setActive(opts, active);
-          if (opts[active]) opts[active].focus();
-        }
-      } else if (e.key === "Escape") {
+        if (!opts.length) return;
+        setActive(active <= 0 ? opts.length - 1 : active - 1);
+        return;
+      }
+      if (e.key === "Enter") {
         e.preventDefault();
-        input.value = "";
-        dimMapNodes("");
-        closePanel();
-        input.focus();
-      } else if (e.key === "Enter" && active >= 0 && opts[active]) {
-        e.preventDefault();
-        activateResult(opts[active]);
+        if (!flat.length) return;
+        var item = flat[active >= 0 ? active : 0];
+        close();
+        openEntityFromItem(item);
       }
     });
 
-    document.addEventListener("click", function (e) {
-      if (!open) return;
-      if (root.contains(e.target)) return;
-      if (e.target.closest && e.target.closest("[data-nav-search]")) return;
-      closePanel();
+    overlay.querySelectorAll("[data-search-close]").forEach(function (btn) {
+      btn.addEventListener("click", close);
     });
+
+    return { open: open, close: close };
+  }
+
+  function boot() {
+    var heroApi = initHero();
+    var overlayApi = initOverlay(heroApi);
+
+    function openSearch(prefill) {
+      /* Prefer hero product surface when on home with hero field */
+      if (heroApi && document.body.classList.contains("is-home")) {
+        if (prefill != null && prefill !== "") {
+          heroApi.input.value = prefill;
+          heroApi.focus();
+          heroApi.update();
+          return;
+        }
+        heroApi.focus();
+        return;
+      }
+      if (overlayApi) overlayApi.open(prefill);
+    }
+
+    function closeAll() {
+      if (heroApi) heroApi.close();
+      if (overlayApi) overlayApi.close();
+    }
 
     document.querySelectorAll("[data-nav-search]").forEach(function (btn) {
       btn.addEventListener("click", function (e) {
         e.preventDefault();
-        focusSearch();
+        /* Intentional open: overlay with scrim (Esc/scrim closes). Empty = no suggestions. */
+        if (overlayApi) overlayApi.open("");
+        else openSearch();
       });
     });
 
-    root._homeSearch = {
-      focus: focusSearch,
-      close: closePanel,
-      input: input
-    };
-
-    if (window.location.hash === "#home-search-q" || window.location.hash === "#search") {
-      focusSearch();
-    }
-  }
-
-  function boot() {
-    document.querySelectorAll("[data-home-search]").forEach(initRoot);
-    initFieldHover();
+    document.querySelectorAll("[data-open-entity]").forEach(function (btn) {
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        closeAll();
+        var id = btn.getAttribute("data-open-entity");
+        if (window.MartialIndexEntity && window.MartialIndexEntity.canOpen && window.MartialIndexEntity.canOpen(id)) {
+          window.MartialIndexEntity.open(id);
+          return;
+        }
+        openEntityFromItem({
+          entityId: id,
+          title: btn.getAttribute("data-entity-title") || btn.textContent,
+          url: btn.getAttribute("data-entity-url") || "#",
+          cat: btn.getAttribute("data-entity-kind") || "term",
+          meta: btn.getAttribute("data-entity-kind") || ""
+        });
+      });
+    });
 
     document.addEventListener("keydown", function (e) {
       var tag = (e.target && e.target.tagName) || "";
@@ -450,19 +575,60 @@
         tag === "TEXTAREA" ||
         tag === "SELECT" ||
         (e.target && e.target.isContentEditable);
-      var root = document.querySelector("[data-home-search]");
-      var api = root && root._homeSearch;
-
       if ((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) {
         e.preventDefault();
-        if (api) api.focus();
+        if (overlayApi) overlayApi.open("");
+        else openSearch();
         return;
       }
       if (e.key === "/" && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
         e.preventDefault();
-        if (api) api.focus();
+        if (heroApi) {
+          heroApi.focus();
+        } else if (overlayApi) {
+          overlayApi.open("");
+        }
+        return;
+      }
+      if (e.key === "Escape") {
+        var ov = $("[data-search-overlay]");
+        if (ov && !ov.hidden) {
+          e.preventDefault();
+          if (overlayApi) overlayApi.close();
+          return;
+        }
+        if (heroApi && heroApi.isOpen()) {
+          e.preventDefault();
+          heroApi.close();
+          return;
+        }
+        if (document.body.classList.contains("is-entity-open")) {
+          if (window.MartialIndexEntity) window.MartialIndexEntity.close();
+        }
       }
     });
+
+    var hash = window.location.hash || "";
+    var m = hash.match(/^#entity\/([^\/\?]+)/);
+    if (m && m[1] === "closed-guard") {
+      loadIndex().then(function () {
+        if (window.MartialIndexEntity) window.MartialIndexEntity.open("closed-guard");
+      });
+    }
+
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("q")) {
+      openSearch(params.get("q"));
+    }
+
+    loadIndex();
+
+    window.MartialIndexSearch = {
+      open: openSearch,
+      close: closeAll,
+      select: openEntityFromItem,
+      openEntity: openEntityFromItem
+    };
   }
 
   if (document.readyState === "loading") {
@@ -471,4 +637,3 @@
     boot();
   }
 })();
-/* ia8 + ia15 map focus bridge */
