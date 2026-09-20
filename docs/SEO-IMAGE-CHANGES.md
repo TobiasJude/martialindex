@@ -27,3 +27,15 @@ Retain the existing GA integration in js/capture.js and existing domain verifica
 ## Validation against current main
 
 Rebased on 878835f5, preserving the latest Explore/Sessions navigation, new term pages, homepage hero, and post65 layout. Browser review confirmed the new Closed Guard image loads with srcset and the existing post65 filters on a 390px viewport. Original archive tone is preserved by conversion; the largest responsive variants total about 32% fewer bytes than the 192 originals (not a measured whole-page speed improvement).
+
+## Learning and QA update — 20 September 2026
+
+Homepage search now links directly to canonical full posts, including keyboard selection and ordinary browser link behavior. The catalog contains 956 searchable posts/guides and 967 canonical sitemap URLs. Removed unavailable Markdown links and repaired the missing neck-crank destination; local destination audit reports zero broken links across 968 index documents.
+
+Rebuilt the shared reading presentation across 923 term posts: clearer spacing and text measure, takeaways before hero videos where applicable, a route to beginner guides, sticky desktop contents, and full-pose illustration frames. Added four original beginner guides for BJJ, Muay Thai, wrestling and MMA, plus a homepage learning section. Corrected closed-guard definition and overgeneralized gi/no-gi claims, synchronized FAQ structured data, and clarified spider-guard language. This is targeted editorial repair, not an expert fact-check of every technique in the catalog.
+
+Seven generated illustrations passed independent visible anatomy/position review and root desktop/mobile crop review. Butterfly drafts did not meet technical clarity requirements and are withheld. Eighteen previously broken placements now use relevant reviewed illustrations; 167 unsupported broken image elements were removed rather than filled with unrelated art. Relevant existing archive imagery remains, with responsive delivery from the earlier pass. No missing local image sources remain. The warm monochrome theme is retained through the existing filter values.
+
+The repository skill `.agents/skills/martial-image-qa/SKILL.md` is the reusable visual reviewer. It records visible anatomical evidence, named-position accuracy, and crop decisions. `scripts/check_image_qa.py` verifies exact master/derivative hashes and approval status; GitHub's Content and image QA workflow runs that gate plus the image integrity check. It does not itself analyze pixels or replace expert review. Changed artwork requires a new visual review, not just updated hashes.
+
+Validation: image integrity and JSON-LD checks; all local link targets; changed-file and rejected-status negative checks for the QA gate; skill validation; JavaScript syntax; desktop 1280×1000 and mobile 390×844 visual checks; homepage Enter-to-Closed-Guard and click-to-Spider-Guard navigation. GA/GSC private performance reports were not accessed. No ranking gains are claimed. Existing analytics configuration retained.

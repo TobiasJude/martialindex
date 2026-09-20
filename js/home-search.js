@@ -4,18 +4,16 @@
   var MAX_RESULTS = 80;
   var index = null;
   var loadPromise = null;
+  var loadError = false;
 
   // Light enrichment when query clearly targets Closed Guard neighborhood
   var CG_RELATED = [
     { title: "Open Guard", url: "/terms/open-guard/", kind: "term", cat: "related", meta: "Position" },
     { title: "Half Guard", url: "/terms/half-guard/", kind: "term", cat: "related", meta: "Position" }
   ];
-  var CG_PEOPLE = [
-    { title: "Roger Gracie", url: "#", kind: "people", cat: "people", meta: "BJJ — Practitioner", entityId: "roger-gracie" }
-  ];
 
-  var CAT_ORDER = ["position", "technique", "style", "people", "related", "term"];
   var CAT_LABELS = {
+    guide: "Learning guides",
     position: "Positions",
     technique: "Techniques",
     related: "Related",
@@ -31,7 +29,8 @@
   function loadIndex() {
     if (index) return Promise.resolve(index);
     if (loadPromise) return loadPromise;
-    loadPromise = fetch("/data/search-index.json?v=ia41")
+    loadError = false;
+    loadPromise = fetch("/data/search-index.json?v=learning-20260920")
       .then(function (r) {
         if (!r.ok) throw new Error("index fetch failed");
         return r.json();
@@ -41,8 +40,9 @@
         return index;
       })
       .catch(function () {
-        index = [];
-        return index;
+        loadError = true;
+        loadPromise = null;
+        return [];
       });
     return loadPromise;
   }
@@ -71,12 +71,14 @@
 
   function classifyItem(item) {
     if (item.cat && CAT_LABELS[item.cat]) return item.cat;
+    if (item.kind === "guide") return "guide";
     if (item.kind === "style") return "style";
     if (item.kind === "people" || item.kind === "related") return item.kind;
     if (item.kind === "technique") return "technique";
     if (item.kind === "position") return "position";
     var t = (item.title || "").toLowerCase();
     var slug = (item.slug || "").toLowerCase();
+    if (/\b(pass|sweep|choke|escape|takedown|submission)\b/.test(t)) return "technique";
     var pos = [
       "guard",
       "mount",
@@ -159,7 +161,7 @@
     });
     if (wantsCg || q.indexOf("guard") !== -1) {
       push(CG_RELATED);
-      push(CG_PEOPLE);
+
     }
     return out;
   }
@@ -190,41 +192,15 @@
       if (!buckets[k]) buckets[k] = [];
       buckets[k].push(item);
     });
-    return CAT_ORDER.filter(function (k) {
+    return Object.keys(buckets).filter(function (k) {
       return buckets[k] && buckets[k].length;
     }).map(function (k) {
       return { kind: k, label: CAT_LABELS[k] || k, items: buckets[k] };
     });
   }
 
-  function slugFromUrl(url) {
-    var m = String(url || "").match(/\/(?:terms|styles)\/([^\/]+)\/?/);
-    return m ? m[1] : "";
-  }
-
   function openEntityFromItem(item) {
-    var id = item.entityId || slugFromUrl(item.url) || item.slug;
-    if (window.MartialIndexEntity && typeof window.MartialIndexEntity.canOpen === "function" && window.MartialIndexEntity.canOpen(id)) {
-      window.MartialIndexEntity.open(id);
-      return true;
-    }
-    if (window.MartialIndexEntity && typeof window.MartialIndexEntity.openStub === "function") {
-      window.MartialIndexEntity.openStub({
-        id: id || (item.title || "").toLowerCase().replace(/\s+/g, "-"),
-        title: item.title,
-        type:
-          item.cat === "style"
-            ? "Martial Art"
-            : item.cat === "people"
-              ? "Person"
-              : item.cat === "position"
-                ? "Position"
-                : "Technique",
-        art: item.meta || "",
-        url: item.url || null
-      });
-      return true;
-    }
+    // Search results lead to the complete, shareable article.
     if (item.url && item.url !== "#") {
       window.location.href = item.url;
       return true;
@@ -233,8 +209,10 @@
   }
 
   function buildResultButton(item, q, className, optIndex, onPick) {
-    var btn = document.createElement("button");
-    btn.type = "button";
+    var btn = document.createElement("a");
+    btn.href = item.url;
+    btn.id = className.replace(/_/g, "-") + "-" + optIndex;
+    btn.setAttribute("aria-selected", "false");
     btn.className = className;
     btn.setAttribute("role", "option");
     btn.setAttribute("data-opt-index", String(optIndex));
@@ -248,7 +226,9 @@
       '-meta">' +
       escapeHtml(item.meta || CAT_LABELS[item.cat] || "") +
       "</span>";
-    btn.addEventListener("click", function () {
+    btn.addEventListener("click", function (e) {
+      if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      e.preventDefault();
       onPick(item);
     });
     return btn;
@@ -256,7 +236,11 @@
 
   function renderGrouped(host, list, q, resultClass, onPick) {
     host.innerHTML = "";
-    var flat = list.slice();
+    var flat = [];
+    if (loadError) {
+      host.innerHTML = '<p role="status">Search could not load. Type again to retry, or <a href="/terms/">browse all terms</a>.</p>';
+      return flat;
+    }
     if (!list.length) {
       if ((q || "").trim()) {
         host.innerHTML =
@@ -278,6 +262,7 @@
       label.textContent = g.label + (g.items.length > 3 ? " · " + g.items.length : "");
       section.appendChild(label);
       g.items.forEach(function (item) {
+        flat.push(item);
         section.appendChild(buildResultButton(item, q, resultClass, optIndex, onPick));
         optIndex++;
       });
@@ -307,6 +292,7 @@
       input.setAttribute("aria-expanded", "false");
       results.innerHTML = "";
       active = -1;
+      input.removeAttribute("aria-activedescendant");
       flat = [];
       open = false;
       if (!$("[data-search-overlay]") || $("[data-search-overlay]").hidden) {
@@ -319,8 +305,12 @@
       var opts = results.querySelectorAll(".home-search__result");
       for (var i = 0; i < opts.length; i++) {
         opts[i].classList.toggle("is-active", i === idx);
+        opts[i].setAttribute("aria-selected", String(i === idx));
       }
-      if (opts[idx]) opts[idx].scrollIntoView({ block: "nearest" });
+      if (opts[idx]) {
+        input.setAttribute("aria-activedescendant", opts[idx].id);
+        opts[idx].scrollIntoView({ block: "nearest" });
+      }
     }
 
     function render(list) {
@@ -330,6 +320,7 @@
         openEntityFromItem(item);
       });
       active = -1;
+      input.removeAttribute("aria-activedescendant");
       if (!list.length && !q) {
         close();
         return;
@@ -348,6 +339,7 @@
         return;
       }
       loadIndex().then(function () {
+        if ((input.value || "").trim() !== q) return;
         render(filter(q));
       });
     }
@@ -424,22 +416,30 @@
     var results = $("[data-overlay-search-results]", overlay);
     var active = -1;
     var flat = [];
+    var previousFocus = null;
 
     function close() {
+      var wasOpen = !overlay.hidden;
       overlay.hidden = true;
+      input.setAttribute("aria-expanded", "false");
+      if (wasOpen && previousFocus && previousFocus.focus) previousFocus.focus();
       overlay.setAttribute("hidden", "");
       document.body.classList.remove("is-search-open");
       results.innerHTML = "";
       active = -1;
+      input.removeAttribute("aria-activedescendant");
       flat = [];
     }
 
     function open(prefill) {
+      previousFocus = document.activeElement;
+      input.setAttribute("aria-expanded", "true");
       if (heroApi) heroApi.close();
       overlay.hidden = false;
       overlay.removeAttribute("hidden");
       document.body.classList.add("is-search-open");
       loadIndex().then(function () {
+        if (overlay.hidden) return;
         if (prefill != null) input.value = prefill;
         else if (heroApi && heroApi.input && heroApi.input.value) input.value = heroApi.input.value;
         else if (prefill === undefined && !input.value) {
@@ -462,8 +462,12 @@
       var opts = results.querySelectorAll(".search-overlay__result");
       for (var i = 0; i < opts.length; i++) {
         opts[i].classList.toggle("is-active", i === idx);
+        opts[i].setAttribute("aria-selected", String(i === idx));
       }
-      if (opts[idx]) opts[idx].scrollIntoView({ block: "nearest" });
+      if (opts[idx]) {
+        input.setAttribute("aria-activedescendant", opts[idx].id);
+        opts[idx].scrollIntoView({ block: "nearest" });
+      }
     }
 
     function render(list) {
@@ -473,11 +477,12 @@
         openEntityFromItem(item);
       });
       active = -1;
+      input.removeAttribute("aria-activedescendant");
     }
 
     input.addEventListener("input", function () {
       loadIndex().then(function () {
-        render(filter(input.value));
+        if (!overlay.hidden) render(filter(input.value));
       });
     });
 
@@ -554,14 +559,10 @@
         e.preventDefault();
         closeAll();
         var id = btn.getAttribute("data-open-entity");
-        if (window.MartialIndexEntity && window.MartialIndexEntity.canOpen && window.MartialIndexEntity.canOpen(id)) {
-          window.MartialIndexEntity.open(id);
-          return;
-        }
         openEntityFromItem({
           entityId: id,
           title: btn.getAttribute("data-entity-title") || btn.textContent,
-          url: btn.getAttribute("data-entity-url") || "#",
+          url: btn.getAttribute("href") || btn.getAttribute("data-entity-url") || ("/terms/" + id + "/"),
           cat: btn.getAttribute("data-entity-kind") || "term",
           meta: btn.getAttribute("data-entity-kind") || ""
         });

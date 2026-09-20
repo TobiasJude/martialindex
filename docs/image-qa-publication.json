@@ -1,0 +1,289 @@
+{
+  "reviewed_at": "2026-09-20",
+  "reviewer": "Independent visual QA agent",
+  "records": [
+    {
+      "slug": "closed-guard",
+      "file": "media/illustrations/closed-guard.png",
+      "sha256": "45a08a04025e48c65037633050d5238cc725d12b73358350723eb5963fc0d6a2",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "The bottom player\u2019s hips connect to two thighs wrapping the partner; two feet overlap behind the waist. Knee, ankle and head directions are plausible. Sleeve contact naturally hides portions of hands.",
+        "Crossed ankles behind the waist and the partner kneeling inside the legs support the closed-guard label. This is a position illustration, not a complete grip tutorial."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/closed-guard-1200.webp",
+          "sha256": "0636120899ec1cb640a8372db134ad6d2684ae9424f385571a00383ec052911a",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/closed-guard-1536.webp",
+          "sha256": "84ac9f172b3712efef45a18b7aa92176e2e0cc84fb88160e9f4838f63e1b7238",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/closed-guard-480.webp",
+          "sha256": "19cc7c480407132e11a5801e5b850fecf7b7c0caa364237055a942e73e3b96a8",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/closed-guard-768.webp",
+          "sha256": "43fe18267573fab36f7ceeea760520abf5e05eb89afa191d770bb3f3333e2961",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "high-guard",
+      "file": "media/illustrations/high-guard.png",
+      "sha256": "96930e6490499bf56aa8b8c5f7745b3a61abab786c33a11d717546ade996b78b",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "The bottom athlete\u2019s legs rise from the hips and close behind the upper torso. Crossed ankles remain distinguishable. The top athlete\u2019s near knee and both rear feet have plausible joint directions; overlapping toes are ordinary occlusion.",
+        "The knees and crossed legs sit visibly higher than a waist-level closed guard, near shoulders/upper back. The image supports a high-guard position overview."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/high-guard-1200.webp",
+          "sha256": "556aed2f0a1c861a30e506cc970131f1205e0b9572e92f1593dcfbddbeaac035",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/high-guard-1536.webp",
+          "sha256": "1461a2bc06977635932f465f61064114c93a5e170f27eb91af383a1490c353e3",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/high-guard-480.webp",
+          "sha256": "ab84b3bc389725d83ae095719a5819f04e67a6c695261da75133e10e4a514204",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/high-guard-768.webp",
+          "sha256": "27a42786be35d4869a7f76baa0dcbc051a348adc907f23bebf630bf2b9f351d1",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "knee-on-belly",
+      "file": "media/illustrations/knee-on-belly.png",
+      "sha256": "300ccaf1ff4438bcbca21654ed6b1ba901d6fe3c039eddf1f99010819432cc76",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "One athlete lies supine with two bent legs. The top athlete has one flexed knee contacting the abdomen and the other leg extended to a planted foot. Hands and forearms have distinguishable ownership. The loaded leg\u2019s lower portion is occluded, without visible contradiction.",
+        "One knee/shin on the abdomen and an outstretched supporting leg identify the position. The still image cannot establish pressure or safe loading."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/knee-on-belly-1200.webp",
+          "sha256": "bb68117d8f3bef4d2898192a2d795a98d45652efc8cf515b19962aa6c87fbf2e",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/knee-on-belly-1536.webp",
+          "sha256": "583b988ebbc1b392409b239772d0358b70cc5aca63b9631564cdeb338cff6de0",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/knee-on-belly-480.webp",
+          "sha256": "b734ff37eca8900bd684e256a344949d356d4e2f3722fa08dbad4f589927d857",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/knee-on-belly-768.webp",
+          "sha256": "b4e8814b5732b61f0e91008978495d4ec56bb680088d3054045a0bb94e3b44d8",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "open-guard",
+      "file": "media/illustrations/open-guard.png",
+      "sha256": "c6d44313cc731a07ad2ba244eab9f9da660a1630d42c1e1680ab05090fd83432",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "The bottom athlete has one flexed leg and one leg extending to the hip. The legs are separate; ankles do not merge. The kneeling partner has coherent knees and feet. Sleeve grips hide finger detail without a visible anomaly.",
+        "Uncrossed legs with a foot on the hip support a generic open-guard example. It should not be presented as the only form of open guard or a fully specified named sub-guard."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/open-guard-1200.webp",
+          "sha256": "15a8cab1367fc6fceee6b86d369475d9a25a20a747f159b1503962ec7ff3b62f",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/open-guard-1536.webp",
+          "sha256": "b49d40974b143338867fdb46da70831e23a77442b5beae1810606eaa6f1dc5bf",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/open-guard-480.webp",
+          "sha256": "3e0c1272a661601aa557a472f55943fff7b134b80565379d66349cec47b824d9",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/open-guard-768.webp",
+          "sha256": "0ffc73222d01b7d3a437def8e173dcc998655a435367fa953ef8d33b3e9229e2",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "scissor-sweep",
+      "file": "media/illustrations/scissor-sweep.png",
+      "sha256": "dd502f519bc6d1c55322e548bd5705597415d8e0273348821a3be669e5568c59",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "The bottom athlete is rotated onto a hip, with one bent upper leg and a separate extended lower leg along the mat. The near lower foot and partner\u2019s rear foot belong to distinct legs. Arms reach collar and sleeve coherently.",
+        "The image shows a plausible preparation position: collar/sleeve control, upper shin across the partner and lower leg near the kneeling base. It does not show the completed sweep or demonstrate dynamic off-balancing. Caption as a setup illustration."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/scissor-sweep-1200.webp",
+          "sha256": "a25d78abc24ba71fc6aabd032d4b1b76e1721f39feed2dae9ac2a52c2d7aa1cd",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/scissor-sweep-1536.webp",
+          "sha256": "5b8aba7ab54f53b5f44af8340312101b8acf7bf3ffde62092344791f3a481df5",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/scissor-sweep-480.webp",
+          "sha256": "cb4b2705b7e99884a92428a02e41521f1880e884d9d60c14732d07d50a9cf0af",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/scissor-sweep-768.webp",
+          "sha256": "e34485307d59a8ac1b31c5d3458a92c0446e247d43011d547e42c54becec5fc9",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "spider-guard",
+      "file": "media/illustrations/spider-guard.png",
+      "sha256": "b46a6c706a222bfc7b2913ae352d43bedd3e54a1a6db53e95d4525fdbf6e9acb",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "Both athletes have separately traceable shoulders, arms, hips, legs and feet. The bottom player\u2019s two feet contact separate arms; no limb appears duplicated or disconnected. Small grip details are obscured by cloth.",
+        "Two sleeve controls with feet contacting the upper arms support spider guard. The image is a positional overview, not evidence that grip depth, force or balance are optimal."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/spider-guard-1200.webp",
+          "sha256": "1e6037f2a0ff1f4e88a1b8895bf240b0ecb4ef1af21ba3bfd490457e82bb3905",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/spider-guard-1536.webp",
+          "sha256": "4e5e081a184b91f05ce92dd7ee2e92bb4d1cee729d9458fc02c577800cd8d2b6",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/spider-guard-480.webp",
+          "sha256": "7edc2f5c6f83ea52329ba8abef11de82449c83e3cd9142bbf48c8992c83dd530",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/spider-guard-768.webp",
+          "sha256": "d4e30040099d1be656b584eb1d98e20d9068915d7ac3e9e31c887c95f6ffa81a",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "collar-sleeve-guard",
+      "revision": 2,
+      "file": "media/illustrations/collar-sleeve-guard.png",
+      "sha256": "2e5fe5cc4df021ad43653ab0b002113b205de56b3004ea71dcfe898f48df4790",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "Two distinct athletes have coherent limb ownership and plausible visible joints, hands and feet.",
+        "The revised raised foot now visibly contacts the upper arm above the elbow. A separate foot contacts the hip, one hand grips the collar and the other controls the sleeve. These landmarks support the named guard."
+      ],
+      "crop_observation": "Inspected actual page at 1280\u00d71000 and 390\u00d7844: full pose visible, no defining limbs clipped, leg/hand contact retained, existing warm monochrome CSS treatment applied. Closed guard entity hero also inspected.",
+      "regeneration_prompt": null,
+      "variants": [
+        {
+          "file": "media/illustrations/collar-sleeve-guard-1200.webp",
+          "sha256": "0dbc4301ebca4147a91cee6ff2815ae39d22b26ac801fd75645fa855e1291879",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/collar-sleeve-guard-1536.webp",
+          "sha256": "091fcbefe9f446db5ad8fbd16f008a01f421a7ecbb26aaf780d2a5ec679f0095",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/collar-sleeve-guard-480.webp",
+          "sha256": "241a51001e725c83f802b0454f2c82eab763b4791b5736e790a0a1888baed054",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        },
+        {
+          "file": "media/illustrations/collar-sleeve-guard-768.webp",
+          "sha256": "78994e5d7e5ef770e63a5e082153994309fcd9b9d73abfdddc49fdeaac0747f0",
+          "visual_review": "Not separately inspected; delivery-size derivative hash only. Render review pending."
+        }
+      ],
+      "crop_reviewer": "Root visual review of actual destination pages"
+    }
+  ],
+  "reference_scope": "Independent vision inspection of the original PNG masters. Anatomy decisions cover visible structure and ordinary plausible occlusion; they do not certify hidden anatomy or safe execution. Technique decisions identify depicted positions, not optimal pressure, grip force or execution. Actual browser render checks remain pending with root.",
+  "references": [
+    {
+      "url": "https://bjjfanatics.com/blogs/news/counter-the-butterfly-guard",
+      "use": "Butterfly hook placement and inside-thigh control"
+    },
+    {
+      "url": "https://bjjfanatics.com/blogs/news/butterfly-guard-isnt-just-for-sweeps-anymore",
+      "use": "Instep connection in butterfly guard"
+    },
+    {
+      "url": "https://bjjfanatics.com/blogs/news/jiu-jitsu-moves",
+      "use": "Scissor sweep collar/sleeve and knee-shield setup"
+    }
+  ],
+  "scope": "Independent master anatomy and technique review plus root desktop/mobile rendered-page review. Visible plausibility and named-position identification; not expert certification or a complete technique tutorial."
+}
