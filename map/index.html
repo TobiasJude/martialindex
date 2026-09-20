@@ -3,28 +3,82 @@
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>The map — Martial Index</title>
- <meta name="description" content="Relationship map of martial arts — grappling, striking, mixed, and lineage links across the field.">
- <link rel="canonical" href="https://martialindex.com/#map">
- <meta http-equiv="refresh" content="0; url=/#map">
+ <title>The Map — Martial Index</title>
+ <meta name="description" content="Neighborhood map of martial arts entities — focus Closed Guard and explore what connects.">
+ <link rel="canonical" href="https://martialindex.com/map/">
  <meta property="og:type" content="website">
  <meta property="og:site_name" content="Martial Index">
- <meta property="og:title" content="The map — Martial Index">
- <meta property="og:description" content="Relationship map of martial arts on the Martial Index home page.">
- <meta property="og:url" content="https://martialindex.com/#map">
+ <meta property="og:title" content="The Map — Martial Index">
+ <meta property="og:description" content="Neighborhood map of martial arts entities.">
+ <meta property="og:url" content="https://martialindex.com/map/">
  <meta property="og:image" content="https://martialindex.com/og/home.jpg">
  <meta name="twitter:card" content="summary_large_image">
- <meta name="twitter:title" content="The map — Martial Index">
- <meta name="twitter:description" content="Relationship map of martial arts on the Martial Index home page.">
- <meta name="twitter:image" content="https://martialindex.com/og/home.jpg">
  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
  <link rel="icon" href="/favicon.ico" sizes="any">
  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- <script>location.replace("/#map");</script>
+ <link rel="stylesheet" href="/css/app-shell.css?v=ia38">
+ <link rel="stylesheet" href="/css/map-ia34.css?v=ia38">
 </head>
-<body>
- <p style="font-family:system-ui,sans-serif;padding:2rem;max-width:36rem">
-  The map lives on the home page. <a href="/#map">Continue to the field map</a>.
- </p>
+<body class="is-map">
+ <a class="skip-link" href="#main">Skip to content</a>
+ <header class="site-header">
+  <div class="header-inner">
+   <a class="wordmark" href="/">
+    <span class="wordmark-title">Martial Index</span>
+    <span class="wordmark-short">MI</span>
+   </a>
+   <div class="nav-cluster">
+    <nav class="site-nav" aria-label="Primary">
+     <a href="/styles/">Explore</a>
+     <a href="/sessions/">Sessions</a>
+    </nav>
+    <a class="nav-search-btn" href="/#search" aria-label="Search Martial Index" title="Search">
+     <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="6.5"/><path d="M16.2 16.2 21 21"/></svg>
+    </a>
+   </div>
+  </div>
+ </header>
+ <nav class="bottom-nav" aria-label="Mobile">
+  <a href="/styles/">Explore</a>
+  <a href="/sessions/">Sessions</a>
+  <a href="/">Search</a>
+  <a href="/about/">About</a>
+ </nav>
+
+ <main id="main" class="map-os">
+  <aside class="map-os__side">
+   <h1 class="map-os__title">The Map</h1>
+   <p class="map-os__dek">A neighborhood view around one entity — not the whole Field photo atlas.</p>
+   <fieldset class="map-os__focus">
+    <legend>Focus</legend>
+    <label><input type="radio" name="focus" value="all" checked> All</label>
+    <label><input type="radio" name="focus" value="technique"> Techniques</label>
+    <label><input type="radio" name="focus" value="position"> Positions</label>
+    <label><input type="radio" name="focus" value="art"> Styles</label>
+    <label><input type="radio" name="focus" value="people" disabled> People</label>
+    <label><input type="radio" name="focus" value="lineages" disabled> Lineages</label>
+   </fieldset>
+   <div class="map-os__zoom">
+    <label for="map-zoom">Zoom</label>
+    <input id="map-zoom" type="range" min="70" max="180" value="100">
+    <button type="button" data-map-reset>Reset</button>
+   </div>
+   <p class="map-os__entity"><a href="/#entity/closed-guard">Closed Guard</a> · BJJ position</p>
+  </aside>
+  <section class="map-os__stage" aria-label="Neighborhood graph">
+   <div class="map-graph" data-map-graph></div>
+   <div class="map-os__tools">
+    <button type="button" data-map-zoom-out aria-label="Zoom out">−</button>
+    <button type="button" data-map-zoom-in aria-label="Zoom in">+</button>
+   </div>
+  </section>
+ </main>
+
+ <footer class="site-footer site-footer--thin">
+  <div class="footer-thin-inner">
+   <p><a href="/">Martial Index</a> · Neighborhood map · <a href="/sessions/">Sessions</a></p>
+  </div>
+ </footer>
+ <script src="/js/map-neighborhood.js?v=ia38" defer></script>
 </body>
 </html>
