@@ -3,6 +3,9 @@
 # Footer Explore: Grappling/Wrestling/Striking/Mixed/Weapons. Brand Martial Index; email-only Join.
 # chrome65 (2026-09-20): sitewide footer+nav sync ONLY — keep app.css nav/footer; do not port homepage hero onto terms.
 # post66 (2026-09-20): CG template restore — unlink term-post65 homepage port (stipple/feather/crop/corner plate).
+# post66b (2026-09-20): wire closed-guard-posture-break into #teach-posture session-plate;
+# include media/illustrations/closed-guard-posture-break*.{png,webp}; HTML ?v=post66b.
+# Angle beat still awaiting Images. Keep chrome65 nav/footer. No homepage corner plate.
 # CG: terms/closed-guard/index.html (no body.post65; no term-post65.css) + css/entity.css?v=post66
 #   + js/entity-shell.js?v=post66 (omitPlate on static terms) + session teach plates in-flow.
 # css/term-post65.css retired stub (kept for old cache URLs). Exclude trybrst. No push/PR — Launch ships.
@@ -996,3 +999,10 @@ terms/zenkutsu-dachi/index.html
 ## Generator (not served; future term renders)
 _gen/chrome.py
 _gen/render.py
+
+## post66b plates
+media/illustrations/closed-guard-posture-break.png
+media/illustrations/closed-guard-posture-break-480.webp
+media/illustrations/closed-guard-posture-break-768.webp
+media/illustrations/closed-guard-posture-break-1200.webp
+media/illustrations/closed-guard-posture-break-1536.webp
