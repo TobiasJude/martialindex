@@ -15,7 +15,13 @@
 # Do not start ngrok from this pass.
 # Nav remains Explore·Sessions only (no Map/Paths). map/ thin footer skipped.
 
-## Core (homepage ia65 + chrome65 shell + CG SEO term)
+# ia66b (2026-09-21) calm drift-only: Homepage ONLY pre-footer band (home-prefoot) ABOVE chrome65 site-footer.
+# Engraving landscape + upper sky UI grid; calm drift/pan; prefers-reduced-motion static.
+# Does NOT replace/restyle site-footer Join/Explore. Brand Martial Index alone (no Catalog tagline).
+# Art: media/home/prefoot-engrave.svg (original Site Builder ink/paper SVG). CSS in home-ia65.css ?v=ia66b.
+# Files: index.html, css/home-ia65.css, media/home/prefoot-engrave.svg (+ app-shell/entity cache bump on home).
+
+## Core (homepage ia65 + chrome65 shell + CG SEO term + ia66 home-prefoot)
 index.html
 404.html
 css/app.css
@@ -23,6 +29,7 @@ css/app-shell.css
 css/home.css
 css/home-critical.css
 css/home-ia65.css
+media/home/prefoot-engrave.svg
 css/entity.css
 css/term-post65.css
 css/read-progress.css

@@ -712,3 +712,190 @@ body.is-home .site-footer .capture-form__status{color:rgba(243,240,232,.78)}
   font-size:.62rem;font-weight:650;letter-spacing:.14em;text-transform:uppercase;
   color:#8A8A8A;
 }
+
+/* ============================================================
+   ia66 — Homepage pre-footer band (home-prefoot)
+   Calm engraving landscape ABOVE chrome65 site-footer.
+   Does NOT replace Join/Explore footer. Ink/paper MI language.
+   ============================================================ */
+.home-prefoot{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:#F3F0E8;
+  color:#1C1917;
+  border-top:1px solid rgba(28,25,23,.12);
+  min-height:clamp(22rem,48vh,32rem);
+  font-family:"Inter",system-ui,sans-serif;
+}
+.home-prefoot__art{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  overflow:hidden;
+}
+.home-prefoot__art-pan{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+}
+.home-prefoot__engrave{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 28%;
+  filter:contrast(1.04) sepia(.12) brightness(.98);
+}
+.home-prefoot__drift{
+  position:absolute;
+  top:62%;
+  left:6%;
+  z-index:1;
+  animation:home-prefoot-drift 42s linear infinite;
+  opacity:.7;
+}
+.home-prefoot__banner{
+  display:block;
+  filter:drop-shadow(0 1px 0 rgba(243,240,232,.4));
+}
+.home-prefoot__inner{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(9rem,1.1fr) repeat(3,minmax(0,1fr));
+  gap:clamp(1.25rem,3vw,2.75rem);
+  align-items:start;
+  max-width:72rem;
+  margin:0 auto;
+  padding:clamp(2rem,4.5vw,3.25rem) clamp(1.25rem,4vw,2.5rem) clamp(7.5rem,18vh,12rem);
+}
+.home-prefoot__brand{
+  display:flex;
+  flex-direction:column;
+  gap:1.1rem;
+  min-width:0;
+}
+.home-prefoot__wordmark{
+  font-size:.72rem;
+  font-weight:650;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#0A0A0A;
+  text-decoration:none;
+  line-height:1.2;
+}
+.home-prefoot__wordmark:hover{opacity:.72}
+.home-prefoot__social{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:.65rem;
+}
+.home-prefoot__social a{
+  display:inline-flex;
+  width:1.35rem;
+  height:1.35rem;
+  color:#1C1917;
+  opacity:.78;
+}
+.home-prefoot__social a:hover{opacity:1}
+.home-prefoot__social svg{width:100%;height:100%;fill:currentColor}
+.home-prefoot__col{
+  min-width:0;
+}
+.home-prefoot__title{
+  margin:0 0 .85rem;
+  font-size:.68rem;
+  font-weight:650;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#0A0A0A;
+}
+.home-prefoot__col ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  gap:.45rem;
+}
+.home-prefoot__col a{
+  color:#2A2420;
+  text-decoration:none;
+  font-size:.88rem;
+  font-weight:450;
+  letter-spacing:.01em;
+  line-height:1.35;
+  opacity:.88;
+}
+.home-prefoot__col a:hover{
+  opacity:1;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.home-prefoot__join{
+  font-weight:550;
+}
+
+@keyframes home-prefoot-pan{
+  from{transform:translate3d(0,0,0) scale(1.02)}
+  to{transform:translate3d(-2.2%,0.6%,0) scale(1.04)}
+}
+@keyframes home-prefoot-drift{
+  0%{transform:translate3d(0,0,0) rotate(-2deg)}
+  50%{transform:translate3d(42vw,1.2rem,0) rotate(3deg)}
+  100%{transform:translate3d(78vw,-.4rem,0) rotate(-1deg)}
+}
+
+@media (max-width:900px){
+  .home-prefoot{min-height:clamp(24rem,56vh,34rem)}
+  .home-prefoot__inner{
+    grid-template-columns:minmax(7rem,.9fr) repeat(3,minmax(7.5rem,1fr));
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scrollbar-width:thin;
+    padding-bottom:clamp(8rem,22vh,13rem);
+    -webkit-overflow-scrolling:touch;
+  }
+  .home-prefoot__col{min-width:7.5rem}
+  .home-prefoot__drift{top:42%}
+}
+
+@media (max-width:640px){
+  .home-prefoot__inner{
+    grid-template-columns:1fr 1fr;
+    gap:1.5rem 1.25rem;
+    overflow-x:visible;
+    padding:1.75rem 1.15rem clamp(9rem,28vh,14rem);
+  }
+  .home-prefoot__brand{
+    grid-column:1 / -1;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+  }
+  .home-prefoot__social{
+    flex-direction:row;
+    gap:.75rem;
+  }
+  .home-prefoot__engrave{object-position:center 40%}
+  .home-prefoot__drift{opacity:.55;top:48%}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .home-prefoot__art-pan,
+  .home-prefoot__drift{
+    animation:none !important;
+  }
+  .home-prefoot__art-pan{transform:none}
+  .home-prefoot__drift{left:18%;transform:none}
+}
+
+/* Keep prefoot visible when entity open? hide with hush — match footer hide */
+body.is-home.is-entity-open .home-prefoot{display:none!important}
