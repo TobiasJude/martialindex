@@ -257,8 +257,10 @@ body.is-home .wordmark-title {
   padding: 0 0 calc(3.5rem + env(safe-area-inset-bottom, 0px));
   overflow: hidden;
   background-color: #121212;
-  background-image: url("../media/textures/grain.svg");
-  background-size: 160px 160px;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(243, 240, 232, 0.055) 0 1px, transparent 1px 36px),
+    repeating-linear-gradient(90deg, rgba(243, 240, 232, 0.055) 0 1px, transparent 1px 36px);
+  background-size: 36px 36px;
   border-top: none;
   color: rgba(243, 240, 232, 0.94);
   isolation: isolate;
@@ -343,7 +345,7 @@ body.is-home .site-footer {
 }
 
 .footer-inner--index {
-  grid-template-columns: minmax(14rem, 1.5fr) repeat(2, minmax(0, 0.9fr));
+  grid-template-columns: minmax(13rem, 1.35fr) repeat(2, minmax(0, 0.8fr)) minmax(12rem, 1.05fr);
 }
 
 .footer-legal {
@@ -404,6 +406,16 @@ body.is-home .site-footer {
   display: flex;
   flex-direction: column;
   gap: 0.42rem;
+}
+
+.footer-join__title {
+  margin: 0 0 0.75rem;
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
 }
 
 .footer-join__dek {
@@ -500,7 +512,8 @@ body.is-home .site-footer {
 }
 
 .site-footer .footer-brand,
-.site-footer .footer-col__title {
+.site-footer .footer-col__title,
+.site-footer .footer-join__title {
   color: #F3F0E8;
 }
 
@@ -588,10 +601,10 @@ html {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: saturate(1.15) blur(14px);
-  -webkit-backdrop-filter: saturate(1.15) blur(14px);
-  border-bottom: 1px solid var(--rule);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: saturate(1.05) blur(10px);
+  -webkit-backdrop-filter: saturate(1.05) blur(10px);
+  border-bottom: 1px solid rgba(10, 10, 10, 0.1);
 }
 
 .header-inner {
@@ -618,11 +631,12 @@ html {
 }
 
 .wordmark-title {
-  font-family: var(--serif);
+  font-family: "Inter", system-ui, sans-serif;
   font-weight: 650;
-  font-size: clamp(1.45rem, 2.4vw, 2.05rem);
-  letter-spacing: -0.04em;
-  line-height: 0.95;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1;
   white-space: nowrap;
 }
 
