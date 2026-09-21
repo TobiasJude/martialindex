@@ -1,5 +1,5 @@
 {
-  "reviewed_at": "2026-09-20",
+  "reviewed_at": "2026-09-21",
   "reviewer": "Independent visual QA agent",
   "records": [
     {
@@ -268,6 +268,98 @@
         }
       ],
       "crop_reviewer": "Root visual review of actual destination pages"
+    },
+    {
+      "slug": "closed-guard-angle",
+      "file": "media/illustrations/closed-guard-angle.png",
+      "sha256": "564150b5c15e5483bc1bb6a8dd7f75bf6beeafbaeee177a84410083316f80e57",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "Two people have coherent visible heads, necks, torsos, arms and near legs. No definite extra or detached limb is visible; the top player\u2019s far leg and some grip details are occluded.",
+        "The bottom athlete lies somewhat on one side and has separated feet at different heights. The limited label accurately identifies an open guard transitional position, explicitly distinguishing it from maintained closed guard.",
+        "The transition is a conceptual description of this configuration. The image does not establish movement or a before/after change."
+      ],
+      "regeneration_prompt": null,
+      "crop_observation": "Root inspected the actual Closed Guard session step at desktop 1280x720 and mobile 390x844. Both figures remain within the image frame; visible collar contact / separated ankles are preserved and the limiting caption is readable. Existing image treatment retained.",
+      "anatomy_scope": "Pass means no clear defect in visible anatomy. It does not certify hidden limbs, safe technique or expert correctness.",
+      "approved_label": "Illustration of a guard transition with the bottom player turned onto one side and ankles separated. This shows an open transition, not a maintained closed-guard lock.",
+      "approval_conditions": [
+        "Use the approved limited description, or wording with the same limits. Do not describe either image as showing crossed ankles or maintained closed guard.",
+        "Do not claim the still proves movement, pulling force, a completed technique or safe execution.",
+        "Root must inspect actual destination crops before publication approval."
+      ],
+      "variants": [
+        {
+          "file": "media/illustrations/closed-guard-angle-1200.webp",
+          "sha256": "4be0990f795b0a86e99920438b05ac21b43461882481733970bf6471189cd772",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-angle-1536.webp",
+          "sha256": "4d5e96b4560018e9b488e70c607302cc71ea6b68e8d18e6be0a816686c545fdf",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-angle-480.webp",
+          "sha256": "2e3bbb1f3adbbd01176c92eea9fbb5387d1d5c026cca6d4b6200c057118a8d15",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-angle-768.webp",
+          "sha256": "5bed46fd8aaf5288a8d716c1ede019b9bb81e9eba5300382cfbf75283febdb34",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        }
+      ],
+      "reviewed_at": "2026-09-21"
+    },
+    {
+      "slug": "closed-guard-posture-break",
+      "file": "media/illustrations/closed-guard-posture-break.png",
+      "sha256": "e6a03d3b383bbae5b477adb7b01c9600ef0dcffb590f5faf4648e2c7f7e7adb1",
+      "anatomy_status": "pass",
+      "technique_status": "pass",
+      "crop_status": "pass",
+      "overall_decision": "pass",
+      "observations": [
+        "Two distinct athletes have coherent visible heads, torsos and arms, with plausible visible knee/shin/foot continuity. No definite extra limb is visible.",
+        "The bottom athlete controls the collar/upper garment while the kneeling athlete leans forward. The limited description accurately identifies these visible features.",
+        "The complete ankle connection cannot be seen. The proposed label explicitly avoids claiming the closed-guard lock and does not claim a demonstrated pulling motion."
+      ],
+      "regeneration_prompt": null,
+      "crop_observation": "Root inspected the actual Closed Guard session step at desktop 1280x720 and mobile 390x844. Both figures remain within the image frame; visible collar contact / separated ankles are preserved and the limiting caption is readable. Existing image treatment retained.",
+      "anatomy_scope": "Pass means no clear defect in visible anatomy. It does not certify hidden limbs, safe technique or expert correctness.",
+      "approved_label": "Illustration of collar control with the kneeling partner leaning forward. The ankle connection is obscured, so this image does not demonstrate the closed-guard lock.",
+      "approval_conditions": [
+        "Use the approved limited description, or wording with the same limits. Do not describe either image as showing crossed ankles or maintained closed guard.",
+        "Do not claim the still proves movement, pulling force, a completed technique or safe execution.",
+        "Root must inspect actual destination crops before publication approval."
+      ],
+      "variants": [
+        {
+          "file": "media/illustrations/closed-guard-posture-break-1200.webp",
+          "sha256": "d09597c305200b23f95510af433ab867610ed24d75e2ede609913163a7de71c4",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-posture-break-1536.webp",
+          "sha256": "dd1ab4d63a37a27a720c4b4d1adb0809b9ed87613ae3ffc6656795cdb5d2fd76",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-posture-break-480.webp",
+          "sha256": "98e2b9484607b3a384e964b3b57c750f3bbb9fe942ad00b2d0867814bf09a7af",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        },
+        {
+          "file": "media/illustrations/closed-guard-posture-break-768.webp",
+          "sha256": "ffca12be5736d61a1e45c7235a3880c06bac9aa6f213d30b625643cfe43d2256",
+          "visual_review": "Delivery derivative; actual desktop and mobile page rendering inspected."
+        }
+      ],
+      "reviewed_at": "2026-09-21"
     }
   ],
   "reference_scope": "Independent vision inspection of the original PNG masters. Anatomy decisions cover visible structure and ordinary plausible occlusion; they do not certify hidden anatomy or safe execution. Technique decisions identify depicted positions, not optimal pressure, grip force or execution. Actual browser render checks remain pending with root.",
