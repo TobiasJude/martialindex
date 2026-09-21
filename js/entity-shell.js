@@ -342,7 +342,9 @@
       escapeHtml(data.definition || "") +
       "</p>";
     html += "</div>";
-    if (data.image) {
+    // Term/blog pages: keep images in article media-frame / session-plate flow.
+    // Home entity panel may still show a plate (opts.home). Omit corner float on static terms.
+    if (data.image && !opts.omitPlate) {
       html +=
         '<figure class="entity-os__plate"><img src="' +
         escapeHtml(data.image) +
@@ -637,7 +639,7 @@
             if ($("[data-lens-panel]", shell)) {
               fillPanels(shell, data);
             } else {
-              shell.innerHTML = buildShellHTML(data, { home: false });
+              shell.innerHTML = buildShellHTML(data, { home: false, omitPlate: true });
               fillPanels($(".entity-os", shell) || shell, data);
             }
           }
@@ -658,8 +660,9 @@
     var url = inline || DATA_URL;
     loadData(url)
       .then(function (data) {
-        // Always rebuild to mock layout (crumbs, plate, aside, new tabs)
-        shell.innerHTML = buildShellHTML(data, { home: false });
+        // Rebuild lenses/aside; omit homepage-style corner plate on term pages (post66).
+        // Images stay in article media-frame + session teach plates.
+        shell.innerHTML = buildShellHTML(data, { home: false, omitPlate: true });
         fillPanels($(".entity-os", shell) || shell, data);
       })
       .catch(function (err) {

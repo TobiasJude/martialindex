@@ -1,15 +1,15 @@
-# Launch allowlist — sitewide Explore·Sessions chrome (ia65 lock) + Closed Guard post65
+# Launch allowlist — sitewide Explore·Sessions chrome (ia65 / chrome65) + Closed Guard SEO term restore
 # Ready to ship. Nav: Explore→/styles/, Sessions→/sessions/ (NO Map, NO Paths).
 # Footer Explore: Grappling/Wrestling/Striking/Mixed/Weapons. Brand Martial Index; email-only Join.
-# CG: terms/closed-guard/index.html + css/term-post65.css?v=post65b (body.post65 intact).
-# Exclude trybrst, term-session.js, encyclopedia body rewrites. No push/PR — Launch ships.
+# chrome65 (2026-09-20): sitewide footer+nav sync ONLY — keep app.css nav/footer; do not port homepage hero onto terms.
+# post66 (2026-09-20): CG template restore — unlink term-post65 homepage port (stipple/feather/crop/corner plate).
+# CG: terms/closed-guard/index.html (no body.post65; no term-post65.css) + css/entity.css?v=post66
+#   + js/entity-shell.js?v=post66 (omitPlate on static terms) + session teach plates in-flow.
+# css/term-post65.css retired stub (kept for old cache URLs). Exclude trybrst. No push/PR — Launch ships.
 # Do not start ngrok from this pass.
-# chrome65 (2026-09-20): sitewide footer+nav sync — footer-join column + homepage dek;
-# css/app.css 4-col footer-inner--index + hatch + frosted ink header/wordmark;
-# HTML cache-bust app.css?v=chrome65 (CG keeps term-post65.css, companions → chrome65).
 # Nav remains Explore·Sessions only (no Map/Paths). map/ thin footer skipped.
 
-## Core (homepage ia65 + CG post65 + shell)
+## Core (homepage ia65 + chrome65 shell + CG SEO term)
 index.html
 404.html
 css/app.css
@@ -20,6 +20,7 @@ css/home-ia65.css
 css/entity.css
 css/term-post65.css
 css/read-progress.css
+js/entity-shell.js
 favicon.svg
 favicon.ico
 favicon-16.png
