@@ -39,3 +39,11 @@ Seven generated illustrations passed independent visible anatomy/position review
 The repository skill `.agents/skills/martial-image-qa/SKILL.md` is the reusable visual reviewer. It records visible anatomical evidence, named-position accuracy, and crop decisions. `scripts/check_image_qa.py` verifies exact master/derivative hashes and approval status; GitHub's Content and image QA workflow runs that gate plus the image integrity check. It does not itself analyze pixels or replace expert review. Changed artwork requires a new visual review, not just updated hashes.
 
 Validation: image integrity and JSON-LD checks; all local link targets; changed-file and rejected-status negative checks for the QA gate; skill validation; JavaScript syntax; desktop 1280×1000 and mobile 390×844 visual checks; homepage Enter-to-Closed-Guard and click-to-Spider-Guard navigation. GA/GSC private performance reports were not accessed. No ranking gains are claimed. Existing analytics configuration retained.
+
+## 2026-09-21: guard article cleanup
+
+Substantively revised De La Riva, Spider Guard, and Collar-Sleeve Guard: definitions, controls, variations, realistic practice observations, common mistakes, six FAQs each, study questions, and primary instructional references. Updated descriptions, modification dates, sitemap dates, and matching FAQ structured data.
+
+Restored homepage beginner links to the existing home-hush/art-spine typography and divider rows. Corrected the De La Riva related Spider Guard image and six social preview image mismatches. Preserved newer upstream Closed Guard work; narrowed two lesson image captions to visible evidence and recorded independent visual review plus desktop/mobile render checks. No new image pixels generated in this pass.
+
+Validation: article heading/fragment checks and six visible/schema FAQ pairs per revised post; desktop/mobile visual checks; full image asset and approval-manifest checks; internal destination audit.
