@@ -3,6 +3,7 @@
 # Footer Explore: Grappling/Wrestling/Striking/Mixed/Weapons. Brand Martial Index; email-only Join.
 # chrome65 (2026-09-20): sitewide footer+nav sync ONLY — keep app.css nav/footer; do not port homepage hero onto terms.
 # post66 (2026-09-20): CG template restore — unlink term-post65 homepage port (stipple/feather/crop/corner plate).
+# post66c (2026-09-20): wire closed-guard-angle into #teach-angle; media closed-guard-angle*.{png,webp}; ?v=post66c.
 # post66b (2026-09-20): wire closed-guard-posture-break into #teach-posture session-plate;
 # include media/illustrations/closed-guard-posture-break*.{png,webp}; HTML ?v=post66b.
 # Angle beat still awaiting Images. Keep chrome65 nav/footer. No homepage corner plate.
@@ -1006,3 +1007,10 @@ media/illustrations/closed-guard-posture-break-480.webp
 media/illustrations/closed-guard-posture-break-768.webp
 media/illustrations/closed-guard-posture-break-1200.webp
 media/illustrations/closed-guard-posture-break-1536.webp
+
+## post66c plates
+media/illustrations/closed-guard-angle.png
+media/illustrations/closed-guard-angle-480.webp
+media/illustrations/closed-guard-angle-768.webp
+media/illustrations/closed-guard-angle-1200.webp
+media/illustrations/closed-guard-angle-1536.webp
