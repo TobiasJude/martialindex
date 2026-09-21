@@ -342,8 +342,7 @@
       escapeHtml(data.definition || "") +
       "</p>";
     html += "</div>";
-    // Term/blog pages: keep images in article media-frame / session-plate flow.
-    // Home entity panel may still show a plate (opts.home). Omit corner float on static terms.
+    // Home entity panel: optional corner plate. Term pages: omit corner float.
     if (data.image && !opts.omitPlate) {
       html +=
         '<figure class="entity-os__plate"><img src="' +
@@ -357,6 +356,19 @@
         '" loading="eager" decoding="async"></figure>';
     }
     html += "</div>";
+    // Term/blog SEO lead: full-width under dek, before lenses (not homepage corner).
+    if (data.image && opts.omitPlate) {
+      html +=
+        '<figure class="entity-os__lead" id="lead-illustration"><div class="media-frame"><img src="' +
+        escapeHtml(data.image) +
+        '" alt="' +
+        escapeHtml(data.imageAlt || data.title || "") +
+        '" width="' + escapeHtml(data.imageWidth || 1200) +
+        '" height="' + escapeHtml(data.imageHeight || 800) +
+        (data.imageSrcset ? '" srcset="' + escapeHtml(data.imageSrcset) +
+          '" sizes="' + escapeHtml(data.imageSizes || '(max-width: 900px) 100vw, 900px') : '') +
+        '" loading="eager" decoding="async" fetchpriority="high"></div></figure>';
+    }
 
     html += '<div class="entity-lenses" role="tablist" aria-label="Lenses">';
     html +=
