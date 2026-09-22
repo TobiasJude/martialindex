@@ -232,6 +232,15 @@ body.is-entity .wordmark-short{display:none}
 @media (max-width:720px){
   .entity-lens__grid{grid-template-columns:1fr}
 }
+
+.entity-lens__flow{
+  display:flex;flex-direction:column;gap:1.75rem;
+  max-width:40rem;
+}
+.entity-lens__block{margin:0}
+.entity-lens__block + .entity-lens__block{
+  padding-top:1.25rem;border-top:1px solid #E5E5E5;
+}
 .entity-lens__col p{margin:0;color:#5A5A5A;line-height:1.5;font-size:.95rem}
 .entity-lens__sub{
   margin:1rem 0 .25rem!important;

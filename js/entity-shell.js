@@ -132,42 +132,65 @@
     var o = data.overview || {};
     var you = o.youCan || {};
     var html = "";
-    /* Two independent stacks — avoids 2×2 grid stretch blank under Situation */
-    html += '<div class="entity-lens__grid">';
-    html += '<div class="entity-lens__stack">';
-    html +=
-      '<section class="entity-lens__col"><h3>Situation</h3><p>' +
-      escapeHtml(o.situation || "") +
-      "</p></section>";
-    html += '<section class="entity-lens__col"><h3>What can they do?</h3><ul>';
-    (o.theyCan || []).forEach(function (item) {
-      html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
-    });
-    html += "</ul></section>";
-    html += "</div>";
-    html += '<div class="entity-lens__stack">';
-    html += '<section class="entity-lens__col"><h3>What can I do from here?</h3>';
-    html += '<p class="entity-lens__sub">Attack</p><ul>';
-    (you.attack || []).forEach(function (item) {
-      html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
-    });
-    html += '</ul><p class="entity-lens__sub">Control</p><ul>';
-    (you.control || []).forEach(function (item) {
-      html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
-    });
-    html += "</ul></section>";
-    html += '<section class="entity-lens__col"><h3>What does it connect to?</h3><ul>';
-    (o.connectsTo || []).forEach(function (item) {
-      html += "<li>" + linkOrSpan(item) + "</li>";
-    });
-    html += "</ul></section>";
-    html += "</div></div>";
 
-    html +=
-      '<div class="entity-lens__nb-head"><p class="entity-lens__kicker">Neighborhood</p></div>';
-    html += '<div class="entity-nb-host" data-entity-nb></div>';
+    /* Single reading column — no 2×2 stretch blanks, no “neighborhood” graph */
+    html += '<div class="entity-lens__flow">';
+
+    if (o.situation) {
+      html +=
+        '<section class="entity-lens__block"><h3>Situation</h3><p>' +
+        escapeHtml(o.situation) +
+        "</p></section>";
+    }
+
+    html += '<section class="entity-lens__block"><h3>What you can do</h3>';
+    if ((you.attack && you.attack.length) || (you.control && you.control.length)) {
+      if (you.attack && you.attack.length) {
+        html += '<p class="entity-lens__sub">Attack</p><ul>';
+        you.attack.forEach(function (item) {
+          html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
+        });
+        html += "</ul>";
+      }
+      if (you.control && you.control.length) {
+        html += '<p class="entity-lens__sub">Control</p><ul>';
+        you.control.forEach(function (item) {
+          html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
+        });
+        html += "</ul>";
+      }
+    } else {
+      html += "<p>—</p>";
+    }
+    html += "</section>";
+
+    html += '<section class="entity-lens__block"><h3>What they can do</h3>';
+    if (o.theyCan && o.theyCan.length) {
+      html += "<ul>";
+      o.theyCan.forEach(function (item) {
+        html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
+      });
+      html += "</ul>";
+    } else {
+      html += "<p>—</p>";
+    }
+    html += "</section>";
+
+    html += '<section class="entity-lens__block"><h3>Also see</h3>';
+    if (o.connectsTo && o.connectsTo.length) {
+      html += "<ul>";
+      o.connectsTo.forEach(function (item) {
+        html += "<li>" + linkOrSpan(item) + "</li>";
+      });
+      html += "</ul>";
+    } else {
+      html += "<p>—</p>";
+    }
+    html += "</section>";
+
+    html += "</div>";
+
     panel.innerHTML = html;
-    renderNeighborhood($("[data-entity-nb]", panel), data.neighborhood, data.title);
   }
 
   function renderListPanel(panel, title, items, stub) {
