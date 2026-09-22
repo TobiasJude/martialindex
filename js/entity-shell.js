@@ -132,11 +132,20 @@
     var o = data.overview || {};
     var you = o.youCan || {};
     var html = "";
+    /* Two independent stacks — avoids 2×2 grid stretch blank under Situation */
     html += '<div class="entity-lens__grid">';
+    html += '<div class="entity-lens__stack">';
     html +=
       '<section class="entity-lens__col"><h3>Situation</h3><p>' +
       escapeHtml(o.situation || "") +
       "</p></section>";
+    html += '<section class="entity-lens__col"><h3>What can they do?</h3><ul>';
+    (o.theyCan || []).forEach(function (item) {
+      html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
+    });
+    html += "</ul></section>";
+    html += "</div>";
+    html += '<div class="entity-lens__stack">';
     html += '<section class="entity-lens__col"><h3>What can I do from here?</h3>';
     html += '<p class="entity-lens__sub">Attack</p><ul>';
     (you.attack || []).forEach(function (item) {
@@ -147,16 +156,12 @@
       html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
     });
     html += "</ul></section>";
-    html += '<section class="entity-lens__col"><h3>What can they do?</h3><ul>';
-    (o.theyCan || []).forEach(function (item) {
-      html += "<li>" + linkOrSpan(item) + note(item) + "</li>";
-    });
-    html += "</ul></section>";
     html += '<section class="entity-lens__col"><h3>What does it connect to?</h3><ul>';
     (o.connectsTo || []).forEach(function (item) {
       html += "<li>" + linkOrSpan(item) + "</li>";
     });
-    html += "</ul></section></div>";
+    html += "</ul></section>";
+    html += "</div></div>";
 
     html +=
       '<div class="entity-lens__nb-head"><p class="entity-lens__kicker">Neighborhood</p></div>';

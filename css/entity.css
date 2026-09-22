@@ -222,7 +222,13 @@ body.is-entity .wordmark-short{display:none}
 .entity-lens__grid{
   display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
   gap:1.25rem 2rem;
+  align-items:start;
 }
+.entity-lens__stack{
+  display:flex;flex-direction:column;gap:1.5rem;
+  min-width:0;
+}
+.entity-lens__stack .entity-lens__col{margin:0}
 @media (max-width:720px){
   .entity-lens__grid{grid-template-columns:1fr}
 }
