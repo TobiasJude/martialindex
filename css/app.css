@@ -5910,3 +5910,9 @@ article[data-learning-app] .session-plate img[src^="/media/illustrations/"] {
   object-position: center;
   background: #f3efe7;
 }
+
+/* Style pages: compact A–Z term index (SEO internal links). */
+.related--az ul { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: 0.15rem 1rem; margin-bottom: 0.9rem; }
+.related--az a { display: block; padding: 0.2rem 0; border: 0; background: none; font-size: 0.9rem; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 0.18em; }
+.related--az a:hover { transform: none; text-decoration-color: currentColor; }
+.related--az__letter { font-family: var(--display); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; color: var(--mute); margin: 0.6rem 0 0.35rem; border: 0; padding: 0; }
